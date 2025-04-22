@@ -1,0 +1,50 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "PSY 548"
+  author: "Rick Gilmore"
+  date: "2025-04-22"
+  chapters:
+    - index.qmd
+    - schedule.qmd
+    
+  repo-url: https://github.com/psu-psychology/psy-548-2025-fall
+  repo-actions: [edit, issue]
+  repo-subdir: src
+  page-footer:
+    left: "Copyright © 2025- Rick Gilmore"
+    center: "Built with [Quarto](https://quarto.org/)"
+    right: 
+      - icon: github
+        href: https://github.com/psu-psychology/psy-548-2025-fall
+    background: light
+    border: true
+  page-navigation: true
+  bread-crumbs: false
+  reader-mode: true
+
+bibliography: include/bib/psy-548.bib
+
+format:
+  html:
+    theme: cosmo
+    css: include/css/styles.css
+    toc: true
+    toc-depth: 4
+    fig-align: center
+    fontsize: 1.1em
+    number-sections: false
+    citations-hover: true
+    footnotes-hover: true
+    date-modified: last-modified
+    date: today
+    bibliography: [include/bib/psy-548.bib]
+    csl: include/bib/apa.csl
+    html-math-method: mathjax
+
+  pdf:
+    documentclass: scrreprt
+  epub:
+    cover-image: include/img/childrens-thinking.jpg
