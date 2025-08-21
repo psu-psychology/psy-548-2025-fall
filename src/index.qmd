@@ -1,9 +1,32 @@
 ---
-title: "Home"
+title: "Cognitive Development • Fall 2025"
 format: html
 ---
 
-## About {-}
+## Instructor {-}
 
-Welcome to PSY 548.
+Rick O. Gilmore, Ph.D. \
+Professor of Psychology \
+rog1 AT-SIGN psu PERIOD edu \
 
+Schedule an appointment: <https://doodle.com/mm/rickgilmore/book-a-time></br>
+
+Lab web site: <https://gilmore-lab.github.io>
+
+## Meeting time & location {-}
+
+Friday, 9:00a - 12:00p \
+444 Moore Building
+
+## Textbook
+
+:::: {.columns}
+::: {.column width=60%}
+Siegler, R.S. & Alibali, M.W. (2020), *Children's Thinking (5th ed.)*, Pearson: Hoboken, NJ.
+:::
+::: {.column width=5%}
+:::
+::: {.column width=35%}
+![](https://www.pearson.com/store//pmccommercewebservices/v2/medias/size-W370-A1030-00-26-03-A103000260389-A103000260389-Lrg.jpg?context=bWFzdGVyfGltYWdlc3w4MjQ3M3xpbWFnZS9qcGVnfHN5cy1tYXN0ZXIvaW1hZ2VzL2gxNS9oNTQvMTQyNDE5Mzg2Njk1OTgvc2l6ZV9XMzcwXy9BMTAzMC8wMC8yNi8wMy9BMTAzMDAwMjYwMzg5L0ExMDMwMDAyNjAzODlfTHJnLmpwZ3xhNzIwODg2YjBlMTllNzRiNTZiNDE5MGE5NmZhOTY1MDI3NDc4MGZiMWNlZDVlZWZjYWNhMGEyMTJjN2RmNjk2&imwidth=3840)
+:::
+::::

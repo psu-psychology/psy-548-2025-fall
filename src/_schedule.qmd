@@ -30,6 +30,8 @@ sched_df <- sched_df |>
 
 ```{r}
 #| label: helper-functions
+#| echo: false
+#| message: false
 
 prettify_date <- function(date) {
   paste0(
@@ -50,9 +52,13 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[1]`
+
 #### Readings
 
-#### Materials
+`{r} sched_df$readings[1]`
+
+@Simmering2010-ba
 
 ## `{r} sched_df$week[2]` {- #week-02}
 
@@ -60,9 +66,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[2]`
+
 #### Readings
 
-#### Materials
+`{r} sched_df$readings[2]`
 
 ## `{r} sched_df$week[3]` {- #week-03}
 
@@ -70,9 +78,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[3]`
+
 #### Readings
 
-#### Materials
+`{r} sched_df$readings[3]`
 
 ## `{r} sched_df$week[4]` {- #week-04}
 
@@ -80,9 +90,13 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[4]`
+
 #### Readings
 
-#### Materials
+`{r} sched_df$readings[4]`
+
+@Haith1998-vu
 
 ## `{r} sched_df$week[5]` {- #week-05}
 
@@ -90,9 +104,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[5]`
+
 #### Readings
 
-#### Materials
+`{r} sched_df$readings[5]`
 
 ## `{r} sched_df$week[6]` {- #week-06}
 
@@ -100,9 +116,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[6]`
+
 #### Readings
 
-#### Materials
+`{r} sched_df$readings[6]`
 
 ## `{r} sched_df$week[7]` {- #week-07}
 
@@ -110,9 +128,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[7]`
+
 #### Readings
 
-#### Materials
+`{r} sched_df$readings[6]`
 
 ## `{r} sched_df$week[8]` {- #week-08}
 
@@ -120,17 +140,35 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[8]`
+
 #### Readings
 
-#### Materials
+`{r} sched_df$readings[8]`
 
 ## `{r} sched_df$week[9]` {- #week-09}
 
 ### `{r} prettify_date(sched_df$class_day[9])` {-}
 
+#### Topics
+
+`{r} sched_df$topics[9]`
+
+#### Readings
+
+`{r} sched_df$readings[9]`
+
 ## `{r} sched_df$week[10]` {- #week-10}
 
 ### `{r} prettify_date(sched_df$class_day[10])` {-}
+
+#### Topics
+
+`{r} sched_df$topics[10]`
+
+#### Readings
+
+`{r} sched_df$readings[10]`
 
 ## `{r} sched_df$week[11]` {- #week-11}
 
@@ -138,9 +176,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[11]`
+
 #### Readings
 
-#### Materials
+`{r} sched_df$readings[11]`
 
 ## `{r} sched_df$week[12]` {- #week-12}
 
@@ -148,9 +188,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[12]`
+
 #### Readings
 
-#### Materials
+`{r} sched_df$readings[12]`
 
 ## `{r} sched_df$week[13]` {- #week-13}
 
@@ -158,13 +200,21 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[13]`
+
 #### Readings
 
-#### Materials
+`{r} sched_df$readings[13]`
 
 ## `{r} sched_df$week[14]` {- #week-14}
 
-### NO CLASS
+#### Topics
+
+`{r} sched_df$topics[14]`
+
+#### Readings
+
+`{r} sched_df$readings[14]`
 
 ## `{r} sched_df$week[15]` {- #week-15}
 
@@ -172,9 +222,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[15]`
+
 #### Readings
 
-#### Materials
+`{r} sched_df$readings[15]`
 
 ## `{r} sched_df$week[16]` {- #week-16}
 
@@ -182,7 +234,8 @@ prettify_date <- function(date) {
 
 #### Topics
 
+`{r} sched_df$topics[16]`
+
 #### Readings
 
-#### Materials
-
+`{r} sched_df$readings[16]`
