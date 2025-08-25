@@ -23,6 +23,8 @@ Friday, 9:00a - 12:00p \
 :::: {.columns}
 ::: {.column width=60%}
 Siegler, R.S. & Alibali, M.W. (2020), *Children's Thinking (5th ed.)*, Pearson: Hoboken, NJ.
+
+[Pearson site for the text](https://www.pearson.com/en-us/subject-catalog/p/childrens-thinking-the/P200000003072/9780137516773)
 :::
 ::: {.column width=5%}
 :::

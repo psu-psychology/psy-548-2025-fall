@@ -52,13 +52,13 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[1]`
+- What is cognition?
+- Why study cognitive development?
 
 #### Readings
 
-`{r} sched_df$readings[1]`
-
-@Simmering2010-ba
+- SA: Ch 1
+- @Bayne2019-ot
 
 ## `{r} sched_df$week[2]` {- #week-02}
 
@@ -66,11 +66,12 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[2]`
+- Theoretical foundations: Information processing
 
 #### Readings
 
-`{r} sched_df$readings[2]`
+- SA: Ch 3
+- @Simmering2010-ba
 
 ## `{r} sched_df$week[3]` {- #week-03}
 
@@ -78,11 +79,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[3]`
+- Theoretical foundations: Piaget
 
 #### Readings
 
-`{r} sched_df$readings[3]`
+- SA: Ch 2
 
 ## `{r} sched_df$week[4]` {- #week-04}
 
@@ -90,13 +91,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[4]`
+- Theoretical foundations: Sociocultural development
 
 #### Readings
 
-`{r} sched_df$readings[4]`
-
-@Haith1998-vu
+- SA: Ch 4
 
 ## `{r} sched_df$week[5]` {- #week-05}
 
@@ -104,11 +103,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[5]`
+- Perceptual development: Overview
 
 #### Readings
 
-`{r} sched_df$readings[5]`
+- SA: Ch 5
 
 ## `{r} sched_df$week[6]` {- #week-06}
 
@@ -116,11 +115,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[6]`
+- Perceptual development: Deep dive
 
 #### Readings
 
-`{r} sched_df$readings[6]`
+- @Haith1998-vu
 
 ## `{r} sched_df$week[7]` {- #week-07}
 
@@ -128,11 +127,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[7]`
+- Motor development
 
 #### Readings
 
-`{r} sched_df$readings[6]`
+- @Adolph1042-oj, @Blumberg2023-ce
 
 ## `{r} sched_df$week[8]` {- #week-08}
 
@@ -140,11 +139,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[8]`
+- Language development
 
 #### Readings
 
-`{r} sched_df$readings[8]`
+- SA: Ch 6
 
 ## `{r} sched_df$week[9]` {- #week-09}
 
@@ -152,11 +151,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[9]`
+- Language development: Deep dive
 
 #### Readings
 
-`{r} sched_df$readings[9]`
+- @Chomsky1959-ef
 
 ## `{r} sched_df$week[10]` {- #week-10}
 
@@ -164,11 +163,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[10]`
+- Memory development: Overview
 
 #### Readings
 
-`{r} sched_df$readings[10]`
+- SA: Ch 7
 
 ## `{r} sched_df$week[11]` {- #week-11}
 
@@ -176,11 +175,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[11]`
+- Memory development: Deep dive
 
 #### Readings
 
-`{r} sched_df$readings[11]`
+- TBD
 
 ## `{r} sched_df$week[12]` {- #week-12}
 
@@ -188,11 +187,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[12]`
+- Conceptual development: Overview
 
 #### Readings
 
-`{r} sched_df$readings[12]`
+- SA: Ch 8
 
 ## `{r} sched_df$week[13]` {- #week-13}
 
@@ -200,21 +199,15 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[13]`
+- Conceptual development: Deep dive
 
 #### Readings
 
-`{r} sched_df$readings[13]`
+- TBD
 
 ## `{r} sched_df$week[14]` {- #week-14}
 
-#### Topics
-
-`{r} sched_df$topics[14]`
-
-#### Readings
-
-`{r} sched_df$readings[14]`
+**NO CLASS**
 
 ## `{r} sched_df$week[15]` {- #week-15}
 
@@ -222,11 +215,11 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[15]`
+- Social cognition
 
 #### Readings
 
-`{r} sched_df$readings[15]`
+- SA: Ch 9
 
 ## `{r} sched_df$week[16]` {- #week-16}
 
@@ -234,8 +227,8 @@ prettify_date <- function(date) {
 
 #### Topics
 
-`{r} sched_df$topics[16]`
+- Problem solving
 
 #### Readings
 
-`{r} sched_df$readings[16]`
+- TBD

@@ -2,4 +2,178 @@
 title: "Schedule"
 ---
 
-{{< include _schedule.qmd >}}
+## Week 01
+
+### Friday, August 29, 2025
+
+#### Topics
+
+- Introduction to the course
+- What is cognition?
+- Why study cognitive development?
+- How to study cognitive development?
+
+#### General Readings
+
+- @Siegler2021-py Chapters 1 & 3; @Bayne2019-ot; @Simmering2010-ba; @Ritter2014-eq Chapter 11
+
+#### Assignment
+
+- Complete presentation preference [survey](https://forms.gle/ZDg45gjWQhjfjT669).
+
+## Week 02
+
+### Friday, September 5, 2025
+
+#### Topics & Readings
+
+- Theoretical foundations: Piaget
+  - *General Readings*: @Siegler2021-py Chapter 2; @Piaget1952-dm; @Newcombe2013-qy
+
+## Week 03
+
+### Friday, September 12, 2025
+
+#### Topics
+
+- Piaget: Deep dive
+  - *Student presentation A*: How robust is the evidence for Piaget's trajectories?
+    - *Read*: @Elkind1961-ns; @Gelman1972-we
+  - *Student presentation B*: When does object permanence emerge?
+    - *Read*: @Baillargeon1985-vl; @Baillargeon2008-gz
+
+## Week 04
+
+### Friday, September 19, 2025
+
+#### Topics & Readings
+
+- Nativism and Core Knowlege
+  - *General Readings*: @Spelke2007-ts; @Spencer2009-jo; @Spelke2009-xx; @Landau2009-jl; @Spencer2009-xu
+  
+## Week 05
+
+### Friday, September 26, 2025
+
+#### Topics & Readings
+
+- Nativism and Core Knowledge: Deep dive
+  - *Student Presentation C*: How does changing the task inform on the underlying construct(s) about physical knowledge?
+    - *Read*: @Spelke1992-re; @Hood2000-yd; @Keen2003-vj
+  - *Student Presentation D*: Rich interpretation of group differences in infant looking-time paradigms: How rich is dangerous? Necessary? Productive?
+   - *Read*: @Aslin2007-yt; @Paulus2022-fg; @Stahl2022-fy; @Haith1998-vu
+  
+## Week 06
+
+### Friday, October 3, 2025
+
+#### Topics & Readings
+
+- Constructivism & its variants
+  - *General Readings*: @Newcombe2011-wd; @Mareschal2011-fw; @Karmiloff-Smith2009-zs; @Spencer2011-fp; @Newcombe2011-pn
+
+## Week 07
+
+### Friday, October 10, 2025
+
+- Constructivism: Deep dive
+  - *Student Presentation E*: How do developmental disorders inform our understanding of cognitive development?
+    - *Read*: @Karmiloff-Smith1998-be
+  - *Student Presentation F*: The risks of generalization
+    <!-- - *Watch*: @Treeincement2010-en, @innovation2014-kj -->
+    - *Read*: @Packer2022-gn; @Kominsky2022-we; @Lucca2025-gy
+    
+## Week 08
+
+### Friday, October 17, 2025
+
+#### Topics & Readings
+
+- Emergentism & dynamic systems
+  - *General Readings*: @Thelen2003-tt; @Thelen1063-vk
+  
+## Week 09
+
+### Friday, October 24, 2025
+
+#### Topics & Readings
+
+- Emergentism & dynamic systems: Deep dive
+  - *Student Presentation G*: A connectionist model to explain why infants seem so smart
+    - *Read*: @Munakata1997-zx
+  - *Student Presentation H*: Emergentism and variants of the A-not-B task
+    - *Read*: @Smith1999-xz
+    
+## Week 10
+
+### Friday, October 31, 2025
+
+#### Topics & Readings
+
+- Embodied cognition
+  - *General Readings*: @Pfeifer2006-nx; @Smith2018-nc
+- *Student Presentation I*: Does development gate input to prevent a "blooming, buzzing confusion?"
+  - *Read*: @Kretch2014-ck; @Franchak2018-oj
+- *Student Presentation J*: How AI & robotics inform developmental science?
+  - *Read*: @Ossmy2018-fr; @Ossmy2024-qj
+  
+## Week 11
+
+### Friday, November 7, 2025
+
+#### Topics & Readings
+
+- Sociocultural development
+  - *Read*: @Siegler2021-py Chapter 4; @Tomasello2016-rx 
+
+## Week 12
+
+### Friday, November 14, 2025
+
+#### Topics & Readings
+
+- Sociocultural development: Deep dive
+  - *Student Presentation K*: Imitation in cultural learning
+    - *Read*: @Legare2015-im; @Herrmann2013-rb; @Lyons2007-ng
+  - *Student Presentation L*: Gesture
+    - *Read*: @Novack2015-kl; @Wakefield2018-tq
+
+## Week 13
+
+### Friday, November 21, 2025
+
+#### Topics & Readings
+
+- Learning from others
+  - *General Readings*: @Gelman2009-jg; @Sobel2013-lb
+  - *Student Presentation M*: Learning from testimony
+    - *Read*: @Harris2018-eh; @Jaswal2010-dz
+
+## Thanksgiving Break
+
+**NO CLASS**
+
+## Week 14
+
+### Friday, December 5, 2025
+
+#### Topics & Readings
+
+- Conceptual development
+  - *General Readings*: @Siegler2021-py Chapter 8; @Mandler1992-vb
+  - *Student Presentation N*: Naive psychology
+    - *Read*: @Onishi2005-co; @Wellman2012-ny; @Ding2015-bp
+
+## Week 15
+
+### Friday, December 12, 2025
+
+#### Topics & Readings
+
+- Systems
+  - *Read*: @Bronfenbrenner1977-cm, @Oyama2001-cf, @Hartley2022-dd
+  - *Student Presentation O*: Poverty is bad for cognition.
+    - *Read*: @Taylor2020-dp; @Amso2020-jo
+  - *Student Presentation P*: Poverty can be adaptive for cognition.
+    - *Read*: @Frankenhuis2016-wl; @Frankenhuis2020-ld
+  

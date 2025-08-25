@@ -13,6 +13,7 @@ website:
     contents:
       - index.qmd
       - schedule.qmd
+      - evaluation.qmd
       - policies.qmd
     
   repo-url: https://github.com/psu-psychology/psy-548-2025-fall
@@ -43,6 +44,7 @@ format:
     date-modified: last-modified
     date: today
     bibliography: include/bib/psy-548.bib
+    csl: include/bib/apa.csl
     html-math-method: mathjax
 
   pdf:
