@@ -6,7 +6,7 @@ format:
     slide-number: true
     fig-align: center
     logo: https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg
-    bibliography: [../include/bib/psy-547.bib]
+    bibliography: [../include/bib/psy-548.bib]
     csl: ../include/bib/apa.csl
     theme: [serif, ../include/css/psu.scss]
     mainfont: roboto

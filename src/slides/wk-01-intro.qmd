@@ -1,0 +1,104 @@
+---
+title: "wk-01-intro"
+---
+
+# Prelude
+
+## Today's topics
+
+- Course introduction
+- What is cognition?
+
+# Course introduction
+
+# What is cognition?
+
+## Cognition
+
+![@Bayne2019-ot](../include/img/bayne-2019.png)
+
+## Common themes
+
+- Processes, concepts, representations (Bayne)
+- Perception vs. cognition (Brainerd)
+- "acquisition, storage, retrieval and processing of information" (Byrne)
+- cognition vs. learning theory (Byrne)
+- representations and how coded in the brain (Byrne)
+
+## Common themes
+
+- mental processes; biological problem-solving; knowing about knowing; more complex than associative learning (Chittka)
+- thinking, knowing, understanding; non-human animal cognition (Clayton)
+- conservative, e.g., related to human thought vs. liberal, adaptive information handling and can be modelled as computation; attention; categorization (Heyes)
+
+## Common themes
+
+- how sensory input "is transformed, reduced, elaborated, stored, recovered and used"; animal umwelt (Mather)
+- less vs. more introspection/deliberation; "“requires
+learning”; “isn’t a reflex”; “depends on internally generated brain dynamics”; “needs access to stored models and relationships”; “relies on spatial maps” (Ölveczky)
+- "flexibility, contingency and freedom from immediacy" (Shadlen)
+
+## Common themes
+
+- not uniquely human; intentional vs. unintentional, conscious vs. unconscious, effortful vs. automatic, slow vs. fast processes (Suddendorf)
+- "I know that I am cognizing, but I can only surmise that cognition has occurred in other animals by observing their actions."; "behaviours in which an animal performs an action directed towards a goal it cannot currently perceive" (Webb)
+
+# On computation
+
+## Is the brain a digital computer?
+
+:::: {.columns}
+::: {.column width=50%}
+- From neuronal action potentials to Boolean logic
+:::
+::: {.column width=50%}
+![@McCulloch1943-ud](../include/img/mcculloch-pitts-1943.png)
+:::
+::::
+
+## How do digital computers compute?
+
+- Strings of binary digits (bits) *represent* information
+  - `0001`: the number one; `1111`: the number 15 (in base 2)
+  - `00110001`: the character symbol '1' in ASCII [@Wikipedia-contributors2025-aa]
+  - (some other binary 'word'): symbol meaning 'add', or 'store', etc.
+- Sequences of binary commands can be data or a program
+
+## High-level computer languages
+
+```r
+h <- sqrt(x^2 + y^2)
+```
+
+- Represent
+  - data as variables, e.g. `h`, `x`, and `y`
+  - functions or operators as character or strings, e.g., `<-`, `sqrt()`, `^`
+  - Convert to binary, then back again to give human-readable output
+  
+## High-level languages
+
+```{r}
+#| echo: true
+x <- 3
+y <- 4
+h <- sqrt(x^2 + y^2)
+h
+```
+
+## Take homes
+
+## Next time...
+
+# Resources
+
+## About
+
+This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
+Integrated Development Environment (IDE), version 2025.5.1.513.
+
+The source files are in R and R Markdown, then rendered to HTML using the
+[revealJS](https://revealjs.com) framework.
+The HTML slides are hosted in a [GitHub repo](https://github.com/psu-psychology/psy-548-fall) and served by GitHub pages:
+<https://psu-psychology.github.io/psy-548-fall/>
+
+## References
