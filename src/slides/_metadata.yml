@@ -19,4 +19,4 @@ format:
     institute: "Department of Psychology"
 knitr:
   opts_chunk:
-    fig.path: ../include/fig
+    fig.path: ../include/fig/

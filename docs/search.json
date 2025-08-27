@@ -46,7 +46,7 @@
     "href": "slides/wk-01-intro.html#how-do-digital-computers-compute",
     "title": "Course Introduction",
     "section": "How do digital computers compute?",
-    "text": "How do digital computers compute?\n\nStrings of binary digits (bits) represent information\n\n0001: the number one; 1111: the number 15 (in base 2)\n00110001: the character symbol ‘1’ in ASCII (Wikipedia contributors, 2025b)\n(some other binary ‘word’): symbol meaning ‘add’, or ‘store’, etc."
+    "text": "How do digital computers compute?\n\nStrings of binary digits (bits) represent information\n\n0001: the number one; 1111: the number 15 (in base 2)\n00110001: the character symbol ‘1’ in ASCII (Wikipedia contributors, 2025c)\n(some other binary ‘word’): symbol meaning ‘add’, or ‘store’, etc."
   },
   {
     "objectID": "slides/wk-01-intro.html#how-do-digital-computers-compute-1",
@@ -102,7 +102,7 @@
     "href": "slides/wk-01-intro.html#all-models-are-wrong",
     "title": "Course Introduction",
     "section": "All models are wrong…",
-    "text": "All models are wrong…\n\n\n“…but some are useful.”\nWikipedia contributors (2025a)\n\n\n\n\nGeorge Box (Wikipedia)"
+    "text": "All models are wrong…\n\n\n“…but some are useful.”\nWikipedia contributors (2025b)\n\n\n\n\nGeorge Box (Wikipedia)"
   },
   {
     "objectID": "slides/wk-01-intro.html#simmering2010-ba",
@@ -123,21 +123,21 @@
     "href": "slides/wk-01-intro.html#what-do-statistics-model",
     "title": "Course Introduction",
     "section": "What do statistics model?",
-    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 21.824, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6514364 0.7414188\nsample estimates:\n      cor \n0.6991861"
+    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 21.554, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6464110 0.7374845\nsample estimates:\n      cor \n0.6947219"
   },
   {
     "objectID": "slides/wk-01-intro.html#what-do-statistics-model-1",
     "href": "slides/wk-01-intro.html#what-do-statistics-model-1",
     "title": "Course Introduction",
     "section": "What do statistics model?",
-    "text": "What do statistics model?"
+    "text": "What do statistics model?\n\n\nFigure 1"
   },
   {
     "objectID": "slides/wk-01-intro.html#aside",
     "href": "slides/wk-01-intro.html#aside",
     "title": "Course Introduction",
     "section": "Aside…",
-    "text": "Aside…\n\nSimulating your data can help reveal hidden assumptions about what your statistical model actually means.\nSo, do statistical models inform us about processes?"
+    "text": "Aside…\n\nSimulating your data can help reveal hidden assumptions about what your statistical model actually means, what kind of plots will best show predicted effects, etc.\nSo, do statistical models inform us about processes?"
   },
   {
     "objectID": "slides/wk-01-intro.html#simmering2010-ba-2",
@@ -147,11 +147,25 @@
     "text": "Simmering et al. (2010)\n\nPhil: …Lewis Thomas once wrote an essay listing the seven wonders of the modern world—it was a challenge put to him in the form of a dinner invitation which he, interestingly, declined. Do you know what his Seventh Wonder of the modern world was?\n\n\nPhil: Thomas’s Seventh Wonder was the development of a human child. How, my brilliant companions, are you going to explain that?"
   },
   {
+    "objectID": "slides/wk-01-intro.html#cognitive-models",
+    "href": "slides/wk-01-intro.html#cognitive-models",
+    "title": "Course Introduction",
+    "section": "Cognitive models",
+    "text": "Cognitive models\n\nWikipedia contributors (2025a)\nMany types"
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#a-computer-program",
+    "href": "slides/wk-01-intro.html#a-computer-program",
+    "title": "Course Introduction",
+    "section": "A computer program…",
+    "text": "A computer program…\n\nThat simulates some complex behavior\nIs one type of model"
+  },
+  {
     "objectID": "slides/wk-01-intro.html#ritter2014-eq",
     "href": "slides/wk-01-intro.html#ritter2014-eq",
     "title": "Course Introduction",
     "section": "Ritter, Baxter, & Churchill (2014)",
-    "text": "Ritter, Baxter, & Churchill (2014)\n\nTask Analysis (TA) as a tool for designing “user-centered systems”\nWhat do (people, e.g. children) have to do?"
+    "text": "Ritter, Baxter, & Churchill (2014)\n\nTask Analysis (TA) as a tool for designing “user-centered systems”\nWhat do (people, e.g. children) have to do?\nOften the basis of creating a computational cognitive model"
   },
   {
     "objectID": "slides/wk-01-intro.html#ritter2014-eq-1",
@@ -200,7 +214,7 @@
     "href": "slides/wk-01-intro.html#references",
     "title": "Course Introduction",
     "section": "References",
-    "text": "References\n\n\n\n\nBayne, T., Brainard, D., Byrne, R. W., Chittka, L., Clayton, N., Heyes, C., … Webb, B. (2019). What is cognition? Current Biology: CB, 29, R608–R615. https://doi.org/10.1016/j.cub.2019.05.044\n\n\nMcCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The Bulletin of Mathematical Biophysics, 5, 115–133. https://doi.org/10.1007/BF02478259\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nPiaget, J. (1952). The origins of intelligence in children. (M. Cook, Trans.). New York: W W Norton & Co. https://doi.org/10.1037/11494-000\n\n\nRitter, F. E., Baxter, G. D., & Churchill, E. F. (2014). Foundations for designing user-centered systems: What system designers need to know about people (2014th ed.). London, England: Springer. https://doi.org/10.1007/978-1-4471-5134-0\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSimmering, V. R., Triesch, J., Deák, G. O., & Spencer, J. P. (2010). To model or not to model? A dialogue on the role of computational modeling in developmental science: To model or not to model? Child Development Perspectives, 4, 152–158. https://doi.org/10.1111/j.1750-8606.2010.00134.x\n\n\nVan Gelder, T. (1995). What might cognition be, if not computation? The Journal of Philosophy, 92, 345–381. https://doi.org/10.2307/2941061\n\n\nWikipedia contributors. (2025a, July 23). All models are wrong. Retrieved from https://en.wikipedia.org/wiki/All_models_are_wrong\n\n\nWikipedia contributors. (2025b, August 25). ASCII. Retrieved from https://en.wikipedia.org/wiki/ASCII"
+    "text": "References\n\n\n\n\nBayne, T., Brainard, D., Byrne, R. W., Chittka, L., Clayton, N., Heyes, C., … Webb, B. (2019). What is cognition? Current Biology: CB, 29, R608–R615. https://doi.org/10.1016/j.cub.2019.05.044\n\n\nMcCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The Bulletin of Mathematical Biophysics, 5, 115–133. https://doi.org/10.1007/BF02478259\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nPiaget, J. (1952). The origins of intelligence in children. (M. Cook, Trans.). New York: W W Norton & Co. https://doi.org/10.1037/11494-000\n\n\nRitter, F. E., Baxter, G. D., & Churchill, E. F. (2014). Foundations for designing user-centered systems: What system designers need to know about people (2014th ed.). London, England: Springer. https://doi.org/10.1007/978-1-4471-5134-0\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSimmering, V. R., Triesch, J., Deák, G. O., & Spencer, J. P. (2010). To model or not to model? A dialogue on the role of computational modeling in developmental science: To model or not to model? Child Development Perspectives, 4, 152–158. https://doi.org/10.1111/j.1750-8606.2010.00134.x\n\n\nVan Gelder, T. (1995). What might cognition be, if not computation? The Journal of Philosophy, 92, 345–381. https://doi.org/10.2307/2941061\n\n\nWikipedia contributors. (2025a, May 24). Cognitive model. Retrieved from https://en.wikipedia.org/wiki/Cognitive_model\n\n\nWikipedia contributors. (2025b, July 23). All models are wrong. Retrieved from https://en.wikipedia.org/wiki/All_models_are_wrong\n\n\nWikipedia contributors. (2025c, August 25). ASCII. Retrieved from https://en.wikipedia.org/wiki/ASCII"
   },
   {
     "objectID": "policies.html",

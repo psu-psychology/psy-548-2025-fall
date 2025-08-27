@@ -196,17 +196,19 @@ suppressPackageStartupMessages(library(ggplot2))
 ```
 
 ```{r}
+#| label: fig-corr-scatterplot
 df <- data.frame(x = x, y = y)
 df |>
   ggplot() +
   aes(x = x, y = y) +
   geom_point() +
-  geom_smooth(method = "lm")
+  geom_smooth(method = "lm") +
+  coord_fixed(ratio = 1)
 ```
 
 ## Aside...
 
-- Simulating your data can help reveal hidden assumptions about what your statistical model actually means.
+- *Simulating* your data can help reveal hidden assumptions about what your statistical model actually means, what kind of plots will best show predicted effects, etc.
 - So, do statistical models inform us about *processes*?
 
 ## @Simmering2010-ba
@@ -220,12 +222,23 @@ what his Seventh Wonder of the modern world was?
 human child. How, my brilliant companions, are you going to
 explain that?
 
+## Cognitive models
+
+- @Wikipedia-contributors2025-ph
+- Many types
+
+## A computer program...
+
+- That simulates some complex behavior
+- Is one type of model
+
 # On explicating behavior
 
 ## @Ritter2014-eq
 
 - Task Analysis (TA) as a tool for designing "user-centered systems"
 - What do (people, e.g. children) have to *do*?
+- Often the basis of creating a computational cognitive model
 
 ## @Ritter2014-eq
 
