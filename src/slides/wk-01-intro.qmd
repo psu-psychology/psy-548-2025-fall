@@ -1,5 +1,5 @@
 ---
-title: "wk-01-intro"
+title: "Course Introduction"
 ---
 
 # Prelude
@@ -7,13 +7,31 @@ title: "wk-01-intro"
 ## Today's topics
 
 - Course introduction
-- What is cognition?
+- A cognitive sensibility
 
 # Course introduction
 
-# What is cognition?
+# A cognitive sensibility
 
-## Cognition
+---
+
+:::: {.columns}
+::: {.column width=50%}
+- On cognition
+- On computation
+- On representation
+- On modeling
+- On explicating behavior
+:::
+::: {.column width=50%}
+![](../include/img/sensibility.png)
+:::
+::::
+
+
+# On cognition
+
+---
 
 ![@Bayne2019-ot](../include/img/bayne-2019.png)
 
@@ -62,12 +80,20 @@ learning”; “isn’t a reflex”; “depends on internally generated brain dy
   - `0001`: the number one; `1111`: the number 15 (in base 2)
   - `00110001`: the character symbol '1' in ASCII [@Wikipedia-contributors2025-aa]
   - (some other binary 'word'): symbol meaning 'add', or 'store', etc.
+
+## How do digital computers compute?
+
 - Sequences of binary commands can be data or a program
+- Computer has Central Processing Unit (CPU), addressable memory (addresses are also binary words), interfaces (move info in and out), etc.
+
 
 ## High-level computer languages
 
 ```r
+x <- 3
+y <- 4
 h <- sqrt(x^2 + y^2)
+h
 ```
 
 - Represent
@@ -75,7 +101,7 @@ h <- sqrt(x^2 + y^2)
   - functions or operators as character or strings, e.g., `<-`, `sqrt()`, `^`
   - Convert to binary, then back again to give human-readable output
   
-## High-level languages
+## High-level computer languages
 
 ```{r}
 #| echo: true
@@ -85,9 +111,146 @@ h <- sqrt(x^2 + y^2)
 h
 ```
 
+## "What might cognition be, If not computation?"
+
+:::: {.columns}
+::: {.column width=50%}
+![](../include/img/van-gelder-speed-regulator.png)
+:::
+::: {.column width=50%}
+![](../include/img/van-gelder-algorithm.png)
+:::
+::::
+
+@Van_Gelder1995-so
+
+# On representation
+
+## Surface forms
+
+![](https://blog.adobe.com/en/publish/2017/06/11/media_159bde3b0a9324b8e3cc00d1e478e8000c7e056e9.png?width=2000&format=webply&optimize=medium)
+
+## Deep forms
+
+- Map (relate) multiple surface forms to
+- A single deep form $\rightarrow$ the letters "A" and "G"
+- "Re-presentation"
+- Why? Some forms more easily "computable", more efficiently stored (bitmaps vs. jpg), etc.
+
+## A cognitive sensibility
+
+- Asks what info is available
+  - In the world
+  - In the mind
+- In what form(s)
+
+# On modeling
+
+## All models are wrong...
+
+:::: {.columns}
+::: {.column width=50%}
+"...but some are useful."
+
+@Wikipedia-contributors2025-yf
+:::
+::: {.column width=50%}
+![George Box (Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/GeorgeEPBox_%28cropped%29.jpg/500px-GeorgeEPBox_%28cropped%29.jpg){width="50%"}
+:::
+::::
+
+## @Simmering2010-ba
+
+- Mathematical vs. verbal models
+- Are verbal models poorly specified?
+- Do mathematical models "just move the ambiguity to the next level"?
+
+## @Simmering2010-ba
+
+>Phil: That’s an interesting point—in a way, all researchers use
+mathematical models when they apply statistical methods.
+
+>Mira: Hm, I suppose that’s true. I wouldn’t normally include
+statistics in my definition of computational models. I’m thinking
+about models that emphasize the processes underlying behavior
+and development.
+
+## What do statistics model?
+
+- What does a correlation (*r*) mean?
+
+```{r}
+#| echo: true
+
+x <- rnorm(n = 500, mean = 0, sd = 1)
+y <- x + rnorm(n = 500, mean = 0, sd = 1)
+cor.test(x, y)
+```
+
+## What do statistics model?
+
+```{r}
+#| include: false
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(ggplot2))
+```
+
+```{r}
+df <- data.frame(x = x, y = y)
+df |>
+  ggplot() +
+  aes(x = x, y = y) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+## Aside...
+
+- Simulating your data can help reveal hidden assumptions about what your statistical model actually means.
+- So, do statistical models inform us about *processes*?
+
+## @Simmering2010-ba
+
+>Phil: ...Lewis Thomas once wrote an essay listing the seven wonders of
+the modern world—it was a challenge put to him in the form of a
+dinner invitation which he, interestingly, declined. Do you know
+what his Seventh Wonder of the modern world was?
+
+>Phil: Thomas’s Seventh Wonder was the development of a
+human child. How, my brilliant companions, are you going to
+explain that?
+
+# On explicating behavior
+
+## @Ritter2014-eq
+
+- Task Analysis (TA) as a tool for designing "user-centered systems"
+- What do (people, e.g. children) have to *do*?
+
+## @Ritter2014-eq
+
+![Figure 11.1 from @Ritter2014-eq](../include/img/ritter-fig-11.1.png)
+
+## Let's do a hierarchical task analysis!
+
+- Pick a task you know well, use in your research
+- What is required to perform it?
+- (Later) what cognitive components are associated with the task?
+
+## Is the analysis useful?
+
 ## Take homes
 
+- A "cognitive" sensibility is about...
+- Information, representations, operations/processes
+- Sequences, hierarchical structures
+- Solving real-world problems
+- Inspired by computational systems
+
 ## Next time...
+
+- Theoretical foundations: Piaget
+  - *General Readings*: @Siegler2021-py Chapter 2; @Piaget1952-dm; @Newcombe2013-qy
 
 # Resources
 

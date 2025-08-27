@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.6.40">
 
   <meta name="author" content="Rick Gilmore">
-  <title>PSY 548 – wk-01-intro</title>
+  <title>PSY 548 – Course Introduction</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -214,7 +214,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">wk-01-intro</h1>
+  <h1 class="title">Course Introduction</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -237,7 +237,7 @@ Rick Gilmore
 <h2>Today’s topics</h2>
 <ul>
 <li>Course introduction</li>
-<li>What is cognition?</li>
+<li>A cognitive sensibility</li>
 </ul>
 </section></section>
 <section id="course-introduction" class="title-slide slide level1 center">
@@ -246,12 +246,32 @@ Rick Gilmore
 </section>
 
 <section>
-<section id="what-is-cognition" class="title-slide slide level1 center">
-<h1>What is cognition?</h1>
+<section id="a-cognitive-sensibility" class="title-slide slide level1 center">
+<h1>A cognitive sensibility</h1>
 
 </section>
-<section id="cognition" class="slide level2">
-<h2>Cognition</h2>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>On cognition</li>
+<li>On computation</li>
+<li>On representation</li>
+<li>On modeling</li>
+<li>On explicating behavior</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../include/img/sensibility.png"></p>
+</div></div>
+</section></section>
+<section>
+<section id="on-cognition" class="title-slide slide level1 center">
+<h1>On cognition</h1>
+
+</section>
+<section class="slide level2">
+
 
 <img data-src="../include/img/bayne-2019.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Bayne2019-ot">Bayne et al. (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span></p></section>
 <section id="common-themes" class="slide level2">
@@ -314,28 +334,216 @@ Rick Gilmore
 <li>Strings of binary digits (bits) <em>represent</em> information
 <ul>
 <li><code>0001</code>: the number one; <code>1111</code>: the number 15 (in base 2)</li>
-<li><code>00110001</code>: the character symbol ‘1’ in ASCII <span class="citation" data-cites="Wikipedia-contributors2025-aa">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025</a>)</span></li>
+<li><code>00110001</code>: the character symbol ‘1’ in ASCII <span class="citation" data-cites="Wikipedia-contributors2025-aa">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025b</a>)</span></li>
 <li>(some other binary ‘word’): symbol meaning ‘add’, or ‘store’, etc.</li>
 </ul></li>
+</ul>
+</section>
+<section id="how-do-digital-computers-compute-1" class="slide level2">
+<h2>How do digital computers compute?</h2>
+<ul>
 <li>Sequences of binary commands can be data or a program</li>
+<li>Computer has Central Processing Unit (CPU), addressable memory (addresses are also binary words), interfaces (move info in and out), etc.</li>
 </ul>
 </section>
 <section id="high-level-computer-languages" class="slide level2">
 <h2>High-level computer languages</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>h <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(x<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> y<span class="sc">^</span><span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>x <span class="ot">&lt;-</span> <span class="dv">3</span></span>
+<span id="cb1-2"><a></a>y <span class="ot">&lt;-</span> <span class="dv">4</span></span>
+<span id="cb1-3"><a></a>h <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(x<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> y<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb1-4"><a></a>h</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Represent
 <ul>
 <li>data as variables, e.g.&nbsp;<code>h</code>, <code>x</code>, and <code>y</code></li>
 <li>functions or operators as character or strings, e.g., <code>&lt;-</code>, <code>sqrt()</code>, <code>^</code></li>
+<li>Convert to binary, then back again to give human-readable output</li>
 </ul></li>
 </ul>
 </section>
+<section id="high-level-computer-languages-1" class="slide level2">
+<h2>High-level computer languages</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>x <span class="ot">&lt;-</span> <span class="dv">3</span></span>
+<span id="cb2-2"><a></a>y <span class="ot">&lt;-</span> <span class="dv">4</span></span>
+<span id="cb2-3"><a></a>h <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(x<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> y<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb2-4"><a></a>h</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 5</code></pre>
+</div>
+</div>
+</section>
+<section id="what-might-cognition-be-if-not-computation" class="slide level2">
+<h2>“What might cognition be, If not computation?”</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="../include/img/van-gelder-speed-regulator.png"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../include/img/van-gelder-algorithm.png"></p>
+</div></div>
+<p><span class="citation" data-cites="Van_Gelder1995-so">Van Gelder (<a href="#/references" role="doc-biblioref" onclick="">1995</a>)</span></p>
+</section></section>
+<section>
+<section id="on-representation" class="title-slide slide level1 center">
+<h1>On representation</h1>
+
+</section>
+<section id="surface-forms" class="slide level2">
+<h2>Surface forms</h2>
+
+<img data-src="https://blog.adobe.com/en/publish/2017/06/11/media_159bde3b0a9324b8e3cc00d1e478e8000c7e056e9.png?width=2000&amp;format=webply&amp;optimize=medium" class="r-stretch"></section>
+<section id="deep-forms" class="slide level2">
+<h2>Deep forms</h2>
+<ul>
+<li>Map (relate) multiple surface forms to</li>
+<li>A single deep form <span class="math inline">\(\rightarrow\)</span> the letters “A” and “G”</li>
+<li>“Re-presentation”</li>
+<li>Why? Some forms more easily “computable”, more efficiently stored (bitmaps vs.&nbsp;jpg), etc.</li>
+</ul>
+</section>
+<section id="a-cognitive-sensibility-1" class="slide level2">
+<h2>A cognitive sensibility</h2>
+<ul>
+<li>Asks what info is available
+<ul>
+<li>In the world</li>
+<li>In the mind</li>
+</ul></li>
+<li>In what form(s)</li>
+</ul>
+</section></section>
+<section>
+<section id="on-modeling" class="title-slide slide level1 center">
+<h1>On modeling</h1>
+
+</section>
+<section id="all-models-are-wrong" class="slide level2">
+<h2>All models are wrong…</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>“…but some are useful.”</p>
+<p><span class="citation" data-cites="Wikipedia-contributors2025-yf">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025a</a>)</span></p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/GeorgeEPBox_%28cropped%29.jpg/500px-GeorgeEPBox_%28cropped%29.jpg" style="width:50.0%"></p>
+<figcaption>George Box (Wikipedia)</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="simmering2010-ba" class="slide level2">
+<h2><span class="citation" data-cites="Simmering2010-ba">Simmering, Triesch, Deák, &amp; Spencer (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span></h2>
+<ul>
+<li>Mathematical vs.&nbsp;verbal models</li>
+<li>Are verbal models poorly specified?</li>
+<li>Do mathematical models “just move the ambiguity to the next level”?</li>
+</ul>
+</section>
+<section id="simmering2010-ba-1" class="slide level2">
+<h2><span class="citation" data-cites="Simmering2010-ba">Simmering et al. (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span></h2>
+<blockquote>
+<p>Phil: That’s an interesting point—in a way, all researchers use mathematical models when they apply statistical methods.</p>
+</blockquote>
+<blockquote>
+<p>Mira: Hm, I suppose that’s true. I wouldn’t normally include statistics in my definition of computational models. I’m thinking about models that emphasize the processes underlying behavior and development.</p>
+</blockquote>
+</section>
+<section id="what-do-statistics-model" class="slide level2">
+<h2>What do statistics model?</h2>
+<ul>
+<li>What does a correlation (<em>r</em>) mean?</li>
+</ul>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="at">n =</span> <span class="dv">500</span>, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">1</span>)</span>
+<span id="cb4-2"><a></a>y <span class="ot">&lt;-</span> x <span class="sc">+</span> <span class="fu">rnorm</span>(<span class="at">n =</span> <span class="dv">500</span>, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">1</span>)</span>
+<span id="cb4-3"><a></a><span class="fu">cor.test</span>(x, y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Pearson's product-moment correlation
+
+data:  x and y
+t = 21.824, df = 498, p-value &lt; 2.2e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.6514364 0.7414188
+sample estimates:
+      cor 
+0.6991861 </code></pre>
+</div>
+</div>
+</section>
+<section id="what-do-statistics-model-1" class="slide level2">
+<h2>What do statistics model?</h2>
+
+<img data-src="../include/figunnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
+<section id="aside" class="slide level2">
+<h2>Aside…</h2>
+<ul>
+<li>Simulating your data can help reveal hidden assumptions about what your statistical model actually means.</li>
+<li>So, do statistical models inform us about <em>processes</em>?</li>
+</ul>
+</section>
+<section id="simmering2010-ba-2" class="slide level2">
+<h2><span class="citation" data-cites="Simmering2010-ba">Simmering et al. (<a href="#/references" role="doc-biblioref" onclick="">2010</a>)</span></h2>
+<blockquote>
+<p>Phil: …Lewis Thomas once wrote an essay listing the seven wonders of the modern world—it was a challenge put to him in the form of a dinner invitation which he, interestingly, declined. Do you know what his Seventh Wonder of the modern world was?</p>
+</blockquote>
+<blockquote>
+<p>Phil: Thomas’s Seventh Wonder was the development of a human child. How, my brilliant companions, are you going to explain that?</p>
+</blockquote>
+</section></section>
+<section>
+<section id="on-explicating-behavior" class="title-slide slide level1 center">
+<h1>On explicating behavior</h1>
+
+</section>
+<section id="ritter2014-eq" class="slide level2">
+<h2><span class="citation" data-cites="Ritter2014-eq">Ritter, Baxter, &amp; Churchill (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span></h2>
+<ul>
+<li>Task Analysis (TA) as a tool for designing “user-centered systems”</li>
+<li>What do (people, e.g.&nbsp;children) have to <em>do</em>?</li>
+</ul>
+</section>
+<section id="ritter2014-eq-1" class="slide level2">
+<h2><span class="citation" data-cites="Ritter2014-eq">Ritter et al. (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span></h2>
+
+<img data-src="../include/img/ritter-fig-11.1.png" class="r-stretch quarto-figure-center"><p class="caption">Figure 11.1 from <span class="citation" data-cites="Ritter2014-eq">Ritter et al. (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span></p></section>
+<section id="lets-do-a-hierarchical-task-analysis" class="slide level2">
+<h2>Let’s do a hierarchical task analysis!</h2>
+<ul>
+<li>Pick a task you know well, use in your research</li>
+<li>What is required to perform it?</li>
+<li>(Later) what cognitive components are associated with the task?</li>
+</ul>
+</section>
+<section id="is-the-analysis-useful" class="slide level2">
+<h2>Is the analysis useful?</h2>
+</section>
 <section id="take-homes" class="slide level2">
 <h2>Take homes</h2>
+<ul>
+<li>A “cognitive” sensibility is about…</li>
+<li>Information, representations, operations/processes</li>
+<li>Sequences, hierarchical structures</li>
+<li>Solving real-world problems</li>
+<li>Inspired by computational systems</li>
+</ul>
 </section>
 <section id="next-time" class="slide level2">
 <h2>Next time…</h2>
+<ul>
+<li>Theoretical foundations: Piaget
+<ul>
+<li><em>General Readings</em>: <span class="citation" data-cites="Siegler2021-py">Siegler &amp; Alibali (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span> Chapter 2; <span class="citation" data-cites="Piaget1952-dm">Piaget (<a href="#/references" role="doc-biblioref" onclick="">1952</a>)</span>; <span class="citation" data-cites="Newcombe2013-qy">Newcombe (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></li>
+</ul></li>
+</ul>
 </section></section>
 <section>
 <section id="resources" class="title-slide slide level1 center">
@@ -358,8 +566,29 @@ Bayne, T., Brainard, D., Byrne, R. W., Chittka, L., Clayton, N., Heyes, C., … 
 <div id="ref-McCulloch1943-ud" class="csl-entry" role="listitem">
 McCulloch, W. S., &amp; Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. <em>The Bulletin of Mathematical Biophysics</em>, <em>5</em>, 115–133. <a href="https://doi.org/10.1007/BF02478259">https://doi.org/10.1007/BF02478259</a>
 </div>
+<div id="ref-Newcombe2013-qy" class="csl-entry" role="listitem">
+Newcombe, N. S. (2013). Cognitive development: <span>C</span>hanging views of cognitive change. <em>Wiley <span>I</span>nterdisciplinary <span>R</span>eviews. <span>C</span>ognitive <span>S</span>cience</em>, <em>4</em>, 479–491. <a href="https://doi.org/10.1002/wcs.1245">https://doi.org/10.1002/wcs.1245</a>
+</div>
+<div id="ref-Piaget1952-dm" class="csl-entry" role="listitem">
+Piaget, J. (1952). <em>The origins of intelligence in children</em>. (M. Cook, Trans.). New York: W W Norton &amp; Co. <a href="https://doi.org/10.1037/11494-000">https://doi.org/10.1037/11494-000</a>
+</div>
+<div id="ref-Ritter2014-eq" class="csl-entry" role="listitem">
+Ritter, F. E., Baxter, G. D., &amp; Churchill, E. F. (2014). <em>Foundations for designing user-centered systems: What system designers need to know about people</em> (2014th ed.). London, England: Springer. <a href="https://doi.org/10.1007/978-1-4471-5134-0">https://doi.org/10.1007/978-1-4471-5134-0</a>
+</div>
+<div id="ref-Siegler2021-py" class="csl-entry" role="listitem">
+Siegler, R., &amp; Alibali, M. (2021). <em>Children’s <span>T</span>hinking</em> (5th ed.). Pearson.
+</div>
+<div id="ref-Simmering2010-ba" class="csl-entry" role="listitem">
+Simmering, V. R., Triesch, J., Deák, G. O., &amp; Spencer, J. P. (2010). To model or not to model? A dialogue on the role of computational modeling in developmental science: To model or not to model? <em>Child <span>D</span>evelopment <span>P</span>erspectives</em>, <em>4</em>, 152–158. <a href="https://doi.org/10.1111/j.1750-8606.2010.00134.x">https://doi.org/10.1111/j.1750-8606.2010.00134.x</a>
+</div>
+<div id="ref-Van_Gelder1995-so" class="csl-entry" role="listitem">
+Van Gelder, T. (1995). What might cognition be, if not computation? <em>The Journal of Philosophy</em>, <em>92</em>, 345–381. <a href="https://doi.org/10.2307/2941061">https://doi.org/10.2307/2941061</a>
+</div>
+<div id="ref-Wikipedia-contributors2025-yf" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025a, July 23). All models are wrong. Retrieved from <a href="https://en.wikipedia.org/wiki/All_models_are_wrong">https://en.wikipedia.org/wiki/All_models_are_wrong</a>
+</div>
 <div id="ref-Wikipedia-contributors2025-aa" class="csl-entry" role="listitem">
-Wikipedia contributors. (2025, August 25). <span>ASCII</span>. Retrieved from <a href="https://en.wikipedia.org/wiki/ASCII">https://en.wikipedia.org/wiki/ASCII</a>
+Wikipedia contributors. (2025b, August 25). <span>ASCII</span>. Retrieved from <a href="https://en.wikipedia.org/wiki/ASCII">https://en.wikipedia.org/wiki/ASCII</a>
 </div>
 </div>
 </section></section>
@@ -581,6 +810,44 @@ Wikipedia contributors. (2025, August 25). <span>ASCII</span>. Retrieved from <a
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
