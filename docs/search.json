@@ -46,7 +46,7 @@
     "href": "slides/wk-01-intro.html#how-do-digital-computers-compute",
     "title": "Course Introduction",
     "section": "How do digital computers compute?",
-    "text": "How do digital computers compute?\n\nStrings of binary digits (bits) represent information\n\n0001: the number one; 1111: the number 15 (in base 2)\n00110001: the character symbol ‘1’ in ASCII (Wikipedia contributors, 2025c)\n(some other binary ‘word’): symbol meaning ‘add’, or ‘store’, etc."
+    "text": "How do digital computers compute?\n\nStrings of binary digits (bits) represent information\n\n0001: the number one; 1111: the number 15 (in base 2)\n00110001: the character symbol ‘1’ in ASCII (Wikipedia contributors, 2025d)\n(some other binary ‘word’): symbol meaning ‘add’, or ‘store’, etc."
   },
   {
     "objectID": "slides/wk-01-intro.html#how-do-digital-computers-compute-1",
@@ -67,7 +67,7 @@
     "href": "slides/wk-01-intro.html#high-level-computer-languages-1",
     "title": "Course Introduction",
     "section": "High-level computer languages",
-    "text": "High-level computer languages\n\n\nCode\nx &lt;- 3\ny &lt;- 4\nh &lt;- sqrt(x^2 + y^2)\nh\n\n\n[1] 5"
+    "text": "High-level computer languages\n\nx &lt;- 3\ny &lt;- 4\nh &lt;- sqrt(x^2 + y^2)\nh\n\n[1] 5"
   },
   {
     "objectID": "slides/wk-01-intro.html#what-might-cognition-be-if-not-computation",
@@ -102,7 +102,7 @@
     "href": "slides/wk-01-intro.html#all-models-are-wrong",
     "title": "Course Introduction",
     "section": "All models are wrong…",
-    "text": "All models are wrong…\n\n\n“…but some are useful.”\nWikipedia contributors (2025b)\n\n\n\n\nGeorge Box (Wikipedia)"
+    "text": "All models are wrong…\n\n\n“…but some are useful.”\nWikipedia contributors (2025c)\n\n\n\n\nGeorge Box (Wikipedia)"
   },
   {
     "objectID": "slides/wk-01-intro.html#simmering2010-ba",
@@ -123,7 +123,7 @@
     "href": "slides/wk-01-intro.html#what-do-statistics-model",
     "title": "Course Introduction",
     "section": "What do statistics model?",
-    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 21.554, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6464110 0.7374845\nsample estimates:\n      cor \n0.6947219"
+    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 23.406, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6791663 0.7630174\nsample estimates:\n      cor \n0.7237527"
   },
   {
     "objectID": "slides/wk-01-intro.html#what-do-statistics-model-1",
@@ -137,7 +137,7 @@
     "href": "slides/wk-01-intro.html#aside",
     "title": "Course Introduction",
     "section": "Aside…",
-    "text": "Aside…\n\nSimulating your data can help reveal hidden assumptions about what your statistical model actually means, what kind of plots will best show predicted effects, etc.\nSo, do statistical models inform us about processes?"
+    "text": "Aside…\n\nSimulating your data can help reveal hidden assumptions about what your statistical model actually means, what kind of plots will best show predicted effects, etc.\nPlotting your data can reveal patterns that the statistics alone obscure.\nSo, do statistical models inform us about processes?"
   },
   {
     "objectID": "slides/wk-01-intro.html#simmering2010-ba-2",
@@ -151,7 +151,7 @@
     "href": "slides/wk-01-intro.html#cognitive-models",
     "title": "Course Introduction",
     "section": "Cognitive models",
-    "text": "Cognitive models\n\nWikipedia contributors (2025a)\nMany types"
+    "text": "Cognitive models\n\nWikipedia contributors (2025b)\nMany types"
   },
   {
     "objectID": "slides/wk-01-intro.html#a-computer-program",
@@ -214,7 +214,7 @@
     "href": "slides/wk-01-intro.html#references",
     "title": "Course Introduction",
     "section": "References",
-    "text": "References\n\n\n\n\nBayne, T., Brainard, D., Byrne, R. W., Chittka, L., Clayton, N., Heyes, C., … Webb, B. (2019). What is cognition? Current Biology: CB, 29, R608–R615. https://doi.org/10.1016/j.cub.2019.05.044\n\n\nMcCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The Bulletin of Mathematical Biophysics, 5, 115–133. https://doi.org/10.1007/BF02478259\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nPiaget, J. (1952). The origins of intelligence in children. (M. Cook, Trans.). New York: W W Norton & Co. https://doi.org/10.1037/11494-000\n\n\nRitter, F. E., Baxter, G. D., & Churchill, E. F. (2014). Foundations for designing user-centered systems: What system designers need to know about people (2014th ed.). London, England: Springer. https://doi.org/10.1007/978-1-4471-5134-0\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSimmering, V. R., Triesch, J., Deák, G. O., & Spencer, J. P. (2010). To model or not to model? A dialogue on the role of computational modeling in developmental science: To model or not to model? Child Development Perspectives, 4, 152–158. https://doi.org/10.1111/j.1750-8606.2010.00134.x\n\n\nVan Gelder, T. (1995). What might cognition be, if not computation? The Journal of Philosophy, 92, 345–381. https://doi.org/10.2307/2941061\n\n\nWikipedia contributors. (2025a, May 24). Cognitive model. Retrieved from https://en.wikipedia.org/wiki/Cognitive_model\n\n\nWikipedia contributors. (2025b, July 23). All models are wrong. Retrieved from https://en.wikipedia.org/wiki/All_models_are_wrong\n\n\nWikipedia contributors. (2025c, August 25). ASCII. Retrieved from https://en.wikipedia.org/wiki/ASCII"
+    "text": "References\n\n\n\n\nBayne, T., Brainard, D., Byrne, R. W., Chittka, L., Clayton, N., Heyes, C., … Webb, B. (2019). What is cognition? Current Biology: CB, 29, R608–R615. https://doi.org/10.1016/j.cub.2019.05.044\n\n\nMatejka, J., & Fitzmaurice, G. (2017). Same stats, different graphs: Generating datasets with varied appearance and identical statistics through simulated annealing. In Proceedings of the 2017 CHI conference on human factors in computing systems. New York, NY, USA: ACM. https://doi.org/10.1145/3025453.3025912\n\n\nMcCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The Bulletin of Mathematical Biophysics, 5, 115–133. https://doi.org/10.1007/BF02478259\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nNewell, A. (1990). Unified theories of cognition. Cambridge, MA: Harvard University Press.\n\n\nPiaget, J. (1952). The origins of intelligence in children. (M. Cook, Trans.). New York: W W Norton & Co. https://doi.org/10.1037/11494-000\n\n\nRitter, F. E., Baxter, G. D., & Churchill, E. F. (2014). Foundations for designing user-centered systems: What system designers need to know about people (2014th ed.). London, England: Springer. https://doi.org/10.1007/978-1-4471-5134-0\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSimmering, V. R., Triesch, J., Deák, G. O., & Spencer, J. P. (2010). To model or not to model? A dialogue on the role of computational modeling in developmental science: To model or not to model? Child Development Perspectives, 4, 152–158. https://doi.org/10.1111/j.1750-8606.2010.00134.x\n\n\nThe Datasaurus dozen - same stats, different graphs | Autodesk Research. (n.d.). Retrieved June 2, 2019, from https://www.autodeskresearch.com/publications/samestats\n\n\nVan Gelder, T. (1995). What might cognition be, if not computation? The Journal of Philosophy, 92, 345–381. https://doi.org/10.2307/2941061\n\n\nWikipedia contributors. (2025a, February 24). Unified theories of cognition. Retrieved from https://en.wikipedia.org/wiki/Unified_Theories_of_Cognition\n\n\nWikipedia contributors. (2025b, May 24). Cognitive model. Retrieved from https://en.wikipedia.org/wiki/Cognitive_model\n\n\nWikipedia contributors. (2025c, July 23). All models are wrong. Retrieved from https://en.wikipedia.org/wiki/All_models_are_wrong\n\n\nWikipedia contributors. (2025d, August 25). ASCII. Retrieved from https://en.wikipedia.org/wiki/ASCII"
   },
   {
     "objectID": "policies.html",
@@ -485,5 +485,75 @@
     "crumbs": [
       "Schedule"
     ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#what-does-a-correlation-mean",
+    "href": "slides/wk-01-intro.html#what-does-a-correlation-mean",
+    "title": "Course Introduction",
+    "section": "What does a correlation mean?",
+    "text": "What does a correlation mean?\n\n“The Datasaurus dozen - same stats, different graphs | Autodesk Research” (n.d.); Matejka & Fitzmaurice (2017)"
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#unified-theories-of-cognition",
+    "href": "slides/wk-01-intro.html#unified-theories-of-cognition",
+    "title": "Course Introduction",
+    "section": "Unified Theories of Cognition",
+    "text": "Unified Theories of Cognition\n\n\nWikipedia contributors (2025a)\n\n\n\n\nNewell (1990)"
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#why-a-unified-theory",
+    "href": "slides/wk-01-intro.html#why-a-unified-theory",
+    "title": "Course Introduction",
+    "section": "Why a unified theory?",
+    "text": "Why a unified theory?\n\nFig 1-6 from Newell (1990)"
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#constraints-on-what-minds-must-do-newell1990-qr",
+    "href": "slides/wk-01-intro.html#constraints-on-what-minds-must-do-newell1990-qr",
+    "title": "Course Introduction",
+    "section": "Constraints on what minds must do (Newell, 1990)",
+    "text": "Constraints on what minds must do (Newell, 1990)\n\n\n\nBehave flexibly as a function of the environment\nExhibit adaptive (rational, goal-oriented) behavior\nOperate in real time\nOperate in a rich, complex, detailed environment\nUse symbols and abstractions\nUse language, both natural and artificial\n\n\n\nLearn from the environment and from experience\nAcquire capabilities through development\nOperate autonomously, but within a social community\nBe self-aware and have a sense of self\nBe realizable as a neural system\nBe constructable by an embryological growth process\nArise through evolution"
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#constraints-on-what-minds-must-do",
+    "href": "slides/wk-01-intro.html#constraints-on-what-minds-must-do",
+    "title": "Course Introduction",
+    "section": "Constraints on what minds must do",
+    "text": "Constraints on what minds must do\n\n\n\nBehave flexibly as a function of the environment\nExhibit adaptive (rational, goal-oriented) behavior\nOperate in real time\nOperate in a rich, complex, detailed environment\n\n\n\nUse symbols and abstractions\nUse language, both natural and artificial\nLearn from the environment and from experience\nAcquire capabilities through development\n\n\n(Newell, 1990)"
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#constraints-on-what-minds-must-do-1",
+    "href": "slides/wk-01-intro.html#constraints-on-what-minds-must-do-1",
+    "title": "Course Introduction",
+    "section": "Constraints on what minds must do",
+    "text": "Constraints on what minds must do\n\n\n\nOperate autonomously, but within a social community\nBe self-aware and have a sense of self\nBe realizable as a neural system\n\n\n\nBe constructable by an embryological growth process\nArise through evolution\n\n\n(Newell, 1990)"
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#what-does-a-correlation-mean-again",
+    "href": "slides/wk-01-intro.html#what-does-a-correlation-mean-again",
+    "title": "Course Introduction",
+    "section": "What does a correlation mean again?",
+    "text": "What does a correlation mean again?\n\n“The Datasaurus dozen - same stats, different graphs | Autodesk Research” (n.d.); Matejka & Fitzmaurice (2017)"
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#unified-theories-of-cognition-wikipedia-contributors2025-uo",
+    "href": "slides/wk-01-intro.html#unified-theories-of-cognition-wikipedia-contributors2025-uo",
+    "title": "Course Introduction",
+    "section": "Unified Theories of Cognition (Wikipedia contributors, 2025a)",
+    "text": "Unified Theories of Cognition (Wikipedia contributors, 2025a)\n\nNewell (1990)"
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#constraints-on-minds",
+    "href": "slides/wk-01-intro.html#constraints-on-minds",
+    "title": "Course Introduction",
+    "section": "Constraints on minds",
+    "text": "Constraints on minds\n\n\n\nBehave flexibly as a function of the environment\nExhibit adaptive (rational, goal-oriented) behavior\nOperate in real time\nOperate in a rich, complex, detailed environment\n\n\n\n\n\nUse symbols and abstractions\nUse language, both natural and artificial\nLearn from the environment and from experience\nAcquire capabilities through development\n\n\n(Newell, 1990)"
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#constraints-on-minds-1",
+    "href": "slides/wk-01-intro.html#constraints-on-minds-1",
+    "title": "Course Introduction",
+    "section": "Constraints on minds",
+    "text": "Constraints on minds\n\n\n\nOperate autonomously\nbut within a social community\nBe self-aware and have a sense of self\nBe realizable as a neural system\n\n\n\n\n\nBe constructable by an embryological growth process\nArise through evolution\n\n\n(Newell, 1990)"
   }
 ]

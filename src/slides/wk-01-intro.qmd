@@ -105,6 +105,7 @@ h
 
 ```{r}
 #| echo: true
+#| code-fold: false
 x <- 3
 y <- 4
 h <- sqrt(x^2 + y^2)
@@ -206,9 +207,14 @@ df |>
   coord_fixed(ratio = 1)
 ```
 
+## What does a correlation mean again?
+
+![@datasaurus2019-us; @Matejka2017-xi](https://blog.revolutionanalytics.com/downloads/DataSaurus%20Dozen.gif)
+
 ## Aside...
 
 - *Simulating* your data can help reveal hidden assumptions about what your statistical model actually means, what kind of plots will best show predicted effects, etc.
+- *Plotting* your data can reveal patterns that the statistics alone obscure.
 - So, do statistical models inform us about *processes*?
 
 ## @Simmering2010-ba
@@ -231,6 +237,54 @@ explain that?
 
 - That simulates some complex behavior
 - Is one type of model
+
+## Unified Theories of Cognition [@Wikipedia-contributors2025-uo]
+
+![@Newell1990-qr](../include/img/newell-1990-quotation.png)
+
+## Why a unified theory?
+
+![Fig 1-6 from @Newell1990-qr](../include/img/newell-90-fig-1.6.png)
+
+## Constraints on minds
+
+:::: {.columns}
+::: {.column width=48%}
+1. Behave flexibly as a function of the environment
+2. Exhibit adaptive (rational, goal-oriented) behavior
+3. Operate in real time
+4. Operate in a rich, complex, detailed environment
+:::
+::: {.column width=4%}
+:::
+::: {.column width=48%}
+5. Use symbols and abstractions
+6. Use language, both natural and artificial
+7. Learn from the environment and from experience
+8. Acquire capabilities through development
+:::
+::::
+
+[@Newell1990-qr]
+
+## Constraints on minds 
+
+:::: {.columns}
+::: {.column width=48%}
+9. Operate autonomously \
+ but within a social community
+10. Be self-aware and have a sense of self
+11. Be realizable as a neural system
+:::
+::: {.column width=4%}
+:::
+::: {.column width=48%}
+12. Be constructable by an embryological growth process
+13. Arise through evolution
+:::
+::::
+
+[@Newell1990-qr]
 
 # On explicating behavior
 

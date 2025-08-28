@@ -334,7 +334,7 @@ Rick Gilmore
 <li>Strings of binary digits (bits) <em>represent</em> information
 <ul>
 <li><code>0001</code>: the number one; <code>1111</code>: the number 15 (in base 2)</li>
-<li><code>00110001</code>: the character symbol ‘1’ in ASCII <span class="citation" data-cites="Wikipedia-contributors2025-aa">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025c</a>)</span></li>
+<li><code>00110001</code>: the character symbol ‘1’ in ASCII <span class="citation" data-cites="Wikipedia-contributors2025-aa">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025d</a>)</span></li>
 <li>(some other binary ‘word’): symbol meaning ‘add’, or ‘store’, etc.</li>
 </ul></li>
 </ul>
@@ -364,13 +364,10 @@ Rick Gilmore
 <section id="high-level-computer-languages-1" class="slide level2">
 <h2>High-level computer languages</h2>
 <div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>x <span class="ot">&lt;-</span> <span class="dv">3</span></span>
 <span id="cb2-2"><a></a>y <span class="ot">&lt;-</span> <span class="dv">4</span></span>
 <span id="cb2-3"><a></a>h <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(x<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> y<span class="sc">^</span><span class="dv">2</span>)</span>
 <span id="cb2-4"><a></a>h</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 5</code></pre>
 </div>
@@ -425,7 +422,7 @@ Rick Gilmore
 <div class="columns">
 <div class="column" style="width:50%;">
 <p>“…but some are useful.”</p>
-<p><span class="citation" data-cites="Wikipedia-contributors2025-yf">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025b</a>)</span></p>
+<p><span class="citation" data-cites="Wikipedia-contributors2025-yf">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025c</a>)</span></p>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -469,13 +466,13 @@ Rick Gilmore
     Pearson's product-moment correlation
 
 data:  x and y
-t = 21.554, df = 498, p-value &lt; 2.2e-16
+t = 23.406, df = 498, p-value &lt; 2.2e-16
 alternative hypothesis: true correlation is not equal to 0
 95 percent confidence interval:
- 0.6464110 0.7374845
+ 0.6791663 0.7630174
 sample estimates:
       cor 
-0.6947219 </code></pre>
+0.7237527 </code></pre>
 </div>
 </div>
 </section>
@@ -485,10 +482,15 @@ sample estimates:
 <img data-src="../include/fig/fig-corr-scatterplot-1.png" id="fig-corr-scatterplot" width="960" class="r-stretch quarto-figure-center"><p class="caption">
 Figure&nbsp;1
 </p></section>
+<section id="what-does-a-correlation-mean-again" class="slide level2">
+<h2>What does a correlation mean again?</h2>
+
+<img data-src="https://blog.revolutionanalytics.com/downloads/DataSaurus%20Dozen.gif" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="datasaurus2019-us"><span>“The <span>D</span>atasaurus dozen - same stats, different graphs | <span>A</span>utodesk <span>R</span>esearch”</span> (<a href="#/references" role="doc-biblioref" onclick="">n.d.</a>)</span>; <span class="citation" data-cites="Matejka2017-xi">Matejka &amp; Fitzmaurice (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span></p></section>
 <section id="aside" class="slide level2">
 <h2>Aside…</h2>
 <ul>
 <li><em>Simulating</em> your data can help reveal hidden assumptions about what your statistical model actually means, what kind of plots will best show predicted effects, etc.</li>
+<li><em>Plotting</em> your data can reveal patterns that the statistics alone obscure.</li>
 <li>So, do statistical models inform us about <em>processes</em>?</li>
 </ul>
 </section>
@@ -504,7 +506,7 @@ Figure&nbsp;1
 <section id="cognitive-models" class="slide level2">
 <h2>Cognitive models</h2>
 <ul>
-<li><span class="citation" data-cites="Wikipedia-contributors2025-ph">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025a</a>)</span></li>
+<li><span class="citation" data-cites="Wikipedia-contributors2025-ph">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025b</a>)</span></li>
 <li>Many types</li>
 </ul>
 </section>
@@ -514,6 +516,56 @@ Figure&nbsp;1
 <li>That simulates some complex behavior</li>
 <li>Is one type of model</li>
 </ul>
+</section>
+<section id="unified-theories-of-cognition-wikipedia-contributors2025-uo" class="slide level2">
+<h2>Unified Theories of Cognition <span class="citation" data-cites="Wikipedia-contributors2025-uo">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025a</a>)</span></h2>
+
+<img data-src="../include/img/newell-1990-quotation.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Newell1990-qr">Newell (<a href="#/references" role="doc-biblioref" onclick="">1990</a>)</span></p></section>
+<section id="why-a-unified-theory" class="slide level2">
+<h2>Why a unified theory?</h2>
+
+<img data-src="../include/img/newell-90-fig-1.6.png" class="r-stretch quarto-figure-center"><p class="caption">Fig 1-6 from <span class="citation" data-cites="Newell1990-qr">Newell (<a href="#/references" role="doc-biblioref" onclick="">1990</a>)</span></p></section>
+<section id="constraints-on-minds" class="slide level2">
+<h2>Constraints on minds</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<ol type="1">
+<li>Behave flexibly as a function of the environment</li>
+<li>Exhibit adaptive (rational, goal-oriented) behavior</li>
+<li>Operate in real time</li>
+<li>Operate in a rich, complex, detailed environment</li>
+</ol>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<ol start="5" type="1">
+<li>Use symbols and abstractions</li>
+<li>Use language, both natural and artificial</li>
+<li>Learn from the environment and from experience</li>
+<li>Acquire capabilities through development</li>
+</ol>
+</div></div>
+<p><span class="citation" data-cites="Newell1990-qr">(<a href="#/references" role="doc-biblioref" onclick="">Newell, 1990</a>)</span></p>
+</section>
+<section id="constraints-on-minds-1" class="slide level2">
+<h2>Constraints on minds</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<ol start="9" type="1">
+<li>Operate autonomously<br>
+but within a social community</li>
+<li>Be self-aware and have a sense of self</li>
+<li>Be realizable as a neural system</li>
+</ol>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<ol start="12" type="1">
+<li>Be constructable by an embryological growth process</li>
+<li>Arise through evolution</li>
+</ol>
+</div></div>
+<p><span class="citation" data-cites="Newell1990-qr">(<a href="#/references" role="doc-biblioref" onclick="">Newell, 1990</a>)</span></p>
 </section></section>
 <section>
 <section id="on-explicating-behavior" class="title-slide slide level1 center">
@@ -580,11 +632,17 @@ Figure&nbsp;1
 <div id="ref-Bayne2019-ot" class="csl-entry" role="listitem">
 Bayne, T., Brainard, D., Byrne, R. W., Chittka, L., Clayton, N., Heyes, C., … Webb, B. (2019). What is cognition? <em>Current Biology: CB</em>, <em>29</em>, R608–R615. <a href="https://doi.org/10.1016/j.cub.2019.05.044">https://doi.org/10.1016/j.cub.2019.05.044</a>
 </div>
+<div id="ref-Matejka2017-xi" class="csl-entry" role="listitem">
+Matejka, J., &amp; Fitzmaurice, G. (2017). Same stats, different graphs: Generating datasets with varied appearance and identical statistics through simulated annealing. In <em>Proceedings of the 2017 CHI conference on human factors in computing systems</em>. New York, NY, USA: ACM. <a href="https://doi.org/10.1145/3025453.3025912">https://doi.org/10.1145/3025453.3025912</a>
+</div>
 <div id="ref-McCulloch1943-ud" class="csl-entry" role="listitem">
 McCulloch, W. S., &amp; Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. <em>The Bulletin of Mathematical Biophysics</em>, <em>5</em>, 115–133. <a href="https://doi.org/10.1007/BF02478259">https://doi.org/10.1007/BF02478259</a>
 </div>
 <div id="ref-Newcombe2013-qy" class="csl-entry" role="listitem">
 Newcombe, N. S. (2013). Cognitive development: <span>C</span>hanging views of cognitive change. <em>Wiley <span>I</span>nterdisciplinary <span>R</span>eviews. <span>C</span>ognitive <span>S</span>cience</em>, <em>4</em>, 479–491. <a href="https://doi.org/10.1002/wcs.1245">https://doi.org/10.1002/wcs.1245</a>
+</div>
+<div id="ref-Newell1990-qr" class="csl-entry" role="listitem">
+Newell, A. (1990). <em>Unified theories of cognition</em>. Cambridge, MA: Harvard University Press.
 </div>
 <div id="ref-Piaget1952-dm" class="csl-entry" role="listitem">
 Piaget, J. (1952). <em>The origins of intelligence in children</em>. (M. Cook, Trans.). New York: W W Norton &amp; Co. <a href="https://doi.org/10.1037/11494-000">https://doi.org/10.1037/11494-000</a>
@@ -598,17 +656,23 @@ Siegler, R., &amp; Alibali, M. (2021). <em>Children’s <span>T</span>hinking</e
 <div id="ref-Simmering2010-ba" class="csl-entry" role="listitem">
 Simmering, V. R., Triesch, J., Deák, G. O., &amp; Spencer, J. P. (2010). To model or not to model? A dialogue on the role of computational modeling in developmental science: To model or not to model? <em>Child <span>D</span>evelopment <span>P</span>erspectives</em>, <em>4</em>, 152–158. <a href="https://doi.org/10.1111/j.1750-8606.2010.00134.x">https://doi.org/10.1111/j.1750-8606.2010.00134.x</a>
 </div>
+<div id="ref-datasaurus2019-us" class="csl-entry" role="listitem">
+The <span>D</span>atasaurus dozen - same stats, different graphs | <span>A</span>utodesk <span>R</span>esearch. (n.d.). Retrieved June 2, 2019, from <a href="https://www.autodeskresearch.com/publications/samestats">https://www.autodeskresearch.com/publications/samestats</a>
+</div>
 <div id="ref-Van_Gelder1995-so" class="csl-entry" role="listitem">
 Van Gelder, T. (1995). What might cognition be, if not computation? <em>The <span>J</span>ournal of <span>P</span>hilosophy</em>, <em>92</em>, 345–381. <a href="https://doi.org/10.2307/2941061">https://doi.org/10.2307/2941061</a>
 </div>
+<div id="ref-Wikipedia-contributors2025-uo" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025a, February 24). Unified theories of cognition. Retrieved from <a href="https://en.wikipedia.org/wiki/Unified_Theories_of_Cognition">https://en.wikipedia.org/wiki/Unified_Theories_of_Cognition</a>
+</div>
 <div id="ref-Wikipedia-contributors2025-ph" class="csl-entry" role="listitem">
-Wikipedia contributors. (2025a, May 24). Cognitive model. Retrieved from <a href="https://en.wikipedia.org/wiki/Cognitive_model">https://en.wikipedia.org/wiki/Cognitive_model</a>
+Wikipedia contributors. (2025b, May 24). Cognitive model. Retrieved from <a href="https://en.wikipedia.org/wiki/Cognitive_model">https://en.wikipedia.org/wiki/Cognitive_model</a>
 </div>
 <div id="ref-Wikipedia-contributors2025-yf" class="csl-entry" role="listitem">
-Wikipedia contributors. (2025b, July 23). All models are wrong. Retrieved from <a href="https://en.wikipedia.org/wiki/All_models_are_wrong">https://en.wikipedia.org/wiki/All_models_are_wrong</a>
+Wikipedia contributors. (2025c, July 23). All models are wrong. Retrieved from <a href="https://en.wikipedia.org/wiki/All_models_are_wrong">https://en.wikipedia.org/wiki/All_models_are_wrong</a>
 </div>
 <div id="ref-Wikipedia-contributors2025-aa" class="csl-entry" role="listitem">
-Wikipedia contributors. (2025c, August 25). <span>ASCII</span>. Retrieved from <a href="https://en.wikipedia.org/wiki/ASCII">https://en.wikipedia.org/wiki/ASCII</a>
+Wikipedia contributors. (2025d, August 25). <span>ASCII</span>. Retrieved from <a href="https://en.wikipedia.org/wiki/ASCII">https://en.wikipedia.org/wiki/ASCII</a>
 </div>
 </div>
 </section></section>
