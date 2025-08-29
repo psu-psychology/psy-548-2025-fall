@@ -11,6 +11,19 @@ title: "Course Introduction"
 
 # Course introduction
 
+## Introductions all around
+
+## PSY 548
+
+- Structure
+  - Group discussion (Gilmore leads)
+  - Student presentation and student-led discussion
+- Material
+  - Theoretical & empirical
+  - Classic & modern
+- [Schedule](../schedule.qmd){preview-link="true"}
+- [Evaluation](../evaluation.qmd){preview-link="true"}
+
 # A cognitive sensibility
 
 ---
@@ -61,13 +74,17 @@ learning”; “isn’t a reflex”; “depends on internally generated brain dy
 - not uniquely human; intentional vs. unintentional, conscious vs. unconscious, effortful vs. automatic, slow vs. fast processes (Suddendorf)
 - "I know that I am cognizing, but I can only surmise that cognition has occurred in other animals by observing their actions."; "behaviours in which an animal performs an action directed towards a goal it cannot currently perceive" (Webb)
 
+## Student insights
+
+- [Link to questions](https://docs.google.com/document/d/1eAo1FqM-WRg73ascICbfRFNu7pLBvF_s0GGzHIYzSck/edit?tab=t.0#heading=h.45jgqiof2cy4)
+ 
 # On computation
 
 ## Is the brain a digital computer?
 
 :::: {.columns}
 ::: {.column width=50%}
-- From neuronal action potentials to Boolean logic
+- From neuronal action potentials to [Boolean](https://en.wikipedia.org/wiki/Boolean_algebra) logic
 :::
 ::: {.column width=50%}
 ![@McCulloch1943-ud](../include/img/mcculloch-pitts-1943.png)
@@ -116,9 +133,13 @@ h
 
 :::: {.columns}
 ::: {.column width=50%}
-![](../include/img/van-gelder-speed-regulator.png)
+Analog 
+
+![](../include/img/van-gelder-speed-regulator.png){width="50%"}
 :::
 ::: {.column width=50%}
+Algorithmic
+
 ![](../include/img/van-gelder-algorithm.png)
 :::
 ::::
@@ -134,16 +155,28 @@ h
 ## Deep forms
 
 - Map (relate) multiple surface forms to
-- A single deep form $\rightarrow$ the letters "A" and "G"
+  - A single deep form $\rightarrow$ the letters "A" and "G"
 - "Re-presentation"
-- Why? Some forms more easily "computable", more efficiently stored (bitmaps vs. jpg), etc.
+- Why? Some forms more easily "computable", more efficiently stored, less "lossy" 
+
+---
+
+![https://twiistedmedia.com/bitmap-vs-vector-printing](https://twiistedmedia.com/wp-content/uploads/2017/09/Bitmap_vs_vector.svg_.png)
 
 ## A cognitive sensibility
 
+:::: {.columns}
+::: {.column width=50%}
 - Asks what info is available
   - In the world
   - In the mind
 - In what form(s)
+- Representations all the way down^[@Wikipedia-contributors2025-td]
+:::
+::: {.column width=50%}
+![https://commons.wikimedia.org/w/index.php?curid=2747463](https://upload.wikimedia.org/wikipedia/commons/4/47/River_terrapin.jpg)
+:::
+::::
 
 # On modeling
 
@@ -207,7 +240,7 @@ df |>
   coord_fixed(ratio = 1)
 ```
 
-## What does a correlation mean again?
+## Plot your data!
 
 ![@datasaurus2019-us; @Matejka2017-xi](https://blog.revolutionanalytics.com/downloads/DataSaurus%20Dozen.gif)
 
@@ -232,6 +265,37 @@ explain that?
 
 - @Wikipedia-contributors2025-ph
 - Many types
+
+## Box and Arrow
+
+```{mermaid}
+%%| label: simple-box
+%%| fig-caption: "A simple box and arrow diagram"
+
+flowchart LR
+  A[Stimulus] --> B[Sensation]
+  B --> C[Perception]
+  C --> D[Cognition]
+  D --> E[Action]
+```
+
+::: {.fragment}
+```{mermaid}
+%%| label: complex-box
+%%| fig-caption: "A more complex box and arrow diagram"
+
+flowchart LR
+  A[Stimulus] --> B[Sensation]
+  B --> C[Perception]
+  C --> D[Cognition]
+  D --> E[Action]
+  B --> F[Memory]
+  F --> C
+  D --> G[Attention]
+  G --> C
+  G --> F
+```
+:::
 
 ## A computer program...
 
@@ -287,6 +351,27 @@ explain that?
 [@Newell1990-qr]
 
 # On explicating behavior
+
+## The cognitive revolution [^1]
+
+:::: {.columns}
+::: {.column width=50%}
+![B.F. Skinner](https://hips.hearstapps.com/hmg-prod/images/gettyimages-83956845.jpg?resize=1200:*){width="60%"}
+
+::: {.fragment}
+- Can't (rigorously) look inside the mind.
+:::
+:::
+::: {.column width=50%}
+![Noam Chomsky](https://hips.hearstapps.com/hmg-prod/images/noam-chomsky.jpg?crop=1xw:1.0xh;center,top&resize=1200:*){width="60%"}
+
+::: {.fragment}
+- Must (rigorously) look inside the mind.
+:::
+:::
+::::
+
+[^1]: @Wikipedia-contributors2025-gi
 
 ## @Ritter2014-eq
 

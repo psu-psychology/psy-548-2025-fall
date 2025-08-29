@@ -3,6 +3,7 @@ project:
   output-dir: ../docs
   render:
     - "*.qmd"
+    - "slides/*.qmd"
   lib-dir: include/site_libs
 
 website:
@@ -15,6 +16,10 @@ website:
       - schedule.qmd
       - evaluation.qmd
       - policies.qmd
+      - section: "Slides"
+        contents:
+          - text: "Wk 01 • Fri Aug 29"
+            href: slides/wk-01-intro.qmd
     
   repo-url: https://github.com/psu-psychology/psy-548-2025-fall
   repo-actions: [edit, issue]
@@ -49,5 +54,4 @@ format:
 
   pdf:
     documentclass: scrreprt
-  epub:
-    cover-image: include/img/childrens-thinking.jpg
+    

@@ -23,6 +23,10 @@ For empirical papers, describe what the authors did, what they found, what the a
 - Fewer words and more figures are better.
 - Fewer slides are better. Realistically, a 10-12 min talk shouldn't have more than 5-8 slides.
 
+::: {.callout-warning}
+I continue to struggle to implement these tips myself.
+:::
+
 ## Article discussion
 
 Every student will have an opportunity to serve as a discussion leader for one of the article presentations. The 10-12 min discussion will follow the presentation. Except in rare cases, you will serve as a discussion leader on a different article from the one you present. The discussion leader must write 3-4 questions and be ready to present them at the end of the presentation to start the discussion.
@@ -48,3 +52,8 @@ Everyone should closely review the general readings to get an overview of the ma
 If you’re not a presenter or discussion leader, you should read the prompts for the article presentations, but you can skim the presented readings. If you have a burning question you want to ask about a specific paper, add it to the Google doc.
 
 Participation in class discussions and the submission of discussion questions or comments is worth 15 points or 15% of your overall grade. 
+
+### Possible group project
+
+I would like to make use of some of the time we have on days when we are largely discussing empirical articles to evaluate their rigor, reproducibility, and transparency. The rubric for this evaluation is in an [early draft form](repro-rubric.qmd). I invite student feedback on this idea.
+

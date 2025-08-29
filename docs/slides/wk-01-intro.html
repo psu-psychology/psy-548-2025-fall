@@ -208,6 +208,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="../include/site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../include/site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../include/site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -240,11 +243,31 @@ Rick Gilmore
 <li>A cognitive sensibility</li>
 </ul>
 </section></section>
+<section>
 <section id="course-introduction" class="title-slide slide level1 center">
 <h1>Course introduction</h1>
 
 </section>
-
+<section id="introductions-all-around" class="slide level2">
+<h2>Introductions all around</h2>
+</section>
+<section id="psy-548" class="slide level2">
+<h2>PSY 548</h2>
+<ul>
+<li>Structure
+<ul>
+<li>Group discussion (Gilmore leads)</li>
+<li>Student presentation and student-led discussion</li>
+</ul></li>
+<li>Material
+<ul>
+<li>Theoretical &amp; empirical</li>
+<li>Classic &amp; modern</li>
+</ul></li>
+<li><a href="../schedule.html" data-preview-link="true">Schedule</a></li>
+<li><a href="../evaluation.html" data-preview-link="true">Evaluation</a></li>
+</ul>
+</section></section>
 <section>
 <section id="a-cognitive-sensibility" class="title-slide slide level1 center">
 <h1>A cognitive sensibility</h1>
@@ -306,6 +329,12 @@ Rick Gilmore
 <li>not uniquely human; intentional vs.&nbsp;unintentional, conscious vs.&nbsp;unconscious, effortful vs.&nbsp;automatic, slow vs.&nbsp;fast processes (Suddendorf)</li>
 <li>“I know that I am cognizing, but I can only surmise that cognition has occurred in other animals by observing their actions.”; “behaviours in which an animal performs an action directed towards a goal it cannot currently perceive” (Webb)</li>
 </ul>
+</section>
+<section id="student-insights" class="slide level2">
+<h2>Student insights</h2>
+<ul>
+<li><a href="https://docs.google.com/document/d/1eAo1FqM-WRg73ascICbfRFNu7pLBvF_s0GGzHIYzSck/edit?tab=t.0#heading=h.45jgqiof2cy4">Link to questions</a></li>
+</ul>
 </section></section>
 <section>
 <section id="on-computation" class="title-slide slide level1 center">
@@ -317,7 +346,7 @@ Rick Gilmore
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li>From neuronal action potentials to Boolean logic</li>
+<li>From neuronal action potentials to <a href="https://en.wikipedia.org/wiki/Boolean_algebra">Boolean</a> logic</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
@@ -334,7 +363,7 @@ Rick Gilmore
 <li>Strings of binary digits (bits) <em>represent</em> information
 <ul>
 <li><code>0001</code>: the number one; <code>1111</code>: the number 15 (in base 2)</li>
-<li><code>00110001</code>: the character symbol ‘1’ in ASCII <span class="citation" data-cites="Wikipedia-contributors2025-aa">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025d</a>)</span></li>
+<li><code>00110001</code>: the character symbol ‘1’ in ASCII <span class="citation" data-cites="Wikipedia-contributors2025-aa">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025f</a>)</span></li>
 <li>(some other binary ‘word’): symbol meaning ‘add’, or ‘store’, etc.</li>
 </ul></li>
 </ul>
@@ -377,8 +406,10 @@ Rick Gilmore
 <h2>“What might cognition be, If not computation?”</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><img data-src="../include/img/van-gelder-speed-regulator.png"></p>
+<p>Analog</p>
+<p><img data-src="../include/img/van-gelder-speed-regulator.png" style="width:50.0%"></p>
 </div><div class="column" style="width:50%;">
+<p>Algorithmic</p>
 <p><img data-src="../include/img/van-gelder-algorithm.png"></p>
 </div></div>
 <p><span class="citation" data-cites="Van_Gelder1995-so">Van Gelder (<a href="#/references" role="doc-biblioref" onclick="">1995</a>)</span></p>
@@ -395,14 +426,22 @@ Rick Gilmore
 <section id="deep-forms" class="slide level2">
 <h2>Deep forms</h2>
 <ul>
-<li>Map (relate) multiple surface forms to</li>
+<li>Map (relate) multiple surface forms to
+<ul>
 <li>A single deep form <span class="math inline">\(\rightarrow\)</span> the letters “A” and “G”</li>
+</ul></li>
 <li>“Re-presentation”</li>
-<li>Why? Some forms more easily “computable”, more efficiently stored (bitmaps vs.&nbsp;jpg), etc.</li>
+<li>Why? Some forms more easily “computable”, more efficiently stored, less “lossy”</li>
 </ul>
 </section>
+<section class="slide level2">
+
+
+<img data-src="https://twiistedmedia.com/wp-content/uploads/2017/09/Bitmap_vs_vector.svg_.png" class="r-stretch quarto-figure-center"><p class="caption">https://twiistedmedia.com/bitmap-vs-vector-printing</p></section>
 <section id="a-cognitive-sensibility-1" class="slide level2">
 <h2>A cognitive sensibility</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
 <li>Asks what info is available
 <ul>
@@ -410,8 +449,17 @@ Rick Gilmore
 <li>In the mind</li>
 </ul></li>
 <li>In what form(s)</li>
+<li>Representations all the way down<sup>1</sup></li>
 </ul>
-</section></section>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/4/47/River_terrapin.jpg"></p>
+<figcaption>https://commons.wikimedia.org/w/index.php?curid=2747463</figcaption>
+</figure>
+</div>
+</div></div>
+<aside><ol class="aside-footnotes"><li id="fn1"><p><span class="citation" data-cites="Wikipedia-contributors2025-td">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025c</a>)</span></p></li></ol></aside></section></section>
 <section>
 <section id="on-modeling" class="title-slide slide level1 center">
 <h1>On modeling</h1>
@@ -422,7 +470,7 @@ Rick Gilmore
 <div class="columns">
 <div class="column" style="width:50%;">
 <p>“…but some are useful.”</p>
-<p><span class="citation" data-cites="Wikipedia-contributors2025-yf">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025c</a>)</span></p>
+<p><span class="citation" data-cites="Wikipedia-contributors2025-yf">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025d</a>)</span></p>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -466,13 +514,13 @@ Rick Gilmore
     Pearson's product-moment correlation
 
 data:  x and y
-t = 23.406, df = 498, p-value &lt; 2.2e-16
+t = 22.047, df = 498, p-value &lt; 2.2e-16
 alternative hypothesis: true correlation is not equal to 0
 95 percent confidence interval:
- 0.6791663 0.7630174
+ 0.6555173 0.7446091
 sample estimates:
       cor 
-0.7237527 </code></pre>
+0.7028085 </code></pre>
 </div>
 </div>
 </section>
@@ -482,8 +530,8 @@ sample estimates:
 <img data-src="../include/fig/fig-corr-scatterplot-1.png" id="fig-corr-scatterplot" width="960" class="r-stretch quarto-figure-center"><p class="caption">
 Figure&nbsp;1
 </p></section>
-<section id="what-does-a-correlation-mean-again" class="slide level2">
-<h2>What does a correlation mean again?</h2>
+<section id="plot-your-data" class="slide level2">
+<h2>Plot your data!</h2>
 
 <img data-src="https://blog.revolutionanalytics.com/downloads/DataSaurus%20Dozen.gif" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="datasaurus2019-us"><span>“The <span>D</span>atasaurus dozen - same stats, different graphs | <span>A</span>utodesk <span>R</span>esearch”</span> (<a href="#/references" role="doc-biblioref" onclick="">n.d.</a>)</span>; <span class="citation" data-cites="Matejka2017-xi">Matejka &amp; Fitzmaurice (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span></p></section>
 <section id="aside" class="slide level2">
@@ -509,6 +557,44 @@ Figure&nbsp;1
 <li><span class="citation" data-cites="Wikipedia-contributors2025-ph">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025b</a>)</span></li>
 <li>Many types</li>
 </ul>
+</section>
+<section id="box-and-arrow" class="slide level2">
+<h2>Box and Arrow</h2>
+<div class="cell" data-reveal="true" data-fig-caption="A simple box and arrow diagram" data-layout-align="center">
+<div class="cell-output-display">
+<div id="simple-box">
+<div>
+<pre class="mermaid mermaid-js" data-label="simple-box">flowchart LR
+  A[Stimulus] --&gt; B[Sensation]
+  B --&gt; C[Perception]
+  C --&gt; D[Cognition]
+  D --&gt; E[Action]
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="cell" data-reveal="true" data-fig-caption="A more complex box and arrow diagram" data-layout-align="center">
+<div class="cell-output-display">
+<div id="complex-box">
+<div>
+<pre class="mermaid mermaid-js" data-label="complex-box">flowchart LR
+  A[Stimulus] --&gt; B[Sensation]
+  B --&gt; C[Perception]
+  C --&gt; D[Cognition]
+  D --&gt; E[Action]
+  B --&gt; F[Memory]
+  F --&gt; C
+  D --&gt; G[Attention]
+  G --&gt; C
+  G --&gt; F
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="a-computer-program" class="slide level2">
 <h2>A computer program…</h2>
@@ -572,6 +658,35 @@ but within a social community</li>
 <h1>On explicating behavior</h1>
 
 </section>
+<section id="the-cognitive-revolution-1" class="slide level2">
+<h2>The cognitive revolution <sup>1</sup></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-83956845.jpg?resize=1200:*" style="width:60.0%"></p>
+<figcaption>B.F. Skinner</figcaption>
+</figure>
+</div>
+<div class="fragment">
+<ul>
+<li>Can’t (rigorously) look inside the mind.</li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://hips.hearstapps.com/hmg-prod/images/noam-chomsky.jpg?crop=1xw:1.0xh;center,top&amp;resize=1200:*" style="width:60.0%"></p>
+<figcaption>Noam Chomsky</figcaption>
+</figure>
+</div>
+<div class="fragment">
+<ul>
+<li>Must (rigorously) look inside the mind.</li>
+</ul>
+</div>
+</div></div>
+<aside><ol class="aside-footnotes"><li id="fn2"><p><span class="citation" data-cites="Wikipedia-contributors2025-gi">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025e</a>)</span></p></li></ol></aside></section>
 <section id="ritter2014-eq" class="slide level2">
 <h2><span class="citation" data-cites="Ritter2014-eq">Ritter, Baxter, &amp; Churchill (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span></h2>
 <ul>
@@ -668,14 +783,21 @@ Wikipedia contributors. (2025a, February 24). Unified theories of cognition. Ret
 <div id="ref-Wikipedia-contributors2025-ph" class="csl-entry" role="listitem">
 Wikipedia contributors. (2025b, May 24). Cognitive model. Retrieved from <a href="https://en.wikipedia.org/wiki/Cognitive_model">https://en.wikipedia.org/wiki/Cognitive_model</a>
 </div>
+<div id="ref-Wikipedia-contributors2025-td" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025c, June 28). Turtles all the way down. Retrieved from <a href="https://en.wikipedia.org/wiki/Turtles_all_the_way_down">https://en.wikipedia.org/wiki/Turtles_all_the_way_down</a>
+</div>
 <div id="ref-Wikipedia-contributors2025-yf" class="csl-entry" role="listitem">
-Wikipedia contributors. (2025c, July 23). All models are wrong. Retrieved from <a href="https://en.wikipedia.org/wiki/All_models_are_wrong">https://en.wikipedia.org/wiki/All_models_are_wrong</a>
+Wikipedia contributors. (2025d, July 23). All models are wrong. Retrieved from <a href="https://en.wikipedia.org/wiki/All_models_are_wrong">https://en.wikipedia.org/wiki/All_models_are_wrong</a>
+</div>
+<div id="ref-Wikipedia-contributors2025-gi" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025e, August 13). Cognitive revolution. Retrieved from <a href="https://en.wikipedia.org/wiki/Cognitive_revolution">https://en.wikipedia.org/wiki/Cognitive_revolution</a>
 </div>
 <div id="ref-Wikipedia-contributors2025-aa" class="csl-entry" role="listitem">
-Wikipedia contributors. (2025d, August 25). <span>ASCII</span>. Retrieved from <a href="https://en.wikipedia.org/wiki/ASCII">https://en.wikipedia.org/wiki/ASCII</a>
+Wikipedia contributors. (2025f, August 25). <span>ASCII</span>. Retrieved from <a href="https://en.wikipedia.org/wiki/ASCII">https://en.wikipedia.org/wiki/ASCII</a>
 </div>
 </div>
 </section></section>
+
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg" class="slide-logo"></p>

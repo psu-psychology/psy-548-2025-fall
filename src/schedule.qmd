@@ -8,7 +8,11 @@ title: "Schedule"
 Please try to retrieve readings from the library, using the citation and links in the schedule below. Doing so gives the library a more accurate count of article and book usage, and that helps in negotiations with publishers. If
 
 Some readings will not be readily available. I am working my way through the reading list to make PDFs of these available via Canvas. So, please bear with me. The Canvas folder is [here](https://psu.instructure.com/courses/2416683/files/folder/pdf).
+:::
 
+::: {.callout-note}
+Karen Adolph shared the graduate cognitive development syllabus they used with NYU graduate students in Spring 2025.
+I have adopted considerable portions of their readings and assignment ideas.
 :::
 
 ## Week 01
