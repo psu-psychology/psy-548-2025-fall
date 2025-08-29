@@ -8,6 +8,8 @@ title: "Course Introduction"
 
 - Course introduction
 - A cognitive sensibility
+- On cognitive development
+- Your turn
 
 # Course introduction
 
@@ -297,10 +299,13 @@ flowchart LR
 ```
 :::
 
+- See also Figures 3.1 and 3.4 in @Siegler2021-py
+
 ## A computer program...
 
 - That simulates some complex behavior
 - Is one type of model
+- Production systems (pp. 59-64 in @Siegler2021-py)
 
 ## Unified Theories of Cognition [@Wikipedia-contributors2025-uo]
 
@@ -382,6 +387,32 @@ flowchart LR
 ## @Ritter2014-eq
 
 ![Figure 11.1 from @Ritter2014-eq](../include/img/ritter-fig-11.1.png)
+
+# On cognitive development
+
+## Big questions
+
+- Are some capabilities innate?
+- Does children's thinking progress through qualitatively different stages?
+- How do changes in children's thinking occur?
+- Why do individual children differ so much from each other in their thinking?
+
+Chapter 1 in @Siegler2021-py
+
+## Big questions
+
+- How does development of the brain contribute to cognitive development?
+- How does the social world contribute to cognitive development?
+
+Chapter 1 in @Siegler2021-py
+
+## Big questions (condensed)
+
+- Starting (or current at age X) state
+- Patterns of change
+- Causes of change
+
+# Your turn
 
 ## Let's do a hierarchical task analysis!
 

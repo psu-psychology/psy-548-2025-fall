@@ -4,7 +4,7 @@
     "href": "slides/wk-01-intro.html#todays-topics",
     "title": "Course Introduction",
     "section": "Today’s topics",
-    "text": "Today’s topics\n\nCourse introduction\nA cognitive sensibility",
+    "text": "Today’s topics\n\nCourse introduction\nA cognitive sensibility\nOn cognitive development\nYour turn",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
@@ -202,7 +202,7 @@
     "href": "slides/wk-01-intro.html#what-do-statistics-model",
     "title": "Course Introduction",
     "section": "What do statistics model?",
-    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 22.047, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6555173 0.7446091\nsample estimates:\n      cor \n0.7028085",
+    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 22.921, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6709631 0.7566475\nsample estimates:\n      cor \n0.7164971",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
@@ -758,6 +758,39 @@
     "title": "Course Introduction",
     "section": "The cognitive revolution 1",
     "text": "The cognitive revolution 1\n\n\n\n\n\nB.F. Skinner\n\n\n\n\nCan’t (rigorously) look inside the mind.\n\n\n\n\n\n\nNoam Chomsky\n\n\n\n\nMust (rigorously) look inside the mind.\n\n\n\nWikipedia contributors (2025e)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#big-questions",
+    "href": "slides/wk-01-intro.html#big-questions",
+    "title": "Course Introduction",
+    "section": "Big questions",
+    "text": "Big questions\n\nAre some capabilities innate?\nDoes children’s thinking progress through qualitatively different stages?\nHow do changes in children’s thinking occur?\nWhy do individual children differ so much from each other in their thinking?\n\nChapter 1 in Siegler & Alibali (2021)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#big-questions-1",
+    "href": "slides/wk-01-intro.html#big-questions-1",
+    "title": "Course Introduction",
+    "section": "Big questions",
+    "text": "Big questions\n\nHow does development of the brain contribute to cognitive development?\nHow does the social world contribute to cognitive development?\n\nChapter 1 in Siegler & Alibali (2021)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#big-questions-condensed",
+    "href": "slides/wk-01-intro.html#big-questions-condensed",
+    "title": "Course Introduction",
+    "section": "Big questions (condensed)",
+    "text": "Big questions (condensed)\n\nStarting (or current at age X) state\nPatterns of change\nCauses of change",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
