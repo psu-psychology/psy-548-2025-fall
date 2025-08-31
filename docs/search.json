@@ -1,542 +1,38 @@
 [
   {
-    "objectID": "slides/wk-01-intro.html#todays-topics",
-    "href": "slides/wk-01-intro.html#todays-topics",
-    "title": "Course Introduction",
+    "objectID": "slides/wk-02-piaget.html#todays-topics",
+    "href": "slides/wk-02-piaget.html#todays-topics",
+    "title": "Piaget",
     "section": "Today’s topics",
-    "text": "Today’s topics\n\nCourse introduction\nA cognitive sensibility\nOn cognitive development\nYour turn",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
+    "text": "Today’s topics\n\nCheck-in on HTA\nTheoretical foundations: Piaget\n\nGeneral Readings: Siegler & Alibali (2021) Chapter 2; Piaget (1953); Newcombe (2013)"
   },
   {
-    "objectID": "slides/wk-01-intro.html#psy-548",
-    "href": "slides/wk-01-intro.html#psy-548",
-    "title": "Course Introduction",
-    "section": "PSY 548",
-    "text": "PSY 548\n\nStructure\n\nGroup discussion (Gilmore leads)\nStudent presentation and student-led discussion\n\nMaterial\n\nTheoretical & empirical\nClassic & modern\n\nSchedule\nEvaluation",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
+    "objectID": "slides/wk-02-piaget.html#check-in-on-hta",
+    "href": "slides/wk-02-piaget.html#check-in-on-hta",
+    "title": "Piaget",
+    "section": "Check-in on HTA",
+    "text": "Check-in on HTA\n\nRelevance?\nUtility?\nDo task demands/abilities change across development?"
   },
   {
-    "objectID": "slides/wk-01-intro.html#common-themes",
-    "href": "slides/wk-01-intro.html#common-themes",
-    "title": "Course Introduction",
-    "section": "Common themes",
-    "text": "Common themes\n\nProcesses, concepts, representations (Bayne)\nPerception vs. cognition (Brainerd)\n“acquisition, storage, retrieval and processing of information” (Byrne)\ncognition vs. learning theory (Byrne)\nrepresentations and how coded in the brain (Byrne)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#common-themes-1",
-    "href": "slides/wk-01-intro.html#common-themes-1",
-    "title": "Course Introduction",
-    "section": "Common themes",
-    "text": "Common themes\n\nmental processes; biological problem-solving; knowing about knowing; more complex than associative learning (Chittka)\nthinking, knowing, understanding; non-human animal cognition (Clayton)\nconservative, e.g., related to human thought vs. liberal, adaptive information handling and can be modelled as computation; attention; categorization (Heyes)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#common-themes-2",
-    "href": "slides/wk-01-intro.html#common-themes-2",
-    "title": "Course Introduction",
-    "section": "Common themes",
-    "text": "Common themes\n\nhow sensory input “is transformed, reduced, elaborated, stored, recovered and used”; animal umwelt (Mather)\nless vs. more introspection/deliberation; ““requires learning”; “isn’t a reflex”; “depends on internally generated brain dynamics”; “needs access to stored models and relationships”; “relies on spatial maps” (Ölveczky)\n“flexibility, contingency and freedom from immediacy” (Shadlen)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#common-themes-3",
-    "href": "slides/wk-01-intro.html#common-themes-3",
-    "title": "Course Introduction",
-    "section": "Common themes",
-    "text": "Common themes\n\nnot uniquely human; intentional vs. unintentional, conscious vs. unconscious, effortful vs. automatic, slow vs. fast processes (Suddendorf)\n“I know that I am cognizing, but I can only surmise that cognition has occurred in other animals by observing their actions.”; “behaviours in which an animal performs an action directed towards a goal it cannot currently perceive” (Webb)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#is-the-brain-a-digital-computer",
-    "href": "slides/wk-01-intro.html#is-the-brain-a-digital-computer",
-    "title": "Course Introduction",
-    "section": "Is the brain a digital computer?",
-    "text": "Is the brain a digital computer?\n\n\n\nFrom neuronal action potentials to Boolean logic\n\n\n\n\n\nMcCulloch & Pitts (1943)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#how-do-digital-computers-compute",
-    "href": "slides/wk-01-intro.html#how-do-digital-computers-compute",
-    "title": "Course Introduction",
-    "section": "How do digital computers compute?",
-    "text": "How do digital computers compute?\n\nStrings of binary digits (bits) represent information\n\n0001: the number one; 1111: the number 15 (in base 2)\n00110001: the character symbol ‘1’ in ASCII (Wikipedia contributors, 2025f)\n(some other binary ‘word’): symbol meaning ‘add’, or ‘store’, etc.",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#how-do-digital-computers-compute-1",
-    "href": "slides/wk-01-intro.html#how-do-digital-computers-compute-1",
-    "title": "Course Introduction",
-    "section": "How do digital computers compute?",
-    "text": "How do digital computers compute?\n\nSequences of binary commands can be data or a program\nComputer has Central Processing Unit (CPU), addressable memory (addresses are also binary words), interfaces (move info in and out), etc.",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#high-level-computer-languages",
-    "href": "slides/wk-01-intro.html#high-level-computer-languages",
-    "title": "Course Introduction",
-    "section": "High-level computer languages",
-    "text": "High-level computer languages\nx &lt;- 3\ny &lt;- 4\nh &lt;- sqrt(x^2 + y^2)\nh\n\nRepresent\n\ndata as variables, e.g. h, x, and y\nfunctions or operators as character or strings, e.g., &lt;-, sqrt(), ^\nConvert to binary, then back again to give human-readable output",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#high-level-computer-languages-1",
-    "href": "slides/wk-01-intro.html#high-level-computer-languages-1",
-    "title": "Course Introduction",
-    "section": "High-level computer languages",
-    "text": "High-level computer languages\n\nx &lt;- 3\ny &lt;- 4\nh &lt;- sqrt(x^2 + y^2)\nh\n\n[1] 5",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#what-might-cognition-be-if-not-computation",
-    "href": "slides/wk-01-intro.html#what-might-cognition-be-if-not-computation",
-    "title": "Course Introduction",
-    "section": "“What might cognition be, If not computation?”",
-    "text": "“What might cognition be, If not computation?”\n\n\nAnalog\n\n\nAlgorithmic\n\n\nVan Gelder (1995)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#surface-forms",
-    "href": "slides/wk-01-intro.html#surface-forms",
-    "title": "Course Introduction",
-    "section": "Surface forms",
-    "text": "Surface forms",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#deep-forms",
-    "href": "slides/wk-01-intro.html#deep-forms",
-    "title": "Course Introduction",
-    "section": "Deep forms",
-    "text": "Deep forms\n\nMap (relate) multiple surface forms to\n\nA single deep form \\(\\rightarrow\\) the letters “A” and “G”\n\n“Re-presentation”\nWhy? Some forms more easily “computable”, more efficiently stored, less “lossy”",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#a-cognitive-sensibility-1",
-    "href": "slides/wk-01-intro.html#a-cognitive-sensibility-1",
-    "title": "Course Introduction",
-    "section": "A cognitive sensibility",
-    "text": "A cognitive sensibility\n\n\n\nAsks what info is available\n\nIn the world\nIn the mind\n\nIn what form(s)\nRepresentations all the way down1\n\n\n\n\n\nhttps://commons.wikimedia.org/w/index.php?curid=2747463\n\n\n\nWikipedia contributors (2025c)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#all-models-are-wrong",
-    "href": "slides/wk-01-intro.html#all-models-are-wrong",
-    "title": "Course Introduction",
-    "section": "All models are wrong…",
-    "text": "All models are wrong…\n\n\n“…but some are useful.”\nWikipedia contributors (2025d)\n\n\n\n\nGeorge Box (Wikipedia)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#simmering2010-ba",
-    "href": "slides/wk-01-intro.html#simmering2010-ba",
-    "title": "Course Introduction",
-    "section": "Simmering, Triesch, Deák, & Spencer (2010)",
-    "text": "Simmering, Triesch, Deák, & Spencer (2010)\n\nMathematical vs. verbal models\nAre verbal models poorly specified?\nDo mathematical models “just move the ambiguity to the next level”?",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#simmering2010-ba-1",
-    "href": "slides/wk-01-intro.html#simmering2010-ba-1",
-    "title": "Course Introduction",
-    "section": "Simmering et al. (2010)",
-    "text": "Simmering et al. (2010)\n\nPhil: That’s an interesting point—in a way, all researchers use mathematical models when they apply statistical methods.\n\n\nMira: Hm, I suppose that’s true. I wouldn’t normally include statistics in my definition of computational models. I’m thinking about models that emphasize the processes underlying behavior and development.",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#what-do-statistics-model",
-    "href": "slides/wk-01-intro.html#what-do-statistics-model",
-    "title": "Course Introduction",
-    "section": "What do statistics model?",
-    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 22.921, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6709631 0.7566475\nsample estimates:\n      cor \n0.7164971",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#what-do-statistics-model-1",
-    "href": "slides/wk-01-intro.html#what-do-statistics-model-1",
-    "title": "Course Introduction",
-    "section": "What do statistics model?",
-    "text": "What do statistics model?\n\n\nFigure 1",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#plot-your-data",
-    "href": "slides/wk-01-intro.html#plot-your-data",
-    "title": "Course Introduction",
-    "section": "Plot your data!",
-    "text": "Plot your data!\n\n“The Datasaurus dozen - same stats, different graphs | Autodesk Research” (n.d.); Matejka & Fitzmaurice (2017)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#aside",
-    "href": "slides/wk-01-intro.html#aside",
-    "title": "Course Introduction",
-    "section": "Aside…",
-    "text": "Aside…\n\nSimulating your data can help reveal hidden assumptions about what your statistical model actually means, what kind of plots will best show predicted effects, etc.\nPlotting your data can reveal patterns that the statistics alone obscure.\nSo, do statistical models inform us about processes?",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#simmering2010-ba-2",
-    "href": "slides/wk-01-intro.html#simmering2010-ba-2",
-    "title": "Course Introduction",
-    "section": "Simmering et al. (2010)",
-    "text": "Simmering et al. (2010)\n\nPhil: …Lewis Thomas once wrote an essay listing the seven wonders of the modern world—it was a challenge put to him in the form of a dinner invitation which he, interestingly, declined. Do you know what his Seventh Wonder of the modern world was?\n\n\nPhil: Thomas’s Seventh Wonder was the development of a human child. How, my brilliant companions, are you going to explain that?",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#cognitive-models",
-    "href": "slides/wk-01-intro.html#cognitive-models",
-    "title": "Course Introduction",
-    "section": "Cognitive models",
-    "text": "Cognitive models\n\nWikipedia contributors (2025b)\nMany types",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#box-and-arrow",
-    "href": "slides/wk-01-intro.html#box-and-arrow",
-    "title": "Course Introduction",
-    "section": "Box and Arrow",
-    "text": "Box and Arrow\n\n\n\n\nflowchart LR\n  A[Stimulus] --&gt; B[Sensation]\n  B --&gt; C[Perception]\n  C --&gt; D[Cognition]\n  D --&gt; E[Action]\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Stimulus] --&gt; B[Sensation]\n  B --&gt; C[Perception]\n  C --&gt; D[Cognition]\n  D --&gt; E[Action]\n  B --&gt; F[Memory]\n  F --&gt; C\n  D --&gt; G[Attention]\n  G --&gt; C\n  G --&gt; F",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#a-computer-program",
-    "href": "slides/wk-01-intro.html#a-computer-program",
-    "title": "Course Introduction",
-    "section": "A computer program…",
-    "text": "A computer program…\n\nThat simulates some complex behavior\nIs one type of model",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#unified-theories-of-cognition-wikipedia-contributors2025-uo",
-    "href": "slides/wk-01-intro.html#unified-theories-of-cognition-wikipedia-contributors2025-uo",
-    "title": "Course Introduction",
-    "section": "Unified Theories of Cognition (Wikipedia contributors, 2025a)",
-    "text": "Unified Theories of Cognition (Wikipedia contributors, 2025a)\n\nNewell (1990)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#why-a-unified-theory",
-    "href": "slides/wk-01-intro.html#why-a-unified-theory",
-    "title": "Course Introduction",
-    "section": "Why a unified theory?",
-    "text": "Why a unified theory?\n\nFig 1-6 from Newell (1990)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#constraints-on-minds",
-    "href": "slides/wk-01-intro.html#constraints-on-minds",
-    "title": "Course Introduction",
-    "section": "Constraints on minds",
-    "text": "Constraints on minds\n\n\n\nBehave flexibly as a function of the environment\nExhibit adaptive (rational, goal-oriented) behavior\nOperate in real time\nOperate in a rich, complex, detailed environment\n\n\n\n\n\nUse symbols and abstractions\nUse language, both natural and artificial\nLearn from the environment and from experience\nAcquire capabilities through development\n\n\n(Newell, 1990)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#constraints-on-minds-1",
-    "href": "slides/wk-01-intro.html#constraints-on-minds-1",
-    "title": "Course Introduction",
-    "section": "Constraints on minds",
-    "text": "Constraints on minds\n\n\n\nOperate autonomously\nbut within a social community\nBe self-aware and have a sense of self\nBe realizable as a neural system\n\n\n\n\n\nBe constructable by an embryological growth process\nArise through evolution\n\n\n(Newell, 1990)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#ritter2014-eq",
-    "href": "slides/wk-01-intro.html#ritter2014-eq",
-    "title": "Course Introduction",
-    "section": "Ritter, Baxter, & Churchill (2014)",
-    "text": "Ritter, Baxter, & Churchill (2014)\n\nTask Analysis (TA) as a tool for designing “user-centered systems”\nWhat do (people, e.g. children) have to do?\nOften the basis of creating a computational cognitive model",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#ritter2014-eq-1",
-    "href": "slides/wk-01-intro.html#ritter2014-eq-1",
-    "title": "Course Introduction",
-    "section": "Ritter et al. (2014)",
-    "text": "Ritter et al. (2014)\n\nFigure 11.1 from Ritter et al. (2014)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#lets-do-a-hierarchical-task-analysis",
-    "href": "slides/wk-01-intro.html#lets-do-a-hierarchical-task-analysis",
-    "title": "Course Introduction",
-    "section": "Let’s do a hierarchical task analysis!",
-    "text": "Let’s do a hierarchical task analysis!\n\nPick a task you know well, use in your research\nWhat is required to perform it?\n(Later) what cognitive components are associated with the task?",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#is-the-analysis-useful",
-    "href": "slides/wk-01-intro.html#is-the-analysis-useful",
-    "title": "Course Introduction",
-    "section": "Is the analysis useful?",
-    "text": "Is the analysis useful?",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#take-homes",
-    "href": "slides/wk-01-intro.html#take-homes",
-    "title": "Course Introduction",
-    "section": "Take homes",
-    "text": "Take homes\n\nA “cognitive” sensibility is about…\nInformation, representations, operations/processes\nSequences, hierarchical structures\nSolving real-world problems\nInspired by computational systems",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "slides/wk-01-intro.html#next-time",
-    "href": "slides/wk-01-intro.html#next-time",
-    "title": "Course Introduction",
+    "objectID": "slides/wk-02-piaget.html#next-time",
+    "href": "slides/wk-02-piaget.html#next-time",
+    "title": "Piaget",
     "section": "Next time…",
-    "text": "Next time…\n\nTheoretical foundations: Piaget\n\nGeneral Readings: Siegler & Alibali (2021) Chapter 2; Piaget (1952); Newcombe (2013)",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
+    "text": "Next time…\n\nPiaget: Deep dive\n\nStudent presentation A: How robust is the evidence for Piaget’s trajectories?\n\nSkim: Elkind (1961); Gelman (1972)\n\nStudent presentation B: When does object permanence emerge?\n\nSkim: R. Baillargeon, Spelke, & Wasserman (1985); Renée Baillargeon (2008)"
   },
   {
-    "objectID": "slides/wk-01-intro.html#about",
-    "href": "slides/wk-01-intro.html#about",
-    "title": "Course Introduction",
+    "objectID": "slides/wk-02-piaget.html#about",
+    "href": "slides/wk-02-piaget.html#about",
+    "title": "Piaget",
     "section": "About",
-    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2025.5.1.513.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2025.5.1.513.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/"
   },
   {
-    "objectID": "slides/wk-01-intro.html#references",
-    "href": "slides/wk-01-intro.html#references",
-    "title": "Course Introduction",
+    "objectID": "slides/wk-02-piaget.html#references",
+    "href": "slides/wk-02-piaget.html#references",
+    "title": "Piaget",
     "section": "References",
-    "text": "References\n\n\n\n\nBayne, T., Brainard, D., Byrne, R. W., Chittka, L., Clayton, N., Heyes, C., … Webb, B. (2019). What is cognition? Current Biology: CB, 29, R608–R615. https://doi.org/10.1016/j.cub.2019.05.044\n\n\nMatejka, J., & Fitzmaurice, G. (2017). Same stats, different graphs: Generating datasets with varied appearance and identical statistics through simulated annealing. In Proceedings of the 2017 CHI conference on human factors in computing systems. New York, NY, USA: ACM. https://doi.org/10.1145/3025453.3025912\n\n\nMcCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The Bulletin of Mathematical Biophysics, 5, 115–133. https://doi.org/10.1007/BF02478259\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nNewell, A. (1990). Unified theories of cognition. Cambridge, MA: Harvard University Press.\n\n\nPiaget, J. (1952). The origins of intelligence in children. (M. Cook, Trans.). New York: W W Norton & Co. https://doi.org/10.1037/11494-000\n\n\nRitter, F. E., Baxter, G. D., & Churchill, E. F. (2014). Foundations for designing user-centered systems: What system designers need to know about people (2014th ed.). London, England: Springer. https://doi.org/10.1007/978-1-4471-5134-0\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSimmering, V. R., Triesch, J., Deák, G. O., & Spencer, J. P. (2010). To model or not to model? A dialogue on the role of computational modeling in developmental science: To model or not to model? Child Development Perspectives, 4, 152–158. https://doi.org/10.1111/j.1750-8606.2010.00134.x\n\n\nThe Datasaurus dozen - same stats, different graphs | Autodesk Research. (n.d.). Retrieved June 2, 2019, from https://www.autodeskresearch.com/publications/samestats\n\n\nVan Gelder, T. (1995). What might cognition be, if not computation? The Journal of Philosophy, 92, 345–381. https://doi.org/10.2307/2941061\n\n\nWikipedia contributors. (2025a, February 24). Unified theories of cognition. Retrieved from https://en.wikipedia.org/wiki/Unified_Theories_of_Cognition\n\n\nWikipedia contributors. (2025b, May 24). Cognitive model. Retrieved from https://en.wikipedia.org/wiki/Cognitive_model\n\n\nWikipedia contributors. (2025c, June 28). Turtles all the way down. Retrieved from https://en.wikipedia.org/wiki/Turtles_all_the_way_down\n\n\nWikipedia contributors. (2025d, July 23). All models are wrong. Retrieved from https://en.wikipedia.org/wiki/All_models_are_wrong\n\n\nWikipedia contributors. (2025e, August 13). Cognitive revolution. Retrieved from https://en.wikipedia.org/wiki/Cognitive_revolution\n\n\nWikipedia contributors. (2025f, August 25). ASCII. Retrieved from https://en.wikipedia.org/wiki/ASCII",
-    "crumbs": [
-      "Slides",
-      "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "repro-rubric.html",
-    "href": "repro-rubric.html",
-    "title": "Evaluating Rigor, Reproducibility, & Transparency",
-    "section": "",
-    "text": "This page describes a rubric for evaluating the rigor, reproducibility, and transparency of empirical articles in cognitive development."
-  },
-  {
-    "objectID": "repro-rubric.html#about",
-    "href": "repro-rubric.html#about",
-    "title": "Evaluating Rigor, Reproducibility, & Transparency",
-    "section": "",
-    "text": "This page describes a rubric for evaluating the rigor, reproducibility, and transparency of empirical articles in cognitive development."
-  },
-  {
-    "objectID": "repro-rubric.html#components",
-    "href": "repro-rubric.html#components",
-    "title": "Evaluating Rigor, Reproducibility, & Transparency",
-    "section": "2 Components",
-    "text": "2 Components\n\n2.1 Reproducibility\n\n2.1.1 Can the paper’s main reported findings be reproduced exactly?\n\nAre the data shared?\nIs any analysis or visualization code shared?\nIf 1. and 2. are true, does the analysis and visualization code run?\nIf 3., are the results the same as those the paper reports?\n\n\n\n\n2.2 Transparency\n\n2.2.1 Was the study pre-registered?\n\n\n\n2.3 Recombinability\n\n2.3.1 Does the paper report effect sizes or information that can be used to compute effect sizes so that these results can be combined with other reports in a meta-analysis?\n\n\n\n2.4 Replicability\n\n2.4.1 Have exact replications of the paper’s main findings been published?\n\n\n2.4.2 Has a systematic review or meta-analysis been published?\n\n\n2.4.3 How thorough is the methods section?\n\n2.4.3.1 Displays\n\nIf computer-generated displays were used, is the computer code to generate them shared?\nAre videos of the displays shared?\n\n\n\n2.4.3.2 Procedures\n\n\n2.4.3.3 Samples"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Cognitive Development • Fall 2025",
-    "section": "",
-    "text": "Rick O. Gilmore, Ph.D. \nProfessor of Psychology\nrog1 AT-SIGN psu PERIOD edu\n\nSchedule an appointment: https://doodle.com/mm/rickgilmore/book-a-time\nLab web site: https://gilmore-lab.github.io",
-    "crumbs": [
-      "Cognitive Development • Fall 2025"
-    ]
-  },
-  {
-    "objectID": "index.html#instructor",
-    "href": "index.html#instructor",
-    "title": "Cognitive Development • Fall 2025",
-    "section": "",
-    "text": "Rick O. Gilmore, Ph.D. \nProfessor of Psychology\nrog1 AT-SIGN psu PERIOD edu\n\nSchedule an appointment: https://doodle.com/mm/rickgilmore/book-a-time\nLab web site: https://gilmore-lab.github.io",
-    "crumbs": [
-      "Cognitive Development • Fall 2025"
-    ]
-  },
-  {
-    "objectID": "index.html#meeting-time-location",
-    "href": "index.html#meeting-time-location",
-    "title": "Cognitive Development • Fall 2025",
-    "section": "Meeting time & location",
-    "text": "Meeting time & location\nFriday, 9:00a - 12:00p\n444 Moore Building",
-    "crumbs": [
-      "Cognitive Development • Fall 2025"
-    ]
-  },
-  {
-    "objectID": "index.html#textbook",
-    "href": "index.html#textbook",
-    "title": "Cognitive Development • Fall 2025",
-    "section": "Textbook",
-    "text": "Textbook\n\n\nSiegler, R.S. & Alibali, M.W. (2020), Children’s Thinking (5th ed.), Pearson: Hoboken, NJ.\nPearson site for the text",
-    "crumbs": [
-      "Cognitive Development • Fall 2025"
-    ]
-  },
-  {
-    "objectID": "evaluation.html",
-    "href": "evaluation.html",
-    "title": "Evaluation",
-    "section": "",
-    "text": "Every student will have an opportunity to prepare and deliver a 10-12 min oral presentation about a set of articles at one point in the semester. These presentation opportunities are indicated in the schedule with the following format: “Student Presentation A”. There are 16 such opportunities, A-P.\nThis presentation will be worth 45 points or 45% your overall grade.\nThe presenter must read the target article(s) thoroughly and the general readings in order to link the target papers to the overall themes we are discussing.\n\n\nFor theoretical papers, discuss how the authors’ ideas and arguments relate to the big questions posed in class and how they differ from or are similar to the ideas of other authors we have discussed. What are the key steps in the authors’ argument? What are the most important take-homes?\nFor empirical papers, describe what the authors did, what they found, what the authors think the findings mean, and what are the implications for broader issues we discuss in class.\n\n\n\n\nAs Gilmore’s AP English teacher advised, “be terse, pithy, and pregnant”, meaning be efficient in what you say and say important things.\nYou will get a 10 min warning and be cut-off at 12 min. So, practice your presentation and time it.\nFewer words and more figures are better.\nFewer slides are better. Realistically, a 10-12 min talk shouldn’t have more than 5-8 slides.\n\n\n\n\n\n\n\nWarning\n\n\n\nI continue to struggle to implement these tips myself.",
-    "crumbs": [
-      "Evaluation"
-    ]
-  },
-  {
-    "objectID": "evaluation.html#article-presentations",
-    "href": "evaluation.html#article-presentations",
-    "title": "Evaluation",
-    "section": "",
-    "text": "Every student will have an opportunity to prepare and deliver a 10-12 min oral presentation about a set of articles at one point in the semester. These presentation opportunities are indicated in the schedule with the following format: “Student Presentation A”. There are 16 such opportunities, A-P.\nThis presentation will be worth 45 points or 45% your overall grade.\nThe presenter must read the target article(s) thoroughly and the general readings in order to link the target papers to the overall themes we are discussing.\n\n\nFor theoretical papers, discuss how the authors’ ideas and arguments relate to the big questions posed in class and how they differ from or are similar to the ideas of other authors we have discussed. What are the key steps in the authors’ argument? What are the most important take-homes?\nFor empirical papers, describe what the authors did, what they found, what the authors think the findings mean, and what are the implications for broader issues we discuss in class.\n\n\n\n\nAs Gilmore’s AP English teacher advised, “be terse, pithy, and pregnant”, meaning be efficient in what you say and say important things.\nYou will get a 10 min warning and be cut-off at 12 min. So, practice your presentation and time it.\nFewer words and more figures are better.\nFewer slides are better. Realistically, a 10-12 min talk shouldn’t have more than 5-8 slides.\n\n\n\n\n\n\n\nWarning\n\n\n\nI continue to struggle to implement these tips myself.",
-    "crumbs": [
-      "Evaluation"
-    ]
-  },
-  {
-    "objectID": "evaluation.html#article-discussion",
-    "href": "evaluation.html#article-discussion",
-    "title": "Evaluation",
-    "section": "Article discussion",
-    "text": "Article discussion\nEvery student will have an opportunity to serve as a discussion leader for one of the article presentations. The 10-12 min discussion will follow the presentation. Except in rare cases, you will serve as a discussion leader on a different article from the one you present. The discussion leader must write 3-4 questions and be ready to present them at the end of the presentation to start the discussion.\nSince there are 16 student presentations, there should be an opportunity for everyone to present and discuss an article.\nLeading a discussion will be worth 40 points or 40% your overall grade.\n\n\n\n\n\n\nImportant\n\n\n\nTo ensure that you understand and are covering the material well, you are strongly encouraged to get feedback on your draft presentations during Rick’s office hours on Tuesday, 11-11:45 or at another time scheduled separately via Rick’s scheduler.\nStudents presenting an article may contact and coordinate with the person scheduled to discuss it. If these consultations occur, please indicate them in the presentation.",
-    "crumbs": [
-      "Evaluation"
-    ]
-  },
-  {
-    "objectID": "evaluation.html#general-reading-discussion-questions-and-class-participation",
-    "href": "evaluation.html#general-reading-discussion-questions-and-class-participation",
-    "title": "Evaluation",
-    "section": "General reading discussion questions and class participation",
-    "text": "General reading discussion questions and class participation\nEveryone should closely review the general readings to get an overview of the material and to be prepared for the subsequent presentations and discussions. Every student should write one 1-2 sentence question or comment about each of the general readings by Thursday at noon on the day before class. Submit your questions or comments to this shared Google doc:\nhttps://docs.google.com/document/d/1eAo1FqM-WRg73ascICbfRFNu7pLBvF_s0GGzHIYzSck/edit?usp=sharing\nIf you’re not a presenter or discussion leader, you should read the prompts for the article presentations, but you can skim the presented readings. If you have a burning question you want to ask about a specific paper, add it to the Google doc.\nParticipation in class discussions and the submission of discussion questions or comments is worth 15 points or 15% of your overall grade.\n\nPossible group project\nI would like to make use of some of the time we have on days when we are largely discussing empirical articles to evaluate their rigor, reproducibility, and transparency. The rubric for this evaluation is in an early draft form. I invite student feedback on this idea.",
-    "crumbs": [
-      "Evaluation"
-    ]
-  },
-  {
-    "objectID": "policies.html",
-    "href": "policies.html",
-    "title": "Policies",
-    "section": "",
-    "text": "Students with questions about academic integrity should visit http://www.la.psu.edu/current-students/undergraduate-students/education/academic-integrity.\nPenn State defines academic integrity as the pursuit of scholarly activity in an open, honest and responsible manner. All students should act with personal integrity, respect others dignity, rights and property, and help create and maintain an environment in which all can succeed through the fruits of their efforts (Faculty Senate Policy 49-20). Sanctions for academic misconduct can include a grade of F for the course as well as other penalties.\nUnless you are told otherwise, you must complete all course work entirely on your own, using only sources that have been permitted by your instructor, and you may not assist other students with papers, quizzes, exams, or other assessments. If I allow you to use ideas, images, or word phrases created by another person (e.g., from Course Hero or Chegg) or by generative technology, such as ChatGPT, you must identify their source.\nWhen you complete assignments, remember the ABCs to avoid plagiarism: Always place copied information within quotation marks, include information about the quoted or paraphrased source in a Bibliography, and Cite the source in the body (in the text) of your paper immediately after the quoted or paraphrased information. When in doubt, cite in the text and include the source in a bibliography.\nStudents with questions about academic integrity should ask me or the TA before submitting work.\nStudents facing allegations of academic misconduct may not drop/withdraw from the affected course unless they are cleared of wrongdoing (see G-9: Academic Integrity). Attempted drops will be prevented or reversed, and students will be expected to complete course work and meet course deadlines. Students who are found responsible for academic integrity violations face academic outcomes, which can be severe, and put themselves at jeopardy for other outcomes which may include ineligibility for Dean’s List, pass/fail elections, and grade forgiveness. Students may also face consequences from their home/major program and/or The Schreyer Honors College.",
-    "crumbs": [
-      "Policies"
-    ]
-  },
-  {
-    "objectID": "policies.html#values",
-    "href": "policies.html#values",
-    "title": "Policies",
-    "section": "Values",
-    "text": "Values\n\nPenn State Principles\nThe Pennsylvania State University is a community dedicated to personal and academic excellence. The Penn State Principles were developed to embody the values that we hope our students, faculty, staff, administration, and alumni possess. At the same time, the University is strongly committed to freedom of expression. Consequently, these Principles do not constitute University policy and are not intended to interfere in any way with an individual’s academic or personal freedoms. We hope, however, that individuals will voluntarily endorse these common principles, thereby contributing to the traditions and scholarly heritage left by those who preceded them, and will thus leave Penn State a better place for those who follow.\nI will respect the dignity of all individuals within the Penn State community. The University is committed to creating and maintaining an educational environment that respects the right of all individuals to participate fully in the community. Actions motivated by hate, prejudice, or intolerance violate this principle. I will not engage in any behaviors that compromise or demean the dignity of individuals or groups, including intimidation, stalking, harassment, discrimination, taunting, ridiculing, insulting, or acts of violence. I will demonstrate respect for others by striving to learn from differences between people, ideas, and opinions and by avoiding behaviors that inhibit the ability of other community members to feel safe or welcome as they pursue their academic goals.\nI will practice academic integrity. Academic integrity is a basic guiding principle for all academic activity at Penn State University, allowing the pursuit of scholarly activity in an open, honest, and responsible manner. In accordance with the University Code of Conduct, I will practice integrity in regard to all academic assignments. I will not engage in or tolerate acts of falsification, misrepresentation or deception because such acts of dishonesty violate the fundamental ethical principles of the University community and compromise the worth of work completed by others.\nI will demonstrate social and personal responsibility. The University is a community that promotes learning; any behaviors that are inconsistent with that goal are unacceptable. Irresponsible behaviors, including alcohol or drug abuse and the use of violence against people or property, undermine the educational climate by threatening the physical and mental health of members of the community. I will exercise personal responsibility for my actions and I will make sure that my actions do not interfere with the academic and social environment of the University. I will maintain a high standard of behavior by adhering to the Code of Conduct and respecting the rights of others.\nI will be responsible for my own academic progress and agree to comply with all University policies. The University allows students to identify and achieve their academic goals by providing the information needed to plan the chosen program of study and the necessary educational opportunities, but students assume final responsibility for course scheduling, program planning, and the successful completion of graduation requirements. I will be responsible for seeking the academic and career information needed to meet my educational goals by becoming knowledgeable about the relevant policies, procedures, and rules of the University and academic program, by consulting and meeting with my adviser, and by successfully completing all of the requirements for graduation.\n\n\nPenn State Values\nIntegrity: We act with integrity and honesty in accordance with the highest academic, professional, and ethical standards.\nRespect: We respect and honor the dignity of each person, embrace civil discourse, and foster a diverse and inclusive community.\nResponsibility: We act responsibly, and we are accountable for our decisions, actions, and their consequences.\nDiscovery: We seek and create new knowledge and understanding, and foster creativity and innovation, for the benefit of our communities, society, and the environment.\nExcellence: We strive for excellence in all our endeavors as individuals, an institution, and a leader in higher education.\nCommunity: We work together for the betterment of our University, the communities we serve, and the world.",
-    "crumbs": [
-      "Policies"
-    ]
+    "text": "References\n\n\n\n\nBaillargeon, Renée. (2008). Innate ideas revisited: For a principle of persistence in infants’ physical reasoning. Perspectives on Psychological Science: A Journal of the Association for Psychological Science, 3, 2–13. https://doi.org/10.1111/j.1745-6916.2008.00056.x\n\n\nBaillargeon, R., Spelke, E. S., & Wasserman, S. (1985). Object permanence in five-month-old infants. Cognition, 20, 191–208. https://doi.org/10.1016/0010-0277(85)90008-3\n\n\nElkind, D. (1961). Children’s discovery of the conservation of mass, weight, and volume: Piaget replication study. II. The Journal of Genetic Psychology, 98, 219–227. https://doi.org/10.1080/00221325.1961.10534372\n\n\nGelman, R. (1972). Logical capacity of very young children: Number invariance rules. Child Development, 43, 75. https://doi.org/10.2307/1127873\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nPiaget, J. (1953). The origins of intelligence in children. New York: Routledge. https://doi.org/10.1037/11494-000\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson."
   },
   {
     "objectID": "schedule.html",
@@ -563,7 +59,7 @@
     "href": "schedule.html#week-02",
     "title": "Schedule",
     "section": "Week 02",
-    "text": "Week 02\n\nFriday, September 5, 2025\n\nTopics & Readings\n\nTheoretical foundations: Piaget\n\nGeneral Readings: Siegler & Alibali (2021) Chapter 2; Piaget (1952); Newcombe (2013)",
+    "text": "Week 02\n\nFriday, September 5, 2025\n\nTopics & Readings\n\nTheoretical foundations: Piaget\n\nGeneral Readings: Siegler & Alibali (2021) Chapter 2; Piaget (1953); Newcombe (2013)",
     "crumbs": [
       "Schedule"
     ]
@@ -709,11 +205,198 @@
     ]
   },
   {
+    "objectID": "policies.html",
+    "href": "policies.html",
+    "title": "Policies",
+    "section": "",
+    "text": "Students with questions about academic integrity should visit http://www.la.psu.edu/current-students/undergraduate-students/education/academic-integrity.\nPenn State defines academic integrity as the pursuit of scholarly activity in an open, honest and responsible manner. All students should act with personal integrity, respect others dignity, rights and property, and help create and maintain an environment in which all can succeed through the fruits of their efforts (Faculty Senate Policy 49-20). Sanctions for academic misconduct can include a grade of F for the course as well as other penalties.\nUnless you are told otherwise, you must complete all course work entirely on your own, using only sources that have been permitted by your instructor, and you may not assist other students with papers, quizzes, exams, or other assessments. If I allow you to use ideas, images, or word phrases created by another person (e.g., from Course Hero or Chegg) or by generative technology, such as ChatGPT, you must identify their source.\nWhen you complete assignments, remember the ABCs to avoid plagiarism: Always place copied information within quotation marks, include information about the quoted or paraphrased source in a Bibliography, and Cite the source in the body (in the text) of your paper immediately after the quoted or paraphrased information. When in doubt, cite in the text and include the source in a bibliography.\nStudents with questions about academic integrity should ask me or the TA before submitting work.\nStudents facing allegations of academic misconduct may not drop/withdraw from the affected course unless they are cleared of wrongdoing (see G-9: Academic Integrity). Attempted drops will be prevented or reversed, and students will be expected to complete course work and meet course deadlines. Students who are found responsible for academic integrity violations face academic outcomes, which can be severe, and put themselves at jeopardy for other outcomes which may include ineligibility for Dean’s List, pass/fail elections, and grade forgiveness. Students may also face consequences from their home/major program and/or The Schreyer Honors College.",
+    "crumbs": [
+      "Policies"
+    ]
+  },
+  {
+    "objectID": "policies.html#values",
+    "href": "policies.html#values",
+    "title": "Policies",
+    "section": "Values",
+    "text": "Values\n\nPenn State Principles\nThe Pennsylvania State University is a community dedicated to personal and academic excellence. The Penn State Principles were developed to embody the values that we hope our students, faculty, staff, administration, and alumni possess. At the same time, the University is strongly committed to freedom of expression. Consequently, these Principles do not constitute University policy and are not intended to interfere in any way with an individual’s academic or personal freedoms. We hope, however, that individuals will voluntarily endorse these common principles, thereby contributing to the traditions and scholarly heritage left by those who preceded them, and will thus leave Penn State a better place for those who follow.\nI will respect the dignity of all individuals within the Penn State community. The University is committed to creating and maintaining an educational environment that respects the right of all individuals to participate fully in the community. Actions motivated by hate, prejudice, or intolerance violate this principle. I will not engage in any behaviors that compromise or demean the dignity of individuals or groups, including intimidation, stalking, harassment, discrimination, taunting, ridiculing, insulting, or acts of violence. I will demonstrate respect for others by striving to learn from differences between people, ideas, and opinions and by avoiding behaviors that inhibit the ability of other community members to feel safe or welcome as they pursue their academic goals.\nI will practice academic integrity. Academic integrity is a basic guiding principle for all academic activity at Penn State University, allowing the pursuit of scholarly activity in an open, honest, and responsible manner. In accordance with the University Code of Conduct, I will practice integrity in regard to all academic assignments. I will not engage in or tolerate acts of falsification, misrepresentation or deception because such acts of dishonesty violate the fundamental ethical principles of the University community and compromise the worth of work completed by others.\nI will demonstrate social and personal responsibility. The University is a community that promotes learning; any behaviors that are inconsistent with that goal are unacceptable. Irresponsible behaviors, including alcohol or drug abuse and the use of violence against people or property, undermine the educational climate by threatening the physical and mental health of members of the community. I will exercise personal responsibility for my actions and I will make sure that my actions do not interfere with the academic and social environment of the University. I will maintain a high standard of behavior by adhering to the Code of Conduct and respecting the rights of others.\nI will be responsible for my own academic progress and agree to comply with all University policies. The University allows students to identify and achieve their academic goals by providing the information needed to plan the chosen program of study and the necessary educational opportunities, but students assume final responsibility for course scheduling, program planning, and the successful completion of graduation requirements. I will be responsible for seeking the academic and career information needed to meet my educational goals by becoming knowledgeable about the relevant policies, procedures, and rules of the University and academic program, by consulting and meeting with my adviser, and by successfully completing all of the requirements for graduation.\n\n\nPenn State Values\nIntegrity: We act with integrity and honesty in accordance with the highest academic, professional, and ethical standards.\nRespect: We respect and honor the dignity of each person, embrace civil discourse, and foster a diverse and inclusive community.\nResponsibility: We act responsibly, and we are accountable for our decisions, actions, and their consequences.\nDiscovery: We seek and create new knowledge and understanding, and foster creativity and innovation, for the benefit of our communities, society, and the environment.\nExcellence: We strive for excellence in all our endeavors as individuals, an institution, and a leader in higher education.\nCommunity: We work together for the betterment of our University, the communities we serve, and the world.",
+    "crumbs": [
+      "Policies"
+    ]
+  },
+  {
+    "objectID": "evaluation.html",
+    "href": "evaluation.html",
+    "title": "Evaluation",
+    "section": "",
+    "text": "Every student will have an opportunity to prepare and deliver a 10-12 min oral presentation about a set of articles at one point in the semester. These presentation opportunities are indicated in the schedule with the following format: “Student Presentation A”. There are 16 such opportunities, A-P.\nThis presentation will be worth 45 points or 45% your overall grade.\nThe presenter must read the target article(s) thoroughly and the general readings in order to link the target papers to the overall themes we are discussing.\n\n\nFor theoretical papers, discuss how the authors’ ideas and arguments relate to the big questions posed in class and how they differ from or are similar to the ideas of other authors we have discussed. What are the key steps in the authors’ argument? What are the most important take-homes?\nFor empirical papers, describe what the authors did, what they found, what the authors think the findings mean, and what are the implications for broader issues we discuss in class.\n\n\n\n\nAs Gilmore’s AP English teacher advised, “be terse, pithy, and pregnant”, meaning be efficient in what you say and say important things.\nYou will get a 10 min warning and be cut-off at 12 min. So, practice your presentation and time it.\nFewer words and more figures are better.\nFewer slides are better. Realistically, a 10-12 min talk shouldn’t have more than 5-8 slides.\n\n\n\n\n\n\n\nWarning\n\n\n\nI continue to struggle to implement these tips myself.",
+    "crumbs": [
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "evaluation.html#article-presentations",
+    "href": "evaluation.html#article-presentations",
+    "title": "Evaluation",
+    "section": "",
+    "text": "Every student will have an opportunity to prepare and deliver a 10-12 min oral presentation about a set of articles at one point in the semester. These presentation opportunities are indicated in the schedule with the following format: “Student Presentation A”. There are 16 such opportunities, A-P.\nThis presentation will be worth 45 points or 45% your overall grade.\nThe presenter must read the target article(s) thoroughly and the general readings in order to link the target papers to the overall themes we are discussing.\n\n\nFor theoretical papers, discuss how the authors’ ideas and arguments relate to the big questions posed in class and how they differ from or are similar to the ideas of other authors we have discussed. What are the key steps in the authors’ argument? What are the most important take-homes?\nFor empirical papers, describe what the authors did, what they found, what the authors think the findings mean, and what are the implications for broader issues we discuss in class.\n\n\n\n\nAs Gilmore’s AP English teacher advised, “be terse, pithy, and pregnant”, meaning be efficient in what you say and say important things.\nYou will get a 10 min warning and be cut-off at 12 min. So, practice your presentation and time it.\nFewer words and more figures are better.\nFewer slides are better. Realistically, a 10-12 min talk shouldn’t have more than 5-8 slides.\n\n\n\n\n\n\n\nWarning\n\n\n\nI continue to struggle to implement these tips myself.",
+    "crumbs": [
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "evaluation.html#article-discussion",
+    "href": "evaluation.html#article-discussion",
+    "title": "Evaluation",
+    "section": "Article discussion",
+    "text": "Article discussion\nEvery student will have an opportunity to serve as a discussion leader for one of the article presentations. The 10-12 min discussion will follow the presentation. Except in rare cases, you will serve as a discussion leader on a different article from the one you present. The discussion leader must write 3-4 questions and be ready to present them at the end of the presentation to start the discussion.\nSince there are 16 student presentations, there should be an opportunity for everyone to present and discuss an article.\nLeading a discussion will be worth 40 points or 40% your overall grade.\n\n\n\n\n\n\nImportant\n\n\n\nTo ensure that you understand and are covering the material well, you are strongly encouraged to get feedback on your draft presentations during Rick’s office hours on Tuesday, 11-11:45 or at another time scheduled separately via Rick’s scheduler.\nStudents presenting an article may contact and coordinate with the person scheduled to discuss it. If these consultations occur, please indicate them in the presentation.",
+    "crumbs": [
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "evaluation.html#general-reading-discussion-questions-and-class-participation",
+    "href": "evaluation.html#general-reading-discussion-questions-and-class-participation",
+    "title": "Evaluation",
+    "section": "General reading discussion questions and class participation",
+    "text": "General reading discussion questions and class participation\nEveryone should closely review the general readings to get an overview of the material and to be prepared for the subsequent presentations and discussions. Every student should write one 1-2 sentence question or comment about each of the general readings by Thursday at noon on the day before class. Submit your questions or comments to this shared Google doc:\nhttps://docs.google.com/document/d/1eAo1FqM-WRg73ascICbfRFNu7pLBvF_s0GGzHIYzSck/edit?usp=sharing\nIf you’re not a presenter or discussion leader, you should read the prompts for the article presentations, but you can skim the presented readings. If you have a burning question you want to ask about a specific paper, add it to the Google doc.\nParticipation in class discussions and the submission of discussion questions or comments is worth 15 points or 15% of your overall grade.\n\nPossible group project\nI would like to make use of some of the time we have on days when we are largely discussing empirical articles to evaluate their rigor, reproducibility, and transparency. The rubric for this evaluation is in an early draft form. I invite student feedback on this idea.",
+    "crumbs": [
+      "Evaluation"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cognitive Development • Fall 2025",
+    "section": "",
+    "text": "Rick O. Gilmore, Ph.D. \nProfessor of Psychology\nrog1 AT-SIGN psu PERIOD edu\n\nSchedule an appointment: https://doodle.com/mm/rickgilmore/book-a-time\nLab web site: https://gilmore-lab.github.io",
+    "crumbs": [
+      "Cognitive Development • Fall 2025"
+    ]
+  },
+  {
+    "objectID": "index.html#instructor",
+    "href": "index.html#instructor",
+    "title": "Cognitive Development • Fall 2025",
+    "section": "",
+    "text": "Rick O. Gilmore, Ph.D. \nProfessor of Psychology\nrog1 AT-SIGN psu PERIOD edu\n\nSchedule an appointment: https://doodle.com/mm/rickgilmore/book-a-time\nLab web site: https://gilmore-lab.github.io",
+    "crumbs": [
+      "Cognitive Development • Fall 2025"
+    ]
+  },
+  {
+    "objectID": "index.html#meeting-time-location",
+    "href": "index.html#meeting-time-location",
+    "title": "Cognitive Development • Fall 2025",
+    "section": "Meeting time & location",
+    "text": "Meeting time & location\nFriday, 9:00a - 12:00p\n444 Moore Building",
+    "crumbs": [
+      "Cognitive Development • Fall 2025"
+    ]
+  },
+  {
+    "objectID": "index.html#textbook",
+    "href": "index.html#textbook",
+    "title": "Cognitive Development • Fall 2025",
+    "section": "Textbook",
+    "text": "Textbook\n\n\nSiegler, R.S. & Alibali, M.W. (2020), Children’s Thinking (5th ed.), Pearson: Hoboken, NJ.\nPearson site for the text",
+    "crumbs": [
+      "Cognitive Development • Fall 2025"
+    ]
+  },
+  {
+    "objectID": "repro-rubric.html",
+    "href": "repro-rubric.html",
+    "title": "Evaluating Rigor, Reproducibility, & Transparency",
+    "section": "",
+    "text": "This page describes a rubric for evaluating the rigor, reproducibility, and transparency of empirical articles in cognitive development."
+  },
+  {
+    "objectID": "repro-rubric.html#about",
+    "href": "repro-rubric.html#about",
+    "title": "Evaluating Rigor, Reproducibility, & Transparency",
+    "section": "",
+    "text": "This page describes a rubric for evaluating the rigor, reproducibility, and transparency of empirical articles in cognitive development."
+  },
+  {
+    "objectID": "repro-rubric.html#components",
+    "href": "repro-rubric.html#components",
+    "title": "Evaluating Rigor, Reproducibility, & Transparency",
+    "section": "2 Components",
+    "text": "2 Components\n\n2.1 Reproducibility\n\n2.1.1 Can the paper’s main reported findings be reproduced exactly?\n\nAre the data shared?\nIs any analysis or visualization code shared?\nIf 1. and 2. are true, does the analysis and visualization code run?\nIf 3., are the results the same as those the paper reports?\n\n\n\n\n2.2 Transparency\n\n2.2.1 Was the study pre-registered?\n\n\n\n2.3 Recombinability\n\n2.3.1 Does the paper report effect sizes or information that can be used to compute effect sizes so that these results can be combined with other reports in a meta-analysis?\n\n\n\n2.4 Replicability\n\n2.4.1 Have exact replications of the paper’s main findings been published?\n\n\n2.4.2 Has a systematic review or meta-analysis been published?\n\n\n2.4.3 How thorough is the methods section?\n\n2.4.3.1 Displays\n\nIf computer-generated displays were used, is the computer code to generate them shared?\nAre videos of the displays shared?\n\n\n\n2.4.3.2 Procedures\n\n\n2.4.3.3 Samples"
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#todays-topics",
+    "href": "slides/wk-01-intro.html#todays-topics",
+    "title": "Course Introduction",
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nCourse introduction\nA cognitive sensibility\nOn cognitive development\nYour turn",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
     "objectID": "slides/wk-01-intro.html#introductions-all-around",
     "href": "slides/wk-01-intro.html#introductions-all-around",
     "title": "Course Introduction",
     "section": "Introductions all around",
     "text": "Introductions all around",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#psy-548",
+    "href": "slides/wk-01-intro.html#psy-548",
+    "title": "Course Introduction",
+    "section": "PSY 548",
+    "text": "PSY 548\n\nStructure\n\nGroup discussion (Gilmore leads)\nStudent presentation and student-led discussion\n\nMaterial\n\nTheoretical & empirical\nClassic & modern\n\nSchedule\nEvaluation",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#common-themes",
+    "href": "slides/wk-01-intro.html#common-themes",
+    "title": "Course Introduction",
+    "section": "Common themes",
+    "text": "Common themes\n\nProcesses, concepts, representations (Bayne)\nPerception vs. cognition (Brainerd)\n“acquisition, storage, retrieval and processing of information” (Byrne)\ncognition vs. learning theory (Byrne)\nrepresentations and how coded in the brain (Byrne)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#common-themes-1",
+    "href": "slides/wk-01-intro.html#common-themes-1",
+    "title": "Course Introduction",
+    "section": "Common themes",
+    "text": "Common themes\n\nmental processes; biological problem-solving; knowing about knowing; more complex than associative learning (Chittka)\nthinking, knowing, understanding; non-human animal cognition (Clayton)\nconservative, e.g., related to human thought vs. liberal, adaptive information handling and can be modelled as computation; attention; categorization (Heyes)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#common-themes-2",
+    "href": "slides/wk-01-intro.html#common-themes-2",
+    "title": "Course Introduction",
+    "section": "Common themes",
+    "text": "Common themes\n\nhow sensory input “is transformed, reduced, elaborated, stored, recovered and used”; animal umwelt (Mather)\nless vs. more introspection/deliberation; ““requires learning”; “isn’t a reflex”; “depends on internally generated brain dynamics”; “needs access to stored models and relationships”; “relies on spatial maps” (Ölveczky)\n“flexibility, contingency and freedom from immediacy” (Shadlen)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#common-themes-3",
+    "href": "slides/wk-01-intro.html#common-themes-3",
+    "title": "Course Introduction",
+    "section": "Common themes",
+    "text": "Common themes\n\nnot uniquely human; intentional vs. unintentional, conscious vs. unconscious, effortful vs. automatic, slow vs. fast processes (Suddendorf)\n“I know that I am cognizing, but I can only surmise that cognition has occurred in other animals by observing their actions.”; “behaviours in which an animal performs an action directed towards a goal it cannot currently perceive” (Webb)",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
@@ -731,22 +414,264 @@
     ]
   },
   {
-    "objectID": "slides/wk-01-intro.html#the-cognitive-revolution-wikipedia-contributors2025-gi",
-    "href": "slides/wk-01-intro.html#the-cognitive-revolution-wikipedia-contributors2025-gi",
+    "objectID": "slides/wk-01-intro.html#is-the-brain-a-digital-computer",
+    "href": "slides/wk-01-intro.html#is-the-brain-a-digital-computer",
     "title": "Course Introduction",
-    "section": "The cognitive revolution (Wikipedia contributors, 2025e)",
-    "text": "The cognitive revolution (Wikipedia contributors, 2025e)\n\n\nFrom Behaviorism…\n\n\n\nB.F. Skinner\n\n\n\nTo cognitive science\n\n\n\nNoam Chomsky",
+    "section": "Is the brain a digital computer?",
+    "text": "Is the brain a digital computer?\n\n\n\nFrom neuronal action potentials to Boolean logic\n\n\n\n\n\nMcCulloch & Pitts (1943)",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
     ]
   },
   {
-    "objectID": "slides/wk-01-intro.html#the-cognitive-revolution",
-    "href": "slides/wk-01-intro.html#the-cognitive-revolution",
+    "objectID": "slides/wk-01-intro.html#how-do-digital-computers-compute",
+    "href": "slides/wk-01-intro.html#how-do-digital-computers-compute",
     "title": "Course Introduction",
-    "section": "The cognitive revolution",
-    "text": "The cognitive revolution\n\n(Wikipedia contributors, 2025e)\n\n\n\n\n\n\nB.F. Skinner\n\n\n\n\n\n\nNoam Chomsky",
+    "section": "How do digital computers compute?",
+    "text": "How do digital computers compute?\n\nStrings of binary digits (bits) represent information\n\n0001: the number one; 1111: the number 15 (in base 2)\n00110001: the character symbol ‘1’ in ASCII (Wikipedia contributors, 2025f)\n(some other binary ‘word’): symbol meaning ‘add’, or ‘store’, etc.",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#how-do-digital-computers-compute-1",
+    "href": "slides/wk-01-intro.html#how-do-digital-computers-compute-1",
+    "title": "Course Introduction",
+    "section": "How do digital computers compute?",
+    "text": "How do digital computers compute?\n\nSequences of binary commands can be data or a program\nComputer has Central Processing Unit (CPU), addressable memory (addresses are also binary words), interfaces (move info in and out), etc.",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#high-level-computer-languages",
+    "href": "slides/wk-01-intro.html#high-level-computer-languages",
+    "title": "Course Introduction",
+    "section": "High-level computer languages",
+    "text": "High-level computer languages\nx &lt;- 3\ny &lt;- 4\nh &lt;- sqrt(x^2 + y^2)\nh\n\nRepresent\n\ndata as variables, e.g. h, x, and y\nfunctions or operators as character or strings, e.g., &lt;-, sqrt(), ^\nConvert to binary, then back again to give human-readable output",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#high-level-computer-languages-1",
+    "href": "slides/wk-01-intro.html#high-level-computer-languages-1",
+    "title": "Course Introduction",
+    "section": "High-level computer languages",
+    "text": "High-level computer languages\n\n\nCode\nx &lt;- 3\ny &lt;- 4\nh &lt;- sqrt(x^2 + y^2)\nh\n\n\n[1] 5",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#what-might-cognition-be-if-not-computation",
+    "href": "slides/wk-01-intro.html#what-might-cognition-be-if-not-computation",
+    "title": "Course Introduction",
+    "section": "“What might cognition be, If not computation?”",
+    "text": "“What might cognition be, If not computation?”\n\n\nAnalog\n\n\nAlgorithmic\n\n\nVan Gelder (1995)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#surface-forms",
+    "href": "slides/wk-01-intro.html#surface-forms",
+    "title": "Course Introduction",
+    "section": "Surface forms",
+    "text": "Surface forms",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#deep-forms",
+    "href": "slides/wk-01-intro.html#deep-forms",
+    "title": "Course Introduction",
+    "section": "Deep forms",
+    "text": "Deep forms\n\nMap (relate) multiple surface forms to\n\nA single deep form \\(\\rightarrow\\) the letters “A” and “G”\n\n“Re-presentation”\nWhy? Some forms more easily “computable”, more efficiently stored, less “lossy”",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#a-cognitive-sensibility-1",
+    "href": "slides/wk-01-intro.html#a-cognitive-sensibility-1",
+    "title": "Course Introduction",
+    "section": "A cognitive sensibility",
+    "text": "A cognitive sensibility\n\n\n\nAsks what info is available\n\nIn the world\nIn the mind\n\nIn what form(s)\nRepresentations all the way down1\n\n\n\n\n\nhttps://commons.wikimedia.org/w/index.php?curid=2747463\n\n\n\nWikipedia contributors (2025c)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#all-models-are-wrong",
+    "href": "slides/wk-01-intro.html#all-models-are-wrong",
+    "title": "Course Introduction",
+    "section": "All models are wrong…",
+    "text": "All models are wrong…\n\n\n“…but some are useful.”\nWikipedia contributors (2025d)\n\n\n\n\nGeorge Box (Wikipedia)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#simmering2010-ba",
+    "href": "slides/wk-01-intro.html#simmering2010-ba",
+    "title": "Course Introduction",
+    "section": "Simmering, Triesch, Deák, & Spencer (2010)",
+    "text": "Simmering, Triesch, Deák, & Spencer (2010)\n\nMathematical vs. verbal models\nAre verbal models poorly specified?\nDo mathematical models “just move the ambiguity to the next level”?",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#simmering2010-ba-1",
+    "href": "slides/wk-01-intro.html#simmering2010-ba-1",
+    "title": "Course Introduction",
+    "section": "Simmering et al. (2010)",
+    "text": "Simmering et al. (2010)\n\nPhil: That’s an interesting point—in a way, all researchers use mathematical models when they apply statistical methods.\n\n\nMira: Hm, I suppose that’s true. I wouldn’t normally include statistics in my definition of computational models. I’m thinking about models that emphasize the processes underlying behavior and development.",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#what-do-statistics-model",
+    "href": "slides/wk-01-intro.html#what-do-statistics-model",
+    "title": "Course Introduction",
+    "section": "What do statistics model?",
+    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 20.735, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6306240 0.7250848\nsample estimates:\n      cor \n0.6806735",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#what-do-statistics-model-1",
+    "href": "slides/wk-01-intro.html#what-do-statistics-model-1",
+    "title": "Course Introduction",
+    "section": "What do statistics model?",
+    "text": "What do statistics model?\n\n\nFigure 1",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#plot-your-data",
+    "href": "slides/wk-01-intro.html#plot-your-data",
+    "title": "Course Introduction",
+    "section": "Plot your data!",
+    "text": "Plot your data!\n\n“The Datasaurus dozen - same stats, different graphs | Autodesk Research” (n.d.); Matejka & Fitzmaurice (2017)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#aside",
+    "href": "slides/wk-01-intro.html#aside",
+    "title": "Course Introduction",
+    "section": "Aside…",
+    "text": "Aside…\n\nSimulating your data can help reveal hidden assumptions about what your statistical model actually means, what kind of plots will best show predicted effects, etc.\nPlotting your data can reveal patterns that the statistics alone obscure.\nSo, do statistical models inform us about processes?",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#simmering2010-ba-2",
+    "href": "slides/wk-01-intro.html#simmering2010-ba-2",
+    "title": "Course Introduction",
+    "section": "Simmering et al. (2010)",
+    "text": "Simmering et al. (2010)\n\nPhil: …Lewis Thomas once wrote an essay listing the seven wonders of the modern world—it was a challenge put to him in the form of a dinner invitation which he, interestingly, declined. Do you know what his Seventh Wonder of the modern world was?\n\n\nPhil: Thomas’s Seventh Wonder was the development of a human child. How, my brilliant companions, are you going to explain that?",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#cognitive-models",
+    "href": "slides/wk-01-intro.html#cognitive-models",
+    "title": "Course Introduction",
+    "section": "Cognitive models",
+    "text": "Cognitive models\n\nWikipedia contributors (2025b)\nMany types",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#box-and-arrow",
+    "href": "slides/wk-01-intro.html#box-and-arrow",
+    "title": "Course Introduction",
+    "section": "Box and Arrow",
+    "text": "Box and Arrow\n\n\n\n\nflowchart LR\n  A[Stimulus] --&gt; B[Sensation]\n  B --&gt; C[Perception]\n  C --&gt; D[Cognition]\n  D --&gt; E[Action]\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Stimulus] --&gt; B[Sensation]\n  B --&gt; C[Perception]\n  C --&gt; D[Cognition]\n  D --&gt; E[Action]\n  B --&gt; F[Memory]\n  F --&gt; C\n  D --&gt; G[Attention]\n  G --&gt; C\n  G --&gt; F\n\n\n\n\n\n\n\nSee also Figures 3.1 and 3.4 in Siegler & Alibali (2021)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#a-computer-program",
+    "href": "slides/wk-01-intro.html#a-computer-program",
+    "title": "Course Introduction",
+    "section": "A computer program…",
+    "text": "A computer program…\n\nThat simulates some complex behavior\nIs one type of model\nProduction systems (pp. 59-64 in Siegler & Alibali (2021))",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#unified-theories-of-cognition-wikipedia-contributors2025-uo",
+    "href": "slides/wk-01-intro.html#unified-theories-of-cognition-wikipedia-contributors2025-uo",
+    "title": "Course Introduction",
+    "section": "Unified Theories of Cognition (Wikipedia contributors, 2025a)",
+    "text": "Unified Theories of Cognition (Wikipedia contributors, 2025a)\n\nNewell (1990)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#why-a-unified-theory",
+    "href": "slides/wk-01-intro.html#why-a-unified-theory",
+    "title": "Course Introduction",
+    "section": "Why a unified theory?",
+    "text": "Why a unified theory?\n\nFig 1-6 from Newell (1990)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#constraints-on-minds",
+    "href": "slides/wk-01-intro.html#constraints-on-minds",
+    "title": "Course Introduction",
+    "section": "Constraints on minds",
+    "text": "Constraints on minds\n\n\n\nBehave flexibly as a function of the environment\nExhibit adaptive (rational, goal-oriented) behavior\nOperate in real time\nOperate in a rich, complex, detailed environment\n\n\n\n\n\nUse symbols and abstractions\nUse language, both natural and artificial\nLearn from the environment and from experience\nAcquire capabilities through development\n\n\n(Newell, 1990)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#constraints-on-minds-1",
+    "href": "slides/wk-01-intro.html#constraints-on-minds-1",
+    "title": "Course Introduction",
+    "section": "Constraints on minds",
+    "text": "Constraints on minds\n\n\n\nOperate autonomously\nbut within a social community\nBe self-aware and have a sense of self\nBe realizable as a neural system\n\n\n\n\n\nBe constructable by an embryological growth process\nArise through evolution\n\n\n(Newell, 1990)",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
@@ -758,6 +683,28 @@
     "title": "Course Introduction",
     "section": "The cognitive revolution 1",
     "text": "The cognitive revolution 1\n\n\n\n\n\nB.F. Skinner\n\n\n\n\nCan’t (rigorously) look inside the mind.\n\n\n\n\n\n\nNoam Chomsky\n\n\n\n\nMust (rigorously) look inside the mind.\n\n\n\nWikipedia contributors (2025e)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#ritter2014-eq",
+    "href": "slides/wk-01-intro.html#ritter2014-eq",
+    "title": "Course Introduction",
+    "section": "Ritter, Baxter, & Churchill (2014)",
+    "text": "Ritter, Baxter, & Churchill (2014)\n\nTask Analysis (TA) as a tool for designing “user-centered systems”\nWhat do (people, e.g. children) have to do?\nOften the basis of creating a computational cognitive model",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#ritter2014-eq-1",
+    "href": "slides/wk-01-intro.html#ritter2014-eq-1",
+    "title": "Course Introduction",
+    "section": "Ritter et al. (2014)",
+    "text": "Ritter et al. (2014)\n\nFigure 11.1 from Ritter et al. (2014)",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
@@ -791,6 +738,72 @@
     "title": "Course Introduction",
     "section": "Big questions (condensed)",
     "text": "Big questions (condensed)\n\nStarting (or current at age X) state\nPatterns of change\nCauses of change",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#lets-do-a-hierarchical-task-analysis",
+    "href": "slides/wk-01-intro.html#lets-do-a-hierarchical-task-analysis",
+    "title": "Course Introduction",
+    "section": "Let’s do a hierarchical task analysis!",
+    "text": "Let’s do a hierarchical task analysis!\n\nPick a task you know well, use in your research\nWhat is required to perform it?\n(Later) what cognitive components are associated with the task?",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#is-the-analysis-useful",
+    "href": "slides/wk-01-intro.html#is-the-analysis-useful",
+    "title": "Course Introduction",
+    "section": "Is the analysis useful?",
+    "text": "Is the analysis useful?",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#take-homes",
+    "href": "slides/wk-01-intro.html#take-homes",
+    "title": "Course Introduction",
+    "section": "Take homes",
+    "text": "Take homes\n\nA “cognitive” sensibility is about…\nInformation, representations, operations/processes\nSequences, hierarchical structures\nSolving real-world problems\nInspired by computational systems",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#next-time",
+    "href": "slides/wk-01-intro.html#next-time",
+    "title": "Course Introduction",
+    "section": "Next time…",
+    "text": "Next time…\n\nTheoretical foundations: Piaget\n\nGeneral Readings: Siegler & Alibali (2021) Chapter 2; Piaget (1953); Newcombe (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#about",
+    "href": "slides/wk-01-intro.html#about",
+    "title": "Course Introduction",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2025.5.1.513.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/",
+    "crumbs": [
+      "Slides",
+      "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-01-intro.html#references",
+    "href": "slides/wk-01-intro.html#references",
+    "title": "Course Introduction",
+    "section": "References",
+    "text": "References\n\n\n\n\nBayne, T., Brainard, D., Byrne, R. W., Chittka, L., Clayton, N., Heyes, C., … Webb, B. (2019). What is cognition? Current Biology: CB, 29, R608–R615. https://doi.org/10.1016/j.cub.2019.05.044\n\n\nMatejka, J., & Fitzmaurice, G. (2017). Same stats, different graphs: Generating datasets with varied appearance and identical statistics through simulated annealing. In Proceedings of the 2017 CHI conference on human factors in computing systems. New York, NY, USA: ACM. https://doi.org/10.1145/3025453.3025912\n\n\nMcCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The Bulletin of Mathematical Biophysics, 5, 115–133. https://doi.org/10.1007/BF02478259\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nNewell, A. (1990). Unified theories of cognition. Cambridge, MA: Harvard University Press.\n\n\nPiaget, J. (1953). The origins of intelligence in children. New York: Routledge. https://doi.org/10.1037/11494-000\n\n\nRitter, F. E., Baxter, G. D., & Churchill, E. F. (2014). Foundations for designing user-centered systems: What system designers need to know about people (2014th ed.). London, England: Springer. https://doi.org/10.1007/978-1-4471-5134-0\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSimmering, V. R., Triesch, J., Deák, G. O., & Spencer, J. P. (2010). To model or not to model? A dialogue on the role of computational modeling in developmental science: To model or not to model? Child Development Perspectives, 4, 152–158. https://doi.org/10.1111/j.1750-8606.2010.00134.x\n\n\nThe Datasaurus dozen - same stats, different graphs | Autodesk Research. (n.d.). Retrieved June 2, 2019, from https://www.autodeskresearch.com/publications/samestats\n\n\nVan Gelder, T. (1995). What might cognition be, if not computation? The Journal of Philosophy, 92, 345–381. https://doi.org/10.2307/2941061\n\n\nWikipedia contributors. (2025a, February 24). Unified theories of cognition. Retrieved from https://en.wikipedia.org/wiki/Unified_Theories_of_Cognition\n\n\nWikipedia contributors. (2025b, May 24). Cognitive model. Retrieved from https://en.wikipedia.org/wiki/Cognitive_model\n\n\nWikipedia contributors. (2025c, June 28). Turtles all the way down. Retrieved from https://en.wikipedia.org/wiki/Turtles_all_the_way_down\n\n\nWikipedia contributors. (2025d, July 23). All models are wrong. Retrieved from https://en.wikipedia.org/wiki/All_models_are_wrong\n\n\nWikipedia contributors. (2025e, August 13). Cognitive revolution. Retrieved from https://en.wikipedia.org/wiki/Cognitive_revolution\n\n\nWikipedia contributors. (2025f, August 25). ASCII. Retrieved from https://en.wikipedia.org/wiki/ASCII",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"

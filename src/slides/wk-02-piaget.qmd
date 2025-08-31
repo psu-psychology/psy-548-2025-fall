@@ -1,0 +1,41 @@
+---
+title: "Piaget"
+---
+
+# Prelude
+
+## Today's topics
+
+- Check-in on HTA
+- Theoretical foundations: Piaget
+  - *General Readings*: @Siegler2021-py Chapter 2; @Piaget1952-dm; @Newcombe2013-qy
+  
+## Check-in on HTA
+
+- Relevance?
+- Utility?
+- Do task demands/abilities change across development?
+
+# Wrap-up
+
+## Next time...
+
+- Piaget: Deep dive
+  - *Student presentation A*: How robust is the evidence for Piaget's trajectories?
+    - *Skim*: @Elkind1961-ns; @Gelman1972-we
+  - *Student presentation B*: When does object permanence emerge?
+    - *Skim*: @Baillargeon1985-vl; @Baillargeon2008-gz
+
+# Resources
+
+## About
+
+This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
+Integrated Development Environment (IDE), version 2025.5.1.513.
+
+The source files are in R and R Markdown, then rendered to HTML using the
+[revealJS](https://revealjs.com) framework.
+The HTML slides are hosted in a [GitHub repo](https://github.com/psu-psychology/psy-548-fall) and served by GitHub pages:
+<https://psu-psychology.github.io/psy-548-fall/>
+
+## References

@@ -8,6 +8,11 @@ project:
 
 website:
   title: "PSY 548"
+  announcement: 
+    content: "All readings for 2025-09-05 have been uploaded to Canvas as of 2025-08-31." 
+    position: below-navbar
+    icon: info-circle
+    dismissable: true
   sidebar:
     style: "docked"
     search: true

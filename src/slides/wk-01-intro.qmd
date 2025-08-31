@@ -124,7 +124,6 @@ h
 
 ```{r}
 #| echo: true
-#| code-fold: false
 x <- 3
 y <- 4
 h <- sqrt(x^2 + y^2)
@@ -217,7 +216,6 @@ and development.
 
 ```{r}
 #| echo: true
-
 x <- rnorm(n = 500, mean = 0, sd = 1)
 y <- x + rnorm(n = 500, mean = 0, sd = 1)
 cor.test(x, y)
