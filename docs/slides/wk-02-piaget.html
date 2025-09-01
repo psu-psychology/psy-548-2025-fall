@@ -143,6 +143,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="../include/site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../include/site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../include/site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -168,10 +171,16 @@ Rick Gilmore
 <h1>Prelude</h1>
 
 </section>
+<section class="slide level2">
+
+<iframe data-external="1" src="https://www.youtube.com/embed/6p-lDYPR2P8" width="100%" height="70%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><span class="citation" data-cites="Madonna2017-bv">Madonna (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span></p>
+</section>
 <section id="todays-topics" class="slide level2">
 <h2>Today’s topics</h2>
 <ul>
-<li>Check-in on HTA</li>
+<li>Check-in on hierarchical task analyses (HTA)</li>
+<li>Background ideas</li>
 <li>Theoretical foundations: Piaget
 <ul>
 <li><em>General Readings</em>: <span class="citation" data-cites="Siegler2021-py">Siegler &amp; Alibali (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span> Chapter 2; <span class="citation" data-cites="Piaget1952-dm">Piaget (<a href="#/references" role="doc-biblioref" onclick="">1953</a>)</span>; <span class="citation" data-cites="Newcombe2013-qy">Newcombe (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></li>
@@ -184,8 +193,281 @@ Rick Gilmore
 <li>Relevance?</li>
 <li>Utility?</li>
 <li>Do task demands/abilities change across development?</li>
+<li>What are the tasks of the infant, toddler, pre-schooler, etc.?</li>
 </ul>
 </section></section>
+<section>
+<section id="background-ideas" class="title-slide slide level1 center">
+<h1>Background ideas</h1>
+
+</section>
+<section id="on-mechanism" class="slide level2">
+<h2>On mechanism</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://m.media-amazon.com/images/I/71ls8e3DCTL._SY522_.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://mitp.silverchair-cdn.com/mitp/content_public/books/1824/book/4/m_9780262256650-cover.jpeg?Expires=1758980052&amp;Signature=3d03CUSSrOXiniGR3x5Yu6OzLfM1qAf8P7PNcAdcRKGmf2Y2lARDacOkm4z7WeCLGY5RrY9PUXU1miFocE8XZyzaEwDoTKQi7mwZCRInzFviNCRNv07W6wjdvZ5OvNeG8q-HZ-H83oQrs4MnzXJRDkJkDhuBD9YRVp1UO7CgQuyyt4qqx5uYl2n2koF3rOht3CtUys6VkFzOIzbAOGM3SVwbx4Vb7jMYaZ2rwtgbmwZ3JAMXvB-lilApd9r-YH41dsVYQGa9HAURT8CI-FdBf4~BBhwLdMeXu~Nh0gcAPB6stP9gPtj7g1oZeLPRAgXYjd23VIhQ1pIAJM-D92JmVg__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="on-mechanism-1" class="slide level2">
+<h2>On mechanism</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Physical devices subject to physical laws</li>
+<li>The automata <span class="citation" data-cites="Wikipedia-contributors2025-sa">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025c</a>)</span> metaphor in psychology</li>
+<li>Mind, brain, body problem <span class="citation" data-cites="Wikipedia-contributors2025-ww">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025a</a>)</span></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Digesting_Duck.jpg"></p>
+<figcaption><span class="citation" data-cites="Wikipedia-contributors2025-ww">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025a</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="on-mechanism-2" class="slide level2">
+<h2>On mechanism</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Is the human mind/brain/body a machine?</li>
+<li>What are the parts?</li>
+<li>How do they connect and interact?</li>
+<li>What do they do?</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/500px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg" style="width:60.0%"></p>
+<figcaption><span class="citation" data-cites="Descartes2001-ma">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2001</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="on-state-spaces" class="slide level2">
+<h2>On state spaces</h2>
+<blockquote>
+<p>…a mathematical model of a physical system that uses state variables to track how inputs shape system behavior over time.</p>
+</blockquote>
+<blockquote>
+<p>…These state variables change based on their current values and inputs, while outputs depend on the states and sometimes the inputs too.</p>
+</blockquote>
+<p><span class="citation" data-cites="Wikipedia-contributors2025-hc">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025d</a>)</span></p>
+</section>
+<section id="on-state-spaces-1" class="slide level2">
+<h2>On state spaces</h2>
+<blockquote>
+<p>…The internal state variables are the smallest possible subset of system variables that can represent the entire state of the system at any given time…</p>
+</blockquote>
+
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Typical_State_Space_model.svg/944px-Typical_State_Space_model.svg.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Wikipedia-contributors2025-hc">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025d</a>)</span></p></section>
+<section id="on-state-spaces-2" class="slide level2">
+<h2>On state spaces</h2>
+<blockquote>
+<p>In computer science, a state space is a discrete space representing the set of all possible configurations of a system…State spaces are useful in computer science as a simple model of machines.</p>
+</blockquote>
+<p><span class="citation" data-cites="Wikipedia-contributors2025-zs">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025e</a>)</span></p>
+</section>
+<section id="on-state-spaces-3" class="slide level2">
+<h2>On state spaces</h2>
+<ul>
+<li>Representations <span class="math inline">\(\rightarrow\)</span> states (<span class="math inline">\(s\)</span>)</li>
+<li>Processes <span class="math inline">\(\rightarrow\)</span> changes in state across time
+<ul>
+<li><span class="math inline">\(s_{next}=s_{now}+x\)</span></li>
+</ul></li>
+<li>Time scale of states, changes?
+<ul>
+<li><span class="math inline">\(s(t+1)=F(s(t))\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="on-state-spaces-4" class="slide level2">
+<h2>On state spaces</h2>
+<ul>
+<li>What is the state of the child’s mind/brain/body at time <em>t</em>?</li>
+<li>How does that state change over some time interval?
+<ul>
+<li>Short term: behavior</li>
+<li>Longer term: learning or adaptation or development</li>
+<li><em>Really</em> long term: evolution</li>
+</ul></li>
+</ul>
+</section>
+<section id="on-state-spaces-5" class="slide level2">
+<h2>On state spaces</h2>
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-body-nervous-system-simplest" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-body-nervous-system-simplest-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-body-nervous-system-simplest">flowchart LR
+  A(Body) --&gt;|Sensation| B(Nervous System)
+  B --&gt;|Response| A
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-body-nervous-system-simplest-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: A simple state space for the nervous system
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-body-nervous-system" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-body-nervous-system-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-body-nervous-system">flowchart LR
+  A(Body) --&gt;|Sensation| B(Nervous System)
+  B --&gt; B
+  B --&gt;|Response| A
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-body-nervous-system-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: A slightly more complicated state space for the nervous system.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="on-state-spaces-6" class="slide level2">
+<h2>On state spaces</h2>
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-body-nervous-system" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-body-nervous-system-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-body-nervous-system">flowchart TD
+  W(World) --&gt; W
+  W --&gt;|Experience| B(Body)
+  B --&gt;|Behavior| W
+  B --&gt; B
+  B --&gt;|Sensation| N(Nervous system)
+  N --&gt;|Response| B
+  N --&gt;|Cognition| N
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-body-nervous-system-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: A more complete state space for the nervous system
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="on-state-spaces-7" class="slide level2">
+<h2>On state spaces</h2>
+
+<img data-src="https://larrywswanson.com/wp-content/uploads/2015/06/4-systems-network.jpg" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Swanson2025-ke">Swanson (<a href="#/references" role="doc-biblioref" onclick="">n.d.</a>)</span></p><div class="fragment">
+<ul>
+<li>Separable but interacting neural pathways</li>
+<li>Input (from world and body state)</li>
+<li>Output (to body and world)</li>
+</ul>
+</div>
+</section>
+<section id="on-reflexes" class="slide level2">
+<h2>On reflexes</h2>
+<blockquote>
+<p>In biology, a reflex, or reflex action, is an involuntary, unplanned sequence or action and nearly instantaneous response to a stimulus…</p>
+</blockquote>
+<blockquote>
+<p>A reflex occurs via neural pathways in the nervous system called reflex arcs…</p>
+</blockquote>
+<p><span class="citation" data-cites="Wikipedia-contributors2025-cf">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025g</a>)</span></p>
+</section>
+<section id="on-reflexes-1" class="slide level2">
+<h2>On reflexes</h2>
+<blockquote>
+<p>These neural signals do not always travel to the brain, so many reflexes are an automatic response to a stimulus that does not receive or need conscious thought.</p>
+</blockquote>
+<p><span class="citation" data-cites="Wikipedia-contributors2025-cf">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025g</a>)</span></p>
+<div class="fragment">
+<ul>
+<li>“Reflect” events from the world to the nervous system</li>
+<li>Idea credited to Descartes <span class="citation" data-cites="Descartes2001-ma">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2001</a>)</span> and Hall <span class="citation" data-cites="Wikipedia-contributors2025-xl">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025b</a>)</span></li>
+<li>Earliest to emerge behaviors</li>
+</ul>
+</div>
+</section>
+<section id="on-reflexes-2" class="slide level2">
+<h2>On reflexes</h2>
+<iframe data-external="1" src="https://www.youtube.com/embed/rHYk1sYsge0" width="100%" height="70%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><span class="citation" data-cites="RegisteredNurseRN2020-ny">RegisteredNurseRN (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span></p>
+</section>
+<section id="on-reflexes-3" class="slide level2">
+<h2>On reflexes</h2>
+<ul>
+<li>What is the input? What is the output?</li>
+<li>What purpose(s) do reflexes serve?</li>
+</ul>
+</section>
+<section id="the-vestibulo-ocular-reflex-vor" class="slide level2">
+<h2>The vestibulo-ocular reflex (VOR)</h2>
+<iframe data-external="1" src="https://www.youtube.com/embed/j_R0LcPnZ_w" width="100%" height="70%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><span class="citation" data-cites="Castilla2007-cq">Castilla (<a href="#/references" role="doc-biblioref" onclick="">2007</a>)</span></p>
+</section>
+<section id="the-vestibulo-ocular-reflex-vor-1" class="slide level2">
+<h2>The vestibulo-ocular reflex (VOR)</h2>
+
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/5/58/Simple_vestibulo-ocular_reflex.PNG" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Wikipedia-contributors2025-lq">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025f</a>)</span></p><ul>
+<li>Stabilizes gaze in allocentric coordinates</li>
+<li>Within ~10 ms</li>
+</ul>
+</section>
+<section id="on-reflexes-4" class="slide level2">
+<h2>On reflexes</h2>
+<div>
+<ul>
+<li class="fragment">Sensations and responses temporally linked
+<ul>
+<li class="fragment">Causally (mechanically) linked via</li>
+<li class="fragment">Specialized neural circuits</li>
+</ul></li>
+<li class="fragment">Sensation <span class="math inline">\(\rightarrow\)</span> Response <span class="math inline">\(\rightarrow\)</span> (New) Sensation</li>
+<li class="fragment">Imagine a mechanism that “records” these links</li>
+<li class="fragment">(Random) Response <span class="math inline">\(\rightarrow\)</span> Sensation
+<ul>
+<li class="fragment">Sensation <span class="math inline">\(\sim\)</span> (Captured prior) Sensation</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section id="background-ideas-summary" class="slide level2">
+<h2>Background ideas: Summary</h2>
+<div>
+<ul>
+<li class="fragment">Mind/brain/body as a mechanism</li>
+<li class="fragment">State space formalism aids specifying states and transitions</li>
+<li class="fragment">Reflexes as simple, early emerging sensorimotor behaviors</li>
+<li class="fragment">Reflex arcs <span class="citation" data-cites="Wikipedia-contributors2025-xl">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025b</a>)</span> <span class="math inline">\(\rightarrow\)</span> Piaget’s “circular reactions”</li>
+</ul>
+</div>
+</section></section>
+<section id="on-piaget" class="title-slide slide level1 center">
+<h1>On Piaget</h1>
+
+</section>
+
 <section>
 <section id="wrap-up" class="title-slide slide level1 center">
 <h1>Wrap-up</h1>
@@ -228,11 +510,17 @@ Baillargeon, Renée. (2008). Innate ideas revisited: <span>F</span>or a principl
 <div id="ref-Baillargeon1985-vl" class="csl-entry" role="listitem">
 Baillargeon, R., Spelke, E. S., &amp; Wasserman, S. (1985). Object permanence in five-month-old infants. <em>Cognition</em>, <em>20</em>, 191–208. <a href="https://doi.org/10.1016/0010-0277(85)90008-3">https://doi.org/10.1016/0010-0277(85)90008-3</a>
 </div>
+<div id="ref-Castilla2007-cq" class="csl-entry" role="listitem">
+Castilla, V. (2007). <em>Vestibulo-ocular reflex 13/25</em>. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=j_R0LcPnZ_w">https://www.youtube.com/watch?v=j_R0LcPnZ_w</a>
+</div>
 <div id="ref-Elkind1961-ns" class="csl-entry" role="listitem">
 Elkind, D. (1961). Children’s discovery of the conservation of mass, weight, and volume: Piaget replication study. <span>II</span>. <em>The Journal of Genetic Psychology</em>, <em>98</em>, 219–227. <a href="https://doi.org/10.1080/00221325.1961.10534372">https://doi.org/10.1080/00221325.1961.10534372</a>
 </div>
 <div id="ref-Gelman1972-we" class="csl-entry" role="listitem">
 Gelman, R. (1972). Logical capacity of very young children: Number invariance rules. <em>Child Development</em>, <em>43</em>, 75. <a href="https://doi.org/10.2307/1127873">https://doi.org/10.2307/1127873</a>
+</div>
+<div id="ref-Madonna2017-bv" class="csl-entry" role="listitem">
+Madonna. (2017). <em>Madonna - material girl (official video) [HD]</em>. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=6p-lDYPR2P8&amp;list=RD6p-lDYPR2P8&amp;start_radio=1">https://www.youtube.com/watch?v=6p-lDYPR2P8&amp;list=RD6p-lDYPR2P8&amp;start_radio=1</a>
 </div>
 <div id="ref-Newcombe2013-qy" class="csl-entry" role="listitem">
 Newcombe, N. S. (2013). Cognitive development: <span>C</span>hanging views of cognitive change. <em>Wiley <span>I</span>nterdisciplinary <span>R</span>eviews. <span>C</span>ognitive <span>S</span>cience</em>, <em>4</em>, 479–491. <a href="https://doi.org/10.1002/wcs.1245">https://doi.org/10.1002/wcs.1245</a>
@@ -240,8 +528,38 @@ Newcombe, N. S. (2013). Cognitive development: <span>C</span>hanging views of co
 <div id="ref-Piaget1952-dm" class="csl-entry" role="listitem">
 Piaget, J. (1953). <em>The origins of intelligence in children</em>. New York: Routledge. <a href="https://doi.org/10.1037/11494-000">https://doi.org/10.1037/11494-000</a>
 </div>
+<div id="ref-RegisteredNurseRN2020-ny" class="csl-entry" role="listitem">
+RegisteredNurseRN. (2020). <em>Newborn reflexes assessment (infant) nursing pediatric <span>NCLEX</span> review</em>. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=rHYk1sYsge0&amp;t=62s">https://www.youtube.com/watch?v=rHYk1sYsge0&amp;t=62s</a>
+</div>
 <div id="ref-Siegler2021-py" class="csl-entry" role="listitem">
 Siegler, R., &amp; Alibali, M. (2021). <em>Children’s <span>T</span>hinking</em> (5th ed.). Pearson.
+</div>
+<div id="ref-Swanson2025-ke" class="csl-entry" role="listitem">
+Swanson, L. W. (n.d.). Brain <span>A</span>rchitecture. Retrieved September 1, 2025, from <a href="https://larrywswanson.com/?page_id=1523">https://larrywswanson.com/?page_id=1523</a>
+</div>
+<div id="ref-Descartes2001-ma" class="csl-entry" role="listitem">
+Wikipedia contributors. (2001, October 30). René <span>D</span>escartes. Retrieved September 1, 2025, from <a href="https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes">https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes</a>
+</div>
+<div id="ref-Wikipedia-contributors2025-ww" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025a, April 8). Digesting duck. Retrieved from <a href="https://en.wikipedia.org/wiki/Digesting_Duck">https://en.wikipedia.org/wiki/Digesting_Duck</a>
+</div>
+<div id="ref-Wikipedia-contributors2025-xl" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025b, July 20). Marshall <span>H</span>all (physiologist). Retrieved from <a href="https://en.wikipedia.org/wiki/Marshall_Hall_(physiologist)">https://en.wikipedia.org/wiki/Marshall_Hall_(physiologist)</a>
+</div>
+<div id="ref-Wikipedia-contributors2025-sa" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025c, August 3). Automaton. Retrieved from <a href="https://en.wikipedia.org/wiki/Automaton">https://en.wikipedia.org/wiki/Automaton</a>
+</div>
+<div id="ref-Wikipedia-contributors2025-hc" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025d, August 6). State-space representation. Retrieved from <a href="https://en.wikipedia.org/wiki/State-space_representation">https://en.wikipedia.org/wiki/State-space_representation</a>
+</div>
+<div id="ref-Wikipedia-contributors2025-zs" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025e, August 24). State space (computer science). Retrieved from <a href="https://en.wikipedia.org/wiki/State_space_(computer_science)">https://en.wikipedia.org/wiki/State_space_(computer_science)</a>
+</div>
+<div id="ref-Wikipedia-contributors2025-lq" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025f, August 25). Vestibulo-ocular reflex. Retrieved from <a href="https://en.wikipedia.org/wiki/Vestibulo-ocular_reflex">https://en.wikipedia.org/wiki/Vestibulo-ocular_reflex</a>
+</div>
+<div id="ref-Wikipedia-contributors2025-cf" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025g, August 27). Reflex. Retrieved from <a href="https://en.wikipedia.org/wiki/Reflex">https://en.wikipedia.org/wiki/Reflex</a>
 </div>
 </div>
 </section></section>

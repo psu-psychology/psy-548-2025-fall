@@ -4,9 +4,16 @@ title: "Piaget"
 
 # Prelude
 
+---
+
+{{< video https://www.youtube.com/watch?v=6p-lDYPR2P8&list=RD6p-lDYPR2P8&start_radio=1 height ="70%" width="100%">}}
+
+@Madonna2017-bv
+
 ## Today's topics
 
-- Check-in on HTA
+- Check-in on hierarchical task analyses (HTA)
+- Background ideas
 - Theoretical foundations: Piaget
   - *General Readings*: @Siegler2021-py Chapter 2; @Piaget1952-dm; @Newcombe2013-qy
   
@@ -15,6 +22,194 @@ title: "Piaget"
 - Relevance?
 - Utility?
 - Do task demands/abilities change across development?
+- What are the tasks of the infant, toddler, pre-schooler, etc.?
+
+# Background ideas
+
+## On mechanism
+
+:::: {.columns}
+::: {.column width=50%}
+![](https://m.media-amazon.com/images/I/71ls8e3DCTL._SY522_.jpg){width="60%" fig-align="center"}
+:::
+::: {.column width=50%}
+![](https://mitp.silverchair-cdn.com/mitp/content_public/books/1824/book/4/m_9780262256650-cover.jpeg?Expires=1758980052&Signature=3d03CUSSrOXiniGR3x5Yu6OzLfM1qAf8P7PNcAdcRKGmf2Y2lARDacOkm4z7WeCLGY5RrY9PUXU1miFocE8XZyzaEwDoTKQi7mwZCRInzFviNCRNv07W6wjdvZ5OvNeG8q-HZ-H83oQrs4MnzXJRDkJkDhuBD9YRVp1UO7CgQuyyt4qqx5uYl2n2koF3rOht3CtUys6VkFzOIzbAOGM3SVwbx4Vb7jMYaZ2rwtgbmwZ3JAMXvB-lilApd9r-YH41dsVYQGa9HAURT8CI-FdBf4~BBhwLdMeXu~Nh0gcAPB6stP9gPtj7g1oZeLPRAgXYjd23VIhQ1pIAJM-D92JmVg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA){width="60%" fig-align="center"}
+:::
+::::
+
+## On mechanism
+
+:::: {.columns}
+::: {.column width=50%}
+- Physical devices subject to physical laws
+- The automata [@Wikipedia-contributors2025-sa] metaphor in psychology
+- Mind, brain, body problem [@Wikipedia-contributors2025-ww]
+:::
+::: {.column width=50%}
+![@Wikipedia-contributors2025-ww](https://upload.wikimedia.org/wikipedia/commons/8/8f/Digesting_Duck.jpg)
+:::
+::::
+
+## On mechanism
+
+:::: {.columns}
+::: {.column width=50%}
+- Is the human mind/brain/body a machine?
+- What are the parts?
+- How do they connect and interact?
+- What do they do?
+:::
+::: {.column width=50%}
+![@Descartes2001-ma](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/500px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg){width="60%" fig-align="right"}
+:::
+::::
+
+## On state spaces
+
+>...a mathematical model of a physical system that uses state variables to track how inputs shape system behavior over time.
+
+>...These state variables change based on their current values and inputs, while outputs depend on the states and sometimes the inputs too.
+
+@Wikipedia-contributors2025-hc
+
+## On state spaces
+
+>...The internal state variables are the smallest possible subset of system variables that can represent the entire state of the system at any given time...
+
+![@Wikipedia-contributors2025-hc](https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Typical_State_Space_model.svg/944px-Typical_State_Space_model.svg.png)
+
+## On state spaces
+
+>In computer science, a state space is a discrete space representing the set of all possible configurations of a system...State spaces are useful in computer science as a simple model of machines. 
+
+@Wikipedia-contributors2025-zs
+
+## On state spaces
+
+- Representations $\rightarrow$ states ($s$)
+- Processes $\rightarrow$ changes in state across time
+  - $s_{next}=s_{now}+x$
+- Time scale of states, changes?
+  - $s(t+1)=F(s(t))$
+
+## On state spaces
+
+- What is the state of the child's mind/brain/body at time *t*?
+- How does that state change over some time interval?
+  - Short term: behavior
+  - Longer term: learning or adaptation or development
+  - *Really* long term: evolution
+
+## On state spaces
+
+```{mermaid}
+%%| label: fig-body-nervous-system-simplest
+%%| fig-cap: "A simple state space for the nervous system"
+flowchart LR
+  A(Body) -->|Sensation| B(Nervous System)
+  B -->|Response| A
+```
+
+```{mermaid}
+%%| label: fig-body-nervous-system
+%%| fig-cap: "A slightly more complicated state space for the nervous system."
+flowchart LR
+  A(Body) -->|Sensation| B(Nervous System)
+  B --> B
+  B -->|Response| A
+```
+
+## On state spaces
+
+```{mermaid}
+%%| label: fig-body-nervous-system
+%%| fig-cap: "A more complete state space for the nervous system"
+flowchart TD
+  W(World) --> W
+  W -->|Experience| B(Body)
+  B -->|Behavior| W
+  B --> B
+  B -->|Sensation| N(Nervous system)
+  N -->|Response| B
+  N -->|Cognition| N
+```
+
+## On state spaces
+
+![@Swanson2025-ke](https://larrywswanson.com/wp-content/uploads/2015/06/4-systems-network.jpg)
+
+::: {.fragment}
+- Separable but interacting neural pathways
+- Input (from world and body state)
+- Output (to body and world)
+:::
+
+## On reflexes
+
+>In biology, a reflex, or reflex action, is an involuntary, unplanned sequence or action and nearly instantaneous response to a stimulus...
+
+>A reflex occurs via neural pathways in the nervous system called reflex arcs...
+
+@Wikipedia-contributors2025-cf
+
+## On reflexes
+
+>These neural signals do not always travel to the brain, so many reflexes are an automatic response to a stimulus that does not receive or need conscious thought.
+
+@Wikipedia-contributors2025-cf
+
+::: {.fragment}
+- "Reflect" events from the world to the nervous system
+- Idea credited to Descartes [@Descartes2001-ma] and Hall [@Wikipedia-contributors2025-xl]
+- Earliest to emerge behaviors
+:::
+
+## On reflexes
+
+{{< video https://www.youtube.com/watch?v=rHYk1sYsge0&t=62s height="70%" width="100%" >}}
+
+@RegisteredNurseRN2020-ny
+
+## On reflexes
+
+- What is the input? What is the output?
+- What purpose(s) do reflexes serve?
+
+## The vestibulo-ocular reflex (VOR)
+
+{{< video https://www.youtube.com/watch?v=j_R0LcPnZ_w height="70%" width="100%" >}}
+
+@Castilla2007-cq
+
+## The vestibulo-ocular reflex (VOR)
+
+![@Wikipedia-contributors2025-lq](https://upload.wikimedia.org/wikipedia/commons/5/58/Simple_vestibulo-ocular_reflex.PNG)
+
+- Stabilizes gaze in allocentric coordinates
+- Within ~10 ms
+
+## On reflexes
+
+::: {.incremental}
+- Sensations and responses temporally linked
+  - Causally (mechanically) linked via
+  - Specialized neural circuits
+- Sensation $\rightarrow$ Response $\rightarrow$ (New) Sensation
+- Imagine a mechanism that "records" these links
+- (Random) Response $\rightarrow$ Sensation
+  - Sensation $\sim$ (Recorded prior) Sensation
+:::
+
+## Background ideas: Summary
+
+::: {.incremental}
+- Mind/brain/body as a mechanism
+- State space formalism aids specifying states and transitions
+- Reflexes as simple, early emerging sensorimotor behaviors
+- Reflex arcs [@Wikipedia-contributors2025-xl] $\rightarrow$ Piaget's "circular reactions"
+:::
+
+# On Piaget
 
 # Wrap-up
 

@@ -4,14 +4,147 @@
     "href": "slides/wk-02-piaget.html#todays-topics",
     "title": "Piaget",
     "section": "Today’s topics",
-    "text": "Today’s topics\n\nCheck-in on HTA\nTheoretical foundations: Piaget\n\nGeneral Readings: Siegler & Alibali (2021) Chapter 2; Piaget (1953); Newcombe (2013)"
+    "text": "Today’s topics\n\nCheck-in on hierarchical task analyses (HTA)\nBackground ideas\nTheoretical foundations: Piaget\n\nGeneral Readings: Siegler & Alibali (2021) Chapter 2; Piaget (1953); Newcombe (2013)"
   },
   {
     "objectID": "slides/wk-02-piaget.html#check-in-on-hta",
     "href": "slides/wk-02-piaget.html#check-in-on-hta",
     "title": "Piaget",
     "section": "Check-in on HTA",
-    "text": "Check-in on HTA\n\nRelevance?\nUtility?\nDo task demands/abilities change across development?"
+    "text": "Check-in on HTA\n\nRelevance?\nUtility?\nDo task demands/abilities change across development?\nWhat are the tasks of the infant, toddler, pre-schooler, etc.?"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-mechanism",
+    "href": "slides/wk-02-piaget.html#on-mechanism",
+    "title": "Piaget",
+    "section": "On mechanism",
+    "text": "On mechanism"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-mechanism-1",
+    "href": "slides/wk-02-piaget.html#on-mechanism-1",
+    "title": "Piaget",
+    "section": "On mechanism",
+    "text": "On mechanism\n\n\n\nPhysical devices subject to physical laws\nThe automata (Wikipedia contributors, 2025c) metaphor in psychology\nMind, brain, body problem (Wikipedia contributors, 2025a)\n\n\n\n\n\nWikipedia contributors (2025a)"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-mechanism-2",
+    "href": "slides/wk-02-piaget.html#on-mechanism-2",
+    "title": "Piaget",
+    "section": "On mechanism",
+    "text": "On mechanism\n\n\n\nIs the human mind/brain/body a machine?\nWhat are the parts?\nHow do they connect and interact?\nWhat do they do?\n\n\n\n\n\nWikipedia contributors (2001)"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-state-spaces",
+    "href": "slides/wk-02-piaget.html#on-state-spaces",
+    "title": "Piaget",
+    "section": "On state spaces",
+    "text": "On state spaces\n\n…a mathematical model of a physical system that uses state variables to track how inputs shape system behavior over time.\n\n\n…These state variables change based on their current values and inputs, while outputs depend on the states and sometimes the inputs too.\n\nWikipedia contributors (2025d)"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-state-spaces-1",
+    "href": "slides/wk-02-piaget.html#on-state-spaces-1",
+    "title": "Piaget",
+    "section": "On state spaces",
+    "text": "On state spaces\n\n…The internal state variables are the smallest possible subset of system variables that can represent the entire state of the system at any given time…\n\n\nWikipedia contributors (2025d)"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-state-spaces-2",
+    "href": "slides/wk-02-piaget.html#on-state-spaces-2",
+    "title": "Piaget",
+    "section": "On state spaces",
+    "text": "On state spaces\n\nIn computer science, a state space is a discrete space representing the set of all possible configurations of a system…State spaces are useful in computer science as a simple model of machines.\n\nWikipedia contributors (2025e)"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-state-spaces-3",
+    "href": "slides/wk-02-piaget.html#on-state-spaces-3",
+    "title": "Piaget",
+    "section": "On state spaces",
+    "text": "On state spaces\n\nRepresentations \\(\\rightarrow\\) states (\\(s\\))\nProcesses \\(\\rightarrow\\) changes in state across time\n\n\\(s_{next}=s_{now}+x\\)\n\nTime scale of states, changes?\n\n\\(s(t+1)=F(s(t))\\)"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-state-spaces-4",
+    "href": "slides/wk-02-piaget.html#on-state-spaces-4",
+    "title": "Piaget",
+    "section": "On state spaces",
+    "text": "On state spaces\n\nWhat is the state of the child’s mind/brain/body at time t?\nHow does that state change over some time interval?\n\nShort term: behavior\nLonger term: learning or adaptation or development\nReally long term: evolution"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-state-spaces-5",
+    "href": "slides/wk-02-piaget.html#on-state-spaces-5",
+    "title": "Piaget",
+    "section": "On state spaces",
+    "text": "On state spaces\n\n\n\n\n\n\nflowchart LR\n  A(Body) --&gt;|Sensation| B(Nervous System)\n  B --&gt;|Response| A\n\n\n\n\nFigure 1: A simple state space for the nervous system\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A(Body) --&gt;|Sensation| B(Nervous System)\n  B --&gt; B\n  B --&gt;|Response| A\n\n\n\n\nFigure 2: A slightly more complicated state space for the nervous system."
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-state-spaces-6",
+    "href": "slides/wk-02-piaget.html#on-state-spaces-6",
+    "title": "Piaget",
+    "section": "On state spaces",
+    "text": "On state spaces\n\n\n\n\n\n\nflowchart TD\n  W(World) --&gt; W\n  W --&gt;|Experience| B(Body)\n  B --&gt;|Behavior| W\n  B --&gt; B\n  B --&gt;|Sensation| N(Nervous system)\n  N --&gt;|Response| B\n  N --&gt;|Cognition| N\n\n\n\n\nFigure 3: A more complete state space for the nervous system"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-state-spaces-7",
+    "href": "slides/wk-02-piaget.html#on-state-spaces-7",
+    "title": "Piaget",
+    "section": "On state spaces",
+    "text": "On state spaces\n\nSwanson (n.d.)\n\nSeparable but interacting neural pathways\nInput (from world and body state)\nOutput (to body and world)"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-reflexes",
+    "href": "slides/wk-02-piaget.html#on-reflexes",
+    "title": "Piaget",
+    "section": "On reflexes",
+    "text": "On reflexes\n\nIn biology, a reflex, or reflex action, is an involuntary, unplanned sequence or action and nearly instantaneous response to a stimulus…\n\n\nA reflex occurs via neural pathways in the nervous system called reflex arcs…\n\nWikipedia contributors (2025g)"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-reflexes-1",
+    "href": "slides/wk-02-piaget.html#on-reflexes-1",
+    "title": "Piaget",
+    "section": "On reflexes",
+    "text": "On reflexes\n\nThese neural signals do not always travel to the brain, so many reflexes are an automatic response to a stimulus that does not receive or need conscious thought.\n\nWikipedia contributors (2025g)\n\n\n“Reflect” events from the world to the nervous system\nIdea credited to Descartes (Wikipedia contributors, 2001) and Hall (Wikipedia contributors, 2025b)\nEarliest to emerge behaviors"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-reflexes-2",
+    "href": "slides/wk-02-piaget.html#on-reflexes-2",
+    "title": "Piaget",
+    "section": "On reflexes",
+    "text": "On reflexes\n\nRegisteredNurseRN (2020)"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-reflexes-3",
+    "href": "slides/wk-02-piaget.html#on-reflexes-3",
+    "title": "Piaget",
+    "section": "On reflexes",
+    "text": "On reflexes\n\nWhat is the input? What is the output?\nWhat purpose(s) do reflexes serve?"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#the-vestibulo-ocular-reflex-vor",
+    "href": "slides/wk-02-piaget.html#the-vestibulo-ocular-reflex-vor",
+    "title": "Piaget",
+    "section": "The vestibulo-ocular reflex (VOR)",
+    "text": "The vestibulo-ocular reflex (VOR)\n\nCastilla (2007)"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#the-vestibulo-ocular-reflex-vor-1",
+    "href": "slides/wk-02-piaget.html#the-vestibulo-ocular-reflex-vor-1",
+    "title": "Piaget",
+    "section": "The vestibulo-ocular reflex (VOR)",
+    "text": "The vestibulo-ocular reflex (VOR)\n\nWikipedia contributors (2025f)\nStabilizes gaze in allocentric coordinates\nWithin ~10 ms"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#on-reflexes-4",
+    "href": "slides/wk-02-piaget.html#on-reflexes-4",
+    "title": "Piaget",
+    "section": "On reflexes",
+    "text": "On reflexes\n\n\nSensations and responses temporally linked\n\nCausally (mechanically) linked via\nSpecialized neural circuits\n\nSensation \\(\\rightarrow\\) Response \\(\\rightarrow\\) (New) Sensation\nImagine a mechanism that “records” these links\n(Random) Response \\(\\rightarrow\\) Sensation\n\nSensation \\(\\sim\\) (Captured prior) Sensation"
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#background-ideas-summary",
+    "href": "slides/wk-02-piaget.html#background-ideas-summary",
+    "title": "Piaget",
+    "section": "Background ideas: Summary",
+    "text": "Background ideas: Summary\n\n\nMind/brain/body as a mechanism\nState space formalism aids specifying states and transitions\nReflexes as simple, early emerging sensorimotor behaviors\nReflex arcs (Wikipedia contributors, 2025b) \\(\\rightarrow\\) Piaget’s “circular reactions”"
   },
   {
     "objectID": "slides/wk-02-piaget.html#next-time",
@@ -32,7 +165,7 @@
     "href": "slides/wk-02-piaget.html#references",
     "title": "Piaget",
     "section": "References",
-    "text": "References\n\n\n\n\nBaillargeon, Renée. (2008). Innate ideas revisited: For a principle of persistence in infants’ physical reasoning. Perspectives on Psychological Science: A Journal of the Association for Psychological Science, 3, 2–13. https://doi.org/10.1111/j.1745-6916.2008.00056.x\n\n\nBaillargeon, R., Spelke, E. S., & Wasserman, S. (1985). Object permanence in five-month-old infants. Cognition, 20, 191–208. https://doi.org/10.1016/0010-0277(85)90008-3\n\n\nElkind, D. (1961). Children’s discovery of the conservation of mass, weight, and volume: Piaget replication study. II. The Journal of Genetic Psychology, 98, 219–227. https://doi.org/10.1080/00221325.1961.10534372\n\n\nGelman, R. (1972). Logical capacity of very young children: Number invariance rules. Child Development, 43, 75. https://doi.org/10.2307/1127873\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nPiaget, J. (1953). The origins of intelligence in children. New York: Routledge. https://doi.org/10.1037/11494-000\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson."
+    "text": "References\n\n\n\n\nBaillargeon, Renée. (2008). Innate ideas revisited: For a principle of persistence in infants’ physical reasoning. Perspectives on Psychological Science: A Journal of the Association for Psychological Science, 3, 2–13. https://doi.org/10.1111/j.1745-6916.2008.00056.x\n\n\nBaillargeon, R., Spelke, E. S., & Wasserman, S. (1985). Object permanence in five-month-old infants. Cognition, 20, 191–208. https://doi.org/10.1016/0010-0277(85)90008-3\n\n\nCastilla, V. (2007). Vestibulo-ocular reflex 13/25. Youtube. Retrieved from https://www.youtube.com/watch?v=j_R0LcPnZ_w\n\n\nElkind, D. (1961). Children’s discovery of the conservation of mass, weight, and volume: Piaget replication study. II. The Journal of Genetic Psychology, 98, 219–227. https://doi.org/10.1080/00221325.1961.10534372\n\n\nGelman, R. (1972). Logical capacity of very young children: Number invariance rules. Child Development, 43, 75. https://doi.org/10.2307/1127873\n\n\nMadonna. (2017). Madonna - material girl (official video) [HD]. Youtube. Retrieved from https://www.youtube.com/watch?v=6p-lDYPR2P8&list=RD6p-lDYPR2P8&start_radio=1\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nPiaget, J. (1953). The origins of intelligence in children. New York: Routledge. https://doi.org/10.1037/11494-000\n\n\nRegisteredNurseRN. (2020). Newborn reflexes assessment (infant) nursing pediatric NCLEX review. Youtube. Retrieved from https://www.youtube.com/watch?v=rHYk1sYsge0&t=62s\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSwanson, L. W. (n.d.). Brain Architecture. Retrieved September 1, 2025, from https://larrywswanson.com/?page_id=1523\n\n\nWikipedia contributors. (2001, October 30). René Descartes. Retrieved September 1, 2025, from https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes\n\n\nWikipedia contributors. (2025a, April 8). Digesting duck. Retrieved from https://en.wikipedia.org/wiki/Digesting_Duck\n\n\nWikipedia contributors. (2025b, July 20). Marshall Hall (physiologist). Retrieved from https://en.wikipedia.org/wiki/Marshall_Hall_(physiologist)\n\n\nWikipedia contributors. (2025c, August 3). Automaton. Retrieved from https://en.wikipedia.org/wiki/Automaton\n\n\nWikipedia contributors. (2025d, August 6). State-space representation. Retrieved from https://en.wikipedia.org/wiki/State-space_representation\n\n\nWikipedia contributors. (2025e, August 24). State space (computer science). Retrieved from https://en.wikipedia.org/wiki/State_space_(computer_science)\n\n\nWikipedia contributors. (2025f, August 25). Vestibulo-ocular reflex. Retrieved from https://en.wikipedia.org/wiki/Vestibulo-ocular_reflex\n\n\nWikipedia contributors. (2025g, August 27). Reflex. Retrieved from https://en.wikipedia.org/wiki/Reflex"
   },
   {
     "objectID": "schedule.html",
@@ -79,7 +212,7 @@
     "href": "schedule.html#week-04",
     "title": "Schedule",
     "section": "Week 04",
-    "text": "Week 04\n\nFriday, September 19, 2025\n\nTopics & Readings\n\nNativism and Core Knowlege\n\nGeneral Readings: Elizabeth S. Spelke & Kinzler (2007); Spencer, Blumberg, et al. (2009); Elizabeth S. Spelke & Kinzler (2009); Landau (2009); Spencer, Samuelson, et al. (2009)",
+    "text": "Week 04\n\nFriday, September 19, 2025\n\nTopics & Readings\n\nNativism and Core Knowlege\n\nGeneral Readings: Spelke & Kinzler (2007); Spencer, Blumberg, et al. (2009); Spelke & Kinzler (2009); Landau (2009); Spencer, Samuelson, et al. (2009)",
     "crumbs": [
       "Schedule"
     ]
@@ -89,7 +222,7 @@
     "href": "schedule.html#week-05",
     "title": "Schedule",
     "section": "Week 05",
-    "text": "Week 05\n\nFriday, September 26, 2025\n\nTopics & Readings\n\nNativism and Core Knowledge: Deep dive\n\nStudent Presentation C: How does changing the task inform on the underlying construct(s) about physical knowledge?\n\nRead: E. S. Spelke, Breinlinger, Macomber, & Jacobson (1992); Hood, Carey, & Prasada (2000); Keen (2003)\n\nStudent Presentation D: Rich interpretation of group differences in infant looking-time paradigms: How rich is dangerous? Necessary? Productive?\nRead: Aslin (2007); Paulus (2022); Stahl & Kibbe (2022); Haith (1998)",
+    "text": "Week 05\n\nFriday, September 26, 2025\n\nTopics & Readings\n\nNativism and Core Knowledge: Deep dive\n\nStudent Presentation C: How does changing the task inform on the underlying construct(s) about physical knowledge?\n\nRead: Spelke, Breinlinger, Macomber, & Jacobson (1992); Hood, Carey, & Prasada (2000); Keen (2003)\n\nStudent Presentation D: Rich interpretation of group differences in infant looking-time paradigms: How rich is dangerous? Necessary? Productive?\nRead: Aslin (2007); Paulus (2022); Stahl & Kibbe (2022); Haith (1998)",
     "crumbs": [
       "Schedule"
     ]
@@ -300,6 +433,16 @@
     "title": "Cognitive Development • Fall 2025",
     "section": "Textbook",
     "text": "Textbook\n\n\nSiegler, R.S. & Alibali, M.W. (2020), Children’s Thinking (5th ed.), Pearson: Hoboken, NJ.\nPearson site for the text",
+    "crumbs": [
+      "Cognitive Development • Fall 2025"
+    ]
+  },
+  {
+    "objectID": "index.html#articles",
+    "href": "index.html#articles",
+    "title": "Cognitive Development • Fall 2025",
+    "section": "Articles",
+    "text": "Articles\nMany of the articles are available via the Penn State Libraries, but there is also a Canvas folder that can be found here. Access is restricted to registered students in PSY 548.",
     "crumbs": [
       "Cognitive Development • Fall 2025"
     ]
@@ -550,7 +693,7 @@
     "href": "slides/wk-01-intro.html#what-do-statistics-model",
     "title": "Course Introduction",
     "section": "What do statistics model?",
-    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 20.735, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6306240 0.7250848\nsample estimates:\n      cor \n0.6806735",
+    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 21.017, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6361566 0.7294372\nsample estimates:\n     cor \n0.685601",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
@@ -807,16 +950,6 @@
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "index.html#articles",
-    "href": "index.html#articles",
-    "title": "Cognitive Development • Fall 2025",
-    "section": "Articles",
-    "text": "Articles\nMany of the articles are available via the Penn State Libraries, but there is also a Canvas folder that can be found here. Access is restricted to registered students in PSY 548.",
-    "crumbs": [
-      "Cognitive Development • Fall 2025"
     ]
   }
 ]
