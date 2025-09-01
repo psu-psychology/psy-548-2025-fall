@@ -216,9 +216,59 @@ flowchart TD
 - State space formalism aids specifying states and transitions
 - Reflexes as simple, early emerging sensorimotor behaviors
 - Reflex arcs [@Wikipedia-contributors2025-xl] $\rightarrow$ Piaget's "circular reactions"
+- Perceiving "sameness" of sensations & actions critical
 :::
 
 # On Piaget
+
+---
+
+![Jean Piaget from @Wikipedia-contributors2025-cq](https://upload.wikimedia.org/wikipedia/commons/6/67/Jean_Piaget_in_Ann_Arbor.png)
+
+## Core ideas
+
+- Stages (and sub-stages)
+  - Sensorimotor (0-24 mos)
+  - Preoperational (2-7 years)
+  - Concrete operations (7-11 years)
+  - Formal operations (11-14 or 15 years)
+  
+## Core ideas
+
+- *Schema* [@Wikipedia-contributors2025-ad]
+
+>...describes a pattern of thought or behavior that organizes categories of information and the relationships among them. It can also be described as a mental structure of preconceived ideas, a framework representing some aspect of the world, or a system of organizing and perceiving new information.
+  
+## Core ideas
+
+- *Assimilation* 
+
+>fitting new information into pre-existing cognitive schemas [@Wikipedia-contributors2025-cq]
+
+::: {.fragmewnt}
+- *Accommodation* 
+
+>taking new information in one's environment and altering pre-existing schemas in order to fit in the new information [@Wikipedia-contributors2025-cq]
+:::
+  
+## Core ideas
+
+- [*Primary circular reactions*](https://dictionary.apa.org/primary-circular-reaction){preview-link="true"}
+  - Repetition of a volitional, non-reflexive act [@APAdictionary-vt]
+- [*Secondary circular reactions*](https://dictionary.apa.org/secondary-circular-reaction){preview-link="true"}
+  - Actions taken for their effects on the environment [@APAdictionary-vt]
+  
+## Core approach
+
+- Qualitative observations of behavior
+- In experimenter (parent)-chosen situations or tasks
+- Observations $\rightarrow$ inferences about unseen mental processes
+- Inductive reasoning [@Wikipedia-contributors2025-wz]
+
+## Questions
+
+- How does Piaget view the question of cognitive continuity vs. discontinuity?
+- Are the relations among sensations and actions described in @Piaget1952-dm clearly specified that you could write out the schema?
 
 # Wrap-up
 
