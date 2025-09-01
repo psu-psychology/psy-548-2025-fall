@@ -200,6 +200,15 @@ flowchart TD
   - Sensation $\sim$ (Recorded prior) Sensation
 :::
 
+## Aside: Vestibulo-ocular reflex (VOR)
+
+- One of many behavior systems that reduce "noise", improve reliability in input
+- Input "reliability" improves over long time span
+
+## Visual acuity in young children *not* adult-like
+
+![@Gilmore2025-fz](https://github.com/gilmore-lab/vss-2025-poster/blob/main/include/generated/fig-typical-group-by-age-paper-group-trend-scaled-weight-n-no-classic-1.png?raw=true){width="70%"}
+
 ## Background ideas: Summary
 
 ::: {.incremental}
