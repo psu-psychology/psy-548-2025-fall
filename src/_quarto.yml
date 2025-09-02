@@ -9,7 +9,7 @@ project:
 website:
   title: "PSY 548"
   announcement: 
-    content: "All readings for 2025-09-05 have been uploaded to Canvas as of 2025-08-31." 
+    content: "Please review the tentative presentation/discussion assignment schedule [here](https://psu-psychology.github.io/psy-548-2025-fall/presentations.html)" 
     position: below-navbar
     icon: info-circle
     dismissable: true
@@ -25,6 +25,11 @@ website:
         contents:
           - text: "Wk 01 • Fri Aug 29"
             href: slides/wk-01-intro.qmd
+          - text: "Wk 02 • Fri Sep 05"
+            href: slides/wk-02-piaget.qmd
+      - section: "Resources"
+        contents:
+          - presentations.qmd
     
   repo-url: https://github.com/psu-psychology/psy-548-2025-fall
   repo-actions: [edit, issue]
