@@ -74,7 +74,7 @@ These sensory signals project to the nervous system in a one-way, directed flow.
 
 ```{mermaid}
 %%| label: fig-info-flow-to-infant
-%%| fig-cap: "Information flow from environment."
+%%| fig-cap: "Information flow from the environment to the infant's nervous system."
 flowchart TD
   C[ribbon] ---| tactile_info | I(arm_r)
   B[rattle] ---| auditory_info | K(ears)
@@ -89,7 +89,7 @@ Next, let's show some of the outflow relationships that have the reverse directi
 
 ```{mermaid}
 %%| label: fig-info-outflow
-%%| fig-cap: "Information flow from the infant to the environment."
+%%| fig-cap: "Information flow from the infant's nervous system to the environment."
 flowchart TD
   N((nervous_system)) ---|moves| G(eyes)
   N ---|moves| F(head)
@@ -109,6 +109,9 @@ These movements are usually small and not especially important for the story we 
 Movements caused by the nervous system have sensory consequences in different forms, sometimes called modalities.
 
 ```{mermaid}
+%%| label: fig-info-flow-resulting-from-infant-movement
+%%| fig-cap: "Information flow resulting from the infant's movement."
+
 flowchart TD
   B[rattle] ---|auditory_info| K(ears)
   C[ribbon] ---| tactile_info | I(arm_r)
@@ -123,6 +126,8 @@ We're now ready to show a full perception-action-perception cycle that is the pr
 We start with the sensory flow before the infant moves and we assume that the rattle and ribbon can be seen.
 
 ```{mermaid}
+%%| label: fig-phase-I-before-rattling
+%%| fig-caption: "Information flow before the infant moves her arm and makes the rattle rattle."
 flowchart TD
   B[rattle] ---| visual_info | G(eyes)
   C[ribbon] ---| visual_info | G
@@ -135,6 +140,8 @@ flowchart TD
 The child moves his right arm and the rattle shakes. The eyes remain fixed on the rattle and ribbon.
 
 ```{mermaid}
+%%| label: fig-phase-II-after-rattling
+%%| fig-caption: "Information flow from the child that causes the rattle to move."
 flowchart TD
   N((nervous_system)) ---| moves | I(arm_r)
   I ---|moves| C[ribbon]
@@ -144,6 +151,8 @@ flowchart TD
 The rattle rattles and causes a flow of information back to the nervous system.
 
 ```{mermaid}
+%%| label: fig-phase-III-flows-resulting-from-rattling
+%%| fig-caption: "Information flow resulting from the rattling rattle."
 flowchart TD
   B[rattle] ---|auditory_info| K(ears)
   C[ribbon] ---| tactile_info | I(arm_r)
@@ -155,12 +164,14 @@ flowchart TD
 ```
 
 So, the nervous system activity that caused the arm movement also caused the rattle to shake.
-The cognitive task for the infant is to learn what prior perceptual states and what action(s) led to this fortuitous result.
+The cognitive task for the infant is to learn what prior perceptual states (@fig-phase-I-before-rattling) and what action(s) (@fig-phase-II-after-rattling) cause this fortuitous result (@fig-phase-III-flows-resulting-from-rattling).
 That learning involves some change in the `nervous_system` that links the prior perceptual states and the generated actions together in what Piaget might call a *schema*.
 
 In the figure below, the **bold** links represent the first perception flow, unbolded links the action flow, and dotted links the subsequent perception flow.
 
 ```{mermaid}
+%%| label: fig-phases-combined
+%%| fig-caption: "The three phases combined. Bold links represent the pre-movement state, plain links the action flow, and dotted links the subsequent flow of perceptual information that results from the movement."
 flowchart TD
   B[rattle] ===| visual_info | G(eyes)
   C[ribbon] ===| visual_info | G
@@ -178,7 +189,7 @@ flowchart TD
 
 Do these kind of causal flow diagrams help you see the complexity of the situation in a more tractable way?
 
-Gilmore has been experimenting with them to help him see what is often hidden or glossed over, such as directional information flows like these.
+Gilmore has been experimenting with them to help him see what is often hidden or glossed over in many accounts of behavior, psychological phenomena, and neural substrates. While these efforts seem to complicate things initially, they can reveal underlying processes more completely. More complete specification of information flows can lead to better, more useful models.
 
 ```{mermaid}
 flowchart LR
@@ -186,3 +197,9 @@ flowchart LR
   B <---> N((nervous_system))
 ```
 
+Would these diagrams make it easier to generate a hierarchical task analysis for the infant in the bassinet? What is the task? Is it different before the infant learns to move the rattle vs. afterward?
+
+## Afterword
+
+Gilmore finds it useful to be able to make reproducible box and arrow type diagrams.
+It's one of many reasons he spends so much time working in [Quarto](https://quarto.org).
