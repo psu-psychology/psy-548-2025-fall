@@ -30,6 +30,8 @@ website:
       - section: "Resources"
         contents:
           - presentations.qmd
+          - causal-relations.qmd
+          - repro-rubric.qmd
     
   repo-url: https://github.com/psu-psychology/psy-548-2025-fall
   repo-actions: [edit, issue]

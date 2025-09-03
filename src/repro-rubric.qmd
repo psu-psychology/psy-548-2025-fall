@@ -3,9 +3,19 @@ title: "Evaluating Rigor, Reproducibility, & Transparency"
 number-sections: true
 ---
 
+::: {.callout-warning}
+## Under construction
+
+This page is in a very early and rough state.
+
+Do not rely upon it.
+:::
+
 ## About
 
 This page describes a rubric for evaluating the rigor, reproducibility, and transparency of empirical articles in cognitive development.
+
+Gilmore is considering whether students would like to add an evaluation of these factors to the classwork we do together on the days when students present.
 
 ## Components
 

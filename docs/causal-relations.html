@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2025-09-03">
 
-<title>Evaluating Rigor, Reproducibility, &amp; Transparency – PSY 548</title>
+<title>Unpacking causality – PSY 548</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="include/site_libs/quarto-nav/quarto-nav.js"></script>
@@ -31,7 +51,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="include/site_libs/quarto-search/fuse.min.js"></script>
 <script src="include/site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./causal-relations.html" rel="prev">
+<link href="./repro-rubric.html" rel="next">
+<link href="./presentations.html" rel="prev">
 <script src="include/site_libs/quarto-html/quarto.js"></script>
 <script src="include/site_libs/quarto-html/popper.min.js"></script>
 <script src="include/site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,6 +89,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="include/site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="include/site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="include/site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -81,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./presentations.html">Resources</a></li><li class="breadcrumb-item"><a href="./repro-rubric.html">Evaluating Rigor, Reproducibility, &amp; Transparency</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./presentations.html">Resources</a></li><li class="breadcrumb-item"><a href="./causal-relations.html">Unpacking causality</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -173,13 +197,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./causal-relations.html" class="sidebar-item-text sidebar-link">
+  <a href="./causal-relations.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Unpacking causality</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./repro-rubric.html" class="sidebar-item-text sidebar-link active">
+  <a href="./repro-rubric.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Evaluating Rigor, Reproducibility, &amp; Transparency</span></a>
   </div>
 </li>
@@ -195,37 +219,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about"><span class="header-section-number">1</span> About</a></li>
-  <li><a href="#components" id="toc-components" class="nav-link" data-scroll-target="#components"><span class="header-section-number">2</span> Components</a>
-  <ul>
-  <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility"><span class="header-section-number">2.1</span> Reproducibility</a>
-  <ul class="collapse">
-  <li><a href="#can-the-papers-main-reported-findings-be-reproduced-exactly" id="toc-can-the-papers-main-reported-findings-be-reproduced-exactly" class="nav-link" data-scroll-target="#can-the-papers-main-reported-findings-be-reproduced-exactly"><span class="header-section-number">2.1.1</span> Can the paper’s main reported findings be reproduced exactly?</a></li>
-  </ul></li>
-  <li><a href="#transparency" id="toc-transparency" class="nav-link" data-scroll-target="#transparency"><span class="header-section-number">2.2</span> Transparency</a>
-  <ul class="collapse">
-  <li><a href="#was-the-study-pre-registered" id="toc-was-the-study-pre-registered" class="nav-link" data-scroll-target="#was-the-study-pre-registered"><span class="header-section-number">2.2.1</span> Was the study pre-registered?</a></li>
-  </ul></li>
-  <li><a href="#recombinability" id="toc-recombinability" class="nav-link" data-scroll-target="#recombinability"><span class="header-section-number">2.3</span> Recombinability</a>
-  <ul class="collapse">
-  <li><a href="#does-the-paper-report-effect-sizes-or-information-that-can-be-used-to-compute-effect-sizes-so-that-these-results-can-be-combined-with-other-reports-in-a-meta-analysis" id="toc-does-the-paper-report-effect-sizes-or-information-that-can-be-used-to-compute-effect-sizes-so-that-these-results-can-be-combined-with-other-reports-in-a-meta-analysis" class="nav-link" data-scroll-target="#does-the-paper-report-effect-sizes-or-information-that-can-be-used-to-compute-effect-sizes-so-that-these-results-can-be-combined-with-other-reports-in-a-meta-analysis"><span class="header-section-number">2.3.1</span> Does the paper report effect sizes or information that can be used to compute effect sizes so that these results can be combined with other reports in a meta-analysis?</a></li>
-  </ul></li>
-  <li><a href="#replicability" id="toc-replicability" class="nav-link" data-scroll-target="#replicability"><span class="header-section-number">2.4</span> Replicability</a>
-  <ul class="collapse">
-  <li><a href="#have-exact-replications-of-the-papers-main-findings-been-published" id="toc-have-exact-replications-of-the-papers-main-findings-been-published" class="nav-link" data-scroll-target="#have-exact-replications-of-the-papers-main-findings-been-published"><span class="header-section-number">2.4.1</span> Have exact replications of the paper’s main findings been published?</a></li>
-  <li><a href="#has-a-systematic-review-or-meta-analysis-been-published" id="toc-has-a-systematic-review-or-meta-analysis-been-published" class="nav-link" data-scroll-target="#has-a-systematic-review-or-meta-analysis-been-published"><span class="header-section-number">2.4.2</span> Has a systematic review or meta-analysis been published?</a></li>
-  <li><a href="#how-thorough-is-the-methods-section" id="toc-how-thorough-is-the-methods-section" class="nav-link" data-scroll-target="#how-thorough-is-the-methods-section"><span class="header-section-number">2.4.3</span> How thorough is the methods section?</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#components" id="toc-components" class="nav-link" data-scroll-target="#components">Components</a></li>
+  <li><a href="#your-thoughts" id="toc-your-thoughts" class="nav-link" data-scroll-target="#your-thoughts">Your thoughts</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-548-2025-fall/edit/main/src/repro-rubric.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-548-2025-fall/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="repro-rubric.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-548-2025-fall/edit/main/src/causal-relations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-548-2025-fall/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./presentations.html">Resources</a></li><li class="breadcrumb-item"><a href="./repro-rubric.html">Evaluating Rigor, Reproducibility, &amp; Transparency</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./presentations.html">Resources</a></li><li class="breadcrumb-item"><a href="./causal-relations.html">Unpacking causality</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Evaluating Rigor, Reproducibility, &amp; Transparency</h1>
+<h1 class="title">Unpacking causality</h1>
 </div>
 
 
@@ -254,80 +260,283 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>This page provides some supporting material related to the problem of what causal relationships the infants described by Piaget <span class="citation" data-cites="Piaget1952-dm">(Chapter III from <a href="#ref-Piaget1952-dm" role="doc-biblioref">Piaget, 1953</a>)</span> could have inferred given the circumstances they confronted.</p>
+</section>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p>Piaget describes multiple observations of his children’s behavior while they were lying supine in a bassinet. Various objects, including rattles, were attached to the bassinet at different times. In some circumstances, ribbons attached to these objects were placed in the child’s hand or tied to their limb. When the child grasped the ribbon or it was tied to their limb, certain hand or limb movements could make the objects move and make noise.</p>
+</section>
+<section id="components" class="level2">
+<h2 class="anchored" data-anchor-id="components">Components</h2>
+<p>Let’s describe in detail the various components of this situation and their causal links. For simplicity, we’ll focus on a rattle tied to the bassinet handle by a ribbon, with an additional ribbon long enough for the child to grasp or be tied to their limb.</p>
+<p>The components external to the infant are as follows:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-baby-in-bassinet" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-baby-in-bassinet-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-baby-in-bassinet">flowchart TD
+  A[bassinet] &lt;-- connected_to --&gt; B[rattle]
+  B &lt;-- connected_to --&gt; C[ribbon]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-baby-in-bassinet-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Physical state of the infant’s world in the bassinet.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-baby-state" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-baby-state-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-baby-state">flowchart TD
+  D(trunk) &lt;-- connected_to --&gt; E(leg_r)
+  D &lt;-- connected_to --&gt; H(leg_l)
+  D &lt;-- connected_to --&gt; I(arm_r)
+  D &lt;-- connected_to --&gt; J(arm_l)
+  F(head) &lt;-- connected_to --&gt; D
+  G(eyes) &lt;-- connected_to --&gt; F
+  K(ears) &lt;-- connected_to --&gt; F
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-baby-state-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Physical state of the infant.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>These <code>connected_to</code> relationships are physical and bidirectional. This means that movements of one entity can move a connected entity. When the infant moves her trunk, the arms and legs often move, as well.</p>
+<p>So, when the ribbon is tied around the infant’s right leg, for example, we have the following situation:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-baby-bassinet-state" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-baby-bassinet-state-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-baby-bassinet-state">flowchart TD
+  A[bassinet] &lt;-- connected_to --&gt; B[rattle]
+  B &lt;-- connected_to --&gt; C[ribbon]
+  C &lt;-- connected_to --&gt; E
+  D(trunk) &lt;-- connected_to --&gt; E(leg_r)
+  D &lt;-- connected_to --&gt; H(leg_l)
+  D &lt;-- connected_to --&gt; I(arm_r)
+  D &lt;-- connected_to --&gt; J(arm_l)
+  F(head) &lt;-- connected_to --&gt; D
+  G(eyes) &lt;-- connected_to --&gt; F
+  K(ears) &lt;-- connected_to --&gt; F  
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-baby-bassinet-state-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Physical state of the infant and bassinet.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>This <em>physical</em> situation sets up an interesting <em>psychological</em> situation that Piaget’s observations focus on.</p>
+<p>To get there, let’s talk about the flow of sensory information. The ribbon is likely to generate tactile stimulation on the skin of the right leg whether or not the leg is moving. The rattle and ribbon can be seen, if the infant’s trunk, head, and eyes are in the right position to see it. The rattle makes sounds if it is moving. These sensory signals project to the nervous system in a one-way, directed flow.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-info-flow-to-infant" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-info-flow-to-infant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-info-flow-to-infant">flowchart TD
+  C[ribbon] ---| tactile_info | I(arm_r)
+  B[rattle] ---| auditory_info | K(ears)
+  C ---| visual_info | G(eyes)
+  B ---| visual_info | G
+  I --&gt; N((nervous_system))
+  G --&gt; N
+  K --&gt; N
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-info-flow-to-infant-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Information flow from environment.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Next, let’s show some of the outflow relationships that have the reverse direction of flow.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-info-outflow" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-info-outflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-info-outflow">flowchart TD
+  N((nervous_system)) ---|moves| G(eyes)
+  N ---|moves| F(head)
+  F ---|moves| K(ears)
+  F ---|moves| G
+  N ---|moves| I(arm_r)
+  I ---|moves| C[ribbon]
+  C ---|moves| B[rattle]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-info-outflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Information flow from the infant to the environment.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Under construction
+Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This page is in a very early and rough state.</p>
-<p>Do not rely upon it.</p>
+<p>We do not show here that moving the head and arm can also move the trunk due to the physical connection between body parts. These movements can occur <em>without</em> specific signals from the nervous system.</p>
+<p>These movements are usually small and not especially important for the story we are telling here.</p>
 </div>
 </div>
-<section id="about" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="about"><span class="header-section-number">1</span> About</h2>
-<p>This page describes a rubric for evaluating the rigor, reproducibility, and transparency of empirical articles in cognitive development.</p>
+<p>Movements caused by the nervous system have sensory consequences in different forms, sometimes called modalities.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  B[rattle] ---|auditory_info| K(ears)
+  C[ribbon] ---| tactile_info | I(arm_r)
+  B ---| visual_info | G(eyes)
+  C ---| visual_info | G(eyes)
+  I --- N((nervous_system))
+  K --- N
+  G --- N
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>We’re now ready to show a full perception-action-perception cycle that is the precursor of the secondary circular reactions that so fascinated Piaget. We start with the sensory flow before the infant moves and we assume that the rattle and ribbon can be seen.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  B[rattle] ---| visual_info | G(eyes)
+  C[ribbon] ---| visual_info | G
+  C[ribbon] ---| tactile_info | I(arm_r)
+  B --- N((nervous_system))
+  G --- N((nervous_system))
+  I --- N((nervous_system))
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>The child moves his right arm and the rattle shakes. The eyes remain fixed on the rattle and ribbon.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  N((nervous_system)) ---| moves | I(arm_r)
+  I ---|moves| C[ribbon]
+  C ---|moves| B[rattle]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>The rattle rattles and causes a flow of information back to the nervous system.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  B[rattle] ---|auditory_info| K(ears)
+  C[ribbon] ---| tactile_info | I(arm_r)
+  B ---| visual_info | G(eyes)
+  C ---| visual_info | G(eyes)
+  I --- N((nervous_system))
+  K --- N
+  G --- N
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>So, the nervous system activity that caused the arm movement also caused the rattle to shake. The cognitive task for the infant is to learn what prior perceptual states and what action(s) led to this fortuitous result. That learning involves some change in the <code>nervous_system</code> that links the prior perceptual states and the generated actions together in what Piaget might call a <em>schema</em>.</p>
+<p>In the figure below, the <strong>bold</strong> links represent the first perception flow, unbolded links the action flow, and dotted links the subsequent perception flow.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  B[rattle] ===| visual_info | G(eyes)
+  C[ribbon] ===| visual_info | G
+  C[ribbon] ===| tactile_info | I(arm_r)
+  G ===| informs | N((nervous_system))
+  I ===| informs| N((nervous_system))
+  N ---| moves | I(arm_r)
+  I ---| moves | C[ribbon]
+  C ---| moves | B[rattle]
+  B -.-| auditory_info | K(ears)
+  K -.-| informs | N
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
-<section id="components" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="components"><span class="header-section-number">2</span> Components</h2>
-<section id="reproducibility" class="level3" data-number="2.1">
-<h3 data-number="2.1" class="anchored" data-anchor-id="reproducibility"><span class="header-section-number">2.1</span> Reproducibility</h3>
-<section id="can-the-papers-main-reported-findings-be-reproduced-exactly" class="level4" data-number="2.1.1">
-<h4 data-number="2.1.1" class="anchored" data-anchor-id="can-the-papers-main-reported-findings-be-reproduced-exactly"><span class="header-section-number">2.1.1</span> Can the paper’s main reported findings be reproduced exactly?</h4>
-<ol type="1">
-<li>Are the data shared?</li>
-<li>Is any analysis or visualization code shared?</li>
-<li>If 1. and 2. are true, does the analysis and visualization code run?</li>
-<li>If 3., are the results the same as those the paper reports?</li>
-</ol>
-</section>
-</section>
-<section id="transparency" class="level3" data-number="2.2">
-<h3 data-number="2.2" class="anchored" data-anchor-id="transparency"><span class="header-section-number">2.2</span> Transparency</h3>
-<section id="was-the-study-pre-registered" class="level4" data-number="2.2.1">
-<h4 data-number="2.2.1" class="anchored" data-anchor-id="was-the-study-pre-registered"><span class="header-section-number">2.2.1</span> Was the study pre-registered?</h4>
-</section>
-</section>
-<section id="recombinability" class="level3" data-number="2.3">
-<h3 data-number="2.3" class="anchored" data-anchor-id="recombinability"><span class="header-section-number">2.3</span> Recombinability</h3>
-<section id="does-the-paper-report-effect-sizes-or-information-that-can-be-used-to-compute-effect-sizes-so-that-these-results-can-be-combined-with-other-reports-in-a-meta-analysis" class="level4" data-number="2.3.1">
-<h4 data-number="2.3.1" class="anchored" data-anchor-id="does-the-paper-report-effect-sizes-or-information-that-can-be-used-to-compute-effect-sizes-so-that-these-results-can-be-combined-with-other-reports-in-a-meta-analysis"><span class="header-section-number">2.3.1</span> Does the paper report effect sizes or information that can be used to compute effect sizes so that these results can be combined with other reports in a meta-analysis?</h4>
-</section>
-</section>
-<section id="replicability" class="level3" data-number="2.4">
-<h3 data-number="2.4" class="anchored" data-anchor-id="replicability"><span class="header-section-number">2.4</span> Replicability</h3>
-<section id="have-exact-replications-of-the-papers-main-findings-been-published" class="level4" data-number="2.4.1">
-<h4 data-number="2.4.1" class="anchored" data-anchor-id="have-exact-replications-of-the-papers-main-findings-been-published"><span class="header-section-number">2.4.1</span> Have exact replications of the paper’s main findings been published?</h4>
-</section>
-<section id="has-a-systematic-review-or-meta-analysis-been-published" class="level4" data-number="2.4.2">
-<h4 data-number="2.4.2" class="anchored" data-anchor-id="has-a-systematic-review-or-meta-analysis-been-published"><span class="header-section-number">2.4.2</span> Has a systematic review or meta-analysis been published?</h4>
-</section>
-<section id="how-thorough-is-the-methods-section" class="level4" data-number="2.4.3">
-<h4 data-number="2.4.3" class="anchored" data-anchor-id="how-thorough-is-the-methods-section"><span class="header-section-number">2.4.3</span> How thorough is the methods section?</h4>
-<section id="displays" class="level5" data-number="2.4.3.1">
-<h5 data-number="2.4.3.1" class="anchored" data-anchor-id="displays"><span class="header-section-number">2.4.3.1</span> Displays</h5>
-<ol type="1">
-<li>If computer-generated displays were used, is the computer code to generate them shared?</li>
-<li>Are videos of the displays shared?</li>
-</ol>
-</section>
-<section id="procedures" class="level5" data-number="2.4.3.2">
-<h5 data-number="2.4.3.2" class="anchored" data-anchor-id="procedures"><span class="header-section-number">2.4.3.2</span> Procedures</h5>
-</section>
-<section id="samples" class="level5" data-number="2.4.3.3">
-<h5 data-number="2.4.3.3" class="anchored" data-anchor-id="samples"><span class="header-section-number">2.4.3.3</span> Samples</h5>
+<section id="your-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="your-thoughts">Your thoughts</h2>
+<p>Do these kind of causal flow diagrams help you see the complexity of the situation in a more tractable way?</p>
+<p>Gilmore has been experimenting with them to help him see what is often hidden or glossed over, such as directional information flows like these.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  W[world] &lt;---&gt; B(body)
+  B &lt;---&gt; N((nervous_system))
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 
 
-</section>
-</section>
-</section>
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Piaget1952-dm" class="csl-entry" role="listitem">
+Piaget, J. (1953). <em>The origins of intelligence in children</em>. New York: Routledge. <a href="https://doi.org/10.1037/11494-000">https://doi.org/10.1037/11494-000</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -747,11 +956,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./causal-relations.html" class="pagination-link" aria-label="Unpacking causality">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Unpacking causality</span>
+      <a href="./presentations.html" class="pagination-link" aria-label="Student Presentations">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Student Presentations</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./repro-rubric.html" class="pagination-link" aria-label="Evaluating Rigor, Reproducibility, &amp; Transparency">
+        <span class="nav-page-text">Evaluating Rigor, Reproducibility, &amp; Transparency</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -762,7 +974,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p>Built with <a href="https://quarto.org/">Quarto</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/psu-psychology/psy-548-2025-fall/edit/main/src/repro-rubric.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-548-2025-fall/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/psu-psychology/psy-548-2025-fall/edit/main/src/causal-relations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-548-2025-fall/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
