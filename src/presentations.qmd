@@ -546,24 +546,87 @@ presenters[30, 'present_discuss'] <- "discuss"
 
 presenters[31, 'email'] <- "ckl5780@psu.edu"
 presenters[31, 'date'] <- "2025-12-12"
-presenters[31, 'topic'] <- "poverty_bad"
+presenters[31, 'topic'] <- "poverty_adaptive"
 presenters[31, 'present_discuss'] <- "present"
 presenters[32, 'email'] <- "nsb5522@psu.edu"
 presenters[32, 'date'] <- "2025-12-12"
-presenters[32, 'topic'] <- "poverty_bad"
+presenters[32, 'topic'] <- "poverty_adaptive"
 presenters[32, 'present_discuss'] <- "discuss"
+```
 
+
+### Fixes
+
+Assign jjf6412 to 2025-12-05 role.
+
+```{r}
+presenters[27, 'email'] <- "jjf6412@psu.edu"
+presenters[27, 'date'] <- "2025-12-05"
+presenters[27, 'topic'] <- "naive_psy"
+presenters[27, 'present_discuss'] <- "present"
+presenters[28, 'email'] <- "TBD"
+presenters[28, 'date'] <- "2025-12-05"
+presenters[28, 'topic'] <- "naive_psy"
+presenters[28, 'present_discuss'] <- "discuss"
+```
+
+### By student
+
+```{r}
 presenters |>
-  arrange(email, date, present_discuss) |>
+  arrange(email, date) |>
+  knitr::kable(format = 'html')
+```
+
+### By date and topic
+
+```{r}
+presenters |>
+  arrange(date, topic) |>
+  select(date, topic, email, present_discuss) |>
   knitr::kable(format = 'html')
 ```
 
 ### QA check
 
+How many students?
+
+```{r}
+presenters$email |> unique() |> length()
+```
+
+How many topics?
+
+```{r}
+presenters$topic |> unique() |> length()
+```
+
+How many presenters?
+
+```{r}
+presenters |>
+  filter(present_discuss == "present") |>
+  select(email) |>
+  unique() |>
+  dim()
+```
+
+How many discussants?
+
+```{r}
+presenters |>
+  filter(present_discuss == "discuss") |>
+  select(email) |>
+  unique() |>
+  dim()
+```
+
+How many speaking opportunities per student?
+
 ```{r}
 presenters |>
   group_by(email) |>
   summarize(n_sched = n()) |>
-  filter(n_sched < 2) |>
+  arrange(desc(n_sched)) |>
   knitr::kable(format = 'html')  
 ```
