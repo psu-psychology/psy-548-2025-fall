@@ -1,5 +1,8 @@
 ---
 title: "On Piaget"
+subtitle: 2025-09-05
+fig-align: "center"
+
 ---
 
 # Prelude
@@ -293,7 +296,7 @@ flowchart TD
 - Tasks that require the detection of some sort of sameness
   - Object permanence
   - Conservation of number, solid & liquid quantity
-  - Perspective taking
+  - Perspective taking1
   - Number
 
 ## Core approach
