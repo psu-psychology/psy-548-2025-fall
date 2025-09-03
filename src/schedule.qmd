@@ -37,7 +37,7 @@ I have adopted considerable portions of their readings and assignment ideas.
 #### Topics & Readings
 
 - Theoretical foundations: Piaget
-  - *General Readings*: @Siegler2021-py Chapter 2; @Piaget1952-dm; @Newcombe2013-qy
+  - *General Readings*: @Siegler2021-py Chapter 2; @Piaget1952-dm Chapter III | [pdf on Canvas](https://psu.instructure.com/courses/2416683/files/folder/pdf?preview=180988843) | ; @Newcombe2013-qy
 
 ## Week 03
 
@@ -65,6 +65,8 @@ I have adopted considerable portions of their readings and assignment ideas.
 ### Friday, September 26, 2025
 
 #### Topics & Readings
+
+<!-- Pratt Srinivasan religious holiday absence -->
 
 - Nativism and Core Knowledge: Deep dive
   - *Student Presentation C*: How does changing the task inform on the underlying construct(s) about physical knowledge?

@@ -1,5 +1,5 @@
 ---
-title: "Piaget"
+title: "On Piaget"
 ---
 
 # Prelude
@@ -227,11 +227,19 @@ flowchart TD
 
 ## Core ideas
 
+- Origins of knowledge (epistemology)
+- Categories of knowledge
+  - Space, time, classes/categories, causality
+- Reflexes innate
+- Child as "scientist", solving "problems"
+
+## Core ideas
+
 - Stages (and sub-stages)
   - Sensorimotor (0-24 mos)
-  - Preoperational (2-7 years)
-  - Concrete operations (7-11 years)
-  - Formal operations (11-14 or 15 years)
+  - Preoperational (2 - 6 or 7 years)
+  - Concrete operations (6 or 7 - 11 or 12 years)
+  - Formal operations (11 or 12 - 14 or 15 years)
   
 ## Core ideas
 
@@ -250,6 +258,18 @@ flowchart TD
 
 >taking new information in one's environment and altering pre-existing schemas in order to fit in the new information [@Wikipedia-contributors2025-cq]
 :::
+
+## Core ideas
+
+- *Equilibration*
+
+>integrating individual pieces of knowledge into a unified whole. [@Siegler2021-py p. 24]
+
+## Core ideas
+
+- Means (how to do/actions)
+- Ends (what to do/goals)
+- Means-ends analysis central to AI and the science of problem solving [@Wikipedia-contributors2023-nd]
   
 ## Core ideas
 
@@ -260,15 +280,46 @@ flowchart TD
   
 ## Core approach
 
+![Figure 2-1 from @Siegler2021-py](../include/img/siegler-alibali-fig-2-1.png)
+
+## Core ideas
+
+- Detecting "sameness" 
+
+>To be able to recognize the same thing again as it evidence itself to one's senses in a multiplicity of ways, thus affording multiple opportunities to accumulate and apply information about it is, I believe, the most central challenge there is for cognition -- @Millikan2017-to
+
+## Core ideas
+
+- Tasks that require the detection of some sort of sameness
+  - Object permanence
+  - Conservation of number, solid & liquid quantity
+  - Perspective taking
+  - Number
+
+## Core approach
+
 - Qualitative observations of behavior
-- In experimenter (parent)-chosen situations or tasks
+- In experimenter-chosen situations or tasks
 - Observations $\rightarrow$ inferences about unseen mental processes
 - Inductive reasoning [@Wikipedia-contributors2025-wz]
+- Inspired by semiotics [@Wikipedia-contributors2025-ej]?
 
 ## Questions
 
 - How does Piaget view the question of cognitive continuity vs. discontinuity?
 - Are the relations among sensations and actions described in @Piaget1952-dm clearly specified that you could write out the schema?
+
+## Notable comments
+
+>To assimilate a sensorial image or an object, whether through simple assimilation, recognition, or generalizing extension, is to inser it in a system of schemata, in other words, to give it a "meaning".
+
+@Piaget1952-dm, p. 189
+
+## Notable comments
+
+>Secondary circular reaction, in so far as it is a reproduction of an interesting result fortuitously obtained, is, effect, far from constituting a behavior pattern peculiar to the child. An adult, unacquainted with machinery, does not behave differently from the baby when, having by chance touched part of a motor, he does not understand the effect produced and repeats the action which set it in motion.
+
+@Piaget1952-dm, p. 207 
 
 # Wrap-up
 

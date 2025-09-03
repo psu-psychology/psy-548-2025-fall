@@ -2,7 +2,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#todays-topics",
     "href": "slides/wk-02-piaget.html#todays-topics",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "Today’s topics",
     "text": "Today’s topics\n\nCheck-in on hierarchical task analyses (HTA)\nBackground ideas\nTheoretical foundations: Piaget\n\nGeneral Readings: Siegler & Alibali (2021) Chapter 2; Piaget (1953); Newcombe (2013)",
     "crumbs": [
@@ -13,7 +13,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#check-in-on-hta",
     "href": "slides/wk-02-piaget.html#check-in-on-hta",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "Check-in on HTA",
     "text": "Check-in on HTA\n\nRelevance?\nUtility?\nDo task demands/abilities change across development?\nWhat are the tasks of the infant, toddler, pre-schooler, etc.?",
     "crumbs": [
@@ -24,7 +24,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-mechanism",
     "href": "slides/wk-02-piaget.html#on-mechanism",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On mechanism",
     "text": "On mechanism",
     "crumbs": [
@@ -35,7 +35,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-mechanism-1",
     "href": "slides/wk-02-piaget.html#on-mechanism-1",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On mechanism",
     "text": "On mechanism\n\n\n\nPhysical devices subject to physical laws\nThe automata (Wikipedia contributors, 2025f) metaphor in psychology\nMind, brain, body problem (Wikipedia contributors, 2025a)\n\n\n\n\n\nWikipedia contributors (2025a)",
     "crumbs": [
@@ -46,7 +46,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-mechanism-2",
     "href": "slides/wk-02-piaget.html#on-mechanism-2",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On mechanism",
     "text": "On mechanism\n\n\n\nIs the human mind/brain/body a machine?\nWhat are the parts?\nHow do they connect and interact?\nWhat do they do?\n\n\n\n\n\nWikipedia contributors (2001)",
     "crumbs": [
@@ -57,7 +57,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-state-spaces",
     "href": "slides/wk-02-piaget.html#on-state-spaces",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On state spaces",
     "text": "On state spaces\n\n…a mathematical model of a physical system that uses state variables to track how inputs shape system behavior over time.\n\n\n…These state variables change based on their current values and inputs, while outputs depend on the states and sometimes the inputs too.\n\nWikipedia contributors (2025g)",
     "crumbs": [
@@ -68,7 +68,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-state-spaces-1",
     "href": "slides/wk-02-piaget.html#on-state-spaces-1",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On state spaces",
     "text": "On state spaces\n\n…The internal state variables are the smallest possible subset of system variables that can represent the entire state of the system at any given time…\n\n\nWikipedia contributors (2025g)",
     "crumbs": [
@@ -79,7 +79,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-state-spaces-2",
     "href": "slides/wk-02-piaget.html#on-state-spaces-2",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On state spaces",
     "text": "On state spaces\n\nIn computer science, a state space is a discrete space representing the set of all possible configurations of a system…State spaces are useful in computer science as a simple model of machines.\n\nWikipedia contributors (2025h)",
     "crumbs": [
@@ -90,7 +90,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-state-spaces-3",
     "href": "slides/wk-02-piaget.html#on-state-spaces-3",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On state spaces",
     "text": "On state spaces\n\nRepresentations \\(\\rightarrow\\) states (\\(s\\))\nProcesses \\(\\rightarrow\\) changes in state across time\n\n\\(s_{next}=s_{now}+x\\)\n\nTime scale of states, changes?\n\n\\(s(t+1)=F(s(t))\\)",
     "crumbs": [
@@ -101,7 +101,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-state-spaces-4",
     "href": "slides/wk-02-piaget.html#on-state-spaces-4",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On state spaces",
     "text": "On state spaces\n\nWhat is the state of the child’s mind/brain/body at time t?\nHow does that state change over some time interval?\n\nShort term: behavior\nLonger term: learning or adaptation or development\nReally long term: evolution",
     "crumbs": [
@@ -112,7 +112,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-state-spaces-5",
     "href": "slides/wk-02-piaget.html#on-state-spaces-5",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On state spaces",
     "text": "On state spaces\n\n\n\n\n\n\nflowchart LR\n  A(Body) --&gt;|Sensation| B(Nervous System)\n  B --&gt;|Response| A\n\n\n\n\nFigure 1: A simple state space for the nervous system\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A(Body) --&gt;|Sensation| B(Nervous System)\n  B --&gt; B\n  B --&gt;|Response| A\n\n\n\n\nFigure 2: A slightly more complicated state space for the nervous system.",
     "crumbs": [
@@ -123,7 +123,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-state-spaces-6",
     "href": "slides/wk-02-piaget.html#on-state-spaces-6",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On state spaces",
     "text": "On state spaces\n\n\n\n\n\n\nflowchart TD\n  W(World) --&gt; W\n  W --&gt;|Experience| B(Body)\n  B --&gt;|Behavior| W\n  B --&gt; B\n  B --&gt;|Sensation| N(Nervous system)\n  N --&gt;|Response| B\n  N --&gt;|Cognition| N\n\n\n\n\nFigure 3: A more complete state space for the nervous system",
     "crumbs": [
@@ -134,7 +134,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-state-spaces-7",
     "href": "slides/wk-02-piaget.html#on-state-spaces-7",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On state spaces",
     "text": "On state spaces\n\nSwanson (n.d.)\n\nSeparable but interacting neural pathways\nInput (from world and body state)\nOutput (to body and world)",
     "crumbs": [
@@ -145,7 +145,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-reflexes",
     "href": "slides/wk-02-piaget.html#on-reflexes",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On reflexes",
     "text": "On reflexes\n\nIn biology, a reflex, or reflex action, is an involuntary, unplanned sequence or action and nearly instantaneous response to a stimulus…\n\n\nA reflex occurs via neural pathways in the nervous system called reflex arcs…\n\nWikipedia contributors (2025j)",
     "crumbs": [
@@ -156,7 +156,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-reflexes-1",
     "href": "slides/wk-02-piaget.html#on-reflexes-1",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On reflexes",
     "text": "On reflexes\n\nThese neural signals do not always travel to the brain, so many reflexes are an automatic response to a stimulus that does not receive or need conscious thought.\n\nWikipedia contributors (2025j)\n\n\n“Reflect” events from the world to the nervous system\nIdea credited to Descartes (Wikipedia contributors, 2001) and Hall (Wikipedia contributors, 2025d)\nEarliest to emerge behaviors",
     "crumbs": [
@@ -167,7 +167,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-reflexes-2",
     "href": "slides/wk-02-piaget.html#on-reflexes-2",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On reflexes",
     "text": "On reflexes\n\nRegisteredNurseRN (2020)",
     "crumbs": [
@@ -178,7 +178,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-reflexes-3",
     "href": "slides/wk-02-piaget.html#on-reflexes-3",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On reflexes",
     "text": "On reflexes\n\nWhat is the input? What is the output?\nWhat purpose(s) do reflexes serve?",
     "crumbs": [
@@ -189,7 +189,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#the-vestibulo-ocular-reflex-vor",
     "href": "slides/wk-02-piaget.html#the-vestibulo-ocular-reflex-vor",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "The vestibulo-ocular reflex (VOR)",
     "text": "The vestibulo-ocular reflex (VOR)\n\nCastilla (2007)",
     "crumbs": [
@@ -200,7 +200,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#the-vestibulo-ocular-reflex-vor-1",
     "href": "slides/wk-02-piaget.html#the-vestibulo-ocular-reflex-vor-1",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "The vestibulo-ocular reflex (VOR)",
     "text": "The vestibulo-ocular reflex (VOR)\n\nWikipedia contributors (2025i)\nStabilizes gaze in allocentric coordinates\nWithin ~10 ms",
     "crumbs": [
@@ -211,7 +211,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#on-reflexes-4",
     "href": "slides/wk-02-piaget.html#on-reflexes-4",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "On reflexes",
     "text": "On reflexes\n\n\nSensations and responses temporally linked\n\nCausally (mechanically) linked via\nSpecialized neural circuits\n\nSensation \\(\\rightarrow\\) Response \\(\\rightarrow\\) (New) Sensation\nImagine a mechanism that “records” these links\n(Random) Response \\(\\rightarrow\\) Sensation\n\nSensation \\(\\sim\\) (Recorded prior) Sensation",
     "crumbs": [
@@ -222,7 +222,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#aside-vestibulo-ocular-reflex-vor",
     "href": "slides/wk-02-piaget.html#aside-vestibulo-ocular-reflex-vor",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "Aside: Vestibulo-ocular reflex (VOR)",
     "text": "Aside: Vestibulo-ocular reflex (VOR)\n\nOne of many behavior systems that reduce “noise”, improve reliability in input\nInput “reliability” improves over long time span",
     "crumbs": [
@@ -233,7 +233,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#visual-acuity-in-young-children-not-adult-like",
     "href": "slides/wk-02-piaget.html#visual-acuity-in-young-children-not-adult-like",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "Visual acuity in young children not adult-like",
     "text": "Visual acuity in young children not adult-like\n\nGilmore, DiFulvio, Beamer, & Cruz (2025)",
     "crumbs": [
@@ -244,7 +244,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#background-ideas-summary",
     "href": "slides/wk-02-piaget.html#background-ideas-summary",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "Background ideas: Summary",
     "text": "Background ideas: Summary\n\n\nMind/brain/body as a mechanism\nState space formalism aids specifying states and transitions\nReflexes as simple, early emerging sensorimotor behaviors\nReflex arcs (Wikipedia contributors, 2025d) \\(\\rightarrow\\) Piaget’s “circular reactions”\nPerceiving “sameness” of sensations & actions critical",
     "crumbs": [
@@ -255,9 +255,9 @@
   {
     "objectID": "slides/wk-02-piaget.html#core-ideas",
     "href": "slides/wk-02-piaget.html#core-ideas",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "Core ideas",
-    "text": "Core ideas\n\nStages (and sub-stages)\n\nSensorimotor (0-24 mos)\nPreoperational (2-7 years)\nConcrete operations (7-11 years)\nFormal operations (11-14 or 15 years)",
+    "text": "Core ideas\n\nOrigins of knowledge (epistemology)\nCategories of knowledge\n\nSpace, time, classes/categories, causality\n\nReflexes innate\nChild as “scientist”, solving “problems”",
     "crumbs": [
       "Slides",
       "Wk 02 • Fri Sep 05"
@@ -266,9 +266,9 @@
   {
     "objectID": "slides/wk-02-piaget.html#core-ideas-1",
     "href": "slides/wk-02-piaget.html#core-ideas-1",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "Core ideas",
-    "text": "Core ideas\n\nSchema (Wikipedia contributors, 2025b)\n\n\n…describes a pattern of thought or behavior that organizes categories of information and the relationships among them. It can also be described as a mental structure of preconceived ideas, a framework representing some aspect of the world, or a system of organizing and perceiving new information.",
+    "text": "Core ideas\n\nStages (and sub-stages)\n\nSensorimotor (0-24 mos)\nPreoperational (2 - 6 or 7 years)\nConcrete operations (6 or 7 - 11 or 12 years)\nFormal operations (11 or 12 - 14 or 15 years)",
     "crumbs": [
       "Slides",
       "Wk 02 • Fri Sep 05"
@@ -277,9 +277,9 @@
   {
     "objectID": "slides/wk-02-piaget.html#core-ideas-2",
     "href": "slides/wk-02-piaget.html#core-ideas-2",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "Core ideas",
-    "text": "Core ideas\n\nAssimilation\n\n\nfitting new information into pre-existing cognitive schemas (Wikipedia contributors, 2025c)\n\n\n\nAccommodation\n\n\ntaking new information in one’s environment and altering pre-existing schemas in order to fit in the new information (Wikipedia contributors, 2025c)",
+    "text": "Core ideas\n\nSchema (Wikipedia contributors, 2025b)\n\n\n…describes a pattern of thought or behavior that organizes categories of information and the relationships among them. It can also be described as a mental structure of preconceived ideas, a framework representing some aspect of the world, or a system of organizing and perceiving new information.",
     "crumbs": [
       "Slides",
       "Wk 02 • Fri Sep 05"
@@ -288,9 +288,9 @@
   {
     "objectID": "slides/wk-02-piaget.html#core-ideas-3",
     "href": "slides/wk-02-piaget.html#core-ideas-3",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "Core ideas",
-    "text": "Core ideas\n\nPrimary circular reactions\n\nRepetition of a volitional, non-reflexive act (“APA dictionary of psychology,” n.d.)\n\nSecondary circular reactions\n\nActions taken for their effects on the environment (“APA dictionary of psychology,” n.d.)",
+    "text": "Core ideas\n\nAssimilation\n\n\nfitting new information into pre-existing cognitive schemas (Wikipedia contributors, 2025c)\n\n\n\nAccommodation\n\n\ntaking new information in one’s environment and altering pre-existing schemas in order to fit in the new information (Wikipedia contributors, 2025c)",
     "crumbs": [
       "Slides",
       "Wk 02 • Fri Sep 05"
@@ -299,9 +299,9 @@
   {
     "objectID": "slides/wk-02-piaget.html#core-approach",
     "href": "slides/wk-02-piaget.html#core-approach",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "Core approach",
-    "text": "Core approach\n\nQualitative observations of behavior\nIn experimenter (parent)-chosen situations or tasks\nObservations \\(\\rightarrow\\) inferences about unseen mental processes\nInductive reasoning (Wikipedia contributors, 2025e)",
+    "text": "Core approach\n\nFigure 2-1 from Siegler & Alibali (2021)",
     "crumbs": [
       "Slides",
       "Wk 02 • Fri Sep 05"
@@ -310,7 +310,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#questions",
     "href": "slides/wk-02-piaget.html#questions",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "Questions",
     "text": "Questions\n\nHow does Piaget view the question of cognitive continuity vs. discontinuity?\nAre the relations among sensations and actions described in Piaget (1953) clearly specified that you could write out the schema?",
     "crumbs": [
@@ -321,7 +321,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#next-time",
     "href": "slides/wk-02-piaget.html#next-time",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "Next time…",
     "text": "Next time…\n\nPiaget: Deep dive\n\nStudent presentation A: How robust is the evidence for Piaget’s trajectories?\n\nSkim: Elkind (1961); Gelman (1972)\n\nStudent presentation B: When does object permanence emerge?\n\nSkim: R. Baillargeon, Spelke, & Wasserman (1985); Renée Baillargeon (2008)",
     "crumbs": [
@@ -332,7 +332,7 @@
   {
     "objectID": "slides/wk-02-piaget.html#about",
     "href": "slides/wk-02-piaget.html#about",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "About",
     "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2025.5.1.513.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/",
     "crumbs": [
@@ -343,9 +343,9 @@
   {
     "objectID": "slides/wk-02-piaget.html#references",
     "href": "slides/wk-02-piaget.html#references",
-    "title": "Piaget",
+    "title": "On Piaget",
     "section": "References",
-    "text": "References\n\n\n\n\nAPA dictionary of psychology. (n.d.). Retrieved September 1, 2025, from https://dictionary.apa.org/\n\n\nBaillargeon, Renée. (2008). Innate ideas revisited: For a principle of persistence in infants’ physical reasoning. Perspectives on Psychological Science: A Journal of the Association for Psychological Science, 3, 2–13. https://doi.org/10.1111/j.1745-6916.2008.00056.x\n\n\nBaillargeon, R., Spelke, E. S., & Wasserman, S. (1985). Object permanence in five-month-old infants. Cognition, 20, 191–208. https://doi.org/10.1016/0010-0277(85)90008-3\n\n\nCastilla, V. (2007). Vestibulo-ocular reflex 13/25. Youtube. Retrieved from https://www.youtube.com/watch?v=j_R0LcPnZ_w\n\n\nElkind, D. (1961). Children’s discovery of the conservation of mass, weight, and volume: Piaget replication study. II. The Journal of Genetic Psychology, 98, 219–227. https://doi.org/10.1080/00221325.1961.10534372\n\n\nGelman, R. (1972). Logical capacity of very young children: Number invariance rules. Child Development, 43, 75. https://doi.org/10.2307/1127873\n\n\nGilmore, R., DiFulvio, J., Beamer, B., & Cruz, N. (2025). Synthesizing evidence about developmental patterns in human visual acuity as measured by teller acuity cards. Journal of Vision, 25, 2456. https://doi.org/10.1167/jov.25.9.2456\n\n\nMadonna. (2017). Madonna - material girl (official video) [HD]. Youtube. Retrieved from https://www.youtube.com/watch?v=6p-lDYPR2P8&list=RD6p-lDYPR2P8&start_radio=1\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nPiaget, J. (1953). The origins of intelligence in children. New York: Routledge. https://doi.org/10.1037/11494-000\n\n\nRegisteredNurseRN. (2020). Newborn reflexes assessment (infant) nursing pediatric NCLEX review. Youtube. Retrieved from https://www.youtube.com/watch?v=rHYk1sYsge0&t=62s\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSwanson, L. W. (n.d.). Brain Architecture. Retrieved September 1, 2025, from https://larrywswanson.com/?page_id=1523\n\n\nWikipedia contributors. (2001, October 30). René Descartes. Retrieved September 1, 2025, from https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes\n\n\nWikipedia contributors. (2025a, April 8). Digesting duck. Retrieved from https://en.wikipedia.org/wiki/Digesting_Duck\n\n\nWikipedia contributors. (2025b, July 10). Schema (psychology). Retrieved from https://en.wikipedia.org/wiki/Schema_(psychology)\n\n\nWikipedia contributors. (2025c, July 16). Piaget’s theory of cognitive development. Retrieved from https://en.wikipedia.org/wiki/Piaget%27s_theory_of_cognitive_development\n\n\nWikipedia contributors. (2025d, July 20). Marshall Hall (physiologist). Retrieved from https://en.wikipedia.org/wiki/Marshall_Hall_(physiologist)\n\n\nWikipedia contributors. (2025e, August 1). Inductive reasoning. Retrieved from https://en.wikipedia.org/wiki/Inductive_reasoning\n\n\nWikipedia contributors. (2025f, August 3). Automaton. Retrieved from https://en.wikipedia.org/wiki/Automaton\n\n\nWikipedia contributors. (2025g, August 6). State-space representation. Retrieved from https://en.wikipedia.org/wiki/State-space_representation\n\n\nWikipedia contributors. (2025h, August 24). State space (computer science). Retrieved from https://en.wikipedia.org/wiki/State_space_(computer_science)\n\n\nWikipedia contributors. (2025i, August 25). Vestibulo-ocular reflex. Retrieved from https://en.wikipedia.org/wiki/Vestibulo-ocular_reflex\n\n\nWikipedia contributors. (2025j, August 27). Reflex. Retrieved from https://en.wikipedia.org/wiki/Reflex",
+    "text": "References\n\n\n\n\nAPA dictionary of psychology. (n.d.). Retrieved September 1, 2025, from https://dictionary.apa.org/\n\n\nBaillargeon, Renée. (2008). Innate ideas revisited: For a principle of persistence in infants’ physical reasoning. Perspectives on Psychological Science: A Journal of the Association for Psychological Science, 3, 2–13. https://doi.org/10.1111/j.1745-6916.2008.00056.x\n\n\nBaillargeon, R., Spelke, E. S., & Wasserman, S. (1985). Object permanence in five-month-old infants. Cognition, 20, 191–208. https://doi.org/10.1016/0010-0277(85)90008-3\n\n\nCastilla, V. (2007). Vestibulo-ocular reflex 13/25. Youtube. Retrieved from https://www.youtube.com/watch?v=j_R0LcPnZ_w\n\n\nElkind, D. (1961). Children’s discovery of the conservation of mass, weight, and volume: Piaget replication study. II. The Journal of Genetic Psychology, 98, 219–227. https://doi.org/10.1080/00221325.1961.10534372\n\n\nGelman, R. (1972). Logical capacity of very young children: Number invariance rules. Child Development, 43, 75. https://doi.org/10.2307/1127873\n\n\nGilmore, R., DiFulvio, J., Beamer, B., & Cruz, N. (2025). Synthesizing evidence about developmental patterns in human visual acuity as measured by teller acuity cards. Journal of Vision, 25, 2456. https://doi.org/10.1167/jov.25.9.2456\n\n\nMadonna. (2017). Madonna - material girl (official video) [HD]. Youtube. Retrieved from https://www.youtube.com/watch?v=6p-lDYPR2P8&list=RD6p-lDYPR2P8&start_radio=1\n\n\nMillikan, R. (2017). Beyond concepts: Unicepts, language, and natural information. Oxford, England: Oxford University Press. Retrieved from https://books.google.com/books/about/Beyond_Concepts.html?id=s3QzDwAAQBAJ\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nPiaget, J. (1953). The origins of intelligence in children. New York: Routledge. https://doi.org/10.1037/11494-000\n\n\nRegisteredNurseRN. (2020). Newborn reflexes assessment (infant) nursing pediatric NCLEX review. Youtube. Retrieved from https://www.youtube.com/watch?v=rHYk1sYsge0&t=62s\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSwanson, L. W. (n.d.). Brain Architecture. Retrieved September 1, 2025, from https://larrywswanson.com/?page_id=1523\n\n\nWikipedia contributors. (2001, October 30). René Descartes. Retrieved September 1, 2025, from https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes\n\n\nWikipedia contributors. (2023, October 2). Means–ends analysis. Retrieved from https://en.wikipedia.org/wiki/Means%E2%80%93ends_analysis\n\n\nWikipedia contributors. (2025a, April 8). Digesting duck. Retrieved from https://en.wikipedia.org/wiki/Digesting_Duck\n\n\nWikipedia contributors. (2025b, July 10). Schema (psychology). Retrieved from https://en.wikipedia.org/wiki/Schema_(psychology)\n\n\nWikipedia contributors. (2025c, July 16). Piaget’s theory of cognitive development. Retrieved from https://en.wikipedia.org/wiki/Piaget%27s_theory_of_cognitive_development\n\n\nWikipedia contributors. (2025d, July 20). Marshall Hall (physiologist). Retrieved from https://en.wikipedia.org/wiki/Marshall_Hall_(physiologist)\n\n\nWikipedia contributors. (2025e, August 1). Inductive reasoning. Retrieved from https://en.wikipedia.org/wiki/Inductive_reasoning\n\n\nWikipedia contributors. (2025f, August 3). Automaton. Retrieved from https://en.wikipedia.org/wiki/Automaton\n\n\nWikipedia contributors. (2025g, August 6). State-space representation. Retrieved from https://en.wikipedia.org/wiki/State-space_representation\n\n\nWikipedia contributors. (2025h, August 24). State space (computer science). Retrieved from https://en.wikipedia.org/wiki/State_space_(computer_science)\n\n\nWikipedia contributors. (2025i, August 25). Vestibulo-ocular reflex. Retrieved from https://en.wikipedia.org/wiki/Vestibulo-ocular_reflex\n\n\nWikipedia contributors. (2025j, August 27). Reflex. Retrieved from https://en.wikipedia.org/wiki/Reflex\n\n\nWikipedia contributors. (2025k, August 28). Semiotics. Retrieved from https://en.wikipedia.org/wiki/Semiotics",
     "crumbs": [
       "Slides",
       "Wk 02 • Fri Sep 05"
@@ -1211,6 +1211,105 @@
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#core-ideas-4",
+    "href": "slides/wk-02-piaget.html#core-ideas-4",
+    "title": "On Piaget",
+    "section": "Core ideas",
+    "text": "Core ideas\n\nEquilibration\n\n\nintegrating individual pieces of knowledge into a unified whole. (Siegler & Alibali, 2021, p. 24)",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#notable-comments",
+    "href": "slides/wk-02-piaget.html#notable-comments",
+    "title": "On Piaget",
+    "section": "Notable comments",
+    "text": "Notable comments\n\nTo assimilate a sensorial image or an object, whether through simple assimilation, recognition, or generalizing extension, is to inser it in a system of schemata, in other words, to give it a “meaning”.\n\nPiaget (1953), p. 189",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#notable-comments-1",
+    "href": "slides/wk-02-piaget.html#notable-comments-1",
+    "title": "On Piaget",
+    "section": "Notable comments",
+    "text": "Notable comments\n\nSecondary circular reaction, in so far as it is a reproduction of an interesting result fortuitously obtained, is, effect, far from constituting a behavior pattern peculiar to the child. An adult, unacquainted with machinery, does not behave differently from the baby when, having by chance touched part of a motor, he does not understand the effect produced and repeats the action which set it in motion.\n\nPiaget (1953), p. 207",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#notable-comments-2",
+    "href": "slides/wk-02-piaget.html#notable-comments-2",
+    "title": "Piaget",
+    "section": "Notable comments",
+    "text": "Notable comments\n\nSecondary circular reaction, in so far as it is a reproduction of an interesting result fortuitously obtained, is, effect, far from constituting a behavior pattern peculiar to the child. An adult, unacquainted with machinery, does not behave differently from the baby when, having by chance touched part of a motor, he does not understand the effect produced and repeats the action which set it in motion.\n\nPiaget (1953), p. 207",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#core-ideas-5",
+    "href": "slides/wk-02-piaget.html#core-ideas-5",
+    "title": "On Piaget",
+    "section": "Core ideas",
+    "text": "Core ideas\n\nMeans (how to do/actions)\nEnds (what to do/goals)\nMeans-ends analysis central to AI and the science of problem solving (Wikipedia contributors, 2023)",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#core-ideas-6",
+    "href": "slides/wk-02-piaget.html#core-ideas-6",
+    "title": "On Piaget",
+    "section": "Core ideas",
+    "text": "Core ideas\n\nPrimary circular reactions\n\nRepetition of a volitional, non-reflexive act (“APA dictionary of psychology,” n.d.)\n\nSecondary circular reactions\n\nActions taken for their effects on the environment (“APA dictionary of psychology,” n.d.)",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#core-ideas-7",
+    "href": "slides/wk-02-piaget.html#core-ideas-7",
+    "title": "On Piaget",
+    "section": "Core ideas",
+    "text": "Core ideas\n\nDetecting “sameness”\n\n\nTo be able to recognize the same thing again as it evidence itself to one’s senses in a multiplicity of ways, thus affording multiple opportunities to accumulate and apply information about it is, I believe, the most central challenge there is for cognition – Millikan (2017)",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#core-approach-1",
+    "href": "slides/wk-02-piaget.html#core-approach-1",
+    "title": "On Piaget",
+    "section": "Core approach",
+    "text": "Core approach\n\nQualitative observations of behavior\nIn experimenter-chosen situations or tasks\nObservations \\(\\rightarrow\\) inferences about unseen mental processes\nInductive reasoning (Wikipedia contributors, 2025e)\nInspired by semiotics (Wikipedia contributors, 2025k)?",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#core-ideas-8",
+    "href": "slides/wk-02-piaget.html#core-ideas-8",
+    "title": "On Piaget",
+    "section": "Core ideas",
+    "text": "Core ideas\n\nTasks that require the detection of some sort of sameness\n\nObject permanence\nConservation of number, solid & liquid quantity\nPerspective taking\nNumber",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
     ]
   }
 ]
