@@ -224,6 +224,10 @@ flowchart TD
 
 # On Piaget
 
+## Link to student commentary
+
+- [Comments & questions](https://docs.google.com/document/d/1eAo1FqM-WRg73ascICbfRFNu7pLBvF_s0GGzHIYzSck/edit?tab=t.0#heading=h.mqmwmakspm4l)
+
 ---
 
 ![Jean Piaget from @Wikipedia-contributors2025-cq](https://upload.wikimedia.org/wikipedia/commons/6/67/Jean_Piaget_in_Ann_Arbor.png)
