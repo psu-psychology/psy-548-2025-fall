@@ -11,7 +11,7 @@ fig-align: "center"
 
 {{< video https://www.youtube.com/watch?v=6p-lDYPR2P8&list=RD6p-lDYPR2P8&start_radio=1 height ="70%" width="100%">}}
 
-@Madonna2017-bv
+-- @Madonna2017-bv
 
 ## Today's topics
 
@@ -28,6 +28,20 @@ fig-align: "center"
 - What are the tasks of the infant, toddler, pre-schooler, etc.?
 
 # Background ideas
+
+## Gilmore's influences
+
+::: {.incremental}
+- Chomsky [@Chomsky1959-ef]: nativist psycholinguistics
+- Marr [@Marr1980-cu]: neurally inspired computational modeling
+- Gibson [@Gibson1966-qo; @Gibson1986-ya]: Perception & action, ecological approach
+- Johnson [@Johnson2001-yy]: Developmental cognitive neuroscience
+- Ph.D. Committee members: Bob Siegler, Jay McClelland, Marlene Behrmann, Daniel Simons
+:::
+
+## Gilmore's influences
+
+![@Newcombe2013-qy Table 1](../include/img/newcombe-2013-tbl-1.png)
 
 ## On mechanism
 
@@ -73,7 +87,7 @@ fig-align: "center"
 
 >...These state variables change based on their current values and inputs, while outputs depend on the states and sometimes the inputs too.
 
-@Wikipedia-contributors2025-hc
+-- @Wikipedia-contributors2025-hc
 
 ## On state spaces
 
@@ -85,7 +99,7 @@ fig-align: "center"
 
 >In computer science, a state space is a discrete space representing the set of all possible configurations of a system...State spaces are useful in computer science as a simple model of machines. 
 
-@Wikipedia-contributors2025-zs
+-- @Wikipedia-contributors2025-zs
 
 ## On state spaces
 
@@ -153,13 +167,13 @@ flowchart TD
 
 >A reflex occurs via neural pathways in the nervous system called reflex arcs...
 
-@Wikipedia-contributors2025-cf
+-- @Wikipedia-contributors2025-cf
 
 ## On reflexes
 
 >These neural signals do not always travel to the brain, so many reflexes are an automatic response to a stimulus that does not receive or need conscious thought.
 
-@Wikipedia-contributors2025-cf
+-- @Wikipedia-contributors2025-cf
 
 ::: {.fragment}
 - "Reflect" events from the world to the nervous system
@@ -171,7 +185,7 @@ flowchart TD
 
 {{< video https://www.youtube.com/watch?v=rHYk1sYsge0&t=62s height="70%" width="100%" >}}
 
-@RegisteredNurseRN2020-ny
+-- @RegisteredNurseRN2020-ny
 
 ## On reflexes
 
@@ -182,7 +196,7 @@ flowchart TD
 
 {{< video https://www.youtube.com/watch?v=j_R0LcPnZ_w height="70%" width="100%" >}}
 
-@Castilla2007-cq
+-- @Castilla2007-cq
 
 ## The vestibulo-ocular reflex (VOR)
 
@@ -315,18 +329,56 @@ flowchart TD
 
 - How does Piaget view the question of cognitive continuity vs. discontinuity?
 - Are the relations among sensations and actions described in @Piaget1952-dm clearly specified that you could write out the schema?
+- Gilmore's attempt to unpack the [causal relations](../causal-relations.qmd) at work in the situation of the infant in the bassinet
+  - Do developmental scientists need to "complexify" our phenomena before we simplify them?
 
 ## Notable comments
 
->To assimilate a sensorial image or an object, whether through simple assimilation, recognition, or generalizing extension, is to inser it in a system of schemata, in other words, to give it a "meaning".
+>To assimilate a sensorial image or an object, whether through simple assimilation, recognition, or generalizing extension, is to insery it in a system of schemata, in other words, to give it a "meaning".
 
-@Piaget1952-dm, p. 189
+-- @Piaget1952-dm, p. 189
 
 ## Notable comments
 
 >Secondary circular reaction, in so far as it is a reproduction of an interesting result fortuitously obtained, is, effect, far from constituting a behavior pattern peculiar to the child. An adult, unacquainted with machinery, does not behave differently from the baby when, having by chance touched part of a motor, he does not understand the effect produced and repeats the action which set it in motion.
 
-@Piaget1952-dm, p. 207 
+-- @Piaget1952-dm, p. 207
+
+## Evaluating Piaget
+
+>There are several problems with Piaget's approach to cognitive development...the various capabilities did not cohere in the way that Piaget's stage theory had envisioned...children frequently achieved competence in some of the stage-relevant tasks while lagging behind on other stage-relevant tasks...
+
+-- @Newcombe2013-qy p. 481
+
+## Evaluating Piaget
+
+>...Piaget seriously underestimated the cognitive competence of infants and young children...A large amount of research beginning in the 1970s and proceeding apace to this day has shown...that infants and young children have far more substantial abilities than Piaget had observed.
+
+-- @Newcombe2013-qy p. 481
+
+## Piaget
+
+>...Piaget talke in general terms about the process of developmental change as being the operation of equilibration...Many investigators argued that a more detailed specification of the mechanisms of change was needed.
+
+-- @Newcombe2013-qy p. 481
+
+## Evaluating Piaget
+
+>Piaget's theory is...'too monumental to embrace, and at the same time, too omnipresent to detect (Beilin, 1992)'
+
+-- @Siegler2021-py p. 48
+
+::: {.fragment}
+>Some of the reasons for its influence and its lasting appeal are the important acquisitions it describes, the large span of childhood it encompasses, and the reliability and charm of many of its observations.
+
+-- @Siegler2021-py p. 48
+:::
+
+## Evaluating Piaget
+
+>[Piaget's] trait descriptions thus seem to be in the right ballpark, but to gloss over exceptions. More generally, Piaget's theory continues to be of interest because it communicates a good feel for children's thinking and it asks the right questions.
+
+-- @Siegler2021-py p. 49
 
 # Wrap-up
 
