@@ -132,7 +132,6 @@ flowchart TD
   B[rattle] ---| visual_info | G(eyes)
   C[ribbon] ---| visual_info | G
   C[ribbon] ---| tactile_info | I(arm_r)
-  B --- N((nervous_system))
   G --- N((nervous_system))
   I --- N((nervous_system))
 ```

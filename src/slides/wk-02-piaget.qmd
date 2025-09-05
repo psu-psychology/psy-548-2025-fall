@@ -16,6 +16,7 @@ fig-align: "center"
 ## Today's topics
 
 - Check-in on hierarchical task analyses (HTA)
+- Presentation [schedule](../presentations.qmd)
 - Background ideas
 - Theoretical foundations: Piaget
   - *General Readings*: @Siegler2021-py Chapter 2; @Piaget1952-dm; @Newcombe2013-qy
@@ -105,7 +106,7 @@ fig-align: "center"
 
 - Representations $\rightarrow$ states ($s$)
 - Processes $\rightarrow$ changes in state across time
-  - $s_{next}=s_{now}+x$
+  - $s_{next}=s_{now}+\delta s$, where $\delta s$ is a change in state.
 - Time scale of states, changes?
   - $s(t+1)=F(s(t))$
 
@@ -307,14 +308,14 @@ flowchart TD
 
 - Detecting "sameness" 
 
->To be able to recognize the same thing again as it evidence itself to one's senses in a multiplicity of ways, thus affording multiple opportunities to accumulate and apply information about it is, I believe, the most central challenge there is for cognition -- @Millikan2017-to
+>To be able to recognize the same thing again as it evidences itself to one's senses in a multiplicity of ways, thus affording multiple opportunities to accumulate and apply information about it is, I believe, the most central challenge there is for cognition -- @Millikan2017-to
 
 ## Core ideas
 
 - Tasks that require the detection of some sort of sameness
   - Object permanence
   - Conservation of number, solid & liquid quantity
-  - Perspective taking1
+  - Perspective taking
   - Number
 
 ## Core approach
