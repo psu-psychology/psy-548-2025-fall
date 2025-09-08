@@ -22,6 +22,28 @@
     ]
   },
   {
+    "objectID": "slides/wk-02-piaget.html#gilmores-influences",
+    "href": "slides/wk-02-piaget.html#gilmores-influences",
+    "title": "On Piaget",
+    "section": "Gilmore’s influences",
+    "text": "Gilmore’s influences\n\n\nChomsky (Chomsky, 1959): nativist psycholinguistics\nMarr (Marr, 1980): neurally inspired computational modeling\nGibson (J. J. Gibson, 1966; James J. Gibson, 1986): Perception & action, ecological approach\nJohnson (Johnson, 2001): Developmental cognitive neuroscience\nPh.D. Committee members: Bob Siegler, Jay McClelland, Marlene Behrmann, Daniel Simons",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#gilmores-influences-1",
+    "href": "slides/wk-02-piaget.html#gilmores-influences-1",
+    "title": "On Piaget",
+    "section": "Gilmore’s influences",
+    "text": "Gilmore’s influences\n\nNewcombe (2013) Table 1",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
     "objectID": "slides/wk-02-piaget.html#on-mechanism",
     "href": "slides/wk-02-piaget.html#on-mechanism",
     "title": "On Piaget",
@@ -92,7 +114,7 @@
     "href": "slides/wk-02-piaget.html#on-state-spaces-3",
     "title": "On Piaget",
     "section": "On state spaces",
-    "text": "On state spaces\n\nRepresentations \\(\\rightarrow\\) states (\\(s\\))\nProcesses \\(\\rightarrow\\) changes in state across time\n\n\\(s_{next}=s_{now}+x\\)\n\nTime scale of states, changes?\n\n\\(s(t+1)=F(s(t))\\)",
+    "text": "On state spaces\n\nRepresentations \\(\\rightarrow\\) states (\\(s\\))\nProcesses \\(\\rightarrow\\) changes in state across time\n\n\\(s_{next}=s_{now}+\\delta s\\), where \\(\\delta s\\) is a change in state.\n\nTime scale of states, changes?\n\n\\(s(t+1)=F(s(t))\\)",
     "crumbs": [
       "Slides",
       "Wk 02 • Fri Sep 05"
@@ -356,7 +378,7 @@
     "href": "slides/wk-02-piaget.html#core-ideas-7",
     "title": "On Piaget",
     "section": "Core ideas",
-    "text": "Core ideas\n\nDetecting “sameness”\n\n\nTo be able to recognize the same thing again as it evidence itself to one’s senses in a multiplicity of ways, thus affording multiple opportunities to accumulate and apply information about it is, I believe, the most central challenge there is for cognition – Millikan (2017)",
+    "text": "Core ideas\n\nDetecting “sameness”\n\n\nTo be able to recognize the same thing again as it evidences itself to one’s senses in a multiplicity of ways, thus affording multiple opportunities to accumulate and apply information about it is, I believe, the most central challenge there is for cognition – Millikan (2017)",
     "crumbs": [
       "Slides",
       "Wk 02 • Fri Sep 05"
@@ -367,7 +389,7 @@
     "href": "slides/wk-02-piaget.html#core-ideas-8",
     "title": "On Piaget",
     "section": "Core ideas",
-    "text": "Core ideas\n\nTasks that require the detection of some sort of sameness\n\nObject permanence\nConservation of number, solid & liquid quantity\nPerspective taking1\nNumber",
+    "text": "Core ideas\n\nTasks that require the detection of some sort of sameness\n\nObject permanence\nConservation of number, solid & liquid quantity\nPerspective taking\nNumber",
     "crumbs": [
       "Slides",
       "Wk 02 • Fri Sep 05"
@@ -412,6 +434,61 @@
     "title": "On Piaget",
     "section": "Notable comments",
     "text": "Notable comments\n\nSecondary circular reaction, in so far as it is a reproduction of an interesting result fortuitously obtained, is, effect, far from constituting a behavior pattern peculiar to the child. An adult, unacquainted with machinery, does not behave differently from the baby when, having by chance touched part of a motor, he does not understand the effect produced and repeats the action which set it in motion.\n\n– Piaget (1953), p. 207",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#evaluating-piaget",
+    "href": "slides/wk-02-piaget.html#evaluating-piaget",
+    "title": "On Piaget",
+    "section": "Evaluating Piaget",
+    "text": "Evaluating Piaget\n\nThere are several problems with Piaget’s approach to cognitive development…the various capabilities did not cohere in the way that Piaget’s stage theory had envisioned…children frequently achieved competence in some of the stage-relevant tasks while lagging behind on other stage-relevant tasks…\n\n– Newcombe (2013) p. 481",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#evaluating-piaget-1",
+    "href": "slides/wk-02-piaget.html#evaluating-piaget-1",
+    "title": "On Piaget",
+    "section": "Evaluating Piaget",
+    "text": "Evaluating Piaget\n\n…Piaget seriously underestimated the cognitive competence of infants and young children…A large amount of research beginning in the 1970s and proceeding apace to this day has shown…that infants and young children have far more substantial abilities than Piaget had observed.\n\n– Newcombe (2013) p. 481",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#piaget",
+    "href": "slides/wk-02-piaget.html#piaget",
+    "title": "On Piaget",
+    "section": "Piaget",
+    "text": "Piaget\n\n…Piaget talke in general terms about the process of developmental change as being the operation of equilibration…Many investigators argued that a more detailed specification of the mechanisms of change was needed.\n\n– Newcombe (2013) p. 481",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#evaluating-piaget-2",
+    "href": "slides/wk-02-piaget.html#evaluating-piaget-2",
+    "title": "On Piaget",
+    "section": "Evaluating Piaget",
+    "text": "Evaluating Piaget\n\nPiaget’s theory is…‘too monumental to embrace, and at the same time, too omnipresent to detect (Beilin, 1992)’\n\n– Siegler & Alibali (2021) p. 48\n\n\nSome of the reasons for its influence and its lasting appeal are the important acquisitions it describes, the large span of childhood it encompasses, and the reliability and charm of many of its observations.\n\n– Siegler & Alibali (2021) p. 48",
+    "crumbs": [
+      "Slides",
+      "Wk 02 • Fri Sep 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-02-piaget.html#evaluating-piaget-3",
+    "href": "slides/wk-02-piaget.html#evaluating-piaget-3",
+    "title": "On Piaget",
+    "section": "Evaluating Piaget",
+    "text": "Evaluating Piaget\n\n[Piaget’s] trait descriptions thus seem to be in the right ballpark, but to gloss over exceptions. More generally, Piaget’s theory continues to be of interest because it communicates a good feel for children’s thinking and it asks the right questions.\n\n– Siegler & Alibali (2021) p. 49",
     "crumbs": [
       "Slides",
       "Wk 02 • Fri Sep 05"
@@ -485,7 +562,7 @@
     "href": "schedule.html#week-03",
     "title": "Schedule",
     "section": "Week 03",
-    "text": "Week 03\n\nFriday, September 12, 2025\n\nTopics\n\nPiaget: Deep dive\n\nStudent presentation A: How robust is the evidence for Piaget’s trajectories?\n\nRead: Elkind (1961); R. Gelman (1972)\n\nStudent presentation B: When does object permanence emerge?\n\nRead: R. Baillargeon, Spelke, & Wasserman (1985); Renée Baillargeon (2008)",
+    "text": "Week 03\n\nFriday, September 12, 2025\n\nTopics\n\nPiaget: Deep dive\n\nStudent presentation A: How robust is the evidence for Piaget’s trajectories? (Presenter: Alyssa Swift; Discussant: Hannah Huang)\n\nRead: Elkind (1961); R. Gelman (1972)\n\nStudent presentation B: When does object permanence emerge? (Presenter: Makenna Luzenski; Discussant: Zeynep Sülün)\n\nRead: R. Baillargeon, Spelke, & Wasserman (1985); Renée Baillargeon (2008)",
     "crumbs": [
       "Schedule"
     ]
@@ -505,7 +582,7 @@
     "href": "schedule.html#week-05",
     "title": "Schedule",
     "section": "Week 05",
-    "text": "Week 05\n\nFriday, September 26, 2025\n\nTopics & Readings\n\n\nNativism and Core Knowledge: Deep dive\n\nStudent Presentation C: How does changing the task inform on the underlying construct(s) about physical knowledge?\n\nRead: Spelke, Breinlinger, Macomber, & Jacobson (1992); Hood, Carey, & Prasada (2000); Keen (2003)\n\nStudent Presentation D: Rich interpretation of group differences in infant looking-time paradigms: How rich is dangerous? Necessary? Productive?\nRead: Aslin (2007); Paulus (2022); Stahl & Kibbe (2022); Haith (1998)",
+    "text": "Week 05\n\nFriday, September 26, 2025\n\nTopics & Readings\n\n\nNativism and Core Knowledge: Deep dive\n\nStudent Presentation C: How does changing the task inform on the underlying construct(s) about physical knowledge? (Presenter: Carlos Almeida; Discussant: Yeonjin Kim)\n\nRead: Spelke, Breinlinger, Macomber, & Jacobson (1992); Hood, Carey, & Prasada (2000); Keen (2003)\n\nStudent Presentation D: Rich interpretation of group differences in infant looking-time paradigms: How rich is dangerous? Necessary? Productive? (Presenter: Suzy Su; Discussant: Makenna Luzeknski)\n\nRead: Aslin (2007); Paulus (2022); Stahl & Kibbe (2022); Haith (1998)",
     "crumbs": [
       "Schedule"
     ]
@@ -525,7 +602,7 @@
     "href": "schedule.html#week-07",
     "title": "Schedule",
     "section": "Week 07",
-    "text": "Week 07\n\nFriday, October 10, 2025\n\nConstructivism: Deep dive\n\nStudent Presentation E: How do developmental disorders inform our understanding of cognitive development?\n\nRead: A. Karmiloff-Smith (1998)\n\nStudent Presentation F: The risks of generalization \n\nRead: Packer & Moreno-Dulcey (2022); Kominsky, Lucca, Thomas, Frank, & Hamlin (2022); Lucca et al. (2025)",
+    "text": "Week 07\n\nFriday, October 10, 2025\n\nConstructivism: Deep dive\n\nStudent Presentation E: How do developmental disorders inform our understanding of cognitive development? (Presenter: Katie Billetdeaux; Discussant: Pratt Srinivasan)\n\nRead: A. Karmiloff-Smith (1998)\n\nStudent Presentation F: The risks of generalization (Presenter: Olivia Bell; Discussant: Carlos Almeida) \n\nRead: Packer & Moreno-Dulcey (2022); Kominsky, Lucca, Thomas, Frank, & Hamlin (2022); Lucca et al. (2025)",
     "crumbs": [
       "Schedule"
     ]
@@ -545,7 +622,7 @@
     "href": "schedule.html#week-09",
     "title": "Schedule",
     "section": "Week 09",
-    "text": "Week 09\n\nFriday, October 24, 2025\n\nTopics & Readings\n\nEmergentism & dynamic systems: Deep dive\n\nStudent Presentation G: A connectionist model to explain why infants seem so smart\n\nRead: Munakata, McClelland, Johnson, & Siegler (1997)\n\nStudent Presentation H: Emergentism and variants of the A-not-B task\n\nRead: Smith, Thelen, Titzer, & McLin (1999)",
+    "text": "Week 09\n\nFriday, October 24, 2025\n\nTopics & Readings\n\nEmergentism & dynamic systems: Deep dive\n\nStudent Presentation G: A connectionist model to explain why infants seem so smart\n\nRead: Munakata, McClelland, Johnson, & Siegler (1997) (Presenter: Zeynep Sülün; Discussant: Caesar Liu)\n\nStudent Presentation H: Emergentism and variants of the A-not-B task\n\nRead: Smith, Thelen, Titzer, & McLin (1999) (Presenter: Natalie Byrd; Discussant: Suzy Su)",
     "crumbs": [
       "Schedule"
     ]
@@ -797,6 +874,17 @@
     "title": "Unpacking causality",
     "section": "Your thoughts",
     "text": "Your thoughts\nDo these kind of causal flow diagrams help you see the complexity of the situation in a more tractable way?\nGilmore has been experimenting with them to help him see what is often hidden or glossed over in many accounts of behavior, psychological phenomena, and neural substrates. While these efforts seem to complicate things initially, they can reveal underlying processes more completely. More complete specification of information flows can lead to better, more useful models.\n\n\n\n\n\nflowchart LR\n  W[world] &lt;---&gt; B(body)\n  B &lt;---&gt; N((nervous_system))\n\n\n\n\n\n\nWould these diagrams make it easier to generate a hierarchical task analysis for the infant in the bassinet? What is the task? Is it different before the infant learns to move the rattle vs. afterward?",
+    "crumbs": [
+      "Resources",
+      "Unpacking causality"
+    ]
+  },
+  {
+    "objectID": "causal-relations.html#afterword",
+    "href": "causal-relations.html#afterword",
+    "title": "Unpacking causality",
+    "section": "Afterword",
+    "text": "Afterword\nGilmore finds it useful to be able to make reproducible box and arrow type diagrams. It’s one of many reasons he spends so much time working in Quarto.",
     "crumbs": [
       "Resources",
       "Unpacking causality"
@@ -1120,7 +1208,7 @@
     "href": "slides/wk-01-intro.html#what-do-statistics-model",
     "title": "Course Introduction",
     "section": "What do statistics model?",
-    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 24.205, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6921544 0.7730697\nsample estimates:\n      cor \n0.7352204",
+    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 20.363, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6231968 0.7192299\nsample estimates:\n      cor \n0.6740515",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
@@ -1377,94 +1465,6 @@
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
-    ]
-  },
-  {
-    "objectID": "causal-relations.html#afterword",
-    "href": "causal-relations.html#afterword",
-    "title": "Unpacking causality",
-    "section": "Afterword",
-    "text": "Afterword\nGilmore finds it useful to be able to make reproducible box and arrow type diagrams. It’s one of many reasons he spends so much time working in Quarto.",
-    "crumbs": [
-      "Resources",
-      "Unpacking causality"
-    ]
-  },
-  {
-    "objectID": "slides/wk-02-piaget.html#evaluating-piaget",
-    "href": "slides/wk-02-piaget.html#evaluating-piaget",
-    "title": "On Piaget",
-    "section": "Evaluating Piaget",
-    "text": "Evaluating Piaget\n\nThere are several problems with Piaget’s approach to cognitive development…the various capabilities did not cohere in the way that Piaget’s stage theory had envisioned…children frequently achieved competence in some of the stage-relevant tasks while lagging behind on other stage-relevant tasks…\n\n– Newcombe (2013) p. 481",
-    "crumbs": [
-      "Slides",
-      "Wk 02 • Fri Sep 05"
-    ]
-  },
-  {
-    "objectID": "slides/wk-02-piaget.html#evaluating-piaget-1",
-    "href": "slides/wk-02-piaget.html#evaluating-piaget-1",
-    "title": "On Piaget",
-    "section": "Evaluating Piaget",
-    "text": "Evaluating Piaget\n\n…Piaget seriously underestimated the cognitive competence of infants and young children…A large amount of research beginning in the 1970s and proceeding apace to this day has shown…that infants and young children have far more substantial abilities than Piaget had observed.\n\n– Newcombe (2013) p. 481",
-    "crumbs": [
-      "Slides",
-      "Wk 02 • Fri Sep 05"
-    ]
-  },
-  {
-    "objectID": "slides/wk-02-piaget.html#gilmores-influences",
-    "href": "slides/wk-02-piaget.html#gilmores-influences",
-    "title": "On Piaget",
-    "section": "Gilmore’s influences",
-    "text": "Gilmore’s influences\n\n\nChomsky (Chomsky, 1959): nativist psycholinguistics\nMarr (Marr, 1980): neurally inspired computational modeling\nGibson (J. J. Gibson, 1966; James J. Gibson, 1986): Perception & action, ecological approach\nJohnson (Johnson, 2001): Developmental cognitive neuroscience\nPh.D. Committee members: Bob Siegler, Jay McClelland, Marlene Behrmann, Daniel Simons",
-    "crumbs": [
-      "Slides",
-      "Wk 02 • Fri Sep 05"
-    ]
-  },
-  {
-    "objectID": "slides/wk-02-piaget.html#gilmores-influences-1",
-    "href": "slides/wk-02-piaget.html#gilmores-influences-1",
-    "title": "On Piaget",
-    "section": "Gilmore’s influences",
-    "text": "Gilmore’s influences\n\nNewcombe (2013) Table 1",
-    "crumbs": [
-      "Slides",
-      "Wk 02 • Fri Sep 05"
-    ]
-  },
-  {
-    "objectID": "slides/wk-02-piaget.html#piaget",
-    "href": "slides/wk-02-piaget.html#piaget",
-    "title": "On Piaget",
-    "section": "Piaget",
-    "text": "Piaget\n\n…Piaget talke in general terms about the process of developmental change as being the operation of equilibration…Many investigators argued that a more detailed specification of the mechanisms of change was needed.\n\n– Newcombe (2013) p. 481",
-    "crumbs": [
-      "Slides",
-      "Wk 02 • Fri Sep 05"
-    ]
-  },
-  {
-    "objectID": "slides/wk-02-piaget.html#evaluating-piaget-2",
-    "href": "slides/wk-02-piaget.html#evaluating-piaget-2",
-    "title": "On Piaget",
-    "section": "Evaluating Piaget",
-    "text": "Evaluating Piaget\n\nPiaget’s theory is…‘too monumental to embrace, and at the same time, too omnipresent to detect (Beilin, 1992)’\n\n– Siegler & Alibali (2021) p. 48\n\n\nSome of the reasons for its influence and its lasting appeal are the important acquisitions it describes, the large span of childhood it encompasses, and the reliability and charm of many of its observations.\n\n– Siegler & Alibali (2021) p. 48",
-    "crumbs": [
-      "Slides",
-      "Wk 02 • Fri Sep 05"
-    ]
-  },
-  {
-    "objectID": "slides/wk-02-piaget.html#evaluating-piaget-3",
-    "href": "slides/wk-02-piaget.html#evaluating-piaget-3",
-    "title": "On Piaget",
-    "section": "Evaluating Piaget",
-    "text": "Evaluating Piaget\n\n[Piaget’s] trait descriptions thus seem to be in the right ballpark, but to gloss over exceptions. More generally, Piaget’s theory continues to be of interest because it communicates a good feel for children’s thinking and it asks the right questions.\n\n– Siegler & Alibali (2021) p. 49",
-    "crumbs": [
-      "Slides",
-      "Wk 02 • Fri Sep 05"
     ]
   }
 ]

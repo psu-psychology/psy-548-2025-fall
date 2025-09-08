@@ -46,9 +46,9 @@ I have adopted considerable portions of their readings and assignment ideas.
 #### Topics
 
 - Piaget: Deep dive
-  - *Student presentation A*: How robust is the evidence for Piaget's trajectories?
+  - *Student presentation A*: How robust is the evidence for Piaget's trajectories? (*Presenter*: Alyssa Swift; *Discussant*: Hannah Huang)
     - *Read*: @Elkind1961-ns; @Gelman1972-we
-  - *Student presentation B*: When does object permanence emerge?
+  - *Student presentation B*: When does object permanence emerge? (*Presenter*: Makenna Luzenski; *Discussant*: Zeynep Sülün)
     - *Read*: @Baillargeon1985-vl; @Baillargeon2008-gz
 
 ## Week 04
@@ -69,10 +69,10 @@ I have adopted considerable portions of their readings and assignment ideas.
 <!-- Pratt Srinivasan religious holiday absence -->
 
 - Nativism and Core Knowledge: Deep dive
-  - *Student Presentation C*: How does changing the task inform on the underlying construct(s) about physical knowledge?
+  - *Student Presentation C*: How does changing the task inform on the underlying construct(s) about physical knowledge? (*Presenter*: Carlos Almeida; *Discussant*: Yeonjin Kim)
     - *Read*: @Spelke1992-re; @Hood2000-yd; @Keen2003-vj
-  - *Student Presentation D*: Rich interpretation of group differences in infant looking-time paradigms: How rich is dangerous? Necessary? Productive?
-   - *Read*: @Aslin2007-yt; @Paulus2022-fg; @Stahl2022-fy; @Haith1998-vu
+  - *Student Presentation D*: Rich interpretation of group differences in infant looking-time paradigms: How rich is dangerous? Necessary? Productive? (*Presenter*: Suzy Su; *Discussant*: Makenna Luzeknski)
+    - *Read*: @Aslin2007-yt; @Paulus2022-fg; @Stahl2022-fy; @Haith1998-vu
   
 ## Week 06
 
@@ -88,9 +88,9 @@ I have adopted considerable portions of their readings and assignment ideas.
 ### Friday, October 10, 2025
 
 - Constructivism: Deep dive
-  - *Student Presentation E*: How do developmental disorders inform our understanding of cognitive development?
+  - *Student Presentation E*: How do developmental disorders inform our understanding of cognitive development? (*Presenter*: Katie Billetdeaux; *Discussant*: Pratt Srinivasan)
     - *Read*: @Karmiloff-Smith1998-be
-  - *Student Presentation F*: The risks of generalization
+  - *Student Presentation F*: The risks of generalization (*Presenter*: Olivia Bell; *Discussant*: Carlos Almeida)
     <!-- - *Watch*: @Treeincement2010-en, @innovation2014-kj -->
     - *Read*: @Packer2022-gn; @Kominsky2022-we; @Lucca2025-gy
     
@@ -111,9 +111,10 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 - Emergentism & dynamic systems: Deep dive
   - *Student Presentation G*: A connectionist model to explain why infants seem so smart
-    - *Read*: @Munakata1997-zx
+    - *Read*: @Munakata1997-zx (*Presenter*: Zeynep Sülün; *Discussant*: 
+Caesar Liu)
   - *Student Presentation H*: Emergentism and variants of the A-not-B task
-    - *Read*: @Smith1999-xz
+    - *Read*: @Smith1999-xz (*Presenter*: Natalie Byrd; *Discussant*: Suzy Su)
     
 ## Week 10
 

@@ -9,7 +9,7 @@ project:
 website:
   title: "PSY 548"
   announcement: 
-    content: "Please review the tentative presentation/discussion assignment schedule [here](https://psu-psychology.github.io/psy-548-2025-fall/presentations.html)" 
+    content: "Many of the paper presentation and discussant assignments are posted [here](schedule.html). Please review them." 
     position: below-navbar
     icon: info-circle
     dismissable: true
