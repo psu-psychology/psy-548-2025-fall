@@ -46,7 +46,7 @@ I have adopted considerable portions of their readings and assignment ideas.
 #### Topics
 
 - Piaget: Deep dive
-  - *Student presentation A*: How robust is the evidence for Piaget's trajectories? (*Presenter*: Alyssa Swift; *Discussant*: Hannah Huang)
+  - *Student presentation A*: How robust is the evidence for Piaget's trajectories? (*Presenter*: Alyssa Swift; *Discussant*: Jingyi He)
     - *Read*: @Elkind1961-ns; @Gelman1972-we
   - *Student presentation B*: When does object permanence emerge? (*Presenter*: Makenna Luzenski; *Discussant*: Zeynep Sülün)
     - *Read*: @Baillargeon1985-vl; @Baillargeon2008-gz
@@ -124,9 +124,9 @@ Caesar Liu)
 
 - Embodied cognition
   - *General Readings*: @Pfeifer2006-nx; @Smith2018-nc
-- *Student Presentation I*: Does development gate input to prevent a "blooming, buzzing confusion?"
+- *Student Presentation I*: Does development gate input to prevent a "blooming, buzzing confusion?" (*Presenter* Luke Debec: *Discussant*: Alyssa Swift)
   - *Read*: @Kretch2014-ck; @Franchak2018-oj
-- *Student Presentation J*: How AI & robotics inform developmental science?
+- *Student Presentation J*: How AI & robotics inform developmental science? (*Presenter*: Hannah Huang; *Discussant*: Pratt Srinivasan)
   - *Read*: @Ossmy2018-fr; @Ossmy2024-qj
   
 ## Week 11
@@ -145,9 +145,9 @@ Caesar Liu)
 #### Topics & Readings
 
 - Sociocultural development: Deep dive
-  - *Student Presentation K*: Imitation in cultural learning
+  - *Student Presentation K*: Imitation in cultural learning (*Presenter*: Hanna Huang; *Discussant*: Elizabeth Aleru)
     - *Read*: @Legare2015-im; @Herrmann2013-rb; @Lyons2007-ng
-  - *Student Presentation L*: Gesture
+  - *Student Presentation L*: Gesture (*Presenter*: Jingyi He; *Discusant*: Katie Billedetdeaux)
     - *Read*: @Novack2015-kl; @Wakefield2018-tq
 
 ## Week 13
@@ -158,7 +158,7 @@ Caesar Liu)
 
 - Learning from others
   - *General Readings*: @Gelman2009-jg; @Sobel2013-lb
-  - *Student Presentation M*: Learning from testimony
+  - *Student Presentation M*: Learning from testimony (*Presenter*: Elizabeth Aleru; *Discussant*: Luke Debec)
     - *Read*: @Harris2018-eh; @Jaswal2010-dz
 
 ## Thanksgiving Break
@@ -173,7 +173,7 @@ Caesar Liu)
 
 - Conceptual development
   - *General Readings*: @Siegler2021-py Chapter 8; @Mandler1992-vb
-  - *Student Presentation N*: Naive psychology
+  - *Student Presentation N*: Naive psychology (*Presenter*: Jiayi Fan : *Discussant*: TBD
     - *Read*: @Onishi2005-co; @Wellman2012-ny; @Ding2015-bp
 
 ## Week 15
@@ -184,8 +184,8 @@ Caesar Liu)
 
 - Systems
   - *Read*: @Bronfenbrenner1977-cm, @Oyama2001-cf, @Hartley2022-dd
-  - *Student Presentation O*: Poverty is bad for cognition.
+  - *Student Presentation O*: Poverty is bad for cognition. (*Presenter*: Yeonjin Kim; *Discussant*: Olivia Bell)
     - *Read*: @Taylor2020-dp; @Amso2020-jo
-  - *Student Presentation P*: Poverty can be adaptive for cognition.
+  - *Student Presentation P*: Poverty can be adaptive for cognition. (*Presenter*: Caesar Liu; *Discussant*: Natalie Byrd)
     - *Read*: @Frankenhuis2016-wl; @Frankenhuis2020-ld
   

@@ -86,9 +86,14 @@ ratings_clean <- ratings |>
     poverty_adaptive = "P: Poverty can be adaptive for cognition"
   )
 
+student_info <- readr::read_csv(file.path(params$csv_dir, "student_data.csv"),
+                                 show_col_types = FALSE)
+
 # Add a student index variable
 ratings_clean <- ratings_clean |>
   mutate(student_i = 1:length(timestamp))
+
+ratings_clean <- left_join(ratings_clean, student_info, by = 'email')
 
 ratings_short <- names(ratings_clean)
 
@@ -574,6 +579,8 @@ presenters[28, 'present_discuss'] <- "discuss"
 
 ```{r}
 presenters |>
+  # left_join(presenters, student_info, by = 'email') |>
+  # arrange(name, email, date) |>
   arrange(email, date) |>
   knitr::kable(format = 'html')
 ```
@@ -582,6 +589,7 @@ presenters |>
 
 ```{r}
 presenters |>
+  # left_join(presenters, student_info, by = 'email') |>
   arrange(date, topic) |>
   select(date, topic, email, present_discuss) |>
   knitr::kable(format = 'html')

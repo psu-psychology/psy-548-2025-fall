@@ -277,7 +277,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">September 3, 2025</p>
+      <p class="date-modified">September 8, 2025</p>
     </div>
   </div>
     
@@ -382,22 +382,27 @@ Table&nbsp;1: A minimal data dictionary.
 <span id="tbl-data-dictionary-22"><a href="#tbl-data-dictionary-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">poverty_adaptive =</span> <span class="st">"P: Poverty can be adaptive for cognition"</span></span>
 <span id="tbl-data-dictionary-23"><a href="#tbl-data-dictionary-23" aria-hidden="true" tabindex="-1"></a>  )</span>
 <span id="tbl-data-dictionary-24"><a href="#tbl-data-dictionary-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="tbl-data-dictionary-25"><a href="#tbl-data-dictionary-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Add a student index variable</span></span>
-<span id="tbl-data-dictionary-26"><a href="#tbl-data-dictionary-26" aria-hidden="true" tabindex="-1"></a>ratings_clean <span class="ot">&lt;-</span> ratings_clean <span class="sc">|&gt;</span></span>
-<span id="tbl-data-dictionary-27"><a href="#tbl-data-dictionary-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">student_i =</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(timestamp))</span>
-<span id="tbl-data-dictionary-28"><a href="#tbl-data-dictionary-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="tbl-data-dictionary-29"><a href="#tbl-data-dictionary-29" aria-hidden="true" tabindex="-1"></a>ratings_short <span class="ot">&lt;-</span> <span class="fu">names</span>(ratings_clean)</span>
-<span id="tbl-data-dictionary-30"><a href="#tbl-data-dictionary-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="tbl-data-dictionary-31"><a href="#tbl-data-dictionary-31" aria-hidden="true" tabindex="-1"></a><span class="co"># ratings_dd &lt;- data.frame(qs = ratings_qs, </span></span>
-<span id="tbl-data-dictionary-32"><a href="#tbl-data-dictionary-32" aria-hidden="true" tabindex="-1"></a><span class="co">#                                qs_short = ratings_short</span></span>
-<span id="tbl-data-dictionary-33"><a href="#tbl-data-dictionary-33" aria-hidden="true" tabindex="-1"></a><span class="co">#                                )</span></span>
-<span id="tbl-data-dictionary-34"><a href="#tbl-data-dictionary-34" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
-<span id="tbl-data-dictionary-35"><a href="#tbl-data-dictionary-35" aria-hidden="true" tabindex="-1"></a><span class="co"># ratings_dd |&gt;</span></span>
-<span id="tbl-data-dictionary-36"><a href="#tbl-data-dictionary-36" aria-hidden="true" tabindex="-1"></a><span class="co">#   knitr::kable(format = 'html')</span></span>
-<span id="tbl-data-dictionary-37"><a href="#tbl-data-dictionary-37" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
-<span id="tbl-data-dictionary-38"><a href="#tbl-data-dictionary-38" aria-hidden="true" tabindex="-1"></a><span class="co"># readr::write_csv(ratings_dd,</span></span>
-<span id="tbl-data-dictionary-39"><a href="#tbl-data-dictionary-39" aria-hidden="true" tabindex="-1"></a><span class="co">#                  file = file.path(params$csv_dir,</span></span>
-<span id="tbl-data-dictionary-40"><a href="#tbl-data-dictionary-40" aria-hidden="true" tabindex="-1"></a><span class="co">#                                   "ratings-data-dict.csv"))</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="tbl-data-dictionary-25"><a href="#tbl-data-dictionary-25" aria-hidden="true" tabindex="-1"></a>student_info <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="fu">file.path</span>(params<span class="sc">$</span>csv_dir, <span class="st">"student_data.csv"</span>),</span>
+<span id="tbl-data-dictionary-26"><a href="#tbl-data-dictionary-26" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)</span>
+<span id="tbl-data-dictionary-27"><a href="#tbl-data-dictionary-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="tbl-data-dictionary-28"><a href="#tbl-data-dictionary-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Add a student index variable</span></span>
+<span id="tbl-data-dictionary-29"><a href="#tbl-data-dictionary-29" aria-hidden="true" tabindex="-1"></a>ratings_clean <span class="ot">&lt;-</span> ratings_clean <span class="sc">|&gt;</span></span>
+<span id="tbl-data-dictionary-30"><a href="#tbl-data-dictionary-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">student_i =</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(timestamp))</span>
+<span id="tbl-data-dictionary-31"><a href="#tbl-data-dictionary-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="tbl-data-dictionary-32"><a href="#tbl-data-dictionary-32" aria-hidden="true" tabindex="-1"></a>ratings_clean <span class="ot">&lt;-</span> <span class="fu">left_join</span>(ratings_clean, student_info, <span class="at">by =</span> <span class="st">'email'</span>)</span>
+<span id="tbl-data-dictionary-33"><a href="#tbl-data-dictionary-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="tbl-data-dictionary-34"><a href="#tbl-data-dictionary-34" aria-hidden="true" tabindex="-1"></a>ratings_short <span class="ot">&lt;-</span> <span class="fu">names</span>(ratings_clean)</span>
+<span id="tbl-data-dictionary-35"><a href="#tbl-data-dictionary-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="tbl-data-dictionary-36"><a href="#tbl-data-dictionary-36" aria-hidden="true" tabindex="-1"></a><span class="co"># ratings_dd &lt;- data.frame(qs = ratings_qs, </span></span>
+<span id="tbl-data-dictionary-37"><a href="#tbl-data-dictionary-37" aria-hidden="true" tabindex="-1"></a><span class="co">#                                qs_short = ratings_short</span></span>
+<span id="tbl-data-dictionary-38"><a href="#tbl-data-dictionary-38" aria-hidden="true" tabindex="-1"></a><span class="co">#                                )</span></span>
+<span id="tbl-data-dictionary-39"><a href="#tbl-data-dictionary-39" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="tbl-data-dictionary-40"><a href="#tbl-data-dictionary-40" aria-hidden="true" tabindex="-1"></a><span class="co"># ratings_dd |&gt;</span></span>
+<span id="tbl-data-dictionary-41"><a href="#tbl-data-dictionary-41" aria-hidden="true" tabindex="-1"></a><span class="co">#   knitr::kable(format = 'html')</span></span>
+<span id="tbl-data-dictionary-42"><a href="#tbl-data-dictionary-42" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="tbl-data-dictionary-43"><a href="#tbl-data-dictionary-43" aria-hidden="true" tabindex="-1"></a><span class="co"># readr::write_csv(ratings_dd,</span></span>
+<span id="tbl-data-dictionary-44"><a href="#tbl-data-dictionary-44" aria-hidden="true" tabindex="-1"></a><span class="co">#                  file = file.path(params$csv_dir,</span></span>
+<span id="tbl-data-dictionary-45"><a href="#tbl-data-dictionary-45" aria-hidden="true" tabindex="-1"></a><span class="co">#                                   "ratings-data-dict.csv"))</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </figure>
 </div>
@@ -468,6 +473,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -477,6 +483,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-26 16:19:19</td>
 <td style="text-align: left;">ars7656@psu.edu</td>
 <td style="text-align: right;">2</td>
+<td style="text-align: left;">Alyssa Swift</td>
 <td style="text-align: left;">piaget_traj</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -484,6 +491,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 22:49:30</td>
 <td style="text-align: left;">mml5964@psu.edu</td>
 <td style="text-align: right;">5</td>
+<td style="text-align: left;">Makenna Luzenski</td>
 <td style="text-align: left;">piaget_traj</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -491,6 +499,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">piaget_traj</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -498,6 +507,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 14:03:01</td>
 <td style="text-align: left;">jzh6650@psu.edu</td>
 <td style="text-align: right;">12</td>
+<td style="text-align: left;">Jinyi He</td>
 <td style="text-align: left;">piaget_traj</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -505,6 +515,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 07:49:21</td>
 <td style="text-align: left;">zps5262@psu.edu</td>
 <td style="text-align: right;">13</td>
+<td style="text-align: left;">Suzy Su</td>
 <td style="text-align: left;">piaget_traj</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -526,6 +537,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -535,6 +547,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-26 16:19:19</td>
 <td style="text-align: left;">ars7656@psu.edu</td>
 <td style="text-align: right;">2</td>
+<td style="text-align: left;">Alyssa Swift</td>
 <td style="text-align: left;">obj_perm</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -542,6 +555,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 16:09:30</td>
 <td style="text-align: left;">opb5142@psu.edu</td>
 <td style="text-align: right;">4</td>
+<td style="text-align: left;">Olivia Bell</td>
 <td style="text-align: left;">obj_perm</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -549,6 +563,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 22:49:30</td>
 <td style="text-align: left;">mml5964@psu.edu</td>
 <td style="text-align: right;">5</td>
+<td style="text-align: left;">Makenna Luzenski</td>
 <td style="text-align: left;">obj_perm</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -556,6 +571,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 22:21:09</td>
 <td style="text-align: left;">pxs5614@psu.edu</td>
 <td style="text-align: right;">7</td>
+<td style="text-align: left;">Pratt Srinivasan</td>
 <td style="text-align: left;">obj_perm</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -563,6 +579,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:23:35</td>
 <td style="text-align: left;">gks5496@psu.edu</td>
 <td style="text-align: right;">10</td>
+<td style="text-align: left;">Zeynep Sülün</td>
 <td style="text-align: left;">obj_perm</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -570,6 +587,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 14:03:01</td>
 <td style="text-align: left;">jzh6650@psu.edu</td>
 <td style="text-align: right;">12</td>
+<td style="text-align: left;">Jinyi He</td>
 <td style="text-align: left;">obj_perm</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -577,6 +595,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 07:49:21</td>
 <td style="text-align: left;">zps5262@psu.edu</td>
 <td style="text-align: right;">13</td>
+<td style="text-align: left;">Suzy Su</td>
 <td style="text-align: left;">obj_perm</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -630,6 +649,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -639,6 +659,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 22:49:30</td>
 <td style="text-align: left;">mml5964@psu.edu</td>
 <td style="text-align: right;">5</td>
+<td style="text-align: left;">Makenna Luzenski</td>
 <td style="text-align: left;">core_knowl</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -646,6 +667,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">core_knowl</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -653,6 +675,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 12:07:38</td>
 <td style="text-align: left;">cfa5368@psu.edu</td>
 <td style="text-align: right;">11</td>
+<td style="text-align: left;">Carlos Almeida</td>
 <td style="text-align: left;">core_knowl</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -660,6 +683,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 07:49:21</td>
 <td style="text-align: left;">zps5262@psu.edu</td>
 <td style="text-align: right;">13</td>
+<td style="text-align: left;">Suzy Su</td>
 <td style="text-align: left;">core_knowl</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -667,6 +691,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 11:26:33</td>
 <td style="text-align: left;">ckl5780@psu.edu</td>
 <td style="text-align: right;">14</td>
+<td style="text-align: left;">Caesar Liu</td>
 <td style="text-align: left;">core_knowl</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -688,6 +713,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -697,6 +723,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-26 16:19:19</td>
 <td style="text-align: left;">ars7656@psu.edu</td>
 <td style="text-align: right;">2</td>
+<td style="text-align: left;">Alyssa Swift</td>
 <td style="text-align: left;">rich_interp</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -704,6 +731,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 16:09:30</td>
 <td style="text-align: left;">opb5142@psu.edu</td>
 <td style="text-align: right;">4</td>
+<td style="text-align: left;">Olivia Bell</td>
 <td style="text-align: left;">rich_interp</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -711,6 +739,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 22:49:30</td>
 <td style="text-align: left;">mml5964@psu.edu</td>
 <td style="text-align: right;">5</td>
+<td style="text-align: left;">Makenna Luzenski</td>
 <td style="text-align: left;">rich_interp</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -718,6 +747,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 12:07:38</td>
 <td style="text-align: left;">cfa5368@psu.edu</td>
 <td style="text-align: right;">11</td>
+<td style="text-align: left;">Carlos Almeida</td>
 <td style="text-align: left;">rich_interp</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -725,6 +755,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 07:49:21</td>
 <td style="text-align: left;">zps5262@psu.edu</td>
 <td style="text-align: right;">13</td>
+<td style="text-align: left;">Suzy Su</td>
 <td style="text-align: left;">rich_interp</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -836,6 +867,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -845,6 +877,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 11:01:47</td>
 <td style="text-align: left;">kab7845@psu.edu</td>
 <td style="text-align: right;">3</td>
+<td style="text-align: left;">Katie Billetdeaux</td>
 <td style="text-align: left;">dev_disorders</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -852,6 +885,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 16:09:30</td>
 <td style="text-align: left;">opb5142@psu.edu</td>
 <td style="text-align: right;">4</td>
+<td style="text-align: left;">Olivia Bell</td>
 <td style="text-align: left;">dev_disorders</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -859,6 +893,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 09:35:18</td>
 <td style="text-align: left;">lfh5527@psu.edu</td>
 <td style="text-align: right;">6</td>
+<td style="text-align: left;">Hanna Huang</td>
 <td style="text-align: left;">dev_disorders</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -866,6 +901,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 22:21:09</td>
 <td style="text-align: left;">pxs5614@psu.edu</td>
 <td style="text-align: right;">7</td>
+<td style="text-align: left;">Pratt Srinivasan</td>
 <td style="text-align: left;">dev_disorders</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -873,6 +909,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">dev_disorders</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -880,6 +917,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:23:35</td>
 <td style="text-align: left;">gks5496@psu.edu</td>
 <td style="text-align: right;">10</td>
+<td style="text-align: left;">Zeynep Sülün</td>
 <td style="text-align: left;">dev_disorders</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -887,6 +925,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 12:07:38</td>
 <td style="text-align: left;">cfa5368@psu.edu</td>
 <td style="text-align: right;">11</td>
+<td style="text-align: left;">Carlos Almeida</td>
 <td style="text-align: left;">dev_disorders</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -894,6 +933,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 14:03:01</td>
 <td style="text-align: left;">jzh6650@psu.edu</td>
 <td style="text-align: right;">12</td>
+<td style="text-align: left;">Jinyi He</td>
 <td style="text-align: left;">dev_disorders</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -901,6 +941,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 07:49:21</td>
 <td style="text-align: left;">zps5262@psu.edu</td>
 <td style="text-align: right;">13</td>
+<td style="text-align: left;">Suzy Su</td>
 <td style="text-align: left;">dev_disorders</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -908,6 +949,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 11:26:33</td>
 <td style="text-align: left;">ckl5780@psu.edu</td>
 <td style="text-align: right;">14</td>
+<td style="text-align: left;">Caesar Liu</td>
 <td style="text-align: left;">dev_disorders</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -929,6 +971,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -938,6 +981,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 16:09:30</td>
 <td style="text-align: left;">opb5142@psu.edu</td>
 <td style="text-align: right;">4</td>
+<td style="text-align: left;">Olivia Bell</td>
 <td style="text-align: left;">generalization</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -945,6 +989,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 22:49:30</td>
 <td style="text-align: left;">mml5964@psu.edu</td>
 <td style="text-align: right;">5</td>
+<td style="text-align: left;">Makenna Luzenski</td>
 <td style="text-align: left;">generalization</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -952,6 +997,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 09:35:18</td>
 <td style="text-align: left;">lfh5527@psu.edu</td>
 <td style="text-align: right;">6</td>
+<td style="text-align: left;">Hanna Huang</td>
 <td style="text-align: left;">generalization</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -959,6 +1005,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 22:21:09</td>
 <td style="text-align: left;">pxs5614@psu.edu</td>
 <td style="text-align: right;">7</td>
+<td style="text-align: left;">Pratt Srinivasan</td>
 <td style="text-align: left;">generalization</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -966,6 +1013,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 02:12:03</td>
 <td style="text-align: left;">eoa5294@psu.edu</td>
 <td style="text-align: right;">8</td>
+<td style="text-align: left;">Elizabeth Aleru</td>
 <td style="text-align: left;">generalization</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -973,6 +1021,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">generalization</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -980,6 +1029,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:23:35</td>
 <td style="text-align: left;">gks5496@psu.edu</td>
 <td style="text-align: right;">10</td>
+<td style="text-align: left;">Zeynep Sülün</td>
 <td style="text-align: left;">generalization</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -987,6 +1037,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 12:07:38</td>
 <td style="text-align: left;">cfa5368@psu.edu</td>
 <td style="text-align: right;">11</td>
+<td style="text-align: left;">Carlos Almeida</td>
 <td style="text-align: left;">generalization</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -994,6 +1045,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 14:03:01</td>
 <td style="text-align: left;">jzh6650@psu.edu</td>
 <td style="text-align: right;">12</td>
+<td style="text-align: left;">Jinyi He</td>
 <td style="text-align: left;">generalization</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -1001,6 +1053,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 07:49:21</td>
 <td style="text-align: left;">zps5262@psu.edu</td>
 <td style="text-align: right;">13</td>
+<td style="text-align: left;">Suzy Su</td>
 <td style="text-align: left;">generalization</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1163,6 +1216,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -1172,6 +1226,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-26 16:11:24</td>
 <td style="text-align: left;">nsb5522@psu.edu</td>
 <td style="text-align: right;">1</td>
+<td style="text-align: left;">Natalie Byrd</td>
 <td style="text-align: left;">connectionism</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1179,6 +1234,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-26 16:19:19</td>
 <td style="text-align: left;">ars7656@psu.edu</td>
 <td style="text-align: right;">2</td>
+<td style="text-align: left;">Alyssa Swift</td>
 <td style="text-align: left;">connectionism</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -1186,6 +1242,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 16:09:30</td>
 <td style="text-align: left;">opb5142@psu.edu</td>
 <td style="text-align: right;">4</td>
+<td style="text-align: left;">Olivia Bell</td>
 <td style="text-align: left;">connectionism</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1193,6 +1250,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 22:49:30</td>
 <td style="text-align: left;">mml5964@psu.edu</td>
 <td style="text-align: right;">5</td>
+<td style="text-align: left;">Makenna Luzenski</td>
 <td style="text-align: left;">connectionism</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1200,6 +1258,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 09:35:18</td>
 <td style="text-align: left;">lfh5527@psu.edu</td>
 <td style="text-align: right;">6</td>
+<td style="text-align: left;">Hanna Huang</td>
 <td style="text-align: left;">connectionism</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1207,6 +1266,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 22:21:09</td>
 <td style="text-align: left;">pxs5614@psu.edu</td>
 <td style="text-align: right;">7</td>
+<td style="text-align: left;">Pratt Srinivasan</td>
 <td style="text-align: left;">connectionism</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -1214,6 +1274,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 02:12:03</td>
 <td style="text-align: left;">eoa5294@psu.edu</td>
 <td style="text-align: right;">8</td>
+<td style="text-align: left;">Elizabeth Aleru</td>
 <td style="text-align: left;">connectionism</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1221,6 +1282,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:23:35</td>
 <td style="text-align: left;">gks5496@psu.edu</td>
 <td style="text-align: right;">10</td>
+<td style="text-align: left;">Zeynep Sülün</td>
 <td style="text-align: left;">connectionism</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1228,6 +1290,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 07:49:21</td>
 <td style="text-align: left;">zps5262@psu.edu</td>
 <td style="text-align: right;">13</td>
+<td style="text-align: left;">Suzy Su</td>
 <td style="text-align: left;">connectionism</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -1235,6 +1298,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 11:26:33</td>
 <td style="text-align: left;">ckl5780@psu.edu</td>
 <td style="text-align: right;">14</td>
+<td style="text-align: left;">Caesar Liu</td>
 <td style="text-align: left;">connectionism</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -1256,6 +1320,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -1265,6 +1330,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-26 16:11:24</td>
 <td style="text-align: left;">nsb5522@psu.edu</td>
 <td style="text-align: right;">1</td>
+<td style="text-align: left;">Natalie Byrd</td>
 <td style="text-align: left;">a_not_b</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -1272,6 +1338,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-26 16:19:19</td>
 <td style="text-align: left;">ars7656@psu.edu</td>
 <td style="text-align: right;">2</td>
+<td style="text-align: left;">Alyssa Swift</td>
 <td style="text-align: left;">a_not_b</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1279,6 +1346,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">a_not_b</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1286,6 +1354,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:23:35</td>
 <td style="text-align: left;">gks5496@psu.edu</td>
 <td style="text-align: right;">10</td>
+<td style="text-align: left;">Zeynep Sülün</td>
 <td style="text-align: left;">a_not_b</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -1293,6 +1362,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 07:49:21</td>
 <td style="text-align: left;">zps5262@psu.edu</td>
 <td style="text-align: right;">13</td>
+<td style="text-align: left;">Suzy Su</td>
 <td style="text-align: left;">a_not_b</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1464,6 +1534,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -1473,6 +1544,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-26 16:19:19</td>
 <td style="text-align: left;">ars7656@psu.edu</td>
 <td style="text-align: right;">2</td>
+<td style="text-align: left;">Alyssa Swift</td>
 <td style="text-align: left;">gate_input</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1480,6 +1552,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 09:35:18</td>
 <td style="text-align: left;">lfh5527@psu.edu</td>
 <td style="text-align: right;">6</td>
+<td style="text-align: left;">Hanna Huang</td>
 <td style="text-align: left;">gate_input</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1487,6 +1560,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">gate_input</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1494,6 +1568,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 12:07:38</td>
 <td style="text-align: left;">cfa5368@psu.edu</td>
 <td style="text-align: right;">11</td>
+<td style="text-align: left;">Carlos Almeida</td>
 <td style="text-align: left;">gate_input</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1501,6 +1576,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 07:49:21</td>
 <td style="text-align: left;">zps5262@psu.edu</td>
 <td style="text-align: right;">13</td>
+<td style="text-align: left;">Suzy Su</td>
 <td style="text-align: left;">gate_input</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1522,6 +1598,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -1531,6 +1608,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 09:35:18</td>
 <td style="text-align: left;">lfh5527@psu.edu</td>
 <td style="text-align: right;">6</td>
+<td style="text-align: left;">Hanna Huang</td>
 <td style="text-align: left;">ai_robotics</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -1538,6 +1616,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 22:21:09</td>
 <td style="text-align: left;">pxs5614@psu.edu</td>
 <td style="text-align: right;">7</td>
+<td style="text-align: left;">Pratt Srinivasan</td>
 <td style="text-align: left;">ai_robotics</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1545,6 +1624,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">ai_robotics</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1552,6 +1632,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 12:07:38</td>
 <td style="text-align: left;">cfa5368@psu.edu</td>
 <td style="text-align: right;">11</td>
+<td style="text-align: left;">Carlos Almeida</td>
 <td style="text-align: left;">ai_robotics</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1559,6 +1640,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 14:03:01</td>
 <td style="text-align: left;">jzh6650@psu.edu</td>
 <td style="text-align: right;">12</td>
+<td style="text-align: left;">Jinyi He</td>
 <td style="text-align: left;">ai_robotics</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -1566,6 +1648,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 11:26:33</td>
 <td style="text-align: left;">ckl5780@psu.edu</td>
 <td style="text-align: right;">14</td>
+<td style="text-align: left;">Caesar Liu</td>
 <td style="text-align: left;">ai_robotics</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1761,6 +1844,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -1770,6 +1854,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-26 16:11:24</td>
 <td style="text-align: left;">nsb5522@psu.edu</td>
 <td style="text-align: right;">1</td>
+<td style="text-align: left;">Natalie Byrd</td>
 <td style="text-align: left;">imitation</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1777,6 +1862,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 11:01:47</td>
 <td style="text-align: left;">kab7845@psu.edu</td>
 <td style="text-align: right;">3</td>
+<td style="text-align: left;">Katie Billetdeaux</td>
 <td style="text-align: left;">imitation</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1784,6 +1870,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 16:09:30</td>
 <td style="text-align: left;">opb5142@psu.edu</td>
 <td style="text-align: right;">4</td>
+<td style="text-align: left;">Olivia Bell</td>
 <td style="text-align: left;">imitation</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1791,6 +1878,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 09:35:18</td>
 <td style="text-align: left;">lfh5527@psu.edu</td>
 <td style="text-align: right;">6</td>
+<td style="text-align: left;">Hanna Huang</td>
 <td style="text-align: left;">imitation</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1798,6 +1886,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 22:21:09</td>
 <td style="text-align: left;">pxs5614@psu.edu</td>
 <td style="text-align: right;">7</td>
+<td style="text-align: left;">Pratt Srinivasan</td>
 <td style="text-align: left;">imitation</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1805,6 +1894,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 02:12:03</td>
 <td style="text-align: left;">eoa5294@psu.edu</td>
 <td style="text-align: right;">8</td>
+<td style="text-align: left;">Elizabeth Aleru</td>
 <td style="text-align: left;">imitation</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1812,6 +1902,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">imitation</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1819,6 +1910,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:23:35</td>
 <td style="text-align: left;">gks5496@psu.edu</td>
 <td style="text-align: right;">10</td>
+<td style="text-align: left;">Zeynep Sülün</td>
 <td style="text-align: left;">imitation</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1826,6 +1918,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 12:07:38</td>
 <td style="text-align: left;">cfa5368@psu.edu</td>
 <td style="text-align: right;">11</td>
+<td style="text-align: left;">Carlos Almeida</td>
 <td style="text-align: left;">imitation</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1833,6 +1926,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 14:03:01</td>
 <td style="text-align: left;">jzh6650@psu.edu</td>
 <td style="text-align: right;">12</td>
+<td style="text-align: left;">Jinyi He</td>
 <td style="text-align: left;">imitation</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1840,6 +1934,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 07:49:21</td>
 <td style="text-align: left;">zps5262@psu.edu</td>
 <td style="text-align: right;">13</td>
+<td style="text-align: left;">Suzy Su</td>
 <td style="text-align: left;">imitation</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1861,6 +1956,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -1870,6 +1966,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-26 16:19:19</td>
 <td style="text-align: left;">ars7656@psu.edu</td>
 <td style="text-align: right;">2</td>
+<td style="text-align: left;">Alyssa Swift</td>
 <td style="text-align: left;">gesture</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -1877,6 +1974,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 11:01:47</td>
 <td style="text-align: left;">kab7845@psu.edu</td>
 <td style="text-align: right;">3</td>
+<td style="text-align: left;">Katie Billetdeaux</td>
 <td style="text-align: left;">gesture</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -1884,6 +1982,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 09:35:18</td>
 <td style="text-align: left;">lfh5527@psu.edu</td>
 <td style="text-align: right;">6</td>
+<td style="text-align: left;">Hanna Huang</td>
 <td style="text-align: left;">gesture</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1891,6 +1990,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 22:21:09</td>
 <td style="text-align: left;">pxs5614@psu.edu</td>
 <td style="text-align: right;">7</td>
+<td style="text-align: left;">Pratt Srinivasan</td>
 <td style="text-align: left;">gesture</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -1898,6 +1998,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 02:12:03</td>
 <td style="text-align: left;">eoa5294@psu.edu</td>
 <td style="text-align: right;">8</td>
+<td style="text-align: left;">Elizabeth Aleru</td>
 <td style="text-align: left;">gesture</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1905,6 +2006,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">gesture</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -1912,6 +2014,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:23:35</td>
 <td style="text-align: left;">gks5496@psu.edu</td>
 <td style="text-align: right;">10</td>
+<td style="text-align: left;">Zeynep Sülün</td>
 <td style="text-align: left;">gesture</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -1919,6 +2022,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 14:03:01</td>
 <td style="text-align: left;">jzh6650@psu.edu</td>
 <td style="text-align: right;">12</td>
+<td style="text-align: left;">Jinyi He</td>
 <td style="text-align: left;">gesture</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2138,6 +2242,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -2147,6 +2252,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 11:01:47</td>
 <td style="text-align: left;">kab7845@psu.edu</td>
 <td style="text-align: right;">3</td>
+<td style="text-align: left;">Katie Billetdeaux</td>
 <td style="text-align: left;">testimony</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -2154,6 +2260,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 09:35:18</td>
 <td style="text-align: left;">lfh5527@psu.edu</td>
 <td style="text-align: right;">6</td>
+<td style="text-align: left;">Hanna Huang</td>
 <td style="text-align: left;">testimony</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -2161,6 +2268,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 22:21:09</td>
 <td style="text-align: left;">pxs5614@psu.edu</td>
 <td style="text-align: right;">7</td>
+<td style="text-align: left;">Pratt Srinivasan</td>
 <td style="text-align: left;">testimony</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -2168,6 +2276,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 02:12:03</td>
 <td style="text-align: left;">eoa5294@psu.edu</td>
 <td style="text-align: right;">8</td>
+<td style="text-align: left;">Elizabeth Aleru</td>
 <td style="text-align: left;">testimony</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -2175,6 +2284,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">testimony</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -2182,6 +2292,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 14:03:01</td>
 <td style="text-align: left;">jzh6650@psu.edu</td>
 <td style="text-align: right;">12</td>
+<td style="text-align: left;">Jinyi He</td>
 <td style="text-align: left;">testimony</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -2189,6 +2300,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 11:26:33</td>
 <td style="text-align: left;">ckl5780@psu.edu</td>
 <td style="text-align: right;">14</td>
+<td style="text-align: left;">Caesar Liu</td>
 <td style="text-align: left;">testimony</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -2448,6 +2560,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -2457,6 +2570,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 11:01:47</td>
 <td style="text-align: left;">kab7845@psu.edu</td>
 <td style="text-align: right;">3</td>
+<td style="text-align: left;">Katie Billetdeaux</td>
 <td style="text-align: left;">naive_psy</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -2464,6 +2578,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 09:35:18</td>
 <td style="text-align: left;">lfh5527@psu.edu</td>
 <td style="text-align: right;">6</td>
+<td style="text-align: left;">Hanna Huang</td>
 <td style="text-align: left;">naive_psy</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -2471,6 +2586,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 22:21:09</td>
 <td style="text-align: left;">pxs5614@psu.edu</td>
 <td style="text-align: right;">7</td>
+<td style="text-align: left;">Pratt Srinivasan</td>
 <td style="text-align: left;">naive_psy</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -2478,6 +2594,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">naive_psy</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -2485,6 +2602,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 14:03:01</td>
 <td style="text-align: left;">jzh6650@psu.edu</td>
 <td style="text-align: right;">12</td>
+<td style="text-align: left;">Jinyi He</td>
 <td style="text-align: left;">naive_psy</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -2707,6 +2825,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -2716,6 +2835,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-26 16:11:24</td>
 <td style="text-align: left;">nsb5522@psu.edu</td>
 <td style="text-align: right;">1</td>
+<td style="text-align: left;">Natalie Byrd</td>
 <td style="text-align: left;">poverty_bad</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2723,6 +2843,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 11:01:47</td>
 <td style="text-align: left;">kab7845@psu.edu</td>
 <td style="text-align: right;">3</td>
+<td style="text-align: left;">Katie Billetdeaux</td>
 <td style="text-align: left;">poverty_bad</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -2730,6 +2851,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 16:09:30</td>
 <td style="text-align: left;">opb5142@psu.edu</td>
 <td style="text-align: right;">4</td>
+<td style="text-align: left;">Olivia Bell</td>
 <td style="text-align: left;">poverty_bad</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2737,6 +2859,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 22:49:30</td>
 <td style="text-align: left;">mml5964@psu.edu</td>
 <td style="text-align: right;">5</td>
+<td style="text-align: left;">Makenna Luzenski</td>
 <td style="text-align: left;">poverty_bad</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2744,6 +2867,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 09:35:18</td>
 <td style="text-align: left;">lfh5527@psu.edu</td>
 <td style="text-align: right;">6</td>
+<td style="text-align: left;">Hanna Huang</td>
 <td style="text-align: left;">poverty_bad</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -2751,6 +2875,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 22:21:09</td>
 <td style="text-align: left;">pxs5614@psu.edu</td>
 <td style="text-align: right;">7</td>
+<td style="text-align: left;">Pratt Srinivasan</td>
 <td style="text-align: left;">poverty_bad</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -2758,6 +2883,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">poverty_bad</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -2765,6 +2891,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 12:07:38</td>
 <td style="text-align: left;">cfa5368@psu.edu</td>
 <td style="text-align: right;">11</td>
+<td style="text-align: left;">Carlos Almeida</td>
 <td style="text-align: left;">poverty_bad</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2772,6 +2899,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 14:03:01</td>
 <td style="text-align: left;">jzh6650@psu.edu</td>
 <td style="text-align: right;">12</td>
+<td style="text-align: left;">Jinyi He</td>
 <td style="text-align: left;">poverty_bad</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2779,6 +2907,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 07:49:21</td>
 <td style="text-align: left;">zps5262@psu.edu</td>
 <td style="text-align: right;">13</td>
+<td style="text-align: left;">Suzy Su</td>
 <td style="text-align: left;">poverty_bad</td>
 <td style="text-align: right;">3</td>
 </tr>
@@ -2786,6 +2915,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 11:26:33</td>
 <td style="text-align: left;">ckl5780@psu.edu</td>
 <td style="text-align: right;">14</td>
+<td style="text-align: left;">Caesar Liu</td>
 <td style="text-align: left;">poverty_bad</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2793,6 +2923,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-31 14:28:19</td>
 <td style="text-align: left;">yqk5318@psu.edu</td>
 <td style="text-align: right;">15</td>
+<td style="text-align: left;">Yeonjin Kim</td>
 <td style="text-align: left;">poverty_bad</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2814,6 +2945,7 @@ Figure&nbsp;1
 <th style="text-align: left;" data-quarto-table-cell-role="th">timestamp</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">email</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">student_i</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">name</th>
 <th style="text-align: left;" data-quarto-table-cell-role="th">topic</th>
 <th style="text-align: right;" data-quarto-table-cell-role="th">rating</th>
 </tr>
@@ -2823,6 +2955,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-26 16:11:24</td>
 <td style="text-align: left;">nsb5522@psu.edu</td>
 <td style="text-align: right;">1</td>
+<td style="text-align: left;">Natalie Byrd</td>
 <td style="text-align: left;">poverty_adaptive</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2830,6 +2963,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 11:01:47</td>
 <td style="text-align: left;">kab7845@psu.edu</td>
 <td style="text-align: right;">3</td>
+<td style="text-align: left;">Katie Billetdeaux</td>
 <td style="text-align: left;">poverty_adaptive</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -2837,6 +2971,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 16:09:30</td>
 <td style="text-align: left;">opb5142@psu.edu</td>
 <td style="text-align: right;">4</td>
+<td style="text-align: left;">Olivia Bell</td>
 <td style="text-align: left;">poverty_adaptive</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2844,6 +2979,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-27 22:49:30</td>
 <td style="text-align: left;">mml5964@psu.edu</td>
 <td style="text-align: right;">5</td>
+<td style="text-align: left;">Makenna Luzenski</td>
 <td style="text-align: left;">poverty_adaptive</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2851,6 +2987,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-28 09:35:18</td>
 <td style="text-align: left;">lfh5527@psu.edu</td>
 <td style="text-align: right;">6</td>
+<td style="text-align: left;">Hanna Huang</td>
 <td style="text-align: left;">poverty_adaptive</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -2858,6 +2995,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 09:22:04</td>
 <td style="text-align: left;">lxd5406@psu.edu</td>
 <td style="text-align: right;">9</td>
+<td style="text-align: left;">Luke Debec</td>
 <td style="text-align: left;">poverty_adaptive</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -2865,6 +3003,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 12:07:38</td>
 <td style="text-align: left;">cfa5368@psu.edu</td>
 <td style="text-align: right;">11</td>
+<td style="text-align: left;">Carlos Almeida</td>
 <td style="text-align: left;">poverty_adaptive</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -2872,6 +3011,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-29 14:03:01</td>
 <td style="text-align: left;">jzh6650@psu.edu</td>
 <td style="text-align: right;">12</td>
+<td style="text-align: left;">Jinyi He</td>
 <td style="text-align: left;">poverty_adaptive</td>
 <td style="text-align: right;">4</td>
 </tr>
@@ -2879,6 +3019,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-30 11:26:33</td>
 <td style="text-align: left;">ckl5780@psu.edu</td>
 <td style="text-align: right;">14</td>
+<td style="text-align: left;">Caesar Liu</td>
 <td style="text-align: left;">poverty_adaptive</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2886,6 +3027,7 @@ Figure&nbsp;1
 <td style="text-align: left;">2025-08-31 14:28:19</td>
 <td style="text-align: left;">yqk5318@psu.edu</td>
 <td style="text-align: right;">15</td>
+<td style="text-align: left;">Yeonjin Kim</td>
 <td style="text-align: left;">poverty_adaptive</td>
 <td style="text-align: right;">5</td>
 </tr>
@@ -2933,8 +3075,10 @@ Figure&nbsp;1
 <h3 class="anchored" data-anchor-id="by-student">By student</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>presenters <span class="sc">|&gt;</span></span>
-<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(email, date) <span class="sc">|&gt;</span></span>
-<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">format =</span> <span class="st">'html'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>  <span class="co"># left_join(presenters, student_info, by = 'email') |&gt;</span></span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># arrange(name, email, date) |&gt;</span></span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(email, date) <span class="sc">|&gt;</span></span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">format =</span> <span class="st">'html'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small" data-quarto-postprocess="true">
 <thead>
@@ -3149,9 +3293,10 @@ Figure&nbsp;1
 <h3 class="anchored" data-anchor-id="by-date-and-topic">By date and topic</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>presenters <span class="sc">|&gt;</span></span>
-<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(date, topic) <span class="sc">|&gt;</span></span>
-<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(date, topic, email, present_discuss) <span class="sc">|&gt;</span></span>
-<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">format =</span> <span class="st">'html'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>  <span class="co"># left_join(presenters, student_info, by = 'email') |&gt;</span></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(date, topic) <span class="sc">|&gt;</span></span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(date, topic, email, present_discuss) <span class="sc">|&gt;</span></span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">format =</span> <span class="st">'html'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small" data-quarto-postprocess="true">
 <thead>
