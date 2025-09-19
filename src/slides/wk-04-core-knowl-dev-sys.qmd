@@ -151,18 +151,24 @@ passes either test.
 
 ## What is this debate about?
 
+::: {.incremental}
+
 - Is "innate" a useful construct? [@Spencer2009-jo; @Spencer2009-xu]
 - Are we debating or in dialogue? [@Spencer2009-jo; @Spencer2009-xu; @Spelke2009-xx]
 - Does every theory need primitives and processes? [@Landau2009-jl]
 - What constitutes *experience*? [@Spencer2009-jo; @Spencer2009-xu]
 - Is learning $\neq$ innate
 
+:::
+
 ## What is the debate about?
 
+::: {.incremental}
 - How to account for the speed, consistency, etc. of cognitive development [@Spelke2009-xx]
 - How does (and should) evidence from neuroscience inform these questions [@Spelke2009-xx;@Spencer2009-jo; @Spencer2009-xu]
 - How does (and should) evolutionary theory shape developmental theory? [@Spelke2007-ts; @Spencer2009-jo]
 - How computational/statistical perspectives shape developmental theory? [@Spelke2007-ts; @Spencer2009-jo]
+:::
 
 ## What about the domains themselves?
 
