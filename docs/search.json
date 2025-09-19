@@ -1501,5 +1501,138 @@
     "title": "Elkind 1961",
     "section": "Table 2",
     "text": "Table 2\n\nage_yrs &lt;- c(5, 6, 7, 8, 9, 10, 11)\nexplanation_type &lt;- c(\"romancing\", \"perceptual\", \"specific\", \"general\")\nage &lt;- rep(age_yrs, length(explanation_type))\nexplanation &lt;- rep(explanation_type, each = length(age_yrs))\n\npct &lt;- c(4, 3, 7, 7, 0, 1, 1,\n         85, 64, 53, 57, 36, 31, 33,\n         11, 33, 40, 36, 60, 51, 49,\n         0, 0, 0, 0, 4, 16, 18)\n\nexplanations &lt;- data.frame(age = age, type = explanation, pct = pct)\n\n\nexplanations |&gt;\n  ggplot() +\n  geom_point(aes(x = age, y = pct, color = type)) +\n  geom_line(aes(x = age, y = pct, color = type, group = type)) +\n  guides(color = guide_legend(\"Explanation type\")) +\n  ylim(0, 100)\n\n\n\n\n\n\n\nFigure 2: Data from Elkind (1961) Table 2 presented as a figure. The percentages indicated are the percent of \\(n\\)=25 children who provided explanations of the indicated type."
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#todays-topics",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#todays-topics",
+    "title": "Core Knowledge and a critique",
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nNativism, core knowlege, and its discontents\n\nGeneral Readings: Spelke & Kinzler (2007); Spencer, Blumberg, et al. (2009); Spelke & Kinzler (2009); Landau (2009); Spencer, Samuelson, et al. (2009)"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#active-inference",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#active-inference",
+    "title": "Core Knowledge and a critique",
+    "section": "Active inference",
+    "text": "Active inference\n\n…creatures use an internal forward (generative) model to predict their sensory input, which they use to infer the causes of these data.\n\n– Da Costa et al. (2020)"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#active-inference-1",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#active-inference-1",
+    "title": "Core Knowledge and a critique",
+    "section": "Active inference",
+    "text": "Active inference\n\nDa Costa et al. (2020) Figure 1"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#active-inference-simplified",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#active-inference-simplified",
+    "title": "Core Knowledge and a critique",
+    "section": "Active inference simplified",
+    "text": "Active inference simplified\n\n\n\n\n\nflowchart LR\n  A[world] --&gt; B[mind]\n  C[model] --&gt; B\n  B --&gt; D[action]\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A[world] --&gt; B[mind]\n  C[pred_model] ---&gt; B\n  B --&gt; C\n  B --&gt; D[action]\n  D --&gt; A\n  D --&gt; C"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#domains",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#domains",
+    "title": "Core Knowledge and a critique",
+    "section": "Domains",
+    "text": "Domains\n\n(Inanimate) Objects\nAgents and actions\nNumber\nGeometry"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#what-core-knowledge-affords",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#what-core-knowledge-affords",
+    "title": "Core Knowledge and a critique",
+    "section": "What core knowledge affords",
+    "text": "What core knowledge affords\n\nInterpreting/understanding perceptual information\nPredicting future events\nActing under uncertainty"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#moving-beyond-nurture-vs.-nature",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#moving-beyond-nurture-vs.-nature",
+    "title": "Core Knowledge and a critique",
+    "section": "Moving beyond nurture vs. nature",
+    "text": "Moving beyond nurture vs. nature\n\nOn one view, the human mind is a flexible and adaptable mechanism for discovering regularities in experience: a single learning system that copes with all the diversity of life.\n\n\nOn the competing view, the human mind is a collection of special-purpose mechanisms, each shaped by evolution to perform a particular function.\n\n– Spelke & Kinzler (2007)"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#moving-beyond-nurture-vs.-nature-1",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#moving-beyond-nurture-vs.-nature-1",
+    "title": "Core Knowledge and a critique",
+    "section": "Moving beyond nurture vs. nature",
+    "text": "Moving beyond nurture vs. nature\n\n…both these views are false: humans are endowed neither with a single, general-purpose learning system nor with myriad special-purpose systems and predispositions. Instead, we believe that humans are endowed with a small number of separable systems of core knowledge. New, flexible skills and belief systems build on these core foundations.\n\n– Spelke & Kinzler (2007)"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#origins-of-core-knowledge",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#origins-of-core-knowledge",
+    "title": "Core Knowledge and a critique",
+    "section": "Origins of core knowledge?",
+    "text": "Origins of core knowledge?\n\ndevelopmental scientists should no longer embrace ‘endowments,’ ‘primitives,’ ‘core knowledge,’ ‘essences’ (Gelman, 2003), or other static concepts that devalue developmental process. After all, ‘endowments’ are bestowed, not developed.\n\n– Spencer, Blumberg, et al. (2009)"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#evolution-and-development",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#evolution-and-development",
+    "title": "Core Knowledge and a critique",
+    "section": "Evolution and development",
+    "text": "Evolution and development\n\nthe fact that organisms evolved does not remove the need to explain developmental process, because brain and behavior are shaped through development, not programmed before development.\n\n– Spencer, Blumberg, et al. (2009)"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#methodology-and-style",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#methodology-and-style",
+    "title": "Core Knowledge and a critique",
+    "section": "Methodology and style",
+    "text": "Methodology and style\n\n…nativists routinely extrapolate well beyond the data, making bold claims about time points not directly under investigation…\n\n\nWe contend that more satisfying accounts can be found through rigorous developmental analyses that embrace process, complexity, and evolutionary history.\n\n– Spencer, Blumberg, et al. (2009)"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#what-is-this-debate-about",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#what-is-this-debate-about",
+    "title": "Core Knowledge and a critique",
+    "section": "What is this debate about?",
+    "text": "What is this debate about?\n\nIs “innate” a useful construct? (Spencer, Blumberg, et al., 2009; Spencer, Samuelson, et al., 2009)\nDoes every theory need primitives and processes? (Landau, 2009)\nWhat constitutes experience? (Spencer, Blumberg, et al., 2009; Spencer, Samuelson, et al., 2009)\nHow does (and should) evolutionary theory shape developmental theory? (Spelke & Kinzler, 2007; Spencer, Blumberg, et al., 2009)"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#toward-a-deep-understanding-of-developmental-process",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#toward-a-deep-understanding-of-developmental-process",
+    "title": "Core Knowledge and a critique",
+    "section": "Toward a deep understanding of developmental process",
+    "text": "Toward a deep understanding of developmental process"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#next-time",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#next-time",
+    "title": "Core Knowledge and a critique",
+    "section": "Next time…",
+    "text": "Next time…\n\nNativism and Core Knowledge: Deep dive\n\nStudent Presentation C: How does changing the task inform on the underlying construct(s) about physical knowledge? (Presenter: Carlos Almeida; Discussant: Yeonjin Kim)\n\nRead: Spelke, Breinlinger, Macomber, & Jacobson (1992); Hood, Carey, & Prasada (2000); Keen (2003)\n\nStudent Presentation D: Rich interpretation of group differences in infant looking-time paradigms: How rich is dangerous? Necessary? Productive? (Presenter: Suzy Su; Discussant: Makenna Luzeknski)\n\nRead: Aslin (2007); Paulus (2022); Stahl & Kibbe (2022); Haith (1998)"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#about",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#about",
+    "title": "Core Knowledge and a critique",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2025.5.1.513.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#references",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#references",
+    "title": "Core Knowledge and a critique",
+    "section": "References",
+    "text": "References\n\n\n\n\nAslin, R. N. (2007). What’s in a look? Developmental Science, 10, 48–53. https://doi.org/10.1111/j.1467-7687.2007.00563.x\n\n\nDa Costa, L., Parr, T., Sajid, N., Veselic, S., Neacsu, V., & Friston, K. (2020). Active inference on discrete state-spaces: A synthesis. Journal of Mathematical Psychology, 99, 102447. https://doi.org/10.1016/j.jmp.2020.102447\n\n\nHaith, M. M. (1998). Who put the cog in infant cognition? Is rich interpretation too costly? Infant Behavior & Development, 21, 167–179. https://doi.org/10.1016/s0163-6383(98)90001-7\n\n\nHood, B., Carey, S., & Prasada, S. (2000). Predicting the outcomes of physical events: Two-year-olds fail to reveal knowledge of solidity and support. Child Development, 71, 1540–1554. https://doi.org/10.1111/1467-8624.00247\n\n\nKeen, R. (2003). Representation of objects and events: Why do infants look so smart and toddlers look so dumb? Current Directions in Psychological Science, 12, 79–83. https://doi.org/10.1111/1467-8721.01234\n\n\nLandau, B. (2009). The importance of the nativist–empiricist debate: Thinking about primitives without primitive thinking. Child Development Perspectives, 3, 88–90. https://doi.org/10.1111/j.1750-8606.2009.00082.x\n\n\nPaulus, M. (2022). Should infant psychology rely on the violation‐of‐expectation method? Not anymore. Infant and Child Development, 31. https://doi.org/10.1002/icd.2306\n\n\nSpelke, E. S., Breinlinger, K., Macomber, J., & Jacobson, K. (1992). Origins of knowledge. Psychological Review, 99, 605–632. https://doi.org/10.1037/0033-295x.99.4.605\n\n\nSpelke, E. S., & Kinzler, K. D. (2007). Core knowledge. Developmental Science, 10, 89–96. https://doi.org/10.1111/j.1467-7687.2007.00569.x\n\n\nSpelke, E. S., & Kinzler, K. D. (2009). Innateness, learning, and rationality. Child Development Perspectives, 3, 96–98. https://doi.org/10.1111/j.1750-8606.2009.00085.x\n\n\nSpencer, J. P., Blumberg, M. S., McMurray, B., Robinson, S. R., Samuelson, L. K., & Bruce Tomblin, J. (2009). Short arms and talking eggs: Why we should no longer abide the Nativist–Empiricist debate. Child Development Perspectives, 3, 79–87. https://doi.org/10.1111/j.1750-8606.2009.00081.x\n\n\nSpencer, J. P., Samuelson, L. K., Blumberg, M. S., McMurray, B., Robinson, S. R., & Tomblin, J. B. (2009). Seeing the world through a third eye: Developmental systems theory looks beyond the nativist-empiricist debate. Child Development Perspectives, 3, 103–105. https://doi.org/10.1111/j.1750-8606.2009.00087.x\n\n\nStahl, A. E., & Kibbe, M. M. (2022). Great expectations: The construct validity of the violation‐of‐expectation method for studying infant cognition. Infant and Child Development, 31. https://doi.org/10.1002/icd.2359"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#why-active-inference-is-useful",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#why-active-inference-is-useful",
+    "title": "Core Knowledge and a critique",
+    "section": "Why active inference is useful",
+    "text": "Why active inference is useful\n\nPredict the future (sensory or internal states)\nProduce effective actions\nDetect novelty (sensation \\(\\neq\\) prediction)"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#ecological-approach",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#ecological-approach",
+    "title": "Core Knowledge and a critique",
+    "section": "Ecological approach",
+    "text": "Ecological approach\n\n\n\nJames J. Gibson"
+  },
+  {
+    "objectID": "slides/wk-04-core-knowl-dev-sys.html#what-about-the-domains-themselves",
+    "href": "slides/wk-04-core-knowl-dev-sys.html#what-about-the-domains-themselves",
+    "title": "Core Knowledge and a critique",
+    "section": "What about the domains themselves?",
+    "text": "What about the domains themselves?\n\nObjects vs. agents?\nGeometry: Layout vs. landmarks?"
   }
 ]
