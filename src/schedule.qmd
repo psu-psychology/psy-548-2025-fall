@@ -116,7 +116,7 @@ I have adopted considerable portions of their readings and assignment ideas.
     - *Read*: @Munakata1997-zx (*Presenter*: Zeynep Sülün; *Discussant*: 
 Caesar Liu)
   - *Student Presentation H*: Emergentism and variants of the A-not-B task
-    - *Read*: @Smith1999-xz (*Presenter*: Natalie Byrd; *Discussant*: Suzy Su)
+    - *Read*: @Smith1999-xz (*Presenter*: Natalie Byrd; *Discussant*: Jiayi Fan)
     
 ## Week 10
 
@@ -147,7 +147,7 @@ Caesar Liu)
 #### Topics & Readings
 
 - Sociocultural development: Deep dive
-  - *Student Presentation K*: Imitation in cultural learning (*Presenter*: Hanna Huang; *Discussant*: Elizabeth Aleru)
+  - *Student Presentation K*: Imitation in cultural learning (*Presenter*: Hanna Huang; *Discussant*: TBD)
     - *Read*: @Legare2015-im; @Herrmann2013-rb; @Lyons2007-ng
   - *Student Presentation L*: Gesture (*Presenter*: Jingyi He; *Discusant*: Katie Billedetdeaux)
     - *Read*: @Novack2015-kl; @Wakefield2018-tq
@@ -160,7 +160,7 @@ Caesar Liu)
 
 - Learning from others
   - *General Readings*: @Gelman2009-jg; @Sobel2013-lb
-  - *Student Presentation M*: Learning from testimony (*Presenter*: Elizabeth Aleru; *Discussant*: Luke Debec)
+  - *Student Presentation M*: Learning from testimony (*Presenter*: TBD; *Discussant*: Luke Debec)
     - *Read*: @Harris2018-eh; @Jaswal2010-dz
 
 ## Thanksgiving Break
@@ -175,7 +175,7 @@ Caesar Liu)
 
 - Conceptual development
   - *General Readings*: @Siegler2021-py Chapter 8; @Mandler1992-vb
-  - *Student Presentation N*: Naive psychology (*Presenter*: Jiayi Fan : *Discussant*: TBD
+  - *Student Presentation N*: Naive psychology (*Presenter*: Jiayi Fan : *Discussant*: Suzy Su)
     - *Read*: @Onishi2005-co; @Wellman2012-ny; @Ding2015-bp
 
 ## Week 15
