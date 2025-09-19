@@ -27,6 +27,8 @@ website:
             href: slides/wk-01-intro.qmd
           - text: "Wk 02 • Fri Sep 05"
             href: slides/wk-02-piaget.qmd
+          - text: "Wk 04 • Fri Sep 19"
+            href: slides/wk-04-core-knowl-dev-sys.qmd
       - section: "Resources"
         contents:
           - presentations.qmd
