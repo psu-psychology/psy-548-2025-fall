@@ -128,7 +128,7 @@ Caesar Liu)
   - *General Readings*: @Pfeifer2006-nx; @Smith2018-nc
 - *Student Presentation I*: Does development gate input to prevent a "blooming, buzzing confusion?" (*Presenter* Luke Debec: *Discussant*: Alyssa Swift)
   - *Read*: @Kretch2014-ck; @Franchak2018-oj
-- *Student Presentation J*: How AI & robotics inform developmental science? (*Presenter*: Hannah Huang; *Discussant*: Pratt Srinivasan)
+- *Student Presentation J*: How AI & robotics inform developmental science? (*Presenter*: Pratt Srinivasan; *Discussant*: Hannah Huang)
   - *Read*: @Ossmy2018-fr; @Ossmy2024-qj
   
 ## Week 11
