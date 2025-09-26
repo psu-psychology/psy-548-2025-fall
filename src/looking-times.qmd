@@ -7,9 +7,9 @@ format: html
 
 The following represents Rick Gilmore's explorations with the [Mermaid](https://www.mermaidchart.com) diagramming feature within [Quarto](https://quarto.org) version 1.8.24.
 
-The figure uses the [`sequenceDiagram` type](https://docs.mermaidchart.com/mermaid-oss/syntax/sequenceDiagram.html) to reflect the structure of a simple looking time experiment.
+The figures use the [`sequenceDiagram` type](https://docs.mermaidchart.com/mermaid-oss/syntax/sequenceDiagram.html) to reflect the structure of a simple looking time experiment.
 
-It is relevant for work we did in class on Weeks [03](schedule.qmd#week-03), [04](schedule.qmd#week-04), and [05](schedule.qmd#week-05).
+The figures are relevant for work we did in class on Weeks [03](schedule.qmd#week-03), [04](schedule.qmd#week-04), and [05](schedule.qmd#week-05).
 
 ::: {.callout-note}
 
@@ -69,10 +69,10 @@ sequenceDiagram
   participant Core_Knowledge
   Perception -->> Episodic_Memory: Recent events
   Episodic_Memory -->> Episodic_Memory: Accumulate info
-  Episodic_Memory -->> Episodic_Memory: Compare to past
-  Episodic_Memory -->> Perception: Familiarity/Novelty
+  Episodic_Memory -->> Episodic_Memory: Compare to stored info
+  Episodic_Memory -->> Perception: Novel = f(Recent - Stored)
   Perception -->> Core_Knowledge: Seeing now
   Core_Knowledge -->> Core_Knowledge: Compare to principles
-  Core_Knowledge -->> Perception: Expected or Violation
+  Core_Knowledge -->> Perception: Violation = f(Recent - Principles)
 ```
 

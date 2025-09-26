@@ -4,7 +4,7 @@ project:
   render:
     - "*.qmd"
     - "slides/*.qmd"
-  lib-dir: include/site_libs
+  # lib-dir: include/site_libs
 
 website:
   title: "PSY 548"
@@ -67,7 +67,9 @@ format:
     bibliography: include/bib/psy-548.bib
     csl: include/bib/apa.csl
     html-math-method: mathjax
+    code-fold: true
+    code-tools: true
 
-  pdf:
-    documentclass: scrreprt
+  # pdf:
+  #   documentclass: scrreprt
     

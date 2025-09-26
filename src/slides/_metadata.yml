@@ -1,5 +1,6 @@
 project:
   output-dir: ../../docs
+  # lib-dir: ../include/site_libs
 format: 
   revealjs:
     footer: "[PSY 548](https://psu-psychology.github.io/psy-548-2025-fall) | © Rick Gilmore under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
