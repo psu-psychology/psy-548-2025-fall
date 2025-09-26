@@ -1,2 +1,3 @@
 /.quarto/
 csv/
+**/*.quarto_ipynb

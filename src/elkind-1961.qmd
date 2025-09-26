@@ -5,6 +5,7 @@ title: "Elkind 1961"
 ## About
 
 This page generates data visualizations related to the @Elkind1961-ns study.
+In the original paper, the data were presented in tabular form.
 
 ## Setup
 

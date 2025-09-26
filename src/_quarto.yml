@@ -9,7 +9,7 @@ project:
 website:
   title: "PSY 548"
   announcement: 
-    content: "Many of the paper presentation and discussant assignments are posted [here](schedule.html). Please review them." 
+    content: "Next [week](schedule.qmd#week-06) we're discussing constructivism." 
     position: below-navbar
     icon: info-circle
     dismissable: true
@@ -33,7 +33,9 @@ website:
         contents:
           - presentations.qmd
           - causal-relations.qmd
-          - repro-rubric.qmd
+          - elkind-1961.qmd
+          # - repro-rubric.qmd
+          - looking-times.qmd
     
   repo-url: https://github.com/psu-psychology/psy-548-2025-fall
   repo-actions: [edit, issue]
