@@ -29,6 +29,8 @@ website:
             href: slides/wk-02-piaget.qmd
           - text: "Wk 04 • Fri Sep 19"
             href: slides/wk-04-core-knowl-dev-sys.qmd
+          - text: "Wk 06 • Fri Oct 03"
+            href: slides/wk-06-constructivism.qmd
       - section: "Resources"
         contents:
           - presentations.qmd
