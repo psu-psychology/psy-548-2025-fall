@@ -104,27 +104,31 @@ will be found.
 
 -- @Hull1935-bx
 
-## Evaluating theories @Hull1935-bx
+## Evaluating theories
 
 >Some psychologists appear to have assumed that only principles incapable of direct observational verification should be admitted as postulates, whereas others may conceivably have assumed that only principles capable of direct observational verification should be admitted.
+
+--  @Hull1935-bx
+
+## Evaluating theories
 
 >...history of scientific practice so far shows that, in the main, the credentials of scientific postulates have consisted in what the postulates can do, rather than in some metaphysical quibble about where they came from.
 
 -- @Hull1935-bx
 
-## Evaluating theories @Hull1935-bx
+## Evaluating theories
 
 >Let the psychological theorist begin with neurological postulates, or stimulusresponse postulates, or structural postulates, or functional postulates, or factor postulates, or organismic postulates, or Gestalt postulates, or sign-Gestalt postulates, or hormonic postulates, or mechanistic postulates, or dynamic postulates, or postulates concerned with the nature of consciousness, or the postulates of dialectical materialism, and no questions should be asked about his beginning save those of consistency and the principle of parsimony.
 
-## Evaluating theories @Hull1935-bx
+## Evaluating theories
 
 >In particular we must be on our guard against what might be called the 'anthropomorphic fallacy.' By this is meant a deduction the critical point of which turns out to be an implicit statement which, if made explicit, would be something like, "If I were a rat and were in that situation I would do so and so." Such elements in a deduction make it a travesty because the very problem at issue is whether a system is able to deduce from its postulates alone what a normal man (or rat) would do under particular conditions. 
 
 ## Summing up @Hull1935-bx
 
->Scientific theory in its best sense consists of the strict
-logical deduction from definite postulates of what should be
-observed under specified conditions^[Truth, for the purposes of the present paper, is to be understood as a theoretical deduction which has been verified by observation.].
+>Scientific theory in its best sense consists of the strict logical deduction from definite postulates of what should be observed under specified conditions^[Truth, for the purposes of the present paper, is to be understood as a theoretical deduction which has been verified by observation.].
+
+-- @Hull1935-bx
 
 ## Summing up @Hull1935-bx
 
@@ -142,7 +146,50 @@ observed under specified conditions^[Truth, for the purposes of the present pape
 
 ## Summing up @Hull1935-bx
 
->...it is believed that the thing most urgently needed at the present moment is a clear statement of postulates with accompanying definitions of terms
+>...it is believed that the thing most urgently needed at the present moment is a clear statement of postulates with accompanying definitions of terms.
+
+## Glossary 
+
+**Connectionism**: An approach to modeling cognition based on the idea that the knowledge underlying cognitive activity is stored in the connections among neurons. In connectionist models, knowledge is acquired by using an experience-driven connection adjustment rule to alter the strengths of connections among neuron-like processing units.
+
+-- @McClelland2010-oz
+
+## Glossary
+
+**Dynamical field theory**: Originally formulated as a theory of movement preparation, in which movement parameters are represented by distributions of activation defined over metric spaces, the theory has recently been extended to address cognitive function. Dynamical fields are formalizations of how neural populations represent the continuous dimensions that characterize perceptual features, movements and cognitive decisions, and dynamical field theory specifies how activity in such neural populations evolves over time.
+
+-- @McClelland2010-oz
+
+## Glossary
+
+**Dynamical system**: A mathematical formalization that describes the time evolution of physical and cognitive states. Examples include the mathematical models that describe the swinging of a clock pendulum, the flow of water in a pipe, the movement of the limbs of a walking organism, and the drift that occurs in working memory towards or away from special points in the state
+space.
+
+-- @McClelland2010-oz
+
+## Glossary
+
+**Emergentist approaches**: Approaches to modeling cognition based on the idea that the structure seen in overt behavior and the patterns of change observed in behavior reflect the operation of subcognitive processes such as propagation of activation and inhibition among neurons and adjustment of strengths of connections between them. In contrast to emergentist approaches, symbolic approaches, including structured probabilistic models, model cognition directly at the level of manipulation of symbols and symbolic structures such as propositions and rules.
+
+-- @McClelland2010-oz
+
+## Glossary
+
+**Semantic cognition**: A cognitive domain encompassing knowledge of the properties of objects and their relationships to other objects, as well as the acquisition of such knowledge and its use in guiding inference.
+
+-- @McClelland2010-oz
+
+## Glossary
+
+**Structured probabilistic models**: Models that specify that cognitive activity involves the use of probabilistic information to select among and specify the parameters of particular structural forms that specify relationships among items represented by discrete symbols.
+
+-- @McClelland2010-oz
+
+## Glossary
+
+**Universal grammar**: A hypothetical construct that arose in the context of generative grammar. A universal grammar, if one existed, would be an idealized structured representation that captures properties shared by all natural languages.
+
+-- @McClelland2010-oz
 
 ## Types of change
 
@@ -194,6 +241,10 @@ plot(x_cdf)
 formation that is ubiquitous in the environment and common to all species members, such as the
 basic elements of pattem perception.
 
+-- @Greenough1987-or
+
+## Experience-expectant vs. experience-dependent
+
 >Experience-dependent information storage refers to incorporation of environmental information that is idiosyn- cratic, or unique to the individual, such as leaming about one's specific physical environment or vocabulary.
 
 -- @Greenough1987-or
@@ -201,12 +252,12 @@ basic elements of pattem perception.
 ## What is Darwin's theory?
 
 :::: {.columns}
-::: {.column width=50%}
+::: {.column width=60%}
 >The theory states that all species of organisms arise and develop through the natural selection of small, inherited variations that increase the individual's ability to compete, survive, and reproduce.
 
 -- @Wikipedia-contributors2025-rr
 :::
-::: {.column width=50%}
+::: {.column width=40%}
 ![@Wikipedia-contributors2025-rr](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Charles_Darwin_by_Julia_Margaret_Cameron%2C_c._1868.jpg/500px-Charles_Darwin_by_Julia_Margaret_Cameron%2C_c._1868.jpg){fig-align="right"}
 :::
 ::::
@@ -223,9 +274,9 @@ basic elements of pattem perception.
 
 ## Gilmore's version
 
-1. Individuals are mortal and individuals vary; some of the variation is heritable.
+1. Individuals are mortal; individuals vary; some of the variation is heritable.
 2. Individuals have different reproductive outcomes; some reproductive outcomes relate to heritable factors.
-3. Differential reproductive outcomes across individuals result in selection of some heritable factors.
+3. Differential reproductive outcomes across individuals result in selection of some heritable factors over generations.
 4. Heritable factors that *don't* affect reproductive outcomes are *not* subject to selection pressure.
 
 ## Aristotle's four causes
@@ -238,18 +289,16 @@ basic elements of pattem perception.
 - final
 :::
 ::: {.column width=50%}
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Aristotle%27s_Four_Causes_of_a_Table.svg/960px-Aristotle%27s_Four_Causes_of_a_Table.svg.png)
+![@Wikipedia-contributors2025-lr](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Aristotle%27s_Four_Causes_of_a_Table.svg/960px-Aristotle%27s_Four_Causes_of_a_Table.svg.png)
 :::
 ::::
 
-
 -- @Wikipedia-contributors2025-lr
+
 
 # Constructivism & its variants
 
-## @Newcombe2011-wd
-
-## Limitations of Piaget
+## Limitations of Piaget [@Newcombe2011-wd]
 
 - Piaget did *not* overcome the nativist-empiricist split
   - "no clear evidence for stages and structuralism^[@Wikipedia-contributors2025-zu]"
@@ -384,12 +433,25 @@ elsewhere in the brain and preexisting structures in the world. In other words, 
 - Connectionism and dynamic systems theory reconsidered [@Spencer2009-ms]
 - "no more ‘isms’ until we eliminate one."
 
-## Critique: @Karmiloff-Smith2009-zs
+## Response: @Newcombe2011-pn
 
+- Darwinism does *not* differentiate among theories
+- "...interest in the brain" doesn't either, hence not *neuro*-constructivism
 
 ## Response: @Newcombe2011-pn
 
-- 
+![@Newcombe2011-pn Table 1](../include/img/newcombe-2011b-tbl-01.png)
+
+## Evolving comparisons
+
+:::: {.columns}
+::: {.column width=50%}
+![@Newcombe2011-pn Table 1](../include/img/newcombe-2011b-tbl-01.png)
+:::
+::: {.column width=50%}
+![@Newcombe2013-qy Table 1](../include/img/newcombe-2013-tbl-1.png)
+:::
+::::
 
 # Discussion
 
