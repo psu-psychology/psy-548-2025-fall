@@ -376,6 +376,8 @@ basic elements of pattem perception.
 
 9. Analyses require formal, material, final, and efficient causes (Aristotle; @Wikipedia-contributors2025-lr)
 
+---
+
 >Formal cause is analogous to developmental description...
 
 >material cause is analogous to the neural substrate...
@@ -405,6 +407,8 @@ basic elements of pattem perception.
 
 >*encellment*, whereby the functions that a neuron will eventually take on in the developing brain depend on the cellular and chemical context of its neighbors. 
 
+## *Neuro*-constructivism
+
 >*embrainment* embodies the idea that functional brain systems do not develop in isolation.
 
 >the developing child is both embodied and embedded within a specific environment
@@ -413,8 +417,13 @@ basic elements of pattem perception.
 
 ## *Neuro*-constructivism
 
->partial representations, in which the outcome of context-dependent development is the emergence of representations that are just sufficient to support behavior, in the context of preexisting representations
-elsewhere in the brain and preexisting structures in the world. In other words, there is no need to develop complete representations that encode all the information about an event or object if part of that information is already present elsewhere in the neural-cognitive system or supported by structures in the world.
+>partial representations, in which the outcome of context-dependent development is the emergence of representations that are just sufficient to support behavior, in the context of preexisting representations elsewhere in the brain and preexisting structures in the world.
+
+-- @Mareschal2011-fw
+
+## *Neuro*-constructivism
+
+>In other words, there is no need to develop complete representations that encode all the information about an event or object if part of that information is already present elsewhere in the neural-cognitive system or supported by structures in the world.
 
 -- @Mareschal2011-fw
 
@@ -460,6 +469,9 @@ elsewhere in the brain and preexisting structures in the world. In other words, 
 - Do we need another "ism"?
 - *Neo*- or *neuro*-constructivism?
 - Has developmental psychology fallen "into essentially unscientific practices..." [@Hull1935-bx]
+
+## Core issues
+
 - Are Hull's [-@Hull1935-bx] recommendations on point?
   - If so, what are the definitions? Postulates? [@Hull1935-bx]
 - Are core knowledge theories covertly "anthropomorphic" [@Hull1935-bx]  
