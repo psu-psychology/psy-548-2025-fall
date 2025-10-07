@@ -38,6 +38,7 @@ website:
           - elkind-1961.qmd
           # - repro-rubric.qmd
           - looking-times.qmd
+          - constructivism.qmd
     
   repo-url: https://github.com/psu-psychology/psy-548-2025-fall
   repo-actions: [edit, issue]
