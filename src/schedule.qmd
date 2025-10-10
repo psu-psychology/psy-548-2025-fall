@@ -81,7 +81,7 @@ I have adopted considerable portions of their readings and assignment ideas.
 #### Topics & Readings
 
 - Constructivism & its variants
-  - *General Readings*: @Newcombe2011-wd; @Mareschal2011-fw; @Karmiloff-Smith2009-zs; @Spencer2011-fp; @Newcombe2011-pn
+  - *General Readings*: @Newcombe2011-wd; @Mareschal2011-fw; @Spencer2011-fp; @Newcombe2011-pn
 
 ## Week 07
 
@@ -89,27 +89,25 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 - Constructivism: Deep dive
   - *Student Presentation E*: How do developmental disorders inform our understanding of cognitive development? (*Presenter*: Katie Billetdeaux; *Discussant*: Pratt Srinivasan)
-    - *Read*: @Karmiloff-Smith1998-be
-  - *Student Presentation F*: The risks of generalization (*Presenter*: Olivia Bell; *Discussant*: Carlos Almeida)
-    <!-- - *Watch*: @Treeincement2010-en, @innovation2014-kj -->
-    - *Read*: @Packer2022-gn; @Kominsky2022-we; @Lucca2025-gy
-    
+    - *Read*: @Karmiloff-Smith1998-be; @Karmiloff-Smith2009-zs
+
 ## Week 08
 
 ### Friday, October 17, 2025
 
 #### Topics & Readings
 
+- *Student Presentation F*: The risks of generalization (*Presenter*: Olivia Bell; *Discussant*: Carlos Almeida)
+    <!-- - *Watch*: @Treeincement2010-en, @innovation2014-kj -->
+    - *Read*: @Packer2022-gn; @Kominsky2022-we; @Lucca2025-gy
 - Emergentism & dynamic systems
-  - *General Readings*: @Thelen2003-tt; @Thelen1063-vk
+  - *General Readings*: @Thelen2003-tt; @Perone2017-qb
   
 ## Week 09
 
 ### Friday, October 24, 2025
 
 #### Topics & Readings
-
-<!-- Retrieve and upload PDFs from here 2025-09-15 -->
 
 - Emergentism & dynamic systems: Deep dive
   - *Student Presentation G*: A connectionist model to explain why infants seem so smart

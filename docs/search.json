@@ -1340,7 +1340,7 @@
     "href": "schedule.html#week-06",
     "title": "Schedule",
     "section": "Week 06",
-    "text": "Week 06\n\nFriday, October 3, 2025\n\nTopics & Readings\n\nConstructivism & its variants\n\nGeneral Readings: Newcombe (2011b); Mareschal (2011); Annette Karmiloff-Smith (2009); Spencer & Buss (2011); Newcombe (2011a)",
+    "text": "Week 06\n\nFriday, October 3, 2025\n\nTopics & Readings\n\nConstructivism & its variants\n\nGeneral Readings: Newcombe (2011b); Mareschal (2011); Spencer & Buss (2011); Newcombe (2011a)",
     "crumbs": [
       "Schedule"
     ]
@@ -1350,7 +1350,7 @@
     "href": "schedule.html#week-07",
     "title": "Schedule",
     "section": "Week 07",
-    "text": "Week 07\n\nFriday, October 10, 2025\n\nConstructivism: Deep dive\n\nStudent Presentation E: How do developmental disorders inform our understanding of cognitive development? (Presenter: Katie Billetdeaux; Discussant: Pratt Srinivasan)\n\nRead: A. Karmiloff-Smith (1998)\n\nStudent Presentation F: The risks of generalization (Presenter: Olivia Bell; Discussant: Carlos Almeida) \n\nRead: Packer & Moreno-Dulcey (2022); Kominsky, Lucca, Thomas, Frank, & Hamlin (2022); Lucca et al. (2025)",
+    "text": "Week 07\n\nFriday, October 10, 2025\n\nConstructivism: Deep dive\n\nStudent Presentation E: How do developmental disorders inform our understanding of cognitive development? (Presenter: Katie Billetdeaux; Discussant: Pratt Srinivasan)\n\nRead: A. Karmiloff-Smith (1998); Annette Karmiloff-Smith (2009)",
     "crumbs": [
       "Schedule"
     ]
@@ -1360,7 +1360,7 @@
     "href": "schedule.html#week-08",
     "title": "Schedule",
     "section": "Week 08",
-    "text": "Week 08\n\nFriday, October 17, 2025\n\nTopics & Readings\n\nEmergentism & dynamic systems\n\nGeneral Readings: Thelen & Bates (2003); Thelen & Smith (1998)",
+    "text": "Week 08\n\nFriday, October 17, 2025\n\nTopics & Readings\n\nStudent Presentation F: The risks of generalization (Presenter: Olivia Bell; Discussant: Carlos Almeida) \n\nRead: Packer & Moreno-Dulcey (2022); Kominsky, Lucca, Thomas, Frank, & Hamlin (2022); Lucca et al. (2025)\n\nEmergentism & dynamic systems\n\nGeneral Readings: Thelen & Bates (2003); Perone & Simmering (2017)",
     "crumbs": [
       "Schedule"
     ]
@@ -1370,7 +1370,7 @@
     "href": "schedule.html#week-09",
     "title": "Schedule",
     "section": "Week 09",
-    "text": "Week 09\n\nFriday, October 24, 2025\n\nTopics & Readings\n\n\nEmergentism & dynamic systems: Deep dive\n\nStudent Presentation G: A connectionist model to explain why infants seem so smart\n\nRead: Munakata, McClelland, Johnson, & Siegler (1997) (Presenter: Zeynep Sülün; Discussant: Caesar Liu)\n\nStudent Presentation H: Emergentism and variants of the A-not-B task\n\nRead: Smith, Thelen, Titzer, & McLin (1999) (Presenter: Natalie Byrd; Discussant: Jiayi Fan)",
+    "text": "Week 09\n\nFriday, October 24, 2025\n\nTopics & Readings\n\nEmergentism & dynamic systems: Deep dive\n\nStudent Presentation G: A connectionist model to explain why infants seem so smart\n\nRead: Munakata, McClelland, Johnson, & Siegler (1997) (Presenter: Zeynep Sülün; Discussant: Caesar Liu)\n\nStudent Presentation H: Emergentism and variants of the A-not-B task\n\nRead: Smith, Thelen, Titzer, & McLin (1999) (Presenter: Natalie Byrd; Discussant: Jiayi Fan)",
     "crumbs": [
       "Schedule"
     ]
@@ -2109,7 +2109,7 @@
     "href": "slides/wk-01-intro.html#what-do-statistics-model",
     "title": "Course Introduction",
     "section": "What do statistics model?",
-    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 24.411, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6953920 0.7755692\nsample estimates:\n      cor \n0.7380752",
+    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 20.291, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6217354 0.7180762\nsample estimates:\n      cor \n0.6727475",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"

@@ -9,7 +9,7 @@ project:
 website:
   title: "PSY 548"
   announcement: 
-    content: "Next [week](schedule.qmd#week-06) we're discussing constructivism." 
+    content: "Note the slight change in schedule for our October 17 meeting." 
     position: below-navbar
     icon: info-circle
     dismissable: true
