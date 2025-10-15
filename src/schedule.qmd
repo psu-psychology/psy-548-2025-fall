@@ -24,7 +24,7 @@ I have adopted considerable portions of their readings and assignment ideas.
 - Introduction to the course
 - The cognitive sensibility
 - *General Readings*: @Siegler2021-py Chapters 1 & 3; @Bayne2019-ot; @Simmering2010-ba; @Ritter2014-eq Chapter 11
-- Slides: | [html](slides/wk-01-intro.qmd) |
+- *Slides*: | [html](slides/wk-01-intro.qmd) |
 
 #### Assignment
 
@@ -38,6 +38,7 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 - Theoretical foundations: Piaget
   - *General Readings*: @Siegler2021-py Chapter 2; @Piaget1952-dm Chapter III | [pdf on Canvas](https://psu.instructure.com/courses/2416683/files/folder/pdf?preview=180988843) | ; @Newcombe2013-qy
+  - *Slides*: | [html](slides/wk-02-piaget.qmd) |
 
 ## Week 03
 
@@ -59,6 +60,7 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 - Nativism, core knowlege, and its discontents
   - *General Readings*: @Spelke2007-ts; @Spencer2009-jo; @Spelke2009-xx; @Landau2009-jl; @Spencer2009-xu
+  - *Slides*: | [html](slides/wk-04-core-knowl-dev-sys.qmd) |
   
 ## Week 05
 
@@ -82,6 +84,7 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 - Constructivism & its variants
   - *General Readings*: @Newcombe2011-wd; @Mareschal2011-fw; @Spencer2011-fp; @Newcombe2011-pn
+  - *Slides*: | [html](slides/wk-06-constructivism.qmd) |
 
 ## Week 07
 
@@ -97,12 +100,15 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 #### Topics & Readings
 
-- *Student Presentation F*: The risks of generalization (*Presenter*: TBD; *Discussant*: Carlos Almeida)
+- *Student Presentation F*: The risks of generalization (*Presenter*: Gilmore; *Discussant*: Carlos Almeida)
     <!-- - *Watch*: @Treeincement2010-en, @innovation2014-kj -->
     - *Read*: @Packer2022-gn; @Kominsky2022-we; @Lucca2025-gy
+    - *Supplemental*: [Constructivism](constructivism.qmd)
 - Emergentism & dynamic systems
   - *General Readings*: @Thelen2003-tt; @Perone2017-qb; @@Thelen1063-vk (optional)
-  
+  - *Supplemental*: [Lorenz System](lorenz-equation.qmd)
+- *Slides*: | [html](slides/wk-08-dynamic-systems.qmd) | 
+
 ## Week 09
 
 ### Friday, October 24, 2025

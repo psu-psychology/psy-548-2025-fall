@@ -219,9 +219,15 @@ $$\dot{z} = -\beta z + xy $$
 
 -- @Thelen2003-tt
 
-## Critiques
+## Challenges
 
 - How quantitative should (must?) we be? 
+- Can we measure with sufficient temporal density?
+- Weaker vs. stronger predictions
+
+---
+
+![](https://www.statology.org/wp-content/uploads/2020/01/levels_measurement.jpg){fig-align="center"}
 
 ## Next time...
 

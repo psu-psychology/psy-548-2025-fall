@@ -1,5 +1,5 @@
 ---
-title: "Lorenz Equation"
+title: "Lorenz System"
 format: html
 ---
 
@@ -7,6 +7,12 @@ format: html
 
 This page shows a simulation of the Lorenz system.
 The code is drawn from @Wikipedia-contributors2025-ew.
+
+## Equations
+
+$$\dot{x} = \sigma(y-x) $$
+$$\dot{y} = \rho x - y - xz $$
+$$\dot{z} = -\beta z + xy $$
 
 ## Simulation
 
@@ -20,6 +26,10 @@ suppressPackageStartupMessages(library(plotly))
 Simulate *n*=`{r} 100*100` time points
 
 ```{r}
+#|  label: fig-lorenz-system-r
+#|  fig-cap: "A simulation of the Lorenz system in R."
+
+
 # parameters
 prm <- list(sigma = 10, rho = 28, beta = 8/3)
 # initial values

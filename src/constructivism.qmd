@@ -3,13 +3,6 @@ title: "Constructivism"
 format: html
 ---
 
-::: {.callout-warning}
-## Under construction
-
-This page is a work-in-progress.
-
-:::
-
 ## About
 
 This page provides some supplemental resources pertaining to the [Week 7 Constructivism: Deep Dive](https://psu-psychology.github.io/psy-548-2025-fall/schedule.html#friday-october-10-2025) class discussion.
@@ -52,7 +45,7 @@ See <https://www.nature.com/articles/nature06288>
 
 ### @Heider1944-lw animation
 
-{{< video https://www.youtube.com/watch?v=VTNmLt7QX8E width ="100%" height="70%" >}}
+{{< video https://www.youtube.com/watch?v=VTNmLt7QX8E >}}
 
 -- @Kenjirou2010-eq
 
@@ -62,9 +55,7 @@ Simulation of abstract shape movement patterns that can trigger explanations in 
 
 {{< video https://perception.yale.edu/DemoFiles/Animacy-Basics/HS-Blocks-QT.mp4 >}}
 
--- Animation created by Brian Scholl, inspired by @Heider1944-lw
-
-
+-- Animation created by H.G. Nevarez and Brian Scholl, inspired by @Heider1944-lw
 
 ## Supplemental videos from @Rakoczy2008-mk
 
