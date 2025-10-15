@@ -14,15 +14,57 @@ This page is a work-in-progress.
 
 This page provides some supplemental resources pertaining to the [Week 7 Constructivism: Deep Dive](https://psu-psychology.github.io/psy-548-2025-fall/schedule.html#friday-october-10-2025) class discussion.
 
+## Supplemental videos from @Hamlin2007-ff
+
+:::: {.columns}
+::: {.column width=50%}
+{{< video https://static-content.springer.com/esm/art%3A10.1038%2Fnature06288/MediaObjects/41586_2007_BFnature06288_MOESM207_ESM.mov >}}
+
+This movie shows the Helper habituation event in Experiments 1 and 3, in which the Climber attempts but fails to get up the hill and is helped to the top by the Helper (in this case the yellow triangle).
+:::
+::: {.column width=50%}
+{{< video https://static-content.springer.com/esm/art%3A10.1038%2Fnature06288/MediaObjects/41586_2007_BFnature06288_MOESM208_ESM.mov >}}
+
+This movie shows the Hinderer habituation event in Experiments 1 and 3, in which the Climber attempts but fails to get up the hill and is pushed to the bottom by the Hinderer (in this case the blue square).
+:::
+::::
+
+See <https://www.nature.com/articles/nature06288>
+
+## Supplemental videos from @Hamlin2007-ff
+
+:::: {.columns}
+::: {.column width=50%}
+{{< video https://static-content.springer.com/esm/art%3A10.1038%2Fnature06288/MediaObjects/41586_2007_BFnature06288_MOESM209_ESM.mov >}}
+
+This movie shows the test event in Experiments 1 and 3 in which the Climber looks around and moves to sit next to the yellow triangle.
+:::
+::: {.column width=50%}
+{{< video https://static-content.springer.com/esm/art%3A10.1038%2Fnature06288/MediaObjects/41586_2007_BFnature06288_MOESM210_ESM.mov >}}
+
+This file contains Supplementary Video 4. This movie shows the test event in Experiments 1 and 3 in which the Climber looks around and moves to sit next to the blue square.
+:::
+::::
+
+See <https://www.nature.com/articles/nature06288>
+
 ## Animacy animations
+
+### @Heider1944-lw animation
+
+{{< video https://www.youtube.com/watch?v=VTNmLt7QX8E width ="100%" height="70%" >}}
+
+-- @Kenjirou2010-eq
+
+### Simulation cited in @Kominsky2022-we. 
 
 Simulation of abstract shape movement patterns that can trigger explanations in terms of animacy.
 
 {{< video https://perception.yale.edu/DemoFiles/Animacy-Basics/HS-Blocks-QT.mp4 >}}
 
--- Cited in @Kominsky2022-we. Animation created by Brian Scholl, inspired by @Heider1944-lw
+-- Animation created by Brian Scholl, inspired by @Heider1944-lw
 
--- 
+
 
 ## Supplemental videos from @Rakoczy2008-mk
 

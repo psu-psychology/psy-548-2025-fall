@@ -1,0 +1,65 @@
+---
+title: "Lorenz Equation"
+format: html
+---
+
+## About
+
+This page shows a simulation of the Lorenz system.
+The code is drawn from @Wikipedia-contributors2025-ew.
+
+## Simulation
+
+Quietly load required libraries.
+
+```{r}
+suppressPackageStartupMessages(library(deSolve))
+suppressPackageStartupMessages(library(plotly))
+```
+
+Simulate *n*=`{r} 100*100` time points
+
+```{r}
+# parameters
+prm <- list(sigma = 10, rho = 28, beta = 8/3)
+# initial values
+varini <- c(
+  X = 1,
+  Y = 1, 
+  Z = 1
+)
+
+Lorenz <- function (t, vars, prm) {
+  with(as.list(vars), {
+    dX <- prm$sigma*(Y - X)
+    dY <- X*(prm$rho - Z) - Y
+    dZ <- X*Y - prm$beta*Z
+    return(list(c(dX, dY, dZ)))
+   })
+}
+
+times <- seq(from = 0, to = 100, by = 0.01)
+# call ode solver
+out <- ode(y = varini, times = times, func = Lorenz,
+           parms = prm)
+```
+
+Plot data.
+
+```{r}
+# to assign color to points
+gfill <- function (repArr, long) {
+  rep(repArr, ceiling(long/length(repArr)))[1:long]
+}
+
+dout <- as.data.frame(out)
+
+dout$color <- gfill(rainbow(10), nrow(dout))
+
+# Graphics production with Plotly:
+plot_ly(
+  data=dout, x = ~X, y = ~Y, z = ~Z,
+  type = 'scatter3d', mode = 'lines',
+  opacity = 1, line = list(width = 6, color = ~color, reverscale = FALSE)
+)
+```

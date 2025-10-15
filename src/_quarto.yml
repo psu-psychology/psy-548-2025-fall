@@ -31,6 +31,8 @@ website:
             href: slides/wk-04-core-knowl-dev-sys.qmd
           - text: "Wk 06 • Fri Oct 03"
             href: slides/wk-06-constructivism.qmd
+          - text: "Wk 08 • Fri Oct 17"
+            href: slides/wk-08-dynamic-systems.qmd
       - section: "Resources"
         contents:
           - presentations.qmd
@@ -39,6 +41,7 @@ website:
           # - repro-rubric.qmd
           - looking-times.qmd
           - constructivism.qmd
+          - lorenz-equation.qmd
     
   repo-url: https://github.com/psu-psychology/psy-548-2025-fall
   repo-actions: [edit, issue]

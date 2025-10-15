@@ -97,11 +97,11 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 #### Topics & Readings
 
-- *Student Presentation F*: The risks of generalization (*Presenter*: Olivia Bell; *Discussant*: Carlos Almeida)
+- *Student Presentation F*: The risks of generalization (*Presenter*: TBD; *Discussant*: Carlos Almeida)
     <!-- - *Watch*: @Treeincement2010-en, @innovation2014-kj -->
     - *Read*: @Packer2022-gn; @Kominsky2022-we; @Lucca2025-gy
 - Emergentism & dynamic systems
-  - *General Readings*: @Thelen2003-tt; @Perone2017-qb
+  - *General Readings*: @Thelen2003-tt; @Perone2017-qb; @@Thelen1063-vk (optional)
   
 ## Week 09
 
@@ -184,7 +184,7 @@ Caesar Liu)
 
 - Systems
   - *Read*: @Bronfenbrenner1977-cm, @Oyama2001-cf, @Hartley2022-dd
-  - *Student Presentation O*: Poverty is bad for cognition. (*Presenter*: Yeonjin Kim; *Discussant*: Olivia Bell)
+  - *Student Presentation O*: Poverty is bad for cognition. (*Presenter*: Yeonjin Kim; *Discussant*: TBD)
     - *Read*: @Taylor2020-dp; @Amso2020-jo
   - *Student Presentation P*: Poverty can be adaptive for cognition. (*Presenter*: Caesar Liu; *Discussant*: Natalie Byrd)
     - *Read*: @Frankenhuis2016-wl; @Frankenhuis2020-ld

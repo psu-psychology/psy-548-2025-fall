@@ -1,0 +1,247 @@
+---
+title: "Dynamic(al) systems"
+subtitle: 2025-10-17
+fig-align: "center"
+---
+
+# Prelude
+
+## Today's topics
+
+- Risks of generalization
+- Dynamic systems
+  
+# Risks of overgeneralization
+
+---
+
+{{< video https://www.youtube.com/watch?v=VTNmLt7QX8E width ="100%" height="70%" >}}
+
+-- @Kenjirou2010-eq video of @Heider1944-lw animation
+
+---
+
+:::: {.columns}
+::: {.column width=30%}
+-- Cited in @Kominsky2022-we. Animation created by Brian Scholl, inspired by @Heider1944-lw
+:::
+::: {.column width=70%}
+{{< video https://perception.yale.edu/DemoFiles/Animacy-Basics/HS-Blocks-QT.mp4 >}}
+:::
+::::
+
+## @Hamlin2007-ff {.scrollable}
+
+![Figure 1 from @Hamlin2007-ff](../include/img/hamlin-2007-fig-01.png)
+
+## @Hamlin2007-ff {.scrollable}
+
+:::: {.columns}
+::: {.column width=50%}
+{{< video https://static-content.springer.com/esm/art%3A10.1038%2Fnature06288/MediaObjects/41586_2007_BFnature06288_MOESM207_ESM.mov >}}
+:::
+::: {.column width=50%}
+{{< video https://static-content.springer.com/esm/art%3A10.1038%2Fnature06288/MediaObjects/41586_2007_BFnature06288_MOESM208_ESM.mov >}}
+:::
+::::
+
+## @Hamlin2007-ff
+
+>Here we show that 6- and 10-month-old infants take into account an individual’s actions towards others in evaluating that individual as appealing or aversive: infants prefer an individual who helps another to one who hinders another, prefer a helping individual to a neutral individual, and prefer a neutral individual to a hindering individual. 
+
+## @Hamlin2007-ff
+
+>Here we show that 6- and 10-month-old infants take into account an individual’s actions towards others in evaluating that individual as appealing or aversive: **infants prefer an individual who helps another to one who hinders another**, prefer a helping individual to a neutral individual, and prefer a neutral individual to a hindering individual. 
+
+## @Hamlin2007-ff
+
+>Our findings indicate that humans engage in social evaluation far earlier in development than previously thought, and support the view that the capacity to evaluate individuals on the basis of their social interactions is universal and unlearned.
+
+## @Hamlin2007-ff
+
+>Our findings indicate that humans engage in social evaluation far earlier in development than previously thought, and support the view that **the capacity to evaluate individuals on the basis of their social interactions is universal and unlearned**.
+
+## @Lucca2025-gy
+
+>A seminal study by Hamlin and colleagues in 2007 suggested that the ability to form social evaluations based on third-party interactions emerges within the first year of life: infants preferred a character who helped, over hindered, another who tried but failed to climb a hill.
+
+## @Lucca2025-gy
+
+>This sparked a new line of inquiry into the origins of social evaluations; however, replication attempts have yielded mixed results.
+
+## @Lucca2025-gy
+
+>We present a preregistered, multi-laboratory, standardized study aimed at replicating infants’ preference for Helpers over Hinderers.
+
+## @Lucca2025-gy
+
+>Using the ManyBabies framework for big team-based science, we tested 1,018 infants (567 included, 5.5–10.5 months) from 37 labs across five continents. Overall, 49.34% of infants preferred Helpers over Hinderers in the social condition, and 55.85% preferred characters who pushed up,versus down, an inanimate object in the nonsocial condition; neither proportion differed from chance or from each other. 
+
+## @Lucca2025-gy
+
+>This study provides evidence against infants’ prosocial preferences in the hill paradigm, suggesting the effect size is weaker, absent, and/or develops later than previously estimated.
+
+## *n*'s in @Hamlin2007-ff
+
+- Ex 1: *n*=12 6-mo-olds, *n*=16 10-mo-olds
+- Ex 2: *n*=12 6-mo-olds, *n*=12 10-mo-olds
+- Ex 3: *n*=8 6-mo-olds, *n*=8 10-mo-olds
+
+## Yes, and...
+
+![@Packer2022-gn](../include/img/packer-2022.png)
+
+## @Packer2022-gn
+
+>A ’social stimulus’ is one introduced by the behavior of another person. But the stimuli described in this paper are produced not by another person but by a facsimile thereof. Hence they are identified as ‘symbolic’ social stimuli. 
+
+-- @Lovaas1965-ny cited in @Packer2022-gn
+
+## @Packer2022-gn
+
+- Are abstract shapes, puppets, etc. *social stimuli* to children?
+- Do researchers assume children are willing to pretend that they are?
+- Consequences vs. studying social cognition using real people?
+
+## @Packer2022-gn
+
+>...treating symbolic social stimuli as though they are real can cause problems. It may be unfair to suggest that such research amounts to the study of children’s “theory of
+puppets...” 
+
+::: {.fragment}
+>but it seems equally inaccurate to say that it is an adequate study of either children’s theory of mind or their understanding of the deontology of the social world.
+:::
+
+## @Kominsky2022-we
+
+>Simplified stimuli allow for stronger experimental control and therefore more precise inferences compared to more complex, uncontrolled, naturally occurring events...
+
+## @Kominsky2022-we
+
+>Ultimately, we conclude that while concerns about the validity of experiments using simplified stimuli are founded, results from such studies should not be dismissed purely on ecological grounds.
+
+---
+
+![@Yarkoni2020-se](../include/img/yarkoni-generalizability-crisis.png)
+
+# Dynamic(al) systems
+
+## What are they?
+
+- Mathematical models
+- Systems of differential equations (equations involving derivatives)
+- Describe changes of a state space over time
+
+## Lorenz system
+
+:::: {.columns}
+::: {.column width=50%}
+$$\dot{x} = \sigma(y-x) $$
+$$\dot{y} = \rho x - y - xz $$
+$$\dot{z} = -\beta z + xy $$
+:::
+::: {.column width=50%}
+![@Wikipedia-contributors2025-ew](https://upload.wikimedia.org/wikipedia/commons/1/13/A_Trajectory_Through_Phase_Space_in_a_Lorenz_Attractor.gif)
+:::
+::::
+
+## Double pendulum [@Wikipedia-contributors2025-oy]
+
+{{< video URL width="100%" height="70%" >}}
+
+-- @Brockmann2014-qx
+
+## Aspects of dynamical systems
+
+- Self-organization
+- Attractors
+  - Stable
+  - Unstable
+  
+-- @Wikipedia-contributors2025-ga
+  
+## Aspects of dynamical systems
+ 
+- Non-linearity
+- Sensitivity to initial conditions
+- Bifucation points
+
+## Motivation
+
+>[T]he induction of novel behavioral forms may be the single most important unresolved problem for all of the developmental sciences.
+
+-- @Wolff1987-mb cited in @Thelen1063-vk
+
+## Inspirations
+
+:::: {.columns}
+::: {.column width=50%}
+![C.H. Waddington [@Waddington2014-rh] reprinted in @Thelen1063-vk](../include/img/thelen-smith-2007-fig-6.1.png)
+:::
+::: {.column width=50%}
+![C.H. Waddington [@Waddington2014-rh] reprinted in @Thelen1063-vk](../include/img/thelen-smith-2007-fig-6.2.png)
+:::
+::::
+
+## Inspirations
+
+![@Ford1992-et reprinted in @Thelen1063-vk](../include/img/thelen-smith-2007-fig-6.5.png)
+
+## @Thelen2003-tt
+
+:::: {.columns}
+::: {.column width=50%}
+![Esther Thelen](https://s.hdnux.com/photos/10/11/55/2136942/6/ratio3x4_960.webp){width="70%"}
+:::
+::: {.column width=50%}
+![Elizabeth Bates](https://crl.ucsd.edu/bates/images/liz-256.jpg){width="70%"}
+
+:::
+::::
+
+## Core question:
+
+![@Thelen2003-tt](../include/img/thelen-2003-title.png)
+
+---
+
+![@Thelen2003-tt](../include/img/thelen-2003-tbl-01.png)
+
+## Connectionism == Dynamic systems? 
+
+>Based on the theoretical taxonomy in Table 1, and our own discussions of it, we have reached the conclusion that connectionism and dynamic systems are not competing theories of development.
+
+-- @Thelen2003-tt
+
+## Conclusion
+
+>But at a more general theoretical level, there are far more shared assumptions than real differences. They are both really two aspects of a new, synthetic theory of development...
+
+-- @Thelen2003-tt
+
+## Critiques
+
+- How quantitative should (must?) we be? 
+
+## Next time...
+
+- Emergentism & dynamic systems: Deep dive
+  - *Student Presentation G*: A connectionist model to explain why infants seem so smart
+    - *Read*: @Munakata1997-zx (*Presenter*: Zeynep Sülün; *Discussant*: 
+Caesar Liu)
+  - *Student Presentation H*: Emergentism and variants of the A-not-B task
+    - *Read*: @Smith1999-xz (*Presenter*: Natalie Byrd; *Discussant*: Jiayi Fan)
+
+# Resources
+
+## About
+
+This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
+Integrated Development Environment (IDE), version 2025.5.1.513.
+
+The source files are in R and R Markdown, then rendered to HTML using the
+[revealJS](https://revealjs.com) framework.
+The HTML slides are hosted in a [GitHub repo](https://github.com/psu-psychology/psy-548-fall) and served by GitHub pages:
+<https://psu-psychology.github.io/psy-548-fall/>
+
+## References
