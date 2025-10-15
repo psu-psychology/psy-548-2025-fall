@@ -145,11 +145,11 @@ $$\dot{z} = -\beta z + xy $$
 :::
 ::::
 
-## Double pendulum [@Wikipedia-contributors2025-oy]
+## Double pendulum]
 
-{{< video URL width="100%" height="70%" >}}
+{{< video https://www.youtube.com/watch?v=_i3WqnejOQk width="100%" height="50%" >}}
 
--- @Brockmann2014-qx
+-- @Brockmann2014-qx; see also @Wikipedia-contributors2025-oy
 
 ## Aspects of dynamical systems
 
@@ -164,7 +164,8 @@ $$\dot{z} = -\beta z + xy $$
  
 - Non-linearity
 - Sensitivity to initial conditions
-- Bifucation points
+- Bifurcation points
+  - Change behavior with change in parameter
 
 ## Motivation
 
@@ -219,15 +220,85 @@ $$\dot{z} = -\beta z + xy $$
 
 -- @Thelen2003-tt
 
+## Dynamic Systems Theory (DST)
+
+- @Perone2017-qb
+- Multicausality
+- Self-organization
+- Nested time-scales
+
+## @Perone2017-qb
+
+- Describe measurable behavior
+- Dynamic Field Theory (DFT) extends DST to neural fields
+
+## An illustrative DF model
+
+:::: {.columns}
+::: {.column width=40%}
+- Fixation system
+- Perceptual field
+  - Excitatory layer
+  - Inhibitory layer
+- Working memory field
+:::
+::: {.column width=50%}
+![Figure 1 from @Perone2013-ez; The fixation system has four states: *L*eft, *R*ight, *C*enter, and *A*way.](../include/img/perone-2013-fig-01.png){width="60%" fig-align="center"}
+:::
+::::
+
+## Model dynamics: Perceptual field
+
+:::: {.columns}
+::: {.column width=40%}
+- Past states influence future
+- Excitatory input (Gaussian-weighted)
+- Inhibition: Local (Gaussian-weighted) + global
+- Memory (Hebbian)
+- Noise
+:::
+::: {.column width=50%}
+![Appendix from @Perone2013-ez](../include/img/perrone-2013-eqn-pf.png){fig-align="right"}
+:::
+::::
+
+## Model equations
+
+:::: {.columns}
+::: {.column width=50%}
+![Appendix from @Perone2013-ez](../include/img/perone-2013-table-a1.png)
+:::
+::: {.column width=50%}
+![Appendix from @Perone2013-ez](../include/img/perone-2013-eqn-pf.png){fig-align="right"}
+:::
+::::
+
+## Model behavior
+
+![@Perone2013-ez](https://www.frontiersin.org/files/Articles/60190/fpsyg-04-00648-HTML/image_m/fpsyg-04-00648-g002.jpg)
+
 ## Challenges
 
+:::: {.columns}
+::: {.column width=50%}
 - How quantitative should (must?) we be? 
-- Can we measure with sufficient temporal density?
-- Weaker vs. stronger predictions
+- Weaker vs. stronger predictions based on level of measure
+:::
+::: {.column width=50%}
+![](https://www.statology.org/wp-content/uploads/2020/01/levels_measurement.jpg){fig-align="right"}
+:::
+::::
 
----
+## Challenges
 
-![](https://www.statology.org/wp-content/uploads/2020/01/levels_measurement.jpg){fig-align="center"}
+- Measure with sufficient temporal density?
+- Degrees of freedom: In data, in models^[I counted 41 in @Perone2013-ez]
+- Virtues of "neural-like" models? Flaws?
+
+## All models are wrong...
+
+- but some are useful [@Wikipedia-contributors2025-yf]
+- Explanatory power vs. parsimony
 
 ## Next time...
 

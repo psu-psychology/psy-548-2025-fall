@@ -340,15 +340,15 @@ Rick Gilmore
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="https://upload.wikimedia.org/wikipedia/commons/1/13/A_Trajectory_Through_Phase_Space_in_a_Lorenz_Attractor.gif"></p>
-<figcaption><span class="citation" data-cites="Wikipedia-contributors2025-ew">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025b</a>)</span></figcaption>
+<figcaption><span class="citation" data-cites="Wikipedia-contributors2025-ew">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025c</a>)</span></figcaption>
 </figure>
 </div>
 </div></div>
 </section>
-<section id="double-pendulum-wikipedia-contributors2025-oy" class="slide level2">
-<h2>Double pendulum <span class="citation" data-cites="Wikipedia-contributors2025-oy">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025a</a>)</span></h2>
-<video id="video_shortcode_videojs_video4" width="100%" height="70%" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="URL"></video>
-<p>– <span class="citation" data-cites="Brockmann2014-qx">Brockmann (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span></p>
+<section id="double-pendulum" class="slide level2">
+<h2>Double pendulum]</h2>
+<iframe data-external="1" src="https://www.youtube.com/embed/_i3WqnejOQk" width="100%" height="50%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p>– <span class="citation" data-cites="Brockmann2014-qx">Brockmann (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span>; see also <span class="citation" data-cites="Wikipedia-contributors2025-oy">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025a</a>)</span></p>
 </section>
 <section id="aspects-of-dynamical-systems" class="slide level2">
 <h2>Aspects of dynamical systems</h2>
@@ -360,14 +360,17 @@ Rick Gilmore
 <li>Unstable</li>
 </ul></li>
 </ul>
-<p>– <span class="citation" data-cites="Wikipedia-contributors2025-ga">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025c</a>)</span></p>
+<p>– <span class="citation" data-cites="Wikipedia-contributors2025-ga">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025d</a>)</span></p>
 </section>
 <section id="aspects-of-dynamical-systems-1" class="slide level2">
 <h2>Aspects of dynamical systems</h2>
 <ul>
 <li>Non-linearity</li>
 <li>Sensitivity to initial conditions</li>
-<li>Bifucation points</li>
+<li>Bifurcation points
+<ul>
+<li>Change behavior with change in parameter</li>
+</ul></li>
 </ul>
 </section>
 <section id="motivation" class="slide level2">
@@ -441,18 +444,118 @@ Rick Gilmore
 </blockquote>
 <p>– <span class="citation" data-cites="Thelen2003-tt">Thelen &amp; Bates (<a href="#/references" role="doc-biblioref" onclick="">2003</a>)</span></p>
 </section>
-<section id="challenges" class="slide level2">
-<h2>Challenges</h2>
+<section id="dynamic-systems-theory-dst" class="slide level2">
+<h2>Dynamic Systems Theory (DST)</h2>
 <ul>
-<li>How quantitative should (must?) we be?</li>
-<li>Can we measure with sufficient temporal density?</li>
-<li>Weaker vs.&nbsp;stronger predictions</li>
+<li><span class="citation" data-cites="Perone2017-qb">Perone &amp; Simmering (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span></li>
+<li>Multicausality</li>
+<li>Self-organization</li>
+<li>Nested time-scales</li>
 </ul>
 </section>
-<section class="slide level2">
+<section id="perone2017-qb" class="slide level2">
+<h2><span class="citation" data-cites="Perone2017-qb">Perone &amp; Simmering (<a href="#/references" role="doc-biblioref" onclick="">2017</a>)</span></h2>
+<ul>
+<li>Describe measurable behavior</li>
+<li>Dynamic Field Theory (DFT) extends DST to neural fields</li>
+</ul>
+</section>
+<section id="an-illustrative-df-model" class="slide level2">
+<h2>An illustrative DF model</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Fixation system</li>
+<li>Perceptual field
+<ul>
+<li>Excitatory layer</li>
+<li>Inhibitory layer</li>
+</ul></li>
+<li>Working memory field</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../include/img/perone-2013-fig-01.png" style="width:60.0%"></p>
+<figcaption>Figure 1 from <span class="citation" data-cites="Perone2013-ez">Perone &amp; Spencer (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span>; The fixation system has four states: <em>L</em>eft, <em>R</em>ight, <em>C</em>enter, and <em>A</em>way.</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="model-dynamics-perceptual-field" class="slide level2">
+<h2>Model dynamics: Perceptual field</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Past states influence future</li>
+<li>Excitatory input (Gaussian-weighted)</li>
+<li>Inhibition: Local (Gaussian-weighted) + global</li>
+<li>Memory (Hebbian)</li>
+<li>Noise</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="../include/img/perrone-2013-eqn-pf.png"></p>
+<figcaption>Appendix from <span class="citation" data-cites="Perone2013-ez">Perone &amp; Spencer (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="model-equations" class="slide level2">
+<h2>Model equations</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../include/img/perone-2013-table-a1.png"></p>
+<figcaption>Appendix from <span class="citation" data-cites="Perone2013-ez">Perone &amp; Spencer (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="../include/img/perone-2013-eqn-pf.png"></p>
+<figcaption>Appendix from <span class="citation" data-cites="Perone2013-ez">Perone &amp; Spencer (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="model-behavior" class="slide level2">
+<h2>Model behavior</h2>
 
-
-<img data-src="https://www.statology.org/wp-content/uploads/2020/01/levels_measurement.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<img data-src="https://www.frontiersin.org/files/Articles/60190/fpsyg-04-00648-HTML/image_m/fpsyg-04-00648-g002.jpg" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Perone2013-ez">Perone &amp; Spencer (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></p></section>
+<section id="challenges" class="slide level2">
+<h2>Challenges</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>How quantitative should (must?) we be?</li>
+<li>Weaker vs.&nbsp;stronger predictions based on level of measure</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="https://www.statology.org/wp-content/uploads/2020/01/levels_measurement.jpg" class="quarto-figure quarto-figure-right"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="challenges-1" class="slide level2">
+<h2>Challenges</h2>
+<ul>
+<li>Measure with sufficient temporal density?</li>
+<li>Degrees of freedom: In data, in models<sup>1</sup></li>
+<li>Virtues of “neural-like” models? Flaws?</li>
+</ul>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>I counted 41 in <span class="citation" data-cites="Perone2013-ez">Perone &amp; Spencer (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></p></li></ol></aside></section>
+<section id="all-models-are-wrong" class="slide level2">
+<h2>All models are wrong…</h2>
+<ul>
+<li>but some are useful <span class="citation" data-cites="Wikipedia-contributors2025-yf">(<a href="#/references" role="doc-biblioref" onclick="">Wikipedia contributors, 2025b</a>)</span></li>
+<li>Explanatory power vs.&nbsp;parsimony</li>
+</ul>
+</section>
 <section id="next-time" class="slide level2">
 <h2>Next time…</h2>
 <ul>
@@ -514,6 +617,12 @@ Munakata, Y., McClelland, J. L., Johnson, M. H., &amp; Siegler, R. S. (1997). Re
 <div id="ref-Packer2022-gn" class="csl-entry" role="listitem">
 Packer, M. J., &amp; Moreno-Dulcey, F. A. (2022). Theory of puppets?: A critique of the use of puppets as stimulus materials in psychological research with young children. <em>Cognitive Development</em>, <em>61</em>, 101146. <a href="https://doi.org/10.1016/j.cogdev.2021.101146">https://doi.org/10.1016/j.cogdev.2021.101146</a>
 </div>
+<div id="ref-Perone2017-qb" class="csl-entry" role="listitem">
+Perone, S., &amp; Simmering, V. R. (2017). Applications of dynamic systems theory to cognition and development: New frontiers. <em>Advances in Child Development and Behavior</em>, <em>52</em>, 43–80. <a href="https://doi.org/10.1016/bs.acdb.2016.10.002">https://doi.org/10.1016/bs.acdb.2016.10.002</a>
+</div>
+<div id="ref-Perone2013-ez" class="csl-entry" role="listitem">
+Perone, S., &amp; Spencer, J. P. (2013). Autonomous visual exploration creates developmental change in familiarity and novelty seeking behaviors. <em>Frontiers in Psychology</em>, <em>4</em>, 648. <a href="https://doi.org/10.3389/fpsyg.2013.00648">https://doi.org/10.3389/fpsyg.2013.00648</a>
+</div>
 <div id="ref-Smith1999-xz" class="csl-entry" role="listitem">
 Smith, L. B., Thelen, E., Titzer, R., &amp; McLin, D. (1999). Knowing in the context of acting: The task dynamics of the a-not-<span>B</span> error. <em>Psychological Review</em>, <em>106</em>, 235–260. <a href="https://doi.org/10.1037/0033-295X.106.2.235">https://doi.org/10.1037/0033-295X.106.2.235</a>
 </div>
@@ -529,11 +638,14 @@ Waddington, C. H. (2014). <em>The strategy of the genes</em>. London, England: R
 <div id="ref-Wikipedia-contributors2025-oy" class="csl-entry" role="listitem">
 Wikipedia contributors. (2025a, June 18). Double pendulum. Retrieved from <a href="https://en.wikipedia.org/wiki/Double_pendulum">https://en.wikipedia.org/wiki/Double_pendulum</a>
 </div>
+<div id="ref-Wikipedia-contributors2025-yf" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025b, July 23). All models are wrong. Retrieved from <a href="https://en.wikipedia.org/wiki/All_models_are_wrong">https://en.wikipedia.org/wiki/All_models_are_wrong</a>
+</div>
 <div id="ref-Wikipedia-contributors2025-ew" class="csl-entry" role="listitem">
-Wikipedia contributors. (2025b, October 6). Lorenz system. Retrieved from <a href="https://en.wikipedia.org/wiki/Lorenz_system">https://en.wikipedia.org/wiki/Lorenz_system</a>
+Wikipedia contributors. (2025c, October 6). Lorenz system. Retrieved from <a href="https://en.wikipedia.org/wiki/Lorenz_system">https://en.wikipedia.org/wiki/Lorenz_system</a>
 </div>
 <div id="ref-Wikipedia-contributors2025-ga" class="csl-entry" role="listitem">
-Wikipedia contributors. (2025c, October 15). Dynamical system. Retrieved from <a href="https://en.wikipedia.org/wiki/Dynamical_system">https://en.wikipedia.org/wiki/Dynamical_system</a>
+Wikipedia contributors. (2025d, October 15). Dynamical system. Retrieved from <a href="https://en.wikipedia.org/wiki/Dynamical_system">https://en.wikipedia.org/wiki/Dynamical_system</a>
 </div>
 <div id="ref-Wolff1987-mb" class="csl-entry" role="listitem">
 Wolff, P. H. (1987). <em>The development of behavioral states and the expression of emotions in early infancy: New proposals for investigation</em>. Chicago: University of Chicago Press. Retrieved from <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=4xtPEjWzaQcC&amp;oi=fnd&amp;pg=PA1&amp;dq=The+development+of+behavioral+states+and+the+ex-+pression+of+emotions+in+early+infancy:+New+proposals+for+investiga-+tion&amp;ots=4xuOlTBxCd&amp;sig=mxFpzuQ4BIz74HgwMM8m8ifQkos">https://books.google.com/books?hl=en&amp;lr=&amp;id=4xtPEjWzaQcC&amp;oi=fnd&amp;pg=PA1&amp;dq=The+development+of+behavioral+states+and+the+ex-+pression+of+emotions+in+early+infancy:+New+proposals+for+investiga-+tion&amp;ots=4xuOlTBxCd&amp;sig=mxFpzuQ4BIz74HgwMM8m8ifQkos</a>
@@ -543,6 +655,7 @@ Yarkoni, T. (2020). The generalizability crisis. <em>The Behavioral and Brain Sc
 </div>
 </div>
 </section></section>
+
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg" class="slide-logo"></p>
@@ -934,7 +1047,6 @@ Yarkoni, T. (2020). The generalizability crisis. <em>The Behavioral and Brain Sc
     <script>videojs(video_shortcode_videojs_video1);</script>
     <script>videojs(video_shortcode_videojs_video2);</script>
     <script>videojs(video_shortcode_videojs_video3);</script>
-    <script>videojs(video_shortcode_videojs_video4);</script>
     
 
 </body></html>

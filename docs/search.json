@@ -224,7 +224,7 @@
     "href": "slides/wk-08-dynamic-systems.html#lorenz-system",
     "title": "Dynamic(al) systems",
     "section": "Lorenz system",
-    "text": "Lorenz system\n\n\n\\[\\dot{x} = \\sigma(y-x) \\] \\[\\dot{y} = \\rho x - y - xz \\] \\[\\dot{z} = -\\beta z + xy \\]\n\n\n\n\nWikipedia contributors (2025b)",
+    "text": "Lorenz system\n\n\n\\[\\dot{x} = \\sigma(y-x) \\] \\[\\dot{y} = \\rho x - y - xz \\] \\[\\dot{z} = -\\beta z + xy \\]\n\n\n\n\nWikipedia contributors (2025c)",
     "crumbs": [
       "Slides",
       "Wk 08 • Fri Oct 17"
@@ -246,7 +246,7 @@
     "href": "slides/wk-08-dynamic-systems.html#aspects-of-dynamical-systems",
     "title": "Dynamic(al) systems",
     "section": "Aspects of dynamical systems",
-    "text": "Aspects of dynamical systems\n\nSelf-organization\nAttractors\n\nStable\nUnstable\n\n\n– Wikipedia contributors (2025c)",
+    "text": "Aspects of dynamical systems\n\nSelf-organization\nAttractors\n\nStable\nUnstable\n\n\n– Wikipedia contributors (2025d)",
     "crumbs": [
       "Slides",
       "Wk 08 • Fri Oct 17"
@@ -257,7 +257,7 @@
     "href": "slides/wk-08-dynamic-systems.html#aspects-of-dynamical-systems-1",
     "title": "Dynamic(al) systems",
     "section": "Aspects of dynamical systems",
-    "text": "Aspects of dynamical systems\n\nNon-linearity\nSensitivity to initial conditions\nBifucation points",
+    "text": "Aspects of dynamical systems\n\nNon-linearity\nSensitivity to initial conditions\nBifurcation points\n\nChange behavior with change in parameter",
     "crumbs": [
       "Slides",
       "Wk 08 • Fri Oct 17"
@@ -345,7 +345,7 @@
     "href": "slides/wk-08-dynamic-systems.html#challenges",
     "title": "Dynamic(al) systems",
     "section": "Challenges",
-    "text": "Challenges\n\nHow quantitative should (must?) we be?\nCan we measure with sufficient temporal density?\nWeaker vs. stronger predictions",
+    "text": "Challenges\n\n\n\nHow quantitative should (must?) we be?\nWeaker vs. stronger predictions based on level of measure",
     "crumbs": [
       "Slides",
       "Wk 08 • Fri Oct 17"
@@ -378,7 +378,7 @@
     "href": "slides/wk-08-dynamic-systems.html#references",
     "title": "Dynamic(al) systems",
     "section": "References",
-    "text": "References\n\n\n\n\nBrockmann, D. (2014). Double pendulum. Youtube. Retrieved from https://www.youtube.com/watch?v=_i3WqnejOQk\n\n\nFord, D. H., & Lerner, R. M. (1992). Developmental systems theory: An integrative approach. Sage Publications, Inc. Retrieved from https://psycnet.apa.org/record/1992-98053-000\n\n\nHamlin, J. K., Wynn, K., & Bloom, P. (2007). Social evaluation by preverbal infants. Nature, 450, 557–559. https://doi.org/10.1038/nature06288\n\n\nHeider, F., & Simmel, M. (1944). An experimental study of apparent behavior. The American Journal of Psychology, 57, 243. https://doi.org/10.2307/1416950\n\n\nKenjirou. (2010). Heider and Simmel (1944) animation. Youtube. Retrieved from https://www.youtube.com/watch?v=VTNmLt7QX8E\n\n\nKominsky, J. F., Lucca, K., Thomas, A. J., Frank, M. C., & Hamlin, J. K. (2022). Simplicity and validity in infant research. Cognitive Development, 63, 101213. https://doi.org/10.1016/j.cogdev.2022.101213\n\n\nLovaas, O. I., Baer, D. M., & Bijou, S. W. (1965). Experimental procedures for analyzing the interaction of symbolic social stimuli and children’s behavior. Child Development, 36, 237. https://doi.org/10.2307/1126794\n\n\nLucca, K., Yuen, F., Wang, Y., Alessandroni, N., Allison, O., Alvarez, M., … Hamlin, J. K. (2025). Infants’ social evaluation of helpers and hinderers: A large-scale, multi-lab, coordinated replication study. Developmental Science, 28, e13581. https://doi.org/10.1111/desc.13581\n\n\nMunakata, Y., McClelland, J. L., Johnson, M. H., & Siegler, R. S. (1997). Rethinking infant knowledge: Toward an adaptive process account of successes and failures in object permanence tasks. Psychological Review, 104, 686–713. https://doi.org/10.1037/0033-295x.104.4.686\n\n\nPacker, M. J., & Moreno-Dulcey, F. A. (2022). Theory of puppets?: A critique of the use of puppets as stimulus materials in psychological research with young children. Cognitive Development, 61, 101146. https://doi.org/10.1016/j.cogdev.2021.101146\n\n\nSmith, L. B., Thelen, E., Titzer, R., & McLin, D. (1999). Knowing in the context of acting: The task dynamics of the a-not-B error. Psychological Review, 106, 235–260. https://doi.org/10.1037/0033-295X.106.2.235\n\n\nThelen, E., & Bates, E. (2003). Connectionism and dynamic systems: Are they really different? Developmental Science, 6, 378–391. https://doi.org/10.1111/1467-7687.00294\n\n\nThelen, E., & Smith, L. B. (1998). Dynamic systems theories. In R. M. Lerner (Ed.), Handbook of child psychology: Theoretical models of human development, vol (Vol. 1, pp. 258–312). John Wiley & Sons, Inc., xx. Retrieved from https://psycnet.apa.org/record/2006-08774-006\n\n\nWaddington, C. H. (2014). The strategy of the genes. London, England: Routledge. https://doi.org/10.4324/9781315765471\n\n\nWikipedia contributors. (2025a, June 18). Double pendulum. Retrieved from https://en.wikipedia.org/wiki/Double_pendulum\n\n\nWikipedia contributors. (2025b, October 6). Lorenz system. Retrieved from https://en.wikipedia.org/wiki/Lorenz_system\n\n\nWikipedia contributors. (2025c, October 15). Dynamical system. Retrieved from https://en.wikipedia.org/wiki/Dynamical_system\n\n\nWolff, P. H. (1987). The development of behavioral states and the expression of emotions in early infancy: New proposals for investigation. Chicago: University of Chicago Press. Retrieved from https://books.google.com/books?hl=en&lr=&id=4xtPEjWzaQcC&oi=fnd&pg=PA1&dq=The+development+of+behavioral+states+and+the+ex-+pression+of+emotions+in+early+infancy:+New+proposals+for+investiga-+tion&ots=4xuOlTBxCd&sig=mxFpzuQ4BIz74HgwMM8m8ifQkos\n\n\nYarkoni, T. (2020). The generalizability crisis. The Behavioral and Brain Sciences, 45, e1. https://doi.org/10.1017/S0140525X20001685",
+    "text": "References\n\n\n\n\nBrockmann, D. (2014). Double pendulum. Youtube. Retrieved from https://www.youtube.com/watch?v=_i3WqnejOQk\n\n\nFord, D. H., & Lerner, R. M. (1992). Developmental systems theory: An integrative approach. Sage Publications, Inc. Retrieved from https://psycnet.apa.org/record/1992-98053-000\n\n\nHamlin, J. K., Wynn, K., & Bloom, P. (2007). Social evaluation by preverbal infants. Nature, 450, 557–559. https://doi.org/10.1038/nature06288\n\n\nHeider, F., & Simmel, M. (1944). An experimental study of apparent behavior. The American Journal of Psychology, 57, 243. https://doi.org/10.2307/1416950\n\n\nKenjirou. (2010). Heider and Simmel (1944) animation. Youtube. Retrieved from https://www.youtube.com/watch?v=VTNmLt7QX8E\n\n\nKominsky, J. F., Lucca, K., Thomas, A. J., Frank, M. C., & Hamlin, J. K. (2022). Simplicity and validity in infant research. Cognitive Development, 63, 101213. https://doi.org/10.1016/j.cogdev.2022.101213\n\n\nLovaas, O. I., Baer, D. M., & Bijou, S. W. (1965). Experimental procedures for analyzing the interaction of symbolic social stimuli and children’s behavior. Child Development, 36, 237. https://doi.org/10.2307/1126794\n\n\nLucca, K., Yuen, F., Wang, Y., Alessandroni, N., Allison, O., Alvarez, M., … Hamlin, J. K. (2025). Infants’ social evaluation of helpers and hinderers: A large-scale, multi-lab, coordinated replication study. Developmental Science, 28, e13581. https://doi.org/10.1111/desc.13581\n\n\nMunakata, Y., McClelland, J. L., Johnson, M. H., & Siegler, R. S. (1997). Rethinking infant knowledge: Toward an adaptive process account of successes and failures in object permanence tasks. Psychological Review, 104, 686–713. https://doi.org/10.1037/0033-295x.104.4.686\n\n\nPacker, M. J., & Moreno-Dulcey, F. A. (2022). Theory of puppets?: A critique of the use of puppets as stimulus materials in psychological research with young children. Cognitive Development, 61, 101146. https://doi.org/10.1016/j.cogdev.2021.101146\n\n\nPerone, S., & Simmering, V. R. (2017). Applications of dynamic systems theory to cognition and development: New frontiers. Advances in Child Development and Behavior, 52, 43–80. https://doi.org/10.1016/bs.acdb.2016.10.002\n\n\nPerone, S., & Spencer, J. P. (2013). Autonomous visual exploration creates developmental change in familiarity and novelty seeking behaviors. Frontiers in Psychology, 4, 648. https://doi.org/10.3389/fpsyg.2013.00648\n\n\nSmith, L. B., Thelen, E., Titzer, R., & McLin, D. (1999). Knowing in the context of acting: The task dynamics of the a-not-B error. Psychological Review, 106, 235–260. https://doi.org/10.1037/0033-295X.106.2.235\n\n\nThelen, E., & Bates, E. (2003). Connectionism and dynamic systems: Are they really different? Developmental Science, 6, 378–391. https://doi.org/10.1111/1467-7687.00294\n\n\nThelen, E., & Smith, L. B. (1998). Dynamic systems theories. In R. M. Lerner (Ed.), Handbook of child psychology: Theoretical models of human development, vol (Vol. 1, pp. 258–312). John Wiley & Sons, Inc., xx. Retrieved from https://psycnet.apa.org/record/2006-08774-006\n\n\nWaddington, C. H. (2014). The strategy of the genes. London, England: Routledge. https://doi.org/10.4324/9781315765471\n\n\nWikipedia contributors. (2025a, June 18). Double pendulum. Retrieved from https://en.wikipedia.org/wiki/Double_pendulum\n\n\nWikipedia contributors. (2025b, July 23). All models are wrong. Retrieved from https://en.wikipedia.org/wiki/All_models_are_wrong\n\n\nWikipedia contributors. (2025c, October 6). Lorenz system. Retrieved from https://en.wikipedia.org/wiki/Lorenz_system\n\n\nWikipedia contributors. (2025d, October 15). Dynamical system. Retrieved from https://en.wikipedia.org/wiki/Dynamical_system\n\n\nWolff, P. H. (1987). The development of behavioral states and the expression of emotions in early infancy: New proposals for investigation. Chicago: University of Chicago Press. Retrieved from https://books.google.com/books?hl=en&lr=&id=4xtPEjWzaQcC&oi=fnd&pg=PA1&dq=The+development+of+behavioral+states+and+the+ex-+pression+of+emotions+in+early+infancy:+New+proposals+for+investiga-+tion&ots=4xuOlTBxCd&sig=mxFpzuQ4BIz74HgwMM8m8ifQkos\n\n\nYarkoni, T. (2020). The generalizability crisis. The Behavioral and Brain Sciences, 45, e1. https://doi.org/10.1017/S0140525X20001685",
     "crumbs": [
       "Slides",
       "Wk 08 • Fri Oct 17"
@@ -3158,6 +3158,116 @@
     "crumbs": [
       "Slides",
       "Wk 06 • Fri Oct 03"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#dynamic-systems-theory-dst",
+    "href": "slides/wk-08-dynamic-systems.html#dynamic-systems-theory-dst",
+    "title": "Dynamic(al) systems",
+    "section": "Dynamic Systems Theory (DST)",
+    "text": "Dynamic Systems Theory (DST)\n\nPerone & Simmering (2017)\nMulticausality\nSelf-organization\nNested time-scales",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#perone2017-qb",
+    "href": "slides/wk-08-dynamic-systems.html#perone2017-qb",
+    "title": "Dynamic(al) systems",
+    "section": "Perone & Simmering (2017)",
+    "text": "Perone & Simmering (2017)\n\nDescribe measurable behavior\nDynamic Field Theory (DFT) extends DST to neural fields",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#an-illustrative-df-model",
+    "href": "slides/wk-08-dynamic-systems.html#an-illustrative-df-model",
+    "title": "Dynamic(al) systems",
+    "section": "An illustrative DF model",
+    "text": "An illustrative DF model\n\n\n\nFixation system\nPerceptual field\n\nExcitatory layer\nInhibitory layer\n\nWorking memory field\n\n\n\n\n\nFigure 1 from Perone & Spencer (2013); The fixation system has four states: Left, Right, Center, and Away.",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#model-components",
+    "href": "slides/wk-08-dynamic-systems.html#model-components",
+    "title": "Dynamic(al) systems",
+    "section": "Model components",
+    "text": "Model components\n\nFixation system\nPerceptual field\n\nExcitatory layer\nInhibitory layer\n\nWorking memory field",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#model-dynamics-perceptual-field",
+    "href": "slides/wk-08-dynamic-systems.html#model-dynamics-perceptual-field",
+    "title": "Dynamic(al) systems",
+    "section": "Model dynamics: Perceptual field",
+    "text": "Model dynamics: Perceptual field\n\n\n\nPast states influence future\nExcitatory input (Gaussian-weighted)\nInhibition: Local (Gaussian-weighted) + global\nMemory (Hebbian)\nNoise\n\n\n\n\n\nAppendix from Perone & Spencer (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#challenges-1",
+    "href": "slides/wk-08-dynamic-systems.html#challenges-1",
+    "title": "Dynamic(al) systems",
+    "section": "Challenges",
+    "text": "Challenges\n\nMeasure with sufficient temporal density?\nDegrees of freedom: In data, in models1\nVirtues of “neural-like” models? Flaws?\n\nI counted 41 in Perone & Spencer (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#all-models-are-wrong",
+    "href": "slides/wk-08-dynamic-systems.html#all-models-are-wrong",
+    "title": "Dynamic(al) systems",
+    "section": "All models are wrong…",
+    "text": "All models are wrong…\n\nbut some are useful (Wikipedia contributors, 2025b)\nExplanatory power vs. parsimony",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#double-pendulum",
+    "href": "slides/wk-08-dynamic-systems.html#double-pendulum",
+    "title": "Dynamic(al) systems",
+    "section": "Double pendulum]",
+    "text": "Double pendulum]\n\n– Brockmann (2014); see also Wikipedia contributors (2025a)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#model-equations",
+    "href": "slides/wk-08-dynamic-systems.html#model-equations",
+    "title": "Dynamic(al) systems",
+    "section": "Model equations",
+    "text": "Model equations\n\n\n\n\n\nAppendix from Perone & Spencer (2013)\n\n\n\n\n\n\nAppendix from Perone & Spencer (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#model-behavior",
+    "href": "slides/wk-08-dynamic-systems.html#model-behavior",
+    "title": "Dynamic(al) systems",
+    "section": "Model behavior",
+    "text": "Model behavior\n\nPerone & Spencer (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
     ]
   }
 ]
