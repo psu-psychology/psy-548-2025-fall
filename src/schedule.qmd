@@ -105,7 +105,7 @@ I have adopted considerable portions of their readings and assignment ideas.
     - *Read*: @Packer2022-gn; @Kominsky2022-we; @Lucca2025-gy
     - *Supplemental*: [Constructivism](constructivism.qmd)
 - Emergentism & dynamic systems
-  - *General Readings*: @Thelen2003-tt; @Perone2017-qb OR @Thelen1063-vk
+  - *General Readings*: @Thelen2003-tt; @Perone2017-qb OR @Thelen2007-df
   - *Supplemental*: [Lorenz System](lorenz-equation.qmd)
 - *Slides*: | [html](slides/wk-08-dynamic-systems.qmd) | 
 

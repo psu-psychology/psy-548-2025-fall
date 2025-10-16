@@ -61,6 +61,10 @@ fig-align: "center"
 
 >Our findings indicate that humans engage in social evaluation far earlier in development than previously thought, and support the view that **the capacity to evaluate individuals on the basis of their social interactions is universal and unlearned**.
 
+---
+
+![@Lucca2025-gy](../include/img/lucca-2025-title.png)
+
 ## @Lucca2025-gy
 
 >A seminal study by Hamlin and colleagues in 2007 suggested that the ability to form social evaluations based on third-party interactions emerges within the first year of life: infants preferred a character who helped, over hindered, another who tried but failed to climb a hill.
@@ -75,17 +79,21 @@ fig-align: "center"
 
 ## @Lucca2025-gy
 
->Using the ManyBabies framework for big team-based science, we tested 1,018 infants (567 included, 5.5–10.5 months) from 37 labs across five continents. Overall, 49.34% of infants preferred Helpers over Hinderers in the social condition, and 55.85% preferred characters who pushed up,versus down, an inanimate object in the nonsocial condition; neither proportion differed from chance or from each other. 
-
-## @Lucca2025-gy
-
->This study provides evidence against infants’ prosocial preferences in the hill paradigm, suggesting the effect size is weaker, absent, and/or develops later than previously estimated.
+>Using the ManyBabies framework for big team-based science, **we tested 1,018 infants (567 included, 5.5–10.5 months) from 37 labs across five continents**... 
 
 ## *n*'s in @Hamlin2007-ff
 
 - Ex 1: *n*=12 6-mo-olds, *n*=16 10-mo-olds
 - Ex 2: *n*=12 6-mo-olds, *n*=12 10-mo-olds
 - Ex 3: *n*=8 6-mo-olds, *n*=8 10-mo-olds
+
+## @Lucca2025-gy
+
+>Overall, **49.34% of infants preferred Helpers over Hinderers in the social condition, and 55.85% preferred characters who pushed up, versus down, an inanimate object in the nonsocial condition; neither proportion differed from chance or from each other**. 
+
+## @Lucca2025-gy
+
+>This study provides **evidence against infants’ prosocial preferences in the hill paradigm**, suggesting the effect size is weaker, absent, and/or develops later than previously estimated.
 
 ## Yes, and...
 
@@ -291,14 +299,28 @@ $$\dot{z} = -\beta z + xy $$
 
 ## Challenges
 
+- Metaphor or model?
+  - Rhythmic motor behaviors in different domains [@Iverson2010-kr cited in @Perone2013-ez]
+  - Shape biases in word learning
+  - Locomotor milestones are rarely stage-like [@Adolph2008-br cited in @Perone2013-ez]
+
+## Challenges
+
 - Measure with sufficient temporal density?
 - Degrees of freedom: In data, in models^[I counted 41 in @Perone2013-ez]
+- Model robustness
 - Virtues of "neural-like" models? Flaws?
 
 ## All models are wrong...
 
 - but some are useful [@Wikipedia-contributors2025-yf]
 - Explanatory power vs. parsimony
+
+## Future prospects
+
+>On the basis of history, current proclivities of active researchers, and current quantitative training of psychology students, my bet would have to be that this approach will probably fade from the scene or at best remain a little island of activity restricted to a small group of interested parties. (This is the kind of remark that gets quoted and snickered at 20 years later when the approach is flourishing) (p. 314).
+
+-- @Bogartz1994-ta cited in @Perone2013-ez
 
 ## Next time...
 
