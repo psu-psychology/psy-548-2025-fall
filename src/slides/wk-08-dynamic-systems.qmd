@@ -159,11 +159,26 @@ $$\dot{z} = -\beta z + xy $$
 :::
 ::::
 
-## Double pendulum]
+## Double pendulum
 
 {{< video https://www.youtube.com/watch?v=_i3WqnejOQk width="100%" height="50%" >}}
 
 -- @Brockmann2014-qx; see also @Wikipedia-contributors2025-oy
+
+## Double pendulum
+
+:::: {.columns}
+::: {.column width=50%}
+$$x_1=(l/2)sin{\theta_1}$$
+$$y_1=(-l/2)cos(\theta_1)$$
+
+$$x_2=l(sin(\theta_1)+1/2*sin(\theta_2))$$
+$$y_2=-l(cos(\theta_1)+1/2*cos(\theta_2))$$
+:::
+::: {.column width=50%}
+![@Wikipedia-contributors2025-oy](https://upload.wikimedia.org/wikipedia/commons/c/c9/Double-compound-pendulum-dimensioned.svg)
+:::
+::::
 
 ## Aspects of dynamical systems
 

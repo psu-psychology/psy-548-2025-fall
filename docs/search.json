@@ -3241,8 +3241,8 @@
     "objectID": "slides/wk-08-dynamic-systems.html#double-pendulum",
     "href": "slides/wk-08-dynamic-systems.html#double-pendulum",
     "title": "Dynamic(al) systems",
-    "section": "Double pendulum]",
-    "text": "Double pendulum]\n\n– Brockmann (2014); see also Wikipedia contributors (2025a)",
+    "section": "Double pendulum",
+    "text": "Double pendulum\n\n– Brockmann (2014); see also Wikipedia contributors (2025a)",
     "crumbs": [
       "Slides",
       "Wk 08 • Fri Oct 17"
@@ -3356,6 +3356,17 @@
     "crumbs": [
       "Resources",
       "Dynamic systems"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#double-pendulum-1",
+    "href": "slides/wk-08-dynamic-systems.html#double-pendulum-1",
+    "title": "Dynamic(al) systems",
+    "section": "Double pendulum",
+    "text": "Double pendulum\n\n\n\\[x_1=(l/2)sin{\\theta_1}\\] \\[y_1=(-l/2)cos(\\theta_1)\\]\n\\[x_2=l(sin(\\theta_1)+1/2*sin(\\theta_2))\\] \\[y_2=-l(cos(\\theta_1)+1/2*cos(\\theta_2))\\]\n\n\n\n\nWikipedia contributors (2025a)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
     ]
   }
 ]
