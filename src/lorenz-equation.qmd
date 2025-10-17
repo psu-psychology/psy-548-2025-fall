@@ -10,7 +10,7 @@ This page provides some supplemental information for the discussion about dynami
 It shows a simulation of the Lorenz system.
 The code is drawn from @Wikipedia-contributors2025-ew.
 
-It also provides a link to an excellent video about convolution, a core operation
+It also provides a link to an excellent video about convolution, a core operation in many areas of psychology and neuroscience.
 
 ## Lorenz System
 
