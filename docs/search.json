@@ -1596,45 +1596,45 @@
   {
     "objectID": "lorenz-equation.html",
     "href": "lorenz-equation.html",
-    "title": "Lorenz System",
+    "title": "Dynamic systems",
     "section": "",
-    "text": "This page shows a simulation of the Lorenz system. The code is drawn from Wikipedia contributors (2025).",
+    "text": "This page provides some supplemental information for the discussion about dynamic systems.\nIt shows a simulation of the Lorenz system. The code is drawn from Wikipedia contributors (2025).\nIt also provides a link to an excellent video about convolution, a core operation",
     "crumbs": [
       "Resources",
-      "Lorenz System"
+      "Dynamic systems"
     ]
   },
   {
     "objectID": "lorenz-equation.html#about",
     "href": "lorenz-equation.html#about",
-    "title": "Lorenz System",
+    "title": "Dynamic systems",
     "section": "",
-    "text": "This page shows a simulation of the Lorenz system. The code is drawn from Wikipedia contributors (2025).",
+    "text": "This page provides some supplemental information for the discussion about dynamic systems.\nIt shows a simulation of the Lorenz system. The code is drawn from Wikipedia contributors (2025).\nIt also provides a link to an excellent video about convolution, a core operation",
     "crumbs": [
       "Resources",
-      "Lorenz System"
+      "Dynamic systems"
     ]
   },
   {
     "objectID": "lorenz-equation.html#equations",
     "href": "lorenz-equation.html#equations",
-    "title": "Lorenz System",
+    "title": "Dynamic systems",
     "section": "Equations",
     "text": "Equations\n\\[\\dot{x} = \\sigma(y-x) \\] \\[\\dot{y} = \\rho x - y - xz \\] \\[\\dot{z} = -\\beta z + xy \\]",
     "crumbs": [
       "Resources",
-      "Lorenz System"
+      "Dynamic systems"
     ]
   },
   {
     "objectID": "lorenz-equation.html#simulation",
     "href": "lorenz-equation.html#simulation",
-    "title": "Lorenz System",
+    "title": "Dynamic systems",
     "section": "Simulation",
     "text": "Simulation\nQuietly load required libraries.\n\n\nCode\nsuppressPackageStartupMessages(library(deSolve))\nsuppressPackageStartupMessages(library(plotly))\n\n\nSimulate n=10^{4} time points\n\n\nCode\n# parameters\nprm &lt;- list(sigma = 10, rho = 28, beta = 8/3)\n# initial values\nvarini &lt;- c(\n  X = 1,\n  Y = 1, \n  Z = 1\n)\n\nLorenz &lt;- function (t, vars, prm) {\n  with(as.list(vars), {\n    dX &lt;- prm$sigma*(Y - X)\n    dY &lt;- X*(prm$rho - Z) - Y\n    dZ &lt;- X*Y - prm$beta*Z\n    return(list(c(dX, dY, dZ)))\n   })\n}\n\ntimes &lt;- seq(from = 0, to = 100, by = 0.01)\n# call ode solver\nout &lt;- ode(y = varini, times = times, func = Lorenz,\n           parms = prm)\n\n\nPlot data.\n\n\nCode\n# to assign color to points\ngfill &lt;- function (repArr, long) {\n  rep(repArr, ceiling(long/length(repArr)))[1:long]\n}\n\ndout &lt;- as.data.frame(out)\n\ndout$color &lt;- gfill(rainbow(10), nrow(dout))\n\n# Graphics production with Plotly:\nplot_ly(\n  data=dout, x = ~X, y = ~Y, z = ~Z,\n  type = 'scatter3d', mode = 'lines',\n  opacity = 1, line = list(width = 6, color = ~color, reverscale = FALSE)\n)",
     "crumbs": [
       "Resources",
-      "Lorenz System"
+      "Dynamic systems"
     ]
   },
   {
@@ -3334,6 +3334,28 @@
     "crumbs": [
       "Slides",
       "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "lorenz-equation.html#on-convolution",
+    "href": "lorenz-equation.html#on-convolution",
+    "title": "Dynamic systems",
+    "section": "On convolution",
+    "text": "On convolution\nConvolution is a fundamental operation in statistics, and it is a core operation found in Dynamic Field Theory and connectionist models. Here’s an excellent video to explain what convolution is about and how it works.\n\n– 3Blue1Brown (2022)",
+    "crumbs": [
+      "Resources",
+      "Dynamic systems"
+    ]
+  },
+  {
+    "objectID": "lorenz-equation.html#lorenz-system",
+    "href": "lorenz-equation.html#lorenz-system",
+    "title": "Dynamic systems",
+    "section": "Lorenz System",
+    "text": "Lorenz System\n\nEquations\n\\[\\dot{x} = \\sigma(y-x) \\] \\[\\dot{y} = \\rho x - y - xz \\] \\[\\dot{z} = -\\beta z + xy \\]\n\n\nSimulation\nQuietly load required libraries.\n\n\nCode\nsuppressPackageStartupMessages(library(deSolve))\nsuppressPackageStartupMessages(library(plotly))\n\n\nSimulate n=10^{4} time points\n\n\nCode\n# parameters\nprm &lt;- list(sigma = 10, rho = 28, beta = 8/3)\n# initial values\nvarini &lt;- c(\n  X = 1,\n  Y = 1, \n  Z = 1\n)\n\nLorenz &lt;- function (t, vars, prm) {\n  with(as.list(vars), {\n    dX &lt;- prm$sigma*(Y - X)\n    dY &lt;- X*(prm$rho - Z) - Y\n    dZ &lt;- X*Y - prm$beta*Z\n    return(list(c(dX, dY, dZ)))\n   })\n}\n\ntimes &lt;- seq(from = 0, to = 100, by = 0.01)\n# call ode solver\nout &lt;- ode(y = varini, times = times, func = Lorenz,\n           parms = prm)\n\n\nPlot data.\n\n\nCode\n# to assign color to points\ngfill &lt;- function (repArr, long) {\n  rep(repArr, ceiling(long/length(repArr)))[1:long]\n}\n\ndout &lt;- as.data.frame(out)\n\ndout$color &lt;- gfill(rainbow(10), nrow(dout))\n\n# Graphics production with Plotly:\nplot_ly(\n  data=dout, x = ~X, y = ~Y, z = ~Z,\n  type = 'scatter3d', mode = 'lines',\n  opacity = 1, line = list(width = 6, color = ~color, reverscale = FALSE)\n)",
+    "crumbs": [
+      "Resources",
+      "Dynamic systems"
     ]
   }
 ]

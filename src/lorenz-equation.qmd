@@ -1,20 +1,26 @@
 ---
-title: "Lorenz System"
+title: "Dynamic systems"
 format: html
 ---
 
 ## About
 
-This page shows a simulation of the Lorenz system.
+This page provides some supplemental information for the discussion about dynamic systems.
+
+It shows a simulation of the Lorenz system.
 The code is drawn from @Wikipedia-contributors2025-ew.
 
-## Equations
+It also provides a link to an excellent video about convolution, a core operation
+
+## Lorenz System
+
+### Equations
 
 $$\dot{x} = \sigma(y-x) $$
 $$\dot{y} = \rho x - y - xz $$
 $$\dot{z} = -\beta z + xy $$
 
-## Simulation
+### Simulation
 
 Quietly load required libraries.
 
@@ -73,3 +79,12 @@ plot_ly(
   opacity = 1, line = list(width = 6, color = ~color, reverscale = FALSE)
 )
 ```
+
+## On convolution
+
+Convolution is a fundamental operation in statistics, and it is a core operation found in Dynamic Field Theory and connectionist models.
+Here's an excellent video to explain what convolution is about and how it works.
+
+{{< video https://www.youtube.com/watch?v=KuXjwB4LzSA >}}
+
+-- @3Blue1Brown2022-mx
