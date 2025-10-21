@@ -9,7 +9,7 @@ project:
 website:
   title: "PSY 548"
   announcement: 
-    content: "Note the slight change in schedule for our October 17 meeting." 
+    content: "Readings through Week 13 are on Canvas; note additional details about Week 10 reading on the schedule." 
     position: below-navbar
     icon: info-circle
     dismissable: true
