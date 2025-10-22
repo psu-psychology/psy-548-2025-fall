@@ -42,6 +42,7 @@ website:
           - looking-times.qmd
           - constructivism.qmd
           - lorenz-equation.qmd
+          - a-not-b-models.qmd
     
   repo-url: https://github.com/psu-psychology/psy-548-2025-fall
   repo-actions: [edit, issue]

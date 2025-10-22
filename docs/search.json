@@ -121,6 +121,17 @@
     ]
   },
   {
+    "objectID": "slides/wk-08-dynamic-systems.html#ns-in-hamlin2007-ff",
+    "href": "slides/wk-08-dynamic-systems.html#ns-in-hamlin2007-ff",
+    "title": "Dynamic(al) systems",
+    "section": "n’s in Hamlin et al. (2007)",
+    "text": "n’s in Hamlin et al. (2007)\n\nEx 1: n=12 6-mo-olds, n=16 10-mo-olds\nEx 2: n=12 6-mo-olds, n=12 10-mo-olds\nEx 3: n=8 6-mo-olds, n=8 10-mo-olds",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
     "objectID": "slides/wk-08-dynamic-systems.html#lucca2025-gy-4",
     "href": "slides/wk-08-dynamic-systems.html#lucca2025-gy-4",
     "title": "Dynamic(al) systems",
@@ -132,11 +143,11 @@
     ]
   },
   {
-    "objectID": "slides/wk-08-dynamic-systems.html#ns-in-hamlin2007-ff",
-    "href": "slides/wk-08-dynamic-systems.html#ns-in-hamlin2007-ff",
+    "objectID": "slides/wk-08-dynamic-systems.html#lucca2025-gy-5",
+    "href": "slides/wk-08-dynamic-systems.html#lucca2025-gy-5",
     "title": "Dynamic(al) systems",
-    "section": "n’s in Hamlin et al. (2007)",
-    "text": "n’s in Hamlin et al. (2007)\n\nEx 1: n=12 6-mo-olds, n=16 10-mo-olds\nEx 2: n=12 6-mo-olds, n=12 10-mo-olds\nEx 3: n=8 6-mo-olds, n=8 10-mo-olds",
+    "section": "Lucca et al. (2025)",
+    "text": "Lucca et al. (2025)\n\nThis study provides evidence against infants’ prosocial preferences in the hill paradigm, suggesting the effect size is weaker, absent, and/or develops later than previously estimated.",
     "crumbs": [
       "Slides",
       "Wk 08 • Fri Oct 17"
@@ -231,11 +242,22 @@
     ]
   },
   {
-    "objectID": "slides/wk-08-dynamic-systems.html#double-pendulum-wikipedia-contributors2025-oy",
-    "href": "slides/wk-08-dynamic-systems.html#double-pendulum-wikipedia-contributors2025-oy",
+    "objectID": "slides/wk-08-dynamic-systems.html#double-pendulum",
+    "href": "slides/wk-08-dynamic-systems.html#double-pendulum",
     "title": "Dynamic(al) systems",
-    "section": "Double pendulum (Wikipedia contributors, 2025a)",
-    "text": "Double pendulum (Wikipedia contributors, 2025a)\n\n– Brockmann (2014)",
+    "section": "Double pendulum",
+    "text": "Double pendulum\n\n– Brockmann (2014); see also Wikipedia contributors (2025a)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#double-pendulum-1",
+    "href": "slides/wk-08-dynamic-systems.html#double-pendulum-1",
+    "title": "Dynamic(al) systems",
+    "section": "Double pendulum",
+    "text": "Double pendulum\n\n\n\\[x_1=(l/2)sin{\\theta_1}\\] \\[y_1=(-l/2)cos(\\theta_1)\\]\n\\[x_2=l(sin(\\theta_1)+1/2*sin(\\theta_2))\\] \\[y_2=-l(cos(\\theta_1)+1/2*cos(\\theta_2))\\]\n\n\n\n\nWikipedia contributors (2025a)",
     "crumbs": [
       "Slides",
       "Wk 08 • Fri Oct 17"
@@ -297,6 +319,160 @@
     ]
   },
   {
+    "objectID": "slides/wk-08-dynamic-systems.html#inspirations-2",
+    "href": "slides/wk-08-dynamic-systems.html#inspirations-2",
+    "title": "Dynamic(al) systems",
+    "section": "Inspirations",
+    "text": "Inspirations\n\nFord & Lerner (1992) reprinted in Thelen & Smith (1998)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#dynamic-systems-theory-dst",
+    "href": "slides/wk-08-dynamic-systems.html#dynamic-systems-theory-dst",
+    "title": "Dynamic(al) systems",
+    "section": "Dynamic Systems Theory (DST)",
+    "text": "Dynamic Systems Theory (DST)\n\nPerone & Simmering (2017)\nMulti-causality\nSelf-organization\nNested time-scales",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#perone2017-qb",
+    "href": "slides/wk-08-dynamic-systems.html#perone2017-qb",
+    "title": "Dynamic(al) systems",
+    "section": "Perone & Simmering (2017)",
+    "text": "Perone & Simmering (2017)\n\nDescribe measurable behavior\nDynamic Field Theory (DFT) extends DST to neural fields",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#approach-thelen2007-df-pp.-289-292",
+    "href": "slides/wk-08-dynamic-systems.html#approach-thelen2007-df-pp.-289-292",
+    "title": "Dynamic(al) systems",
+    "section": "Approach (Thelen & Smith, 2007, pp. 289–292)",
+    "text": "Approach (Thelen & Smith, 2007, pp. 289–292)\n\nIdentify collective variable of interest\nCharacterize behavioral attractor states\nDescribe the dynamic trajectory of the collective variable",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#approach-thelen2007-df-pp.-289-292-1",
+    "href": "slides/wk-08-dynamic-systems.html#approach-thelen2007-df-pp.-289-292-1",
+    "title": "Dynamic(al) systems",
+    "section": "Approach (Thelen & Smith, 2007, pp. 289–292)",
+    "text": "Approach (Thelen & Smith, 2007, pp. 289–292)\n\nIdentify points of transition\nIdentify potential control parameters\nManipulate putative control parameters to experimentally generate transitions",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#an-illustrative-df-model",
+    "href": "slides/wk-08-dynamic-systems.html#an-illustrative-df-model",
+    "title": "Dynamic(al) systems",
+    "section": "An illustrative DF model",
+    "text": "An illustrative DF model\n\n\n\nFixation system\nPerceptual field\n\nExcitatory layer\nInhibitory layer\n\nWorking memory field\n\n\n\n\n\nFigure 1 from Perone & Spencer (2013); The fixation system has four states: Left, Right, Center, and Away.",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#model-dynamics-perceptual-field",
+    "href": "slides/wk-08-dynamic-systems.html#model-dynamics-perceptual-field",
+    "title": "Dynamic(al) systems",
+    "section": "Model dynamics: Perceptual field",
+    "text": "Model dynamics: Perceptual field\n\n\n\nPast states influence future\nExcitatory input (Gaussian-weighted)\nInhibition: Local (Gaussian-weighted) + global\nMemory (Hebbian)\nNoise\n\n\n\n\n\nAppendix from Perone & Spencer (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#model-equations",
+    "href": "slides/wk-08-dynamic-systems.html#model-equations",
+    "title": "Dynamic(al) systems",
+    "section": "Model equations",
+    "text": "Model equations\n\n\n\n\n\nAppendix from Perone & Spencer (2013)\n\n\n\n\n\n\nAppendix from Perone & Spencer (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#model-behavior",
+    "href": "slides/wk-08-dynamic-systems.html#model-behavior",
+    "title": "Dynamic(al) systems",
+    "section": "Model behavior",
+    "text": "Model behavior\n\nPerone & Spencer (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#challenges",
+    "href": "slides/wk-08-dynamic-systems.html#challenges",
+    "title": "Dynamic(al) systems",
+    "section": "Challenges",
+    "text": "Challenges\n\n\n\nHow quantitative should (must? can?) we be?\nWeaker vs. stronger predictions based on level of measure",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#challenges-1",
+    "href": "slides/wk-08-dynamic-systems.html#challenges-1",
+    "title": "Dynamic(al) systems",
+    "section": "Challenges",
+    "text": "Challenges\n\nMeasure with sufficient temporal density?\nDegrees of freedom: In data, in models1\nModel robustness to variations in parameters\nVirtues of “neural-like” models? Flaws?\n\nI counted 41 in Perone & Spencer (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#all-models-are-wrong",
+    "href": "slides/wk-08-dynamic-systems.html#all-models-are-wrong",
+    "title": "Dynamic(al) systems",
+    "section": "All models are wrong…",
+    "text": "All models are wrong…\n\nbut some are useful (Wikipedia contributors, 2025b)\nExplanatory power of vs. parsimony",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#challenges-2",
+    "href": "slides/wk-08-dynamic-systems.html#challenges-2",
+    "title": "Dynamic(al) systems",
+    "section": "Challenges",
+    "text": "Challenges\n\nMetaphor or model?\n\nRhythmic motor behaviors in different domains Perone & Spencer (2013)\nShape biases in word learning\nLocomotor milestones are rarely stage-like Perone & Spencer (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-08-dynamic-systems.html#future-prospects",
+    "href": "slides/wk-08-dynamic-systems.html#future-prospects",
+    "title": "Dynamic(al) systems",
+    "section": "Future prospects",
+    "text": "Future prospects\n\nOn the basis of history, current proclivities of active researchers, and current quantitative training of psychology students, my bet would have to be that this approach will probably fade from the scene or at best remain a little island of activity restricted to a small group of interested parties. (This is the kind of remark that gets quoted and snickered at 20 years later when the approach is flourishing) (p. 314).\n\n– Bogartz (1994) cited in Perone & Spencer (2013)",
+    "crumbs": [
+      "Slides",
+      "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
     "objectID": "slides/wk-08-dynamic-systems.html#thelen2003-tt",
     "href": "slides/wk-08-dynamic-systems.html#thelen2003-tt",
     "title": "Dynamic(al) systems",
@@ -335,17 +511,6 @@
     "title": "Dynamic(al) systems",
     "section": "Conclusion",
     "text": "Conclusion\n\nBut at a more general theoretical level, there are far more shared assumptions than real differences. They are both really two aspects of a new, synthetic theory of development…\n\n– Thelen & Bates (2003)",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#challenges",
-    "href": "slides/wk-08-dynamic-systems.html#challenges",
-    "title": "Dynamic(al) systems",
-    "section": "Challenges",
-    "text": "Challenges\n\n\n\nHow quantitative should (must? can?) we be?\nWeaker vs. stronger predictions based on level of measure",
     "crumbs": [
       "Slides",
       "Wk 08 • Fri Oct 17"
@@ -950,7 +1115,7 @@
     "href": "slides/wk-01-intro.html#what-do-statistics-model",
     "title": "Course Introduction",
     "section": "What do statistics model?",
-    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 24.056, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6897779 0.7712334\nsample estimates:\n     cor \n0.733124",
+    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 22.025, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6551212 0.7442996\nsample estimates:\n      cor \n0.7024571",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
@@ -1423,6 +1588,39 @@
     ]
   },
   {
+    "objectID": "a-not-b-models.html",
+    "href": "a-not-b-models.html",
+    "title": "Models of A-not-B",
+    "section": "",
+    "text": "This page provides some additional information relevant to the discussion about Smith, Thelen, Titzer, & McLin (1999) and Munakata, McClelland, Johnson, & Siegler (1997).",
+    "crumbs": [
+      "Resources",
+      "Models of A-not-B"
+    ]
+  },
+  {
+    "objectID": "a-not-b-models.html#about",
+    "href": "a-not-b-models.html#about",
+    "title": "Models of A-not-B",
+    "section": "",
+    "text": "This page provides some additional information relevant to the discussion about Smith, Thelen, Titzer, & McLin (1999) and Munakata, McClelland, Johnson, & Siegler (1997).",
+    "crumbs": [
+      "Resources",
+      "Models of A-not-B"
+    ]
+  },
+  {
+    "objectID": "a-not-b-models.html#thelen2001-dz",
+    "href": "a-not-b-models.html#thelen2001-dz",
+    "title": "Models of A-not-B",
+    "section": "Thelen, Schöner, Scheier, & Smith (2001)",
+    "text": "Thelen, Schöner, Scheier, & Smith (2001)\nThelen, Smith and colleagues followed up on their empirical work in Smith et al. (1999) with a dynamic field model described in Thelen et al. (2001).\nThe modeling effort begins with a task analysis as described in Figure 1.\n\n\n\nThelen et al. (2001) Figure 1\n\n\nThe model begins by describing a movement field.\n\n\n\nThelen et al. (2001) Figure 6\n\n\nThe movement field receives task input and specific input from a separate input field shown below and a memory field (not shown).\n\n\n\nThelen et al. (2001) Figure 8",
+    "crumbs": [
+      "Resources",
+      "Models of A-not-B"
+    ]
+  },
+  {
     "objectID": "causal-relations.html",
     "href": "causal-relations.html",
     "title": "Unpacking causality",
@@ -1616,22 +1814,22 @@
     ]
   },
   {
-    "objectID": "lorenz-equation.html#equations",
-    "href": "lorenz-equation.html#equations",
+    "objectID": "lorenz-equation.html#lorenz-system",
+    "href": "lorenz-equation.html#lorenz-system",
     "title": "Dynamic systems",
-    "section": "Equations",
-    "text": "Equations\n\\[\\dot{x} = \\sigma(y-x) \\] \\[\\dot{y} = \\rho x - y - xz \\] \\[\\dot{z} = -\\beta z + xy \\]",
+    "section": "Lorenz System",
+    "text": "Lorenz System\n\nEquations\n\\[\\dot{x} = \\sigma(y-x) \\] \\[\\dot{y} = \\rho x - y - xz \\] \\[\\dot{z} = -\\beta z + xy \\]\n\n\nSimulation\nQuietly load required libraries.\n\n\nCode\nsuppressPackageStartupMessages(library(deSolve))\nsuppressPackageStartupMessages(library(plotly))\n\n\nSimulate n=10^{4} time points\n\n\nCode\n# parameters\nprm &lt;- list(sigma = 10, rho = 28, beta = 8/3)\n# initial values\nvarini &lt;- c(\n  X = 1,\n  Y = 1, \n  Z = 1\n)\n\nLorenz &lt;- function (t, vars, prm) {\n  with(as.list(vars), {\n    dX &lt;- prm$sigma*(Y - X)\n    dY &lt;- X*(prm$rho - Z) - Y\n    dZ &lt;- X*Y - prm$beta*Z\n    return(list(c(dX, dY, dZ)))\n   })\n}\n\ntimes &lt;- seq(from = 0, to = 100, by = 0.01)\n# call ode solver\nout &lt;- ode(y = varini, times = times, func = Lorenz,\n           parms = prm)\n\n\nPlot data.\n\n\nCode\n# to assign color to points\ngfill &lt;- function (repArr, long) {\n  rep(repArr, ceiling(long/length(repArr)))[1:long]\n}\n\ndout &lt;- as.data.frame(out)\n\ndout$color &lt;- gfill(rainbow(10), nrow(dout))\n\n# Graphics production with Plotly:\nplot_ly(\n  data=dout, x = ~X, y = ~Y, z = ~Z,\n  type = 'scatter3d', mode = 'lines',\n  opacity = 1, line = list(width = 6, color = ~color, reverscale = FALSE)\n)",
     "crumbs": [
       "Resources",
       "Dynamic systems"
     ]
   },
   {
-    "objectID": "lorenz-equation.html#simulation",
-    "href": "lorenz-equation.html#simulation",
+    "objectID": "lorenz-equation.html#on-convolution",
+    "href": "lorenz-equation.html#on-convolution",
     "title": "Dynamic systems",
-    "section": "Simulation",
-    "text": "Simulation\nQuietly load required libraries.\n\n\nCode\nsuppressPackageStartupMessages(library(deSolve))\nsuppressPackageStartupMessages(library(plotly))\n\n\nSimulate n=10^{4} time points\n\n\nCode\n# parameters\nprm &lt;- list(sigma = 10, rho = 28, beta = 8/3)\n# initial values\nvarini &lt;- c(\n  X = 1,\n  Y = 1, \n  Z = 1\n)\n\nLorenz &lt;- function (t, vars, prm) {\n  with(as.list(vars), {\n    dX &lt;- prm$sigma*(Y - X)\n    dY &lt;- X*(prm$rho - Z) - Y\n    dZ &lt;- X*Y - prm$beta*Z\n    return(list(c(dX, dY, dZ)))\n   })\n}\n\ntimes &lt;- seq(from = 0, to = 100, by = 0.01)\n# call ode solver\nout &lt;- ode(y = varini, times = times, func = Lorenz,\n           parms = prm)\n\n\nPlot data.\n\n\nCode\n# to assign color to points\ngfill &lt;- function (repArr, long) {\n  rep(repArr, ceiling(long/length(repArr)))[1:long]\n}\n\ndout &lt;- as.data.frame(out)\n\ndout$color &lt;- gfill(rainbow(10), nrow(dout))\n\n# Graphics production with Plotly:\nplot_ly(\n  data=dout, x = ~X, y = ~Y, z = ~Z,\n  type = 'scatter3d', mode = 'lines',\n  opacity = 1, line = list(width = 6, color = ~color, reverscale = FALSE)\n)",
+    "section": "On convolution",
+    "text": "On convolution\nConvolution is a fundamental operation in statistics, and it is a core operation found in Dynamic Field Theory and connectionist models. Here’s an excellent video to explain what convolution is about and how it works.\n\n– 3Blue1Brown (2022)",
     "crumbs": [
       "Resources",
       "Dynamic systems"
@@ -2406,7 +2604,7 @@
     "href": "slides/wk-02-piaget.html#references",
     "title": "On Piaget",
     "section": "References",
-    "text": "References\n\n\n\n\nAPA dictionary of psychology. (n.d.). Retrieved September 1, 2025, from https://dictionary.apa.org/\n\n\nBaillargeon, Renée. (2008). Innate ideas revisited: For a principle of persistence in infants’ physical reasoning. Perspectives on Psychological Science: A Journal of the Association for Psychological Science, 3, 2–13. https://doi.org/10.1111/j.1745-6916.2008.00056.x\n\n\nBaillargeon, R., Spelke, E. S., & Wasserman, S. (1985). Object permanence in five-month-old infants. Cognition, 20, 191–208. https://doi.org/10.1016/0010-0277(85)90008-3\n\n\nCastilla, V. (2007). Vestibulo-ocular reflex 13/25. Youtube. Retrieved from https://www.youtube.com/watch?v=j_R0LcPnZ_w\n\n\nChomsky, N. (1959). A review of B. F. Skinner’s verbal behavior. Language, 35, 26–58. Retrieved from http://cogprints.org/1148/\n\n\nElkind, D. (1961). Children’s discovery of the conservation of mass, weight, and volume: Piaget replication study. II. The Journal of Genetic Psychology, 98, 219–227. https://doi.org/10.1080/00221325.1961.10534372\n\n\nGelman, R. (1972). Logical capacity of very young children: Number invariance rules. Child Development, 43, 75. https://doi.org/10.2307/1127873\n\n\nGibson, J. J. (1966). The senses considered as perceptual systems. doi.apa.org. Retrieved from http://doi.apa.org/psycinfo/1966-35026-000\n\n\nGibson, James J. (1986). The ecological approach to visual perception (1 edition). Boston: Psychology Press. Retrieved from http://www.amazon.com/The-Ecological-Approach-Visual-Perception/dp/0898599598\n\n\nGilmore, R., DiFulvio, J., Beamer, B., & Cruz, N. (2025). Synthesizing evidence about developmental patterns in human visual acuity as measured by teller acuity cards. Journal of Vision, 25, 2456. https://doi.org/10.1167/jov.25.9.2456\n\n\nJohnson, M. H. (2001). Functional brain development in humans. Nature Reviews. Neuroscience, 2, 475–483. https://doi.org/10.1038/35081509\n\n\nMadonna. (2017). Madonna - material girl (official video) [HD]. Youtube. Retrieved from https://www.youtube.com/watch?v=6p-lDYPR2P8&list=RD6p-lDYPR2P8&start_radio=1\n\n\nMarr, D. (1980). Vision. Retrieved from https://mitpress.mit.edu/books/vision\n\n\nMillikan, R. (2017). Beyond concepts: Unicepts, language, and natural information. Oxford, England: Oxford University Press. Retrieved from https://books.google.com/books/about/Beyond_Concepts.html?id=s3QzDwAAQBAJ\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nPiaget, J. (1953). The Origins of Intelligence in Children. New York: Routledge. https://doi.org/10.1037/11494-000\n\n\nRegisteredNurseRN. (2020). Newborn reflexes assessment (infant) nursing pediatric NCLEX review. Youtube. Retrieved from https://www.youtube.com/watch?v=rHYk1sYsge0&t=62s\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSwanson, L. W. (n.d.). Brain Architecture. Retrieved September 1, 2025, from https://larrywswanson.com/?page_id=1523\n\n\nWikipedia contributors. (2001, October 30). René Descartes. Retrieved September 1, 2025, from https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes\n\n\nWikipedia contributors. (2023, October 2). Means–ends analysis. Retrieved from https://en.wikipedia.org/wiki/Means%E2%80%93ends_analysis\n\n\nWikipedia contributors. (2025a, April 8). Digesting duck. Retrieved from https://en.wikipedia.org/wiki/Digesting_Duck\n\n\nWikipedia contributors. (2025b, July 10). Schema (psychology). Retrieved from https://en.wikipedia.org/wiki/Schema_(psychology)\n\n\nWikipedia contributors. (2025c, July 16). Piaget’s theory of cognitive development. Retrieved from https://en.wikipedia.org/wiki/Piaget%27s_theory_of_cognitive_development\n\n\nWikipedia contributors. (2025d, July 20). Marshall Hall (physiologist). Retrieved from https://en.wikipedia.org/wiki/Marshall_Hall_(physiologist)\n\n\nWikipedia contributors. (2025e, August 1). Inductive reasoning. Retrieved from https://en.wikipedia.org/wiki/Inductive_reasoning\n\n\nWikipedia contributors. (2025f, August 3). Automaton. Retrieved from https://en.wikipedia.org/wiki/Automaton\n\n\nWikipedia contributors. (2025g, August 6). State-space representation. Retrieved from https://en.wikipedia.org/wiki/State-space_representation\n\n\nWikipedia contributors. (2025h, August 24). State space (computer science). Retrieved from https://en.wikipedia.org/wiki/State_space_(computer_science)\n\n\nWikipedia contributors. (2025i, August 25). Vestibulo-ocular reflex. Retrieved from https://en.wikipedia.org/wiki/Vestibulo-ocular_reflex\n\n\nWikipedia contributors. (2025j, August 27). Reflex. Retrieved from https://en.wikipedia.org/wiki/Reflex\n\n\nWikipedia contributors. (2025k, August 28). Semiotics. Retrieved from https://en.wikipedia.org/wiki/Semiotics",
+    "text": "References\n\n\n\n\nAPA dictionary of psychology. (n.d.). Retrieved September 1, 2025, from https://dictionary.apa.org/\n\n\nBaillargeon, Renée. (2008). Innate ideas revisited: For a principle of persistence in infants’ physical reasoning. Perspectives on Psychological Science: A Journal of the Association for Psychological Science, 3, 2–13. https://doi.org/10.1111/j.1745-6916.2008.00056.x\n\n\nBaillargeon, R., Spelke, E. S., & Wasserman, S. (1985). Object permanence in five-month-old infants. Cognition, 20, 191–208. https://doi.org/10.1016/0010-0277(85)90008-3\n\n\nCastilla, V. (2007). Vestibulo-ocular reflex 13/25. YouTube. Retrieved from https://www.youtube.com/watch?v=j_R0LcPnZ_w\n\n\nChomsky, N. (1959). A review of B. F. Skinner’s verbal behavior. Language, 35, 26–58. Retrieved from http://cogprints.org/1148/\n\n\nElkind, D. (1961). Children’s discovery of the conservation of mass, weight, and volume: Piaget replication study. II. The Journal of Genetic Psychology, 98, 219–227. https://doi.org/10.1080/00221325.1961.10534372\n\n\nGelman, R. (1972). Logical capacity of very young children: Number invariance rules. Child Development, 43, 75. https://doi.org/10.2307/1127873\n\n\nGibson, J. J. (1966). The senses considered as perceptual systems. doi.apa.org. Retrieved from http://doi.apa.org/psycinfo/1966-35026-000\n\n\nGibson, James J. (1986). The ecological approach to visual perception (1 edition). Boston: Psychology Press. Retrieved from http://www.amazon.com/The-Ecological-Approach-Visual-Perception/dp/0898599598\n\n\nGilmore, R., DiFulvio, J., Beamer, B., & Cruz, N. (2025). Synthesizing evidence about developmental patterns in human visual acuity as measured by teller acuity cards. Journal of Vision, 25, 2456. https://doi.org/10.1167/jov.25.9.2456\n\n\nJohnson, M. H. (2001). Functional brain development in humans. Nature Reviews. Neuroscience, 2, 475–483. https://doi.org/10.1038/35081509\n\n\nMadonna. (2017). Madonna - material girl (official video) [HD]. YouTube. Retrieved from https://www.youtube.com/watch?v=6p-lDYPR2P8&list=RD6p-lDYPR2P8&start_radio=1\n\n\nMarr, D. (1980). Vision. Retrieved from https://mitpress.mit.edu/books/vision\n\n\nMillikan, R. (2017). Beyond concepts: Unicepts, language, and natural information. Oxford, England: Oxford University Press. Retrieved from https://books.google.com/books/about/Beyond_Concepts.html?id=s3QzDwAAQBAJ\n\n\nNewcombe, N. S. (2013). Cognitive development: Changing views of cognitive change. Wiley Interdisciplinary Reviews. Cognitive Science, 4, 479–491. https://doi.org/10.1002/wcs.1245\n\n\nPiaget, J. (1953). The Origins of Intelligence in Children. New York: Routledge. https://doi.org/10.1037/11494-000\n\n\nRegisteredNurseRN. (2020). Newborn reflexes assessment (infant) nursing pediatric NCLEX review. YouTube. Retrieved from https://www.youtube.com/watch?v=rHYk1sYsge0&t=62s\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSwanson, L. W. (n.d.). Brain Architecture. Retrieved September 1, 2025, from https://larrywswanson.com/?page_id=1523\n\n\nWikipedia contributors. (2001, October 30). René Descartes. Retrieved September 1, 2025, from https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes\n\n\nWikipedia contributors. (2023, October 2). Means–ends analysis. Retrieved from https://en.wikipedia.org/wiki/Means%E2%80%93ends_analysis\n\n\nWikipedia contributors. (2025a, April 8). Digesting duck. Retrieved from https://en.wikipedia.org/wiki/Digesting_Duck\n\n\nWikipedia contributors. (2025b, July 10). Schema (psychology). Retrieved from https://en.wikipedia.org/wiki/Schema_(psychology)\n\n\nWikipedia contributors. (2025c, July 16). Piaget’s theory of cognitive development. Retrieved from https://en.wikipedia.org/wiki/Piaget%27s_theory_of_cognitive_development\n\n\nWikipedia contributors. (2025d, July 20). Marshall Hall (physiologist). Retrieved from https://en.wikipedia.org/wiki/Marshall_Hall_(physiologist)\n\n\nWikipedia contributors. (2025e, August 1). Inductive reasoning. Retrieved from https://en.wikipedia.org/wiki/Inductive_reasoning\n\n\nWikipedia contributors. (2025f, August 3). Automaton. Retrieved from https://en.wikipedia.org/wiki/Automaton\n\n\nWikipedia contributors. (2025g, August 6). State-space representation. Retrieved from https://en.wikipedia.org/wiki/State-space_representation\n\n\nWikipedia contributors. (2025h, August 24). State space (computer science). Retrieved from https://en.wikipedia.org/wiki/State_space_(computer_science)\n\n\nWikipedia contributors. (2025i, August 25). Vestibulo-ocular reflex. Retrieved from https://en.wikipedia.org/wiki/Vestibulo-ocular_reflex\n\n\nWikipedia contributors. (2025j, August 27). Reflex. Retrieved from https://en.wikipedia.org/wiki/Reflex\n\n\nWikipedia contributors. (2025k, August 28). Semiotics. Retrieved from https://en.wikipedia.org/wiki/Semiotics",
     "crumbs": [
       "Slides",
       "Wk 02 • Fri Sep 05"
@@ -3158,215 +3356,6 @@
     "crumbs": [
       "Slides",
       "Wk 06 • Fri Oct 03"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#dynamic-systems-theory-dst",
-    "href": "slides/wk-08-dynamic-systems.html#dynamic-systems-theory-dst",
-    "title": "Dynamic(al) systems",
-    "section": "Dynamic Systems Theory (DST)",
-    "text": "Dynamic Systems Theory (DST)\n\nPerone & Simmering (2017)\nMulti-causality\nSelf-organization\nNested time-scales",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#perone2017-qb",
-    "href": "slides/wk-08-dynamic-systems.html#perone2017-qb",
-    "title": "Dynamic(al) systems",
-    "section": "Perone & Simmering (2017)",
-    "text": "Perone & Simmering (2017)\n\nDescribe measurable behavior\nDynamic Field Theory (DFT) extends DST to neural fields",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#an-illustrative-df-model",
-    "href": "slides/wk-08-dynamic-systems.html#an-illustrative-df-model",
-    "title": "Dynamic(al) systems",
-    "section": "An illustrative DF model",
-    "text": "An illustrative DF model\n\n\n\nFixation system\nPerceptual field\n\nExcitatory layer\nInhibitory layer\n\nWorking memory field\n\n\n\n\n\nFigure 1 from Perone & Spencer (2013); The fixation system has four states: Left, Right, Center, and Away.",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#model-components",
-    "href": "slides/wk-08-dynamic-systems.html#model-components",
-    "title": "Dynamic(al) systems",
-    "section": "Model components",
-    "text": "Model components\n\nFixation system\nPerceptual field\n\nExcitatory layer\nInhibitory layer\n\nWorking memory field",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#model-dynamics-perceptual-field",
-    "href": "slides/wk-08-dynamic-systems.html#model-dynamics-perceptual-field",
-    "title": "Dynamic(al) systems",
-    "section": "Model dynamics: Perceptual field",
-    "text": "Model dynamics: Perceptual field\n\n\n\nPast states influence future\nExcitatory input (Gaussian-weighted)\nInhibition: Local (Gaussian-weighted) + global\nMemory (Hebbian)\nNoise\n\n\n\n\n\nAppendix from Perone & Spencer (2013)",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#challenges-1",
-    "href": "slides/wk-08-dynamic-systems.html#challenges-1",
-    "title": "Dynamic(al) systems",
-    "section": "Challenges",
-    "text": "Challenges\n\nMeasure with sufficient temporal density?\nDegrees of freedom: In data, in models1\nModel robustness to variations in parameters\nVirtues of “neural-like” models? Flaws?\n\nI counted 41 in Perone & Spencer (2013)",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#all-models-are-wrong",
-    "href": "slides/wk-08-dynamic-systems.html#all-models-are-wrong",
-    "title": "Dynamic(al) systems",
-    "section": "All models are wrong…",
-    "text": "All models are wrong…\n\nbut some are useful (Wikipedia contributors, 2025b)\nExplanatory power of vs. parsimony",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#double-pendulum",
-    "href": "slides/wk-08-dynamic-systems.html#double-pendulum",
-    "title": "Dynamic(al) systems",
-    "section": "Double pendulum",
-    "text": "Double pendulum\n\n– Brockmann (2014); see also Wikipedia contributors (2025a)",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#model-equations",
-    "href": "slides/wk-08-dynamic-systems.html#model-equations",
-    "title": "Dynamic(al) systems",
-    "section": "Model equations",
-    "text": "Model equations\n\n\n\n\n\nAppendix from Perone & Spencer (2013)\n\n\n\n\n\n\nAppendix from Perone & Spencer (2013)",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#model-behavior",
-    "href": "slides/wk-08-dynamic-systems.html#model-behavior",
-    "title": "Dynamic(al) systems",
-    "section": "Model behavior",
-    "text": "Model behavior\n\nPerone & Spencer (2013)",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#challenges-2",
-    "href": "slides/wk-08-dynamic-systems.html#challenges-2",
-    "title": "Dynamic(al) systems",
-    "section": "Challenges",
-    "text": "Challenges\n\nMetaphor or model?\n\nRhythmic motor behaviors in different domains Perone & Spencer (2013)\nShape biases in word learning\nLocomotor milestones are rarely stage-like Perone & Spencer (2013)",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#future-prospects",
-    "href": "slides/wk-08-dynamic-systems.html#future-prospects",
-    "title": "Dynamic(al) systems",
-    "section": "Future prospects",
-    "text": "Future prospects\n\nOn the basis of history, current proclivities of active researchers, and current quantitative training of psychology students, my bet would have to be that this approach will probably fade from the scene or at best remain a little island of activity restricted to a small group of interested parties. (This is the kind of remark that gets quoted and snickered at 20 years later when the approach is flourishing) (p. 314).\n\n– Bogartz (1994) cited in Perone & Spencer (2013)",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#lucca2025-gy-5",
-    "href": "slides/wk-08-dynamic-systems.html#lucca2025-gy-5",
-    "title": "Dynamic(al) systems",
-    "section": "Lucca et al. (2025)",
-    "text": "Lucca et al. (2025)\n\nThis study provides evidence against infants’ prosocial preferences in the hill paradigm, suggesting the effect size is weaker, absent, and/or develops later than previously estimated.",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#inspirations-2",
-    "href": "slides/wk-08-dynamic-systems.html#inspirations-2",
-    "title": "Dynamic(al) systems",
-    "section": "Inspirations",
-    "text": "Inspirations\n\nFord & Lerner (1992) reprinted in Thelen & Smith (1998)",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#approach-thelen2007-df-pp.-289-292",
-    "href": "slides/wk-08-dynamic-systems.html#approach-thelen2007-df-pp.-289-292",
-    "title": "Dynamic(al) systems",
-    "section": "Approach (Thelen & Smith, 2007, pp. 289–292)",
-    "text": "Approach (Thelen & Smith, 2007, pp. 289–292)\n\nIdentify collective variable of interest\nCharacterize behavioral attractor states\nDescribe the dynamic trajectory of the collective variable",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#approach-thelen2007-df-pp.-289-292-1",
-    "href": "slides/wk-08-dynamic-systems.html#approach-thelen2007-df-pp.-289-292-1",
-    "title": "Dynamic(al) systems",
-    "section": "Approach (Thelen & Smith, 2007, pp. 289–292)",
-    "text": "Approach (Thelen & Smith, 2007, pp. 289–292)\n\nIdentify points of transition\nIdentify potential control parameters\nManipulate putative control parameters to experimentally generate transitions",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
-    ]
-  },
-  {
-    "objectID": "lorenz-equation.html#on-convolution",
-    "href": "lorenz-equation.html#on-convolution",
-    "title": "Dynamic systems",
-    "section": "On convolution",
-    "text": "On convolution\nConvolution is a fundamental operation in statistics, and it is a core operation found in Dynamic Field Theory and connectionist models. Here’s an excellent video to explain what convolution is about and how it works.\n\n– 3Blue1Brown (2022)",
-    "crumbs": [
-      "Resources",
-      "Dynamic systems"
-    ]
-  },
-  {
-    "objectID": "lorenz-equation.html#lorenz-system",
-    "href": "lorenz-equation.html#lorenz-system",
-    "title": "Dynamic systems",
-    "section": "Lorenz System",
-    "text": "Lorenz System\n\nEquations\n\\[\\dot{x} = \\sigma(y-x) \\] \\[\\dot{y} = \\rho x - y - xz \\] \\[\\dot{z} = -\\beta z + xy \\]\n\n\nSimulation\nQuietly load required libraries.\n\n\nCode\nsuppressPackageStartupMessages(library(deSolve))\nsuppressPackageStartupMessages(library(plotly))\n\n\nSimulate n=10^{4} time points\n\n\nCode\n# parameters\nprm &lt;- list(sigma = 10, rho = 28, beta = 8/3)\n# initial values\nvarini &lt;- c(\n  X = 1,\n  Y = 1, \n  Z = 1\n)\n\nLorenz &lt;- function (t, vars, prm) {\n  with(as.list(vars), {\n    dX &lt;- prm$sigma*(Y - X)\n    dY &lt;- X*(prm$rho - Z) - Y\n    dZ &lt;- X*Y - prm$beta*Z\n    return(list(c(dX, dY, dZ)))\n   })\n}\n\ntimes &lt;- seq(from = 0, to = 100, by = 0.01)\n# call ode solver\nout &lt;- ode(y = varini, times = times, func = Lorenz,\n           parms = prm)\n\n\nPlot data.\n\n\nCode\n# to assign color to points\ngfill &lt;- function (repArr, long) {\n  rep(repArr, ceiling(long/length(repArr)))[1:long]\n}\n\ndout &lt;- as.data.frame(out)\n\ndout$color &lt;- gfill(rainbow(10), nrow(dout))\n\n# Graphics production with Plotly:\nplot_ly(\n  data=dout, x = ~X, y = ~Y, z = ~Z,\n  type = 'scatter3d', mode = 'lines',\n  opacity = 1, line = list(width = 6, color = ~color, reverscale = FALSE)\n)",
-    "crumbs": [
-      "Resources",
-      "Dynamic systems"
-    ]
-  },
-  {
-    "objectID": "slides/wk-08-dynamic-systems.html#double-pendulum-1",
-    "href": "slides/wk-08-dynamic-systems.html#double-pendulum-1",
-    "title": "Dynamic(al) systems",
-    "section": "Double pendulum",
-    "text": "Double pendulum\n\n\n\\[x_1=(l/2)sin{\\theta_1}\\] \\[y_1=(-l/2)cos(\\theta_1)\\]\n\\[x_2=l(sin(\\theta_1)+1/2*sin(\\theta_2))\\] \\[y_2=-l(cos(\\theta_1)+1/2*cos(\\theta_2))\\]\n\n\n\n\nWikipedia contributors (2025a)",
-    "crumbs": [
-      "Slides",
-      "Wk 08 • Fri Oct 17"
     ]
   }
 ]

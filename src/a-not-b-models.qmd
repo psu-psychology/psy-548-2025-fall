@@ -1,0 +1,24 @@
+---
+title: "Models of A-not-B"
+format: html
+---
+
+## About
+
+This page provides some additional information relevant to the discussion about @Smith1999-xz and @Munakata1997-zx.
+
+## @Thelen2001-dz
+
+Thelen, Smith and colleagues followed up on their empirical work in @Smith1999-xz with a dynamic field model described in @Thelen2001-dz.
+
+The modeling effort begins with a task analysis as described in Figure 1.
+
+![@Thelen2001-dz Figure 1](include/img/thelen-2001-fig-01.png){width="60%"}
+
+The model begins by describing a movement field.
+
+![@Thelen2001-dz Figure 6](include/img/thelen-2001-fig-06.png){width="60%"}
+
+The movement field receives task input and specific input from a separate input field shown below and a memory field (not shown).
+
+![@Thelen2001-dz Figure 8](include/img/thelen-2001-fig-08.png){width="60%"}
