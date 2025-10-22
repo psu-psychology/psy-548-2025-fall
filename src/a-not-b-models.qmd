@@ -1,6 +1,7 @@
 ---
 title: "Models of A-not-B"
 format: html
+lightbox: true
 ---
 
 ## About
@@ -22,3 +23,7 @@ The model begins by describing a movement field.
 The movement field receives task input and specific input from a separate input field shown below and a memory field (not shown).
 
 ![@Thelen2001-dz Figure 8](include/img/thelen-2001-fig-08.png){width="60%"}
+
+Figures 10 and 11 show illustrations of how the input and memory fields evolve with repeated trials at the A location.
+
+![@Thelen2001-dz Figures 10 and 11](include/img/thelen-2001-fig-10-11.png){width="60%"}
