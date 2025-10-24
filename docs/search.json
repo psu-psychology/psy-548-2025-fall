@@ -1115,7 +1115,7 @@
     "href": "slides/wk-01-intro.html#what-do-statistics-model",
     "title": "Course Introduction",
     "section": "What do statistics model?",
-    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 22.025, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6551212 0.7442996\nsample estimates:\n      cor \n0.7024571",
+    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 21.814, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6512568 0.7412782\nsample estimates:\n      cor \n0.6990266",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
@@ -1615,6 +1615,17 @@
     "title": "Models of A-not-B",
     "section": "Thelen, Schöner, Scheier, & Smith (2001)",
     "text": "Thelen, Schöner, Scheier, & Smith (2001)\nThelen, Smith and colleagues followed up on their empirical work in Smith et al. (1999) with a dynamic field model described in Thelen et al. (2001).\nThe modeling effort begins with a task analysis as described in Figure 1.\n\n\n\nThelen et al. (2001) Figure 1\n\n\nThe model begins by describing a movement field.\n\n\n\nThelen et al. (2001) Figure 6\n\n\nThe movement field receives task input and specific input from a separate input field shown below and a memory field (not shown).\n\n\n\nThelen et al. (2001) Figure 8\n\n\nFigures 10 and 11 show illustrations of how the input and memory fields evolve with repeated trials at the A location.\n\n\n\nThelen et al. (2001) Figures 10 and 11",
+    "crumbs": [
+      "Resources",
+      "Models of A-not-B"
+    ]
+  },
+  {
+    "objectID": "a-not-b-models.html#munakata1997-zx",
+    "href": "a-not-b-models.html#munakata1997-zx",
+    "title": "Models of A-not-B",
+    "section": "Munakata et al. (1997)",
+    "text": "Munakata et al. (1997)\nThis figure shows the basic architecture of the network.\n\n\n\nMunakata et al. (1997) Figure 7.\n\n\nThis figure shows how the model’s input maps to the sequence of events that occur in the behavioral task.\n\n\n\nMunakata et al. (1997) Figure 8.\n\n\nThis figure shows how the difference in activation evolves with each epoch of training.\n\n\n\nMunakata et al. (1997) Figure 9.\n\n\n\nThis is illustrated in Figure 9, where we graph the magnitude of a network’s sensitivity to an occluded object reappearing from behind a barrier as a function of training experience and length of occlusion period. The sensitivity depends on the extent to which the network distinguishes between events with and without balls and is defined as the network’s predicted activation for the ball unit at the time step when the ball should reappear (when there is in fact a ball behind the occluder), minus the network’s predicted activation for the ball unit at the same time step, when a ball should not reappear (when in fact no ball was present before the occluder moved in).\n\n– Munakata et al. (1997) p. 699\nThe following two figures show the activation of the internal units in different phases of the simulation.\n\n\n\nMunakata et al. (1997) Figure 11.\n\n\n\n\n\nMunakata et al. (1997) Figure 12.",
     "crumbs": [
       "Resources",
       "Models of A-not-B"
