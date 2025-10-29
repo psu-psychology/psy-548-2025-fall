@@ -9,11 +9,11 @@ The following represents Rick Gilmore's explorations with the [Mermaid](https://
 
 The figures use the [`sequenceDiagram` type](https://docs.mermaidchart.com/mermaid-oss/syntax/sequenceDiagram.html) to reflect the structure of a simple looking time experiment.
 
-The figures are relevant for work we did in class on Weeks [03](schedule.qmd#week-03), [04](schedule.qmd#week-04), and [05](schedule.qmd#week-05).
+The figures are relevant for work we did in class on Weeks [03](../schedule.qmd#week-03), [04](../schedule.qmd#week-04), and [05](../schedule.qmd#week-05).
 
 ::: {.callout-note}
 
-These are in no way illustrative or definitive. They simply represent Gilmore's efforts to learn more about Mermaid while trying to create diagrams that reflect his understanding of the underlying processess and mechanisms at work in looking time studies.
+These are in no way illustrative or definitive. They simply represent Gilmore's efforts to learn more about Mermaid while trying to create diagrams that reflect his understanding of the underlying processes and mechanisms at work in looking time studies.
 
 :::
 
