@@ -50,5 +50,8 @@ The following two figures show the activation of the internal units in different
 
 ![@Munakata1997-zx Figure 11.](include/img/munakata-1997-fig-11.png){width="60%"}
 
-
 ![@Munakata1997-zx Figure 12.](include/img/munakata-1997-fig-12.png){width="60%"}
+
+## Models as maps
+
+$$y_i=A+B+A*B+\epsilon_i$$
