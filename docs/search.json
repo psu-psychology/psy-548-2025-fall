@@ -3368,5 +3368,229 @@
       "Slides",
       "Wk 06 • Fri Oct 03"
     ]
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#todays-topics",
+    "href": "slides/wk-10-embodied-cognition.html#todays-topics",
+    "title": "Embodied Cognition",
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nEmbodied cognition\n\nGeneral Readings: Pfeifer & Bongard (2006), Forward, Chapter 1, and Chapter 12; Smith, Jayaraman, Clerkin, & Yu (2018)"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#smith2018-nc",
+    "href": "slides/wk-10-embodied-cognition.html#smith2018-nc",
+    "title": "Embodied Cognition",
+    "section": "Smith, Jayaraman, Clerkin, & Yu (2018)",
+    "text": "Smith, Jayaraman, Clerkin, & Yu (2018)\n\nDevelopment is a personal journey. The personal vantage point of the learner determines the data for learning for that individual."
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#egocentric-vision",
+    "href": "slides/wk-10-embodied-cognition.html#egocentric-vision",
+    "title": "Embodied Cognition",
+    "section": "Egocentric vision",
+    "text": "Egocentric vision\n\nSmith et al. (2018) Figure 1."
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#natural-statistics",
+    "href": "slides/wk-10-embodied-cognition.html#natural-statistics",
+    "title": "Embodied Cognition",
+    "section": "“Natural” statistics",
+    "text": "“Natural” statistics\n\nDe Cesarei, Loftus, Mastria, & Codispoti (2017) Figure 1."
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#illustrations",
+    "href": "slides/wk-10-embodied-cognition.html#illustrations",
+    "title": "Embodied Cognition",
+    "section": "Illustrations",
+    "text": "Illustrations\n\nSample head camera video: https://databrary.org/volume/99/folder/9797\nLink to Jayaraman, Smith, & Gilmore Databrary volume: https://databrary.org/volume/81"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#optic-flow",
+    "href": "slides/wk-10-embodied-cognition.html#optic-flow",
+    "title": "Embodied Cognition",
+    "section": "Optic flow",
+    "text": "Optic flow\n\n– Dan (2015)"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#types-of-optic-flow",
+    "href": "slides/wk-10-embodied-cognition.html#types-of-optic-flow",
+    "title": "Embodied Cognition",
+    "section": "Types of optic flow",
+    "text": "Types of optic flow\n\nGilmore, Raudies, & Jayaraman (2015)"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#next-time",
+    "href": "slides/wk-10-embodied-cognition.html#next-time",
+    "title": "Embodied Cognition",
+    "section": "Next time…",
+    "text": "Next time…\n\nSociocultural development\n\nRead: Siegler & Alibali (2021) Chapter 4; Tomasello (2016)"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#about",
+    "href": "slides/wk-10-embodied-cognition.html#about",
+    "title": "Embodied Cognition",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2025.5.1.513.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#references",
+    "href": "slides/wk-10-embodied-cognition.html#references",
+    "title": "Embodied Cognition",
+    "section": "References",
+    "text": "References\n\n\n\n\n\"Alan Turing\", & the original. (2001, November 12). Alan Turing. Retrieved October 29, 2025, from https://en.wikipedia.org/wiki/Alan_Turing\n\n\nBraitenberg, V. (2021). Vehicles: Experiments in synthetic psychology. The MIT Press, Massachusetts Institute of Technology. Retrieved from https://mitpress.mit.edu/9780262521123/vehicles/\n\n\nDan. (2015). Toddler GoPro hide and seek. YouTube. Retrieved from https://www.youtube.com/watch?v=o27tIdYggY0&t=25s\n\n\nDe Cesarei, A., Loftus, G. R., Mastria, S., & Codispoti, M. (2017). Understanding natural scenes: Contributions of image statistics. Neuroscience and Biobehavioral Reviews, 74, 44–57. https://doi.org/10.1016/j.neubiorev.2017.01.012\n\n\nFranchak, J. M., Kretch, K. S., & Adolph, K. E. (2018). See and be seen: Infant-caregiver social looking during locomotor free play. Developmental Science, 21, e12626. https://doi.org/10.1111/desc.12626\n\n\nGilmore, R. O., Raudies, F., & Jayaraman, S. (2015). What accounts for developmental shifts in optic flow sensitivity? In 2015 joint IEEE international conference on development and learning and epigenetic robotics (ICDL-EpiRob) (pp. 19–25). Providence, RI, USA: IEEE. https://doi.org/10.1109/devlrn.2015.7345450\n\n\nKretch, K. S., Franchak, J. M., & Adolph, K. E. (2014). Crawling and walking infants see the world differently. Child Development, 85, 1503–1518. https://doi.org/10.1111/cdev.12206\n\n\nOssmy, O., Han, D., MacAlpine, P., Hoch, J., Stone, P., & Adolph, K. E. (2024). Walking and falling: Using robot simulations to model the role of errors in infant walking. Developmental Science, 27, e13449. https://doi.org/10.1111/desc.13449\n\n\nOssmy, O., Hoch, J. E., MacAlpine, P., Hasan, S., Stone, P., & Adolph, K. E. (2018). Variety wins: Soccer-playing robots and infant walking. Frontiers in Neurorobotics, 12, 19. https://doi.org/10.3389/fnbot.2018.00019\n\n\nPfeifer, R., & Bongard, J. (2006). How the body shapes the way we think: A new view of intelligence. MIT Press. Retrieved from https://market.android.com/details?id=book-EHPMv9MfgWwC\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSmith, L. B., Jayaraman, S., Clerkin, E., & Yu, C. (2018). The developing infant creates a curriculum for statistical learning. Trends in Cognitive Sciences, 22, 325–336. https://doi.org/10.1016/j.tics.2018.02.004\n\n\nTangen, C., & Crompton, R. H. (2007, October 3). Human muscle system. Retrieved October 29, 2025, from https://www.britannica.com/science/human-muscle-system\n\n\nTomasello, M. (2016). Cultural learning redux. Child Development, 87, 643–653. https://doi.org/10.1111/cdev.12499\n\n\nWikipedia contributors. (2025, May 27). Braitenberg vehicle. Retrieved from https://en.wikipedia.org/wiki/Braitenberg_vehicle"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#locomotor-posture-and-experienced-optic-flow",
+    "href": "slides/wk-10-embodied-cognition.html#locomotor-posture-and-experienced-optic-flow",
+    "title": "Embodied Cognition",
+    "section": "Locomotor posture and experienced optic flow",
+    "text": "Locomotor posture and experienced optic flow\n\n\n\n\n\nKretch et al. (2014)\n\n\n\n\n\nGilmore et al. (2015)\n\n\n\n\n\n\n\nGilmore et al. (2015)"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#effects-of-locomotor-posture",
+    "href": "slides/wk-10-embodied-cognition.html#effects-of-locomotor-posture",
+    "title": "Embodied Cognition",
+    "section": "Effects of locomotor posture",
+    "text": "Effects of locomotor posture\n\n\n\n\n\nKretch et al. (2014)\n\n\n\n\n\nGilmore et al. (2015)\n\n\n\n\n\n\n\nGilmore et al. (2015)"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#todays-topics-1",
+    "href": "slides/wk-10-embodied-cognition.html#todays-topics-1",
+    "title": "Embodied Cognition",
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nStudent Presentation I: Does development gate input to prevent a “blooming, buzzing confusion?” (Presenter Luke Debec: Discussant: Alyssa Swift)\n\nRead: Kretch, Franchak, & Adolph (2014); Franchak, Kretch, & Adolph (2018)\n\nStudent Presentation J: How can AI & robotics inform developmental science? (Presenter: Pratt Srinivasan; Discussant: Hannah Huang)\n\nRead: Ossmy et al. (2018); Ossmy et al. (2024)"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#the-body-shapes-the-way-we-think",
+    "href": "slides/wk-10-embodied-cognition.html#the-body-shapes-the-way-we-think",
+    "title": "Embodied Cognition",
+    "section": "The body shapes the way we think",
+    "text": "The body shapes the way we think"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#what-is-cognition-without-a-body",
+    "href": "slides/wk-10-embodied-cognition.html#what-is-cognition-without-a-body",
+    "title": "Embodied Cognition",
+    "section": "What is cognition without a body?",
+    "text": "What is cognition without a body?\n\nComputation\nBut what is computation?\nRule-based symbol manipulation\nBut what is rule-based symbol manipulation?"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#example-of-rule-based-symbol-manipulation",
+    "href": "slides/wk-10-embodied-cognition.html#example-of-rule-based-symbol-manipulation",
+    "title": "Embodied Cognition",
+    "section": "Example of rule-based symbol manipulation",
+    "text": "Example of rule-based symbol manipulation\n\na &lt;- 4    # Assign the value 4 the name 'a'\nb &lt;- 2    # Assign the value 2 the name 'b'\nc &lt;- a^b  # Calculate a to the b power and assign the result to the name 'c'  \nc         # Show the value of 'c'\n\n[1] 16"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#example",
+    "href": "slides/wk-10-embodied-cognition.html#example",
+    "title": "Embodied Cognition",
+    "section": "Example",
+    "text": "Example\n\na &lt;- 4    # Assign the value 4 the name 'a'\nb &lt;- 2    # Assign the value 2 the name 'b'\nc &lt;- a^b  # Calculate a to the b power; assign the result to the name 'c'  \nc         # Show the value of 'c'\n\n[1] 16\n\n\n\nsome_letters &lt;- c('A', 'b', 'c', 'D', 'e')\nsome_letters %in% LETTERS # LETTERS is a variable in base R\n\n[1]  TRUE FALSE FALSE  TRUE FALSE"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#examples",
+    "href": "slides/wk-10-embodied-cognition.html#examples",
+    "title": "Embodied Cognition",
+    "section": "Examples",
+    "text": "Examples\n\na &lt;- 4    # Assign the value 4 the name 'a'\nb &lt;- 2    # Assign the value 2 the name 'b'\nc &lt;- a^b  # Calculate a to the b power; assign the result to the name 'c'  \nc         # Show the value of 'c'\n\n[1] 16\n\n\n\n\nNot just numbers\n\n\nsome_letters &lt;- c('A', 'b', 'c', 'D', 'e')\nsome_letters %in% LETTERS # LETTERS is a variable in base R\n\n[1]  TRUE FALSE FALSE  TRUE FALSE"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#but-isnt-there-a-hidden-body",
+    "href": "slides/wk-10-embodied-cognition.html#but-isnt-there-a-hidden-body",
+    "title": "Embodied Cognition",
+    "section": "But isn’t there a hidden body?",
+    "text": "But isn’t there a hidden body?\n\n\n\n\n\nflowchart LR\n  A[person] --&gt;|Types into| B[computer]\n  B --&gt;|Prints text for| A\n  C[developer] --&gt;|programs| B"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#but-isnt-there-a-body",
+    "href": "slides/wk-10-embodied-cognition.html#but-isnt-there-a-body",
+    "title": "Embodied Cognition",
+    "section": "But isn’t there a body?",
+    "text": "But isn’t there a body?\n\n\n\n\n\n\ngiphy.com\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A@{shape: rect, label: \"person\"}\n  B@{shape: rounded, label: \"computer\" }\n  A[person] --&gt;|Types into| B\n  B --&gt;|Prints text| A\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A@{shape: rect, label: \"person\"}\n  B@{shape: rounded, label: \"computer\" }\n  C@{shape: rect, label: \"developer\"}\n  A[person] --&gt;|Types into| B\n  B --&gt;|Prints text| A\n  C --&gt;|Programs| B"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#symbols-and-operations",
+    "href": "slides/wk-10-embodied-cognition.html#symbols-and-operations",
+    "title": "Embodied Cognition",
+    "section": "Symbols and operations",
+    "text": "Symbols and operations\n\n{a, b, c}: ‘allowable’ names for things in R\n&lt;-: a short symbol for the ‘assign()’ function\n\n\n\nassign('a', 4) == (a &lt;- 4) # `==` is a symbol that tests for equality\n\n[1] TRUE\n\n\n\n\n\n^: ‘exponential’ operator/symbol"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#turing-machines",
+    "href": "slides/wk-10-embodied-cognition.html#turing-machines",
+    "title": "Embodied Cognition",
+    "section": "Turing machines",
+    "text": "Turing machines\n\n\nAlan Turing\n\n\n\n\"Alan Turing\" & the original (2001)\n\n\n\n\n\n\nhttps://web.mit.edu/manoli/turing/www/turing.html\n\n\n\nReadable/writeable memory\nRules for transitions between states"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#computers",
+    "href": "slides/wk-10-embodied-cognition.html#computers",
+    "title": "Embodied Cognition",
+    "section": "Computers",
+    "text": "Computers\n\nAre universal Turing machines"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#universal-turing-machines-utm",
+    "href": "slides/wk-10-embodied-cognition.html#universal-turing-machines-utm",
+    "title": "Embodied Cognition",
+    "section": "Universal Turing Machines (UTM)",
+    "text": "Universal Turing Machines (UTM)\n\n\nCan compute any computable sequence\nModern digital computers are UTMs\nEverything’s a binary string: 00101100\n\nData\nMemory addresses\nMachine instructions (add, subtract, store, etc.)"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#universal-turing-machines",
+    "href": "slides/wk-10-embodied-cognition.html#universal-turing-machines",
+    "title": "Embodied Cognition",
+    "section": "Universal Turing Machines",
+    "text": "Universal Turing Machines\n\nRepresentation: Map from thing to binary string\nHigh-level computer languages\n\nMap human-readable codes to machine-readable binary strings"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#embodied-cognition-1",
+    "href": "slides/wk-10-embodied-cognition.html#embodied-cognition-1",
+    "title": "Embodied Cognition",
+    "section": "Embodied cognition",
+    "text": "Embodied cognition\n\nBy embodiment, we mean that intelligence always requires a body.\n\n– Pfeifer & Bongard (2006)"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#why-embodiment",
+    "href": "slides/wk-10-embodied-cognition.html#why-embodiment",
+    "title": "Embodied Cognition",
+    "section": "Why embodiment?",
+    "text": "Why embodiment?\n\nBody as enabler\nMakes (some/many) tasks easier\nImproves perception\nMakes rapid/efficient movement possible\nUnderstanding by building"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#but-isnt-there-a-body-1",
+    "href": "slides/wk-10-embodied-cognition.html#but-isnt-there-a-body-1",
+    "title": "Embodied Cognition",
+    "section": "But isn’t there a body?",
+    "text": "But isn’t there a body?\n\n\n\n\n\n\ngiphy.com\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A@{shape: rect, label: \"person\"}\n  B@{shape: rounded, label: \"computer\" }\n  A[person] --&gt;|Types into| B\n  B --&gt;|Prints text| A\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A@{shape: rect, label: \"person\"}\n  B@{shape: rounded, label: \"computer\" }\n  C@{shape: rect, label: \"developer\"}\n  A[person] --&gt;|Types into| B\n  B --&gt;|Prints text| A\n  C --&gt;|Programs| B"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#controlling-the-body",
+    "href": "slides/wk-10-embodied-cognition.html#controlling-the-body",
+    "title": "Embodied Cognition",
+    "section": "Controlling the body",
+    "text": "Controlling the body\n\n\n\n~650 skeletal muscles\nMillions? of motor neurons involved in control of somatic nervous system\n\n\n\n\n\nTangen & Crompton (2007)"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#consequences-of-physical-constraints",
+    "href": "slides/wk-10-embodied-cognition.html#consequences-of-physical-constraints",
+    "title": "Embodied Cognition",
+    "section": "Consequences of physical constraints",
+    "text": "Consequences of physical constraints\n\n\n\nBraitenberg (2021) vehicles\n\n\n\n\n\nWikipedia contributors (2025)"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#braitenberg-vehicle-simulator",
+    "href": "slides/wk-10-embodied-cognition.html#braitenberg-vehicle-simulator",
+    "title": "Embodied Cognition",
+    "section": "Braitenberg vehicle simulator",
+    "text": "Braitenberg vehicle simulator\n\nhttp://www.harmendeweerd.nl/braitenberg-vehicles/"
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#embodiment-considered",
+    "href": "slides/wk-10-embodied-cognition.html#embodiment-considered",
+    "title": "Embodied Cognition",
+    "section": "Embodiment considered",
+    "text": "Embodiment considered\n\nWhat is behavior?\n\nChanges in or movements of the body"
   }
 ]
