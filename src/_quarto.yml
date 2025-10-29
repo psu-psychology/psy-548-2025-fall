@@ -4,12 +4,11 @@ project:
   render:
     - "*.qmd"
     - "slides/*.qmd"
-  # lib-dir: include/site_libs
 
 website:
   title: "PSY 548"
   announcement: 
-    content: "The Week 11 Siegler & Alibali chapter is being scanned. Look for it on Canvas soon." 
+    content: "The Week 11 Siegler & Alibali chapter is on Canvas now." 
     position: below-navbar
     icon: info-circle
     dismissable: true
@@ -33,16 +32,17 @@ website:
             href: slides/wk-06-constructivism.qmd
           - text: "Wk 08 • Fri Oct 17"
             href: slides/wk-08-dynamic-systems.qmd
+          - text: "Wk 10 • Fri Oct 31"
+            href: slides/wk-10-embodied-cognition.qmd
       - section: "Resources"
         contents:
-          - presentations.qmd
-          - causal-relations.qmd
-          - elkind-1961.qmd
-          # - repro-rubric.qmd
-          - looking-times.qmd
-          - constructivism.qmd
-          - lorenz-equation.qmd
-          - a-not-b-models.qmd
+          - resources/presentations.qmd
+          - resources/causal-relations.qmd
+          - resources/elkind-1961.qmd
+          - resources/looking-times.qmd
+          - resources/constructivism.qmd
+          - resources/lorenz-equation.qmd
+          - resources/a-not-b-models.qmd
     
   repo-url: https://github.com/psu-psychology/psy-548-2025-fall
   repo-actions: [edit, issue]

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-10-24">
+<meta name="dcterms.date" content="2025-10-29">
 
 <title>Models of A-not-B – PSY 548</title>
 <style>
@@ -129,6 +129,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -149,8 +178,8 @@ div.csl-indent {
       </button>
     </div>
   </nav>
-  <div id="quarto-announcement" data-announcement-id="cba61bd53b5cf247bf1a631c34cc6d8a" class="alert alert-primary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p>The Week 11 Siegler &amp; Alibali chapter is being scanned. Look for it on Canvas soon.</p>
+  <div id="quarto-announcement" data-announcement-id="b865fd29300836b5548d4fa827732275" class="alert alert-primary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p>The Week 11 Siegler &amp; Alibali chapter is on Canvas now.</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
@@ -231,6 +260,12 @@ div.csl-indent {
  <span class="menu-text">Wk 08 • Fri Oct 17</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./slides/wk-10-embodied-cognition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wk 10 • Fri Oct 31</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -299,6 +334,7 @@ div.csl-indent {
   <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
   <li><a href="#thelen2001-dz" id="toc-thelen2001-dz" class="nav-link" data-scroll-target="#thelen2001-dz"><span class="citation" data-cites="Thelen2001-dz">Thelen, Schöner, Scheier, &amp; Smith (2001)</span></a></li>
   <li><a href="#munakata1997-zx" id="toc-munakata1997-zx" class="nav-link" data-scroll-target="#munakata1997-zx"><span class="citation" data-cites="Munakata1997-zx">Munakata et al. (1997)</span></a></li>
+  <li><a href="#models-as-maps" id="toc-models-as-maps" class="nav-link" data-scroll-target="#models-as-maps">Models as maps</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-548-2025-fall/edit/main/src/a-not-b-models.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-548-2025-fall/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -318,14 +354,14 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 24, 2025</p>
+      <p class="date">October 29, 2025</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">October 24, 2025</p>
+      <p class="date-modified">October 29, 2025</p>
     </div>
   </div>
     
@@ -412,6 +448,10 @@ div.csl-indent {
 <figcaption><span class="citation" data-cites="Munakata1997-zx">Munakata et al. (<a href="#ref-Munakata1997-zx" role="doc-biblioref">1997</a>)</span> Figure 12.</figcaption>
 </figure>
 </div>
+</section>
+<section id="models-as-maps" class="level2">
+<h2 class="anchored" data-anchor-id="models-as-maps">Models as maps</h2>
+<p><span class="math display">\[y_i=A+B+A*B+\epsilon_i\]</span></p>
 
 
 <!-- -->
@@ -942,8 +982,11 @@ Thelen, E., Schöner, G., Scheier, C., &amp; Smith, L. B. (2001). The dynamics o
 <span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="al">![@Munakata1997-zx Figure 11.](include/img/munakata-1997-fig-11.png)</span>{width="60%"}</span>
 <span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="al">![@Munakata1997-zx Figure 12.](include/img/munakata-1997-fig-12.png)</span>{width="60%"}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="al">![@Munakata1997-zx Figure 12.](include/img/munakata-1997-fig-12.png)</span>{width="60%"}</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="fu">## Models as maps</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>$$y_i=A+B+A*B+\epsilon_i$$</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

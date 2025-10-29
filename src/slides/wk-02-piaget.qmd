@@ -15,7 +15,7 @@ fig-align: "center"
 ## Today's topics
 
 - Check-in on hierarchical task analyses (HTA)
-- Presentation [schedule](../presentations.qmd)
+- Presentation [schedule](../resources/presentations.qmd)
 - Background ideas
 - Theoretical foundations: Piaget
   - *General Readings*: @Siegler2021-py Chapter 2; @Piaget1952-dm; @Newcombe2013-qy
@@ -329,7 +329,7 @@ flowchart TD
 
 - How does Piaget view the question of cognitive continuity vs. discontinuity?
 - Are the relations among sensations and actions described in @Piaget1952-dm clearly specified that you could write out the schema?
-- Gilmore's attempt to unpack the [causal relations](../causal-relations.qmd) at work in the situation of the infant in the bassinet
+- Gilmore's attempt to unpack the [causal relations](../resources/causal-relations.qmd) at work in the situation of the infant in the bassinet
   - Do developmental scientists need to "complexify" our phenomena before we simplify them?
 
 ## Notable comments

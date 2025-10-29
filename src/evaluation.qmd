@@ -53,7 +53,7 @@ If you’re not a presenter or discussion leader, you should read the prompts fo
 
 Participation in class discussions and the submission of discussion questions or comments is worth 15 points or 15% of your overall grade. 
 
-### Possible group project
+<!-- ### Possible group project -->
 
-I would like to make use of some of the time we have on days when we are largely discussing empirical articles to evaluate their rigor, reproducibility, and transparency. The rubric for this evaluation is in an [early draft form](repro-rubric.qmd). I invite student feedback on this idea.
+<!-- I would like to make use of some of the time we have on days when we are largely discussing empirical articles to evaluate their rigor, reproducibility, and transparency. The rubric for this evaluation is in an [early draft form](repro-rubric.qmd). I invite student feedback on this idea. -->
 

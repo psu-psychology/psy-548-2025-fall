@@ -17,7 +17,7 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 ## Week 01
 
-### Friday, August 29, 2025
+### Fri, August 29, 2025
 
 #### Topics & Readings
 
@@ -32,7 +32,7 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 ## Week 02
 
-### Friday, September 5, 2025
+### Fri, September 5, 2025
 
 #### Topics & Readings
 
@@ -42,7 +42,7 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 ## Week 03
 
-### Friday, September 12, 2025
+### Fri, September 12, 2025
 
 #### Topics
 
@@ -54,7 +54,7 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 ## Week 04
 
-### Friday, September 19, 2025
+### Fri, September 19, 2025
 
 #### Topics & Readings
 
@@ -64,7 +64,7 @@ I have adopted considerable portions of their readings and assignment ideas.
   
 ## Week 05
 
-### Friday, September 26, 2025
+### Fri, September 26, 2025
 
 #### Topics & Readings
 
@@ -78,7 +78,7 @@ I have adopted considerable portions of their readings and assignment ideas.
   
 ## Week 06
 
-### Friday, October 3, 2025
+### Fri, October 3, 2025
 
 #### Topics & Readings
 
@@ -88,7 +88,7 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 ## Week 07
 
-### Friday, October 10, 2025
+### Fri, October 10, 2025
 
 - Constructivism: Deep dive
   - *Student Presentation E*: How do developmental disorders inform our understanding of cognitive development? (*Presenter*: Katie Billetdeaux; *Discussant*: Pratt Srinivasan)
@@ -96,22 +96,22 @@ I have adopted considerable portions of their readings and assignment ideas.
 
 ## Week 08
 
-### Friday, October 17, 2025
+### Fri, October 17, 2025
 
 #### Topics & Readings
 
 - *Student Presentation F*: The risks of generalization (*Presenter*: Gilmore; *Discussant*: Carlos Almeida)
     <!-- - *Watch*: @Treeincement2010-en, @innovation2014-kj -->
     - *Read*: @Packer2022-gn; @Kominsky2022-we; @Lucca2025-gy
-    - *Supplemental*: [Constructivism](constructivism.qmd)
+    - *Supplemental*: [Constructivism](resources/constructivism.qmd)
 - Emergentism & dynamic systems
   - *General Readings*: @Thelen2003-tt; @Perone2017-qb OR @Thelen2007-df
-  - *Supplemental*: [Lorenz System](lorenz-equation.qmd)
-- *Slides*: | [html](slides/wk-08-dynamic-systems.qmd) | 
+  - *Supplemental*: [Lorenz System](resources/lorenz-equation.qmd)
+  - *Slides*: | [html](slides/wk-08-dynamic-systems.qmd) | 
 
 ## Week 09
 
-### Friday, October 24, 2025
+### Fri, October 24, 2025
 
 #### Topics & Readings
 
@@ -124,12 +124,13 @@ Caesar Liu)
     
 ## Week 10
 
-### Friday, October 31, 2025
+### Fri, October 31, 2025
 
 #### Topics & Readings
 
 - Embodied cognition
   - *General Readings*: @Pfeifer2006-nx, Forward, Chapter 1, and Chapter 12; @Smith2018-nc
+  - *Slides*: | [html](slides/wk-10-embodied-cognition.qmd) |
 - *Student Presentation I*: Does development gate input to prevent a "blooming, buzzing confusion?" (*Presenter* Luke Debec: *Discussant*: Alyssa Swift)
   - *Read*: @Kretch2014-ck; @Franchak2018-oj
 - *Student Presentation J*: How can AI & robotics inform developmental science? (*Presenter*: Pratt Srinivasan; *Discussant*: Hannah Huang)
@@ -137,7 +138,7 @@ Caesar Liu)
   
 ## Week 11
 
-### Friday, November 7, 2025
+### Fri, November 7, 2025
 
 #### Topics & Readings
 
@@ -146,7 +147,7 @@ Caesar Liu)
 
 ## Week 12
 
-### Friday, November 14, 2025
+### Fri, November 14, 2025
 
 #### Topics & Readings
 
@@ -158,7 +159,7 @@ Caesar Liu)
 
 ## Week 13
 
-### Friday, November 21, 2025
+### Fri, November 21, 2025
 
 #### Topics & Readings
 
@@ -173,7 +174,7 @@ Caesar Liu)
 
 ## Week 14
 
-### Friday, December 5, 2025
+### Fri, December 5, 2025
 
 #### Topics & Readings
 
@@ -184,7 +185,7 @@ Caesar Liu)
 
 ## Week 15
 
-### Friday, December 12, 2025
+### Fri, December 12, 2025
 
 #### Topics & Readings
 
