@@ -6,6 +6,17 @@ fig-align: "center"
 
 # Prelude
 
+---
+
+::: {#fig-robot-dance}
+
+<iframe width="390" height="700" src="https://www.youtube.com/embed/crc_CWJ7blw" title="robot dance 🕺 #dance #dollgirl #robot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+:::
+
+---
+
+
 ## Today's topics
 
 - Embodied cognition
@@ -145,10 +156,10 @@ Alan Turing
 ::: {.fragment}
 - Can compute any computable sequence
 - Modern digital computers are UTMs
-- Everything's a binary string: `00101100`
+- Everything's a string of binary digits (bits): `00101100`
   - Data
   - Memory addresses
-  - Machine instructions (add, subtract, store, etc.)
+  - Instructions (add, subtract, store, recall, etc.)
 :::
 
 ## Universal Turing Machines
@@ -156,6 +167,7 @@ Alan Turing
 - Representation: Map from thing to binary string
 - High-level computer languages 
   - Map human-readable codes to machine-readable binary strings
+- Human-readable computer languages $\rightarrow$ machine code via intepreters or compilers [@Resume2022-gn]
 
 ## Examples
 
@@ -195,7 +207,7 @@ assign('a', 4) == (a <- 4) # `==` is a symbol that tests for equality
 - `^`: 'exponential' operator/symbol
 :::
 
-## But isn't there a body?
+## Aren't we forgetting a body?
 
 :::: {.columns}
 ::: {.column width=50%}
@@ -252,11 +264,12 @@ flowchart LR
 :::
 ::::
 
-## Consequences of physical constraints
+## Physical constraints can *reduce* DFs
 
 :::: {.columns}
 ::: {.column width=50%}
 - Braitenberg [-@Braitenberg2021-fz] vehicles
+- Simple "anatomy", complex behavior
 :::
 ::: {.column width=50%}
 ![@Wikipedia-contributors2025-ik](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Braitenberg_Vehicle_2ab.png/500px-Braitenberg_Vehicle_2ab.png)
@@ -288,13 +301,21 @@ flowchart LR
 
 ## Challenges to embodied cognition
 
-- Origins of abstract concepts
+- Origins of abstract concepts?
   - e.g., mathematics, logic, philosophy
 - Micro-theories or just-so stories
 - Vague terminology
 - Body as constituent not cause
 
 # Wrap-up
+
+## Main points
+
+- Individual-specific environments vary, between children & across time
+- Advantages to *measuring* them
+- "Development is a personal journey," but what are regularities?
+- Intelligence (so far) involves a body
+- Does embodiment close an interactive/predictive loop?
 
 ## Next time...
 

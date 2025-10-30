@@ -136,7 +136,7 @@
     "href": "slides/wk-10-embodied-cognition.html#universal-turing-machines-utm",
     "title": "Embodied Cognition",
     "section": "Universal Turing Machines (UTM)",
-    "text": "Universal Turing Machines (UTM)\n\n\nCan compute any computable sequence\nModern digital computers are UTMs\nEverything’s a binary string: 00101100\n\nData\nMemory addresses\nMachine instructions (add, subtract, store, etc.)",
+    "text": "Universal Turing Machines (UTM)\n\n\nCan compute any computable sequence\nModern digital computers are UTMs\nEverything’s a string of binary digits (bits): 00101100\n\nData\nMemory addresses\nInstructions (add, subtract, store, recall, etc.)",
     "crumbs": [
       "Slides",
       "Wk 10 • Fri Oct 31"
@@ -147,7 +147,7 @@
     "href": "slides/wk-10-embodied-cognition.html#universal-turing-machines",
     "title": "Embodied Cognition",
     "section": "Universal Turing Machines",
-    "text": "Universal Turing Machines\n\nRepresentation: Map from thing to binary string\nHigh-level computer languages\n\nMap human-readable codes to machine-readable binary strings",
+    "text": "Universal Turing Machines\n\nRepresentation: Map from thing to binary string\nHigh-level computer languages\n\nMap human-readable codes to machine-readable binary strings\n\nHuman-readable computer languages \\(\\rightarrow\\) machine code via intepreters or compilers (Resume, 2022)",
     "crumbs": [
       "Slides",
       "Wk 10 • Fri Oct 31"
@@ -257,7 +257,7 @@
     "href": "slides/wk-10-embodied-cognition.html#challenges-to-embodied-cognition",
     "title": "Embodied Cognition",
     "section": "Challenges to embodied cognition",
-    "text": "Challenges to embodied cognition\n\nOrigins of abstract concepts\n\ne.g., mathematics, logic, philosophy\n\nMicro-theories or just-so stories\nVague terminology\nBody as constituent not cause",
+    "text": "Challenges to embodied cognition\n\nOrigins of abstract concepts?\n\ne.g., mathematics, logic, philosophy\n\nMicro-theories or just-so stories\nVague terminology\nBody as constituent not cause",
     "crumbs": [
       "Slides",
       "Wk 10 • Fri Oct 31"
@@ -290,7 +290,7 @@
     "href": "slides/wk-10-embodied-cognition.html#references",
     "title": "Embodied Cognition",
     "section": "References",
-    "text": "References\n\n\n\n\n\"Alan Turing\", & the original. (2001, November 12). Alan Turing. Retrieved October 29, 2025, from https://en.wikipedia.org/wiki/Alan_Turing\n\n\nArimoto, S. (2005). A challenge to Bernstein’s degrees-of-freedom problem in both cases of human and robotic multi-joint movements. IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences, E88-A, 2484–2495. https://doi.org/10.1093/ietfec/e88-a.10.2484\n\n\nBarsalou, L. W. (1999). Perceptions of perceptual symbols. The Behavioral and Brain Sciences, 22, 637–660. https://doi.org/10.1017/s0140525x99532147\n\n\nBarsalou, L. W. (2020). Challenges and opportunities for grounding cognition. Journal of Cognition, 3, 31. https://doi.org/10.5334/joc.116\n\n\nBraitenberg, V. (2021). Vehicles: Experiments in synthetic psychology. The MIT Press, Massachusetts Institute of Technology. Retrieved from https://mitpress.mit.edu/9780262521123/vehicles/\n\n\nDan. (2015). Toddler GoPro hide and seek. YouTube. Retrieved from https://www.youtube.com/watch?v=o27tIdYggY0&t=25s\n\n\nDe Cesarei, A., Loftus, G. R., Mastria, S., & Codispoti, M. (2017). Understanding natural scenes: Contributions of image statistics. Neuroscience and Biobehavioral Reviews, 74, 44–57. https://doi.org/10.1016/j.neubiorev.2017.01.012\n\n\nFranchak, J. M., Kretch, K. S., & Adolph, K. E. (2018). See and be seen: Infant-caregiver social looking during locomotor free play. Developmental Science, 21, e12626. https://doi.org/10.1111/desc.12626\n\n\nGilmore, R. O., Raudies, F., & Jayaraman, S. (2015). What accounts for developmental shifts in optic flow sensitivity? In 2015 joint IEEE international conference on development and learning and epigenetic robotics (ICDL-EpiRob) (pp. 19–25). Providence, RI, USA: IEEE. https://doi.org/10.1109/devlrn.2015.7345450\n\n\nKretch, K. S., Franchak, J. M., & Adolph, K. E. (2014). Crawling and walking infants see the world differently. Child Development, 85, 1503–1518. https://doi.org/10.1111/cdev.12206\n\n\nNewen, A., De Bruin, L., & Gallagher, S. (Eds.). (2018). The oxford handbook of 4E cognition. London, England: Oxford University Press. https://doi.org/10.1093/oxfordhb/9780198735410.001.0001\n\n\nOssmy, O., Han, D., MacAlpine, P., Hoch, J., Stone, P., & Adolph, K. E. (2024). Walking and falling: Using robot simulations to model the role of errors in infant walking. Developmental Science, 27, e13449. https://doi.org/10.1111/desc.13449\n\n\nOssmy, O., Hoch, J. E., MacAlpine, P., Hasan, S., Stone, P., & Adolph, K. E. (2018). Variety wins: Soccer-playing robots and infant walking. Frontiers in Neurorobotics, 12, 19. https://doi.org/10.3389/fnbot.2018.00019\n\n\nPfeifer, R., & Bongard, J. (2006). How the body shapes the way we think: A new view of intelligence. MIT Press. Retrieved from https://market.android.com/details?id=book-EHPMv9MfgWwC\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSmith, L. B., Jayaraman, S., Clerkin, E., & Yu, C. (2018). The developing infant creates a curriculum for statistical learning. Trends in Cognitive Sciences, 22, 325–336. https://doi.org/10.1016/j.tics.2018.02.004\n\n\nTangen, C., & Crompton, R. H. (2007, October 3). Human muscle system. Retrieved October 29, 2025, from https://www.britannica.com/science/human-muscle-system\n\n\nTomasello, M. (2016). Cultural learning redux. Child Development, 87, 643–653. https://doi.org/10.1111/cdev.12499\n\n\nWikipedia contributors. (2025a, May 27). Braitenberg vehicle. Retrieved from https://en.wikipedia.org/wiki/Braitenberg_vehicle\n\n\nWikipedia contributors. (2025b, October 15). Nikolai bernstein. Retrieved from https://en.wikipedia.org/wiki/Nikolai_Bernstein",
+    "text": "References\n\n\n\n\n\"Alan Turing\", & the original. (2001, November 12). Alan Turing. Retrieved October 29, 2025, from https://en.wikipedia.org/wiki/Alan_Turing\n\n\nArimoto, S. (2005). A challenge to Bernstein’s degrees-of-freedom problem in both cases of human and robotic multi-joint movements. IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences, E88-A, 2484–2495. https://doi.org/10.1093/ietfec/e88-a.10.2484\n\n\nBarsalou, L. W. (1999). Perceptions of perceptual symbols. The Behavioral and Brain Sciences, 22, 637–660. https://doi.org/10.1017/s0140525x99532147\n\n\nBarsalou, L. W. (2020). Challenges and opportunities for grounding cognition. Journal of Cognition, 3, 31. https://doi.org/10.5334/joc.116\n\n\nBraitenberg, V. (2021). Vehicles: Experiments in synthetic psychology. The MIT Press, Massachusetts Institute of Technology. Retrieved from https://mitpress.mit.edu/9780262521123/vehicles/\n\n\nDan. (2015). Toddler GoPro hide and seek. YouTube. Retrieved from https://www.youtube.com/watch?v=o27tIdYggY0&t=25s\n\n\nDe Cesarei, A., Loftus, G. R., Mastria, S., & Codispoti, M. (2017). Understanding natural scenes: Contributions of image statistics. Neuroscience and Biobehavioral Reviews, 74, 44–57. https://doi.org/10.1016/j.neubiorev.2017.01.012\n\n\nFranchak, J. M., Kretch, K. S., & Adolph, K. E. (2018). See and be seen: Infant-caregiver social looking during locomotor free play. Developmental Science, 21, e12626. https://doi.org/10.1111/desc.12626\n\n\nGilmore, R. O., Raudies, F., & Jayaraman, S. (2015). What accounts for developmental shifts in optic flow sensitivity? In 2015 joint IEEE international conference on development and learning and epigenetic robotics (ICDL-EpiRob) (pp. 19–25). Providence, RI, USA: IEEE. https://doi.org/10.1109/devlrn.2015.7345450\n\n\nKretch, K. S., Franchak, J. M., & Adolph, K. E. (2014). Crawling and walking infants see the world differently. Child Development, 85, 1503–1518. https://doi.org/10.1111/cdev.12206\n\n\nNewen, A., De Bruin, L., & Gallagher, S. (Eds.). (2018). The oxford handbook of 4E cognition. London, England: Oxford University Press. https://doi.org/10.1093/oxfordhb/9780198735410.001.0001\n\n\nOssmy, O., Han, D., MacAlpine, P., Hoch, J., Stone, P., & Adolph, K. E. (2024). Walking and falling: Using robot simulations to model the role of errors in infant walking. Developmental Science, 27, e13449. https://doi.org/10.1111/desc.13449\n\n\nOssmy, O., Hoch, J. E., MacAlpine, P., Hasan, S., Stone, P., & Adolph, K. E. (2018). Variety wins: Soccer-playing robots and infant walking. Frontiers in Neurorobotics, 12, 19. https://doi.org/10.3389/fnbot.2018.00019\n\n\nPfeifer, R., & Bongard, J. (2006). How the body shapes the way we think: A new view of intelligence. MIT Press. Retrieved from https://market.android.com/details?id=book-EHPMv9MfgWwC\n\n\nResume, C. (2022). Interpreters and compilers explained. Youtube. Retrieved from https://www.youtube.com/watch?v=fJppSQQkMs0&t=180s\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSmith, L. B., Jayaraman, S., Clerkin, E., & Yu, C. (2018). The developing infant creates a curriculum for statistical learning. Trends in Cognitive Sciences, 22, 325–336. https://doi.org/10.1016/j.tics.2018.02.004\n\n\nTangen, C., & Crompton, R. H. (2007, October 3). Human muscle system. Retrieved October 29, 2025, from https://www.britannica.com/science/human-muscle-system\n\n\nTomasello, M. (2016). Cultural learning redux. Child Development, 87, 643–653. https://doi.org/10.1111/cdev.12499\n\n\nWikipedia contributors. (2025a, May 27). Braitenberg vehicle. Retrieved from https://en.wikipedia.org/wiki/Braitenberg_vehicle\n\n\nWikipedia contributors. (2025b, October 15). Nikolai bernstein. Retrieved from https://en.wikipedia.org/wiki/Nikolai_Bernstein",
     "crumbs": [
       "Slides",
       "Wk 10 • Fri Oct 31"
@@ -3675,6 +3675,39 @@
     "crumbs": [
       "Slides",
       "Wk 08 • Fri Oct 17"
+    ]
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#arent-we-forgetting-a-body",
+    "href": "slides/wk-10-embodied-cognition.html#arent-we-forgetting-a-body",
+    "title": "Embodied Cognition",
+    "section": "Aren’t we forgetting a body?",
+    "text": "Aren’t we forgetting a body?\n\n\n\n\n\n\ngiphy.com\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A@{shape: rect, label: \"person\"}\n  B@{shape: rounded, label: \"computer\" }\n  A[person] --&gt;|Types into| B\n  B --&gt;|Prints text| A\n\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  A@{shape: rect, label: \"person\"}\n  B@{shape: rounded, label: \"computer\" }\n  C@{shape: rect, label: \"developer\"}\n  A[person] --&gt;|Types into| B\n  B --&gt;|Prints text| A\n  C --&gt;|Programs| B",
+    "crumbs": [
+      "Slides",
+      "Wk 10 • Fri Oct 31"
+    ]
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#physical-constraints-can-reduce-dfs",
+    "href": "slides/wk-10-embodied-cognition.html#physical-constraints-can-reduce-dfs",
+    "title": "Embodied Cognition",
+    "section": "Physical constraints can reduce DFs",
+    "text": "Physical constraints can reduce DFs\n\n\n\nBraitenberg (2021) vehicles\nSimple “anatomy”, complex behavior\n\n\n\n\n\nWikipedia contributors (2025a)",
+    "crumbs": [
+      "Slides",
+      "Wk 10 • Fri Oct 31"
+    ]
+  },
+  {
+    "objectID": "slides/wk-10-embodied-cognition.html#main-points",
+    "href": "slides/wk-10-embodied-cognition.html#main-points",
+    "title": "Embodied Cognition",
+    "section": "Main points",
+    "text": "Main points\n\nIndividual-specific environments vary, between children & across time\nAdvantages to measuring them\n“Development is a personal journey,” but what are regularities?\nIntelligence (so far) involves a body\nDoes embodiment close an interactive/predictive loop?",
+    "crumbs": [
+      "Slides",
+      "Wk 10 • Fri Oct 31"
     ]
   }
 ]
