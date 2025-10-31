@@ -160,14 +160,18 @@ Alan Turing
   - Data
   - Memory addresses
   - Instructions (add, subtract, store, recall, etc.)
+  
 :::
 
 ## Universal Turing Machines
 
+::: {.fragment}
 - Representation: Map from thing to binary string
 - High-level computer languages 
   - Map human-readable codes to machine-readable binary strings
 - Human-readable computer languages $\rightarrow$ machine code via intepreters or compilers [@Resume2022-gn]
+
+:::
 
 ## Examples
 
@@ -206,6 +210,25 @@ assign('a', 4) == (a <- 4) # `==` is a symbol that tests for equality
 ::: {.fragment}
 - `^`: 'exponential' operator/symbol
 :::
+
+## From symbol manipulation to semantic networks
+
+![Source: https://www.researchgate.net/figure/Example-of-a-semantic-network-describing-animals-Source-own-work-A-new-vision-of-the_fig23_283328263](../include/img/semantic-network.png)
+
+- See also @Wikipedia-contributors2025-nl
+
+## To cognitive architectures
+
+:::: {.columns}
+::: {.column width=60%}
+- e.g., ACT-R [@Wikipedia-contributors2025-ot], see also @Newell1990-qr
+- Declarative memory ("Gilmore wears glasses")
+- Procedural memory (productions or rules to carry out actions)
+:::
+::: {.column width=40%}
+![@Wikipedia-contributors2025-ot](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Simplified_ACT-R_Schematic.png/250px-Simplified_ACT-R_Schematic.png)
+:::
+::::
 
 ## Aren't we forgetting a body?
 
@@ -303,6 +326,12 @@ flowchart LR
 
 - Origins of abstract concepts?
   - e.g., mathematics, logic, philosophy
+- Procedural vs. declarative memory 
+  - Differently impaired in medial temporal lobe-associated amnesia [@Milner1970-yl]
+- Perceiving what vs. where [@Mishkin1983-px] or how [@Goodale1991-el; @De_Haan2011-hf]
+
+## Challenges to embodied cognition
+
 - Micro-theories or just-so stories
 - Vague terminology
 - Body as constituent not cause
