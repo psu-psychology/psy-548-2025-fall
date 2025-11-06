@@ -3742,5 +3742,222 @@
       "Slides",
       "Wk 10 • Fri Oct 31"
     ]
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#todays-topics",
+    "href": "slides/wk-11-sociocultural.html#todays-topics",
+    "title": "Sociocultural Development",
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nSociocultural development\n\nDiscuss: Siegler & Alibali (2021) Chapter 4; Tomasello (2016)"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#tomasello2016-rx",
+    "href": "slides/wk-11-sociocultural.html#tomasello2016-rx",
+    "title": "Sociocultural Development",
+    "section": "Tomasello (2016)",
+    "text": "Tomasello (2016)\n\n\n\nImitative\nInstructed\nCollaborative\n\n\n\n\n\nTomasello (2016) Figure 1"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#imitative-learning",
+    "href": "slides/wk-11-sociocultural.html#imitative-learning",
+    "title": "Sociocultural Development",
+    "section": "Imitative learning",
+    "text": "Imitative learning\n\nMany animals\n\nLearn via imitation\n\nMany primates\n\nLearn “…because of or from” others (Tomasello, 2016, p. 643)\n\nOnly humans\n\n“…learn things through another individual” (Tomasello, 2016, p. 644)"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#imitative-learning-1",
+    "href": "slides/wk-11-sociocultural.html#imitative-learning-1",
+    "title": "Sociocultural Development",
+    "section": "Imitative learning",
+    "text": "Imitative learning\n\n== observational learning?\n\nPerceptual & attentive requirements for?\n\nMimicry\n\nSame means\n\nEmulation\n\nSame end, different means"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#imitative-learning-2",
+    "href": "slides/wk-11-sociocultural.html#imitative-learning-2",
+    "title": "Sociocultural Development",
+    "section": "Imitative learning",
+    "text": "Imitative learning\n\nImitation\n\nObserved actions + apparent inference about intentions\nplus motivation to imitate?\nplus heightened focus on specifics of action, e.g., “overimitation”\n\nTo signal group affiliation"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#evolutionary-perspectives",
+    "href": "slides/wk-11-sociocultural.html#evolutionary-perspectives",
+    "title": "Sociocultural Development",
+    "section": "Evolutionary perspectives",
+    "text": "Evolutionary perspectives\n\n\n\n\n\nDarwin (2012)\n\n\n\n\n\n\nKonner (2011)"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#premises",
+    "href": "slides/wk-11-sociocultural.html#premises",
+    "title": "Sociocultural Development",
+    "section": "Premises",
+    "text": "Premises\n\nNatural selection works with the materials of ontogeny which translate genome into phenotype, acting at every point from conception to senescence.\n\n\nHuman ontogeny cannot be understood except in relation to ancestral ontogenies and those that competed with them for the limited chances afforded living forms.\n\n– Konner (2011) pp. 14-16"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#more-premises",
+    "href": "slides/wk-11-sociocultural.html#more-premises",
+    "title": "Sociocultural Development",
+    "section": "More premises",
+    "text": "More premises\n\nHuman behavior and its development, include all of mental life, are in their entirety biological manifestations.\n\n\nAs with ontogeny, and because of it, the brain has evolved by accretion.\n\n\n[No]…human trait can be understood except in terms of brain function.\n\n– Konner (2011) pp. 14-16"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#vygotsky",
+    "href": "slides/wk-11-sociocultural.html#vygotsky",
+    "title": "Sociocultural Development",
+    "section": "Vygotsky",
+    "text": "Vygotsky\n\n\n\nInternalization of socially shared processes\nIntermental (between social partners)\nIntramental (within a child)\nZone of proximal development\nImportance of cultural tools\n\n\n\n\n\nWikipedia contributors (2025a)"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#the-social-sciences",
+    "href": "slides/wk-11-sociocultural.html#the-social-sciences",
+    "title": "Sociocultural Development",
+    "section": "The social sciences",
+    "text": "The social sciences\n\n\n\nPsychology\nAnthropology\nSociology\n\n\n\nPolitical Science\nEconomics\nGeography\nLinguistics"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#blind-men-and-the-elephant",
+    "href": "slides/wk-11-sociocultural.html#blind-men-and-the-elephant",
+    "title": "Sociocultural Development",
+    "section": "Blind men and the elephant?",
+    "text": "Blind men and the elephant?"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#next-time",
+    "href": "slides/wk-11-sociocultural.html#next-time",
+    "title": "Sociocultural Development",
+    "section": "Next time…",
+    "text": "Next time…\n\nSociocultural development: Deep dive\nStudent Presentation K: Imitation in cultural learning (Presenter: Hanna Huang; Discussant: TBD)\n\nRead: Legare & Nielsen (2015); Herrmann, Legare, Harris, & Whitehouse (2013); Lyons, Young, & Keil (2007)"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#about",
+    "href": "slides/wk-11-sociocultural.html#about",
+    "title": "Sociocultural Development",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2025.5.1.513.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#references",
+    "href": "slides/wk-11-sociocultural.html#references",
+    "title": "Sociocultural Development",
+    "section": "References",
+    "text": "References\n\n\n\n\nDarwin, C. (2012). The expression of the emotions in man and animals. CreateSpace Independent Publishing Platform. Retrieved from https://www.amazon.com/Expression-Emotions-Man-Animals/dp/1470188880\n\n\nFrank, M. (2014). Representing exact number visually using mental abacus. Retrieved November 6, 2025, from https://databrary.org/volume/33\n\n\nHerrmann, P. A., Legare, C. H., Harris, P. L., & Whitehouse, H. (2013). Stick to the script: The effect of witnessing multiple actors on children’s imitation. Cognition, 129, 536–543. https://doi.org/10.1016/j.cognition.2013.08.010\n\n\nKonner, M. (2011). The evolution of childhood. Belknap Press of Harvard University Press. Retrieved from http://www.hup.harvard.edu/catalog.php?isbn=9780674062016\n\n\nLegare, C. H., & Nielsen, M. (2015). Imitation and innovation: The dual engines of cultural learning. Trends in Cognitive Sciences, 19, 688–699. https://doi.org/10.1016/j.tics.2015.08.005\n\n\nLyons, D. E., Young, A. G., & Keil, F. C. (2007). The hidden structure of overimitation. Proceedings of the National Academy of Sciences of the United States of America, 104, 19751–19756. https://doi.org/10.1073/pnas.0704452104\n\n\nNovack, M. A., Goldin-Meadow, S., & Woodward, A. L. (2015). Learning from gesture: How early does it happen? Cognition, 142, 138–147. https://doi.org/10.1016/j.cognition.2015.05.018\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nTomasello, M. (2016). Cultural learning redux. Child Development, 87, 643–653. https://doi.org/10.1111/cdev.12499\n\n\nWakefield, E., Novack, M. A., Congdon, E. L., Franconeri, S., & Goldin-Meadow, S. (2018). Gesture helps learners learn, but not merely by guiding their visual attention. Developmental Science, 21, e12664. https://doi.org/10.1111/desc.12664\n\n\nWikipedia contributors. (2025a, October 23). Lev vygotsky. Retrieved from https://en.wikipedia.org/wiki/Lev_Vygotsky\n\n\nWikipedia contributors. (2025b, October 25). Blind men and an elephant. Retrieved from https://en.wikipedia.org/wiki/Blind_men_and_an_elephant"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#premises-1",
+    "href": "slides/wk-11-sociocultural.html#premises-1",
+    "title": "Sociocultural Development",
+    "section": "Premises",
+    "text": "Premises\n\nHuman behavior and its development, include all of mental life, are in their entirety biological manifestations.\n\n\nAs with ontogeny, and because of it, the brain has evolved by accretion.\n\n\n[No]…human trait can be understood except in terms of brain function.\n\n– Konner (2011) pp. 14-16"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#still-more-premises",
+    "href": "slides/wk-11-sociocultural.html#still-more-premises",
+    "title": "Sociocultural Development",
+    "section": "Still more premises",
+    "text": "Still more premises\n\nDespite limits to plasticity, cultural influence on human development is strong because its power is biolgically assured…To solve the apparent paradox of the powers of biology and culture is a central task of developmental research.\n\n\nSocialization is not the same as enculturation.\n\n– Konner (2011) pp. 14-16"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#blind-men-and-an-elephant",
+    "href": "slides/wk-11-sociocultural.html#blind-men-and-an-elephant",
+    "title": "Sociocultural Development",
+    "section": "Blind men and an elephant",
+    "text": "Blind men and an elephant\n\nWikipedia contributors (2025b)"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#blind-men-and-an-elephant-1",
+    "href": "slides/wk-11-sociocultural.html#blind-men-and-an-elephant-1",
+    "title": "Sociocultural Development",
+    "section": "Blind men and an elephant",
+    "text": "Blind men and an elephant\n\nSix blind elephants were discussing what men were like. After arguing they decided to find one and determine what it was like by direct experience. The first blind elephant felt the man and declared, ‘Men are flat.’ After the other blind elephants felt the man, they agreed.\n\n– Wikipedia contributors (2025b)"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#on-social-networks",
+    "href": "slides/wk-11-sociocultural.html#on-social-networks",
+    "title": "Sociocultural Development",
+    "section": "On social networks",
+    "text": "On social networks\n\n\n\n\n\nflowchart LR\n  A[Mom] ---|in-person| B[Me]\n  A ---|text| B\n  A ---|phone| B\n  A ---|mail| B\n  A ---|talk with| B\n  A ---|exchange gifts| B\n  C[Michelle] ---|live with| B\n  C ---|text| B\n  C ---|phone| B\n  C ---|talk with| B\n  C ---|exchange gifts| B\n  B ---|talk with| D[Sonny]\n  B ---|instruct| D\n  B ---|care for| D\n  C ---|talk with| D\n  C ---|instruct| D\n  C ---|care for| D"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#next-time-1",
+    "href": "slides/wk-11-sociocultural.html#next-time-1",
+    "title": "Sociocultural Development",
+    "section": "Next time…",
+    "text": "Next time…\n\nStudent Presentation L: Gesture (Presenter: Jingyi He; Discusant: Katie Billedetdeaux)\n\nRead: Novack, Goldin-Meadow, & Woodward (2015); Wakefield, Novack, Congdon, Franconeri, & Goldin-Meadow (2018)"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#on-social-interaction-networks",
+    "href": "slides/wk-11-sociocultural.html#on-social-interaction-networks",
+    "title": "Sociocultural Development",
+    "section": "On social interaction networks",
+    "text": "On social interaction networks\n\n\n\n\n\nflowchart TD\n  A@{ shape: circle, label: \"Mom\" }\n  B@{ shape: circle, label: \"Me\" }\n  C@{ shape: circle, label: \"Michelle\" }\n  D@{ shape: circle, label: \"Sonny\" }\n  E@{ shape: circle, label: \"Tom\" }\n  F@{ shape: circle, label: \"Ellie\" }\n  G@{ shape: rounded, label: \"BN\" }\n  Z@{ shape: rounded, label: \"Z\" }\n  A ---|texts| B\n  A ---|phones| B\n  A ---|mails| B\n  A ---|talks with| B\n  E ---|texts| B\n  E ---|phones| B\n  C ===|lives with| B\n  C ---|texts| B\n  C ---|phones| B\n  C ---|talks with| B\n  B ---|talks with| D\n  B --&gt;|instructs| D\n  B --&gt;|cares for| D\n  B ---|plays with| D\n  D --&gt;|imitates| B\n  D --&gt;|imitates| C\n  D --&gt;|imitates| F\n  C ---|talks with| D\n  C --&gt;|instructs| D\n  C --&gt;|cares for| D\n  F ===|lives with| D\n  C ---|plays with| D\n  F ===|talks with| D\n  F ==&gt;|instructs| D\n  F ==&gt;|cares for| D\n  F ===|plays with| D\n  G ===|plays with| D\n  G ===|talks with| D\n  Z ===|plays with| D\n  Z ===|talks with| D\n  B ---|talks with| F\n  C ---|talks with| F\n  B ---|texts| F\n  C ---|texts| F\n  L{Lola} ---&gt;|sniffs| D\n  D ---&gt;|avoids| L"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#vygotsky-1",
+    "href": "slides/wk-11-sociocultural.html#vygotsky-1",
+    "title": "Sociocultural Development",
+    "section": "Vygotsky",
+    "text": "Vygotsky\n\n\n\nJewish\nChild and adolescent during two Russian revolutions\nHome-schooled until age 11\nDied at 34\n\n\n\n\n\nWikipedia contributors (2025a)"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#components-of-social-environment",
+    "href": "slides/wk-11-sociocultural.html#components-of-social-environment",
+    "title": "Sociocultural Development",
+    "section": "Components of social environment",
+    "text": "Components of social environment\n\n\n\nPeople\n\nCharacteristics\nBehaviors\n\nSettings\n\nArtefacts\n\n\n\n\n\n\nhttps://databrary.org/volume/33"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#changing-emphasis",
+    "href": "slides/wk-11-sociocultural.html#changing-emphasis",
+    "title": "Sociocultural Development",
+    "section": "Changing emphasis",
+    "text": "Changing emphasis\n\n\n\nIndividual child\nPiaget\nCircular reactions\n\n\n\n\n\n\n\nflowchart LR\n  W(world) ---&gt; C(child)\n  C --&gt;|assim/accom| C\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  W(world) ---&gt; C(child)\n  C --&gt;|assim/accom| C\n  C --&gt; W\n\n\n\n\n\n\n\n\n\n\n\n\nChild in (social) context\nLev Vygotsky\nInternalization of socially shared processes\n\n\n\n\n\n\n\nflowchart LR\n  P(people) &lt;--&gt;|intermental| C(child)\n  W(artefacts) &lt;---&gt; C\n  C --&gt;|intramental| C"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#vygotsky-2",
+    "href": "slides/wk-11-sociocultural.html#vygotsky-2",
+    "title": "Sociocultural Development",
+    "section": "Vygotsky",
+    "text": "Vygotsky\n\n\n\nThis is the final thing I have done in psychology – and I will like Moses, die at the summit, having glimpsed the promised land but without setting foot on it. Farewell, dear creations. The rest is silence.\n\n– Vygotsky from Wikipedia contributors (2025a)\n\n\n\n\nWikipedia contributors (2025a)"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#vygotsky-3",
+    "href": "slides/wk-11-sociocultural.html#vygotsky-3",
+    "title": "Sociocultural Development",
+    "section": "Vygotsky",
+    "text": "Vygotsky\n\n\n\nInternalization of socially shared processes\nIntermental (between social partners)\nIntramental (within a child)\nZone of proximal development\nImportance of cultural tools\n\n\n\n\n\nWikipedia contributors (2025a)"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#components-of-social-environment-1",
+    "href": "slides/wk-11-sociocultural.html#components-of-social-environment-1",
+    "title": "Sociocultural Development",
+    "section": "Components of social environment",
+    "text": "Components of social environment\n\n\n\nPeople\n\nCharacteristics\nBehaviors\n\nSettings\n\nArtefacts\n\n\n\n\n\n\nhttps://databrary.org/volume/33"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#vygotsky-4",
+    "href": "slides/wk-11-sociocultural.html#vygotsky-4",
+    "title": "Sociocultural Development",
+    "section": "Vygotsky",
+    "text": "Vygotsky\n\n\n\nThis is the final thing I have done in psychology – and I will like Moses, die at the summit, having glimpsed the promised land but without setting foot on it. Farewell, dear creations. The rest is silence.\n\n– Vygotsky from Wikipedia contributors (2025a)\n\n\n\n\nWikipedia contributors (2025a)"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#the-social-physical-environment",
+    "href": "slides/wk-11-sociocultural.html#the-social-physical-environment",
+    "title": "Sociocultural Development",
+    "section": "The social & physical environment",
+    "text": "The social & physical environment\n\nWho are the people?\nWhat are their characteristics, roles, behaviors?\nWhat are culturally important artefacts?\nHow do these change across development?"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#the-social-human-sciences",
+    "href": "slides/wk-11-sociocultural.html#the-social-human-sciences",
+    "title": "Sociocultural Development",
+    "section": "The social human sciences",
+    "text": "The social human sciences\n\n\n\nPsychology\nAnthropology\nSociology\n\n\n\nPolitical Science\nEconomics\nLinguistics\n\n\n\n\n\n\n\n\n\nImportant\n\n\nWhat can psychology learn from its sibling sciences?\nWhat can our sibling sciences learn from psychology?"
+  },
+  {
+    "objectID": "slides/wk-11-sociocultural.html#human-childhood-is-special",
+    "href": "slides/wk-11-sociocultural.html#human-childhood-is-special",
+    "title": "Sociocultural Development",
+    "section": "Human childhood is special",
+    "text": "Human childhood is special\n\nUnusually prolonged\nParalleled by protracted period of brain plasticity\nKonner (2011)"
   }
 ]

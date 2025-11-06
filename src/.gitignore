@@ -1,3 +1,4 @@
 /.quarto/
 csv/
 **/*.quarto_ipynb
+private/
