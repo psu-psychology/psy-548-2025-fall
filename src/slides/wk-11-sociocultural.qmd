@@ -6,12 +6,18 @@ fig-align: "center"
 
 # Prelude
 
+---
+
+{{< video https://youtu.be/uyGY2NfYpeE?si=dPaeCtZl87Cdz2mo width="100%" height="70%" >}}
+
+-- @RHINO2013-nj
+
 ## Today's topics
 
 - Sociocultural development
   - *Discuss*: @Siegler2021-py Chapter 4; @Tomasello2016-rx 
 
-# Sociocultural Learning
+# Sociocultural Development
 
 ## Changing emphasis
 
@@ -133,6 +139,12 @@ flowchart LR
 
 -- @Frank2014-ir
 
+## Another mathematics-related artefact
+
+{{< video https://www.youtube.com/watch?v=g7PIURbaz3s width="100%" height="70%" >}}
+
+-- @The-Maths-Man2024-as
+
 ## @Tomasello2016-rx
 
 :::: {.columns}
@@ -213,16 +225,56 @@ flowchart LR
 
 - Unusually prolonged
 - Paralleled by protracted period of brain plasticity
+- Biologically selected for enculturation
 - @Konner2011-ja
 
+## What is universal? What is particular?
+
+## Universals of behavior and culture
+
+::: {.fragment}
+
+![@Konner2011-ja Table 29.1](../include/img/konner-tbl.29.1.jpeg)
+
+:::
+
+## Some universals {.scrollable}
+
+![@Konner2011-ja Table 29.2](../include/img/konner-tbl-29.2a.jpeg)
+
+## More universals {.scrollable}
+
+![@Konner2011-ja Table 29.2](../include/img/konner-tbl-29.2b.jpeg)
+
+## From Language Acquisition Device (LAD)
+
+:::: {.columns}
+::: {.column width=50%}
+- Referencing @Chomsky1965-bd
+:::
+::: {.column width=50%}
+![@Wikipedia-contributors2025-ig](https://upload.wikimedia.org/wikipedia/commons/8/86/Aspects_Grammar_Model.jpg)
+:::
+::::
+
+## To cultural acquisition device (CAD)
+
+![@Konner2011-ja Table 29.3](../include/img/konner-tbl-29.3.jpeg)
+
 # Stepping back
+
+## What is culture?
 
 ## The social & physical environment
 
 - Who are the people?
-- What are their characteristics, roles, behaviors?
+- What are their characteristics, roles, behaviors, beliefs & motivations?
 - What are culturally important artefacts?
 - How do these change across development?
+
+## Home environment
+
+
 
 ## On social interaction networks
 
@@ -291,9 +343,9 @@ flowchart TD
 
 ::: {.fragment}
 ::: {.callout-important}
-What can psychology learn from its sibling sciences?
+What can psychology learn from its sibling fields?
 
-What can our sibling sciences learn from psychology?
+What can our sibling fields learn from psychology?
 :::
 :::
 
