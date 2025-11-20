@@ -274,7 +274,7 @@ flowchart LR
 
 ## Home environment
 
-
+- Example from PLAY project home walk through
 
 ## On social interaction networks
 

@@ -172,7 +172,7 @@
     "href": "slides/wk-11-sociocultural.html#home-environment",
     "title": "Sociocultural Development",
     "section": "Home environment",
-    "text": "Home environment"
+    "text": "Home environment\n\nExample from PLAY project home walk through"
   },
   {
     "objectID": "slides/wk-11-sociocultural.html#on-social-interaction-networks",
@@ -3951,5 +3951,649 @@
       "Slides",
       "Wk 10 • Fri Oct 31"
     ]
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#todays-topics",
+    "href": "slides/wk-13-concepts.html#todays-topics",
+    "title": "Learning from others",
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nLearning from others\n\nGeneral Readings: Gelman (2009); Sobel & Kushnir (2013)\nStudent Presentation M: Learning from testimony (Presenter: TBD; Discussant: Luke Debec)\n\nRead: Harris, Koenig, Corriveau, & Jaswal (2018); Jaswal (2010)"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#what-are-concepts",
+    "href": "slides/wk-13-concepts.html#what-are-concepts",
+    "title": "Learning from others",
+    "section": "What are concepts?",
+    "text": "What are concepts?\n\nmental representations that organize experience…\n\n\nmental representations that correspond to categories of things in the world, such as dogs or chairs (Margolis 1994), I would broaden the set to include properties (green, happy), events or states (jumping, wet), individuals (Daddy, Lassie), and abstract ideas (goodness, liberty)…\n\n– Gelman (2009)"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#what-are-concepts-1",
+    "href": "slides/wk-13-concepts.html#what-are-concepts-1",
+    "title": "Learning from others",
+    "section": "What are concepts?",
+    "text": "What are concepts?\n\nconcepts are also embedded in larger knowledge structures (Gelman, 1996). Concepts therefore cannot be understood wholly as isolated components.\n\n– Gelman (2009)"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#where-do-concepts-come-from",
+    "href": "slides/wk-13-concepts.html#where-do-concepts-come-from",
+    "title": "Learning from others",
+    "section": "Where do concepts come from?",
+    "text": "Where do concepts come from?\n\nChildren’s own actions & observations\nOthers’\n\nSpeech\nActions"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#perceptual-features",
+    "href": "slides/wk-13-concepts.html#perceptual-features",
+    "title": "Learning from others",
+    "section": "Perceptual features",
+    "text": "Perceptual features\n\n\n\n\n\nflowchart LR\n  W[World] ---&gt;|perception| C(Child)\n  C ---&gt;|action| W\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  W[World] ---&gt;|perception| C(Child)\n  C ---&gt;|action| W\n  C ---&gt;|cognition| C"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#essentialism",
+    "href": "slides/wk-13-concepts.html#essentialism",
+    "title": "Learning from others",
+    "section": "Essentialism",
+    "text": "Essentialism\n\nSome categories have essential properties\nCultures vary in degree of essentialism, what categories have essential features"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#next-time",
+    "href": "slides/wk-13-concepts.html#next-time",
+    "title": "Learning from others",
+    "section": "Next time…",
+    "text": "Next time…"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#about",
+    "href": "slides/wk-13-concepts.html#about",
+    "title": "Learning from others",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2025.5.1.513.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#references",
+    "href": "slides/wk-13-concepts.html#references",
+    "title": "Learning from others",
+    "section": "References",
+    "text": "References\n\n\n\n\nBraginsky, M. (n.d.). Wordbank. Retrieved November 19, 2025, from https://wordbank.stanford.edu/\n\n\nGelman, S. A. (2009). Learning from others: Children’s construction of concepts. Annual Review of Psychology, 60, 115–140. https://doi.org/10.1146/annurev.psych.59.103006.093659\n\n\nHarris, P. L., Koenig, M. A., Corriveau, K. H., & Jaswal, V. K. (2018). Cognitive foundations of learning from testimony. Annual Review of Psychology, 69, 251–273. https://doi.org/10.1146/annurev-psych-122216-011710\n\n\nJaswal, V. K. (2010). Believing what you’re told: Young children’s trust in unexpected testimony about the physical world. Cognitive Psychology, 61, 248–272. https://doi.org/10.1016/j.cogpsych.2010.06.002\n\n\nSobel, D. M., & Kushnir, T. (2013). Knowledge matters: How children evaluate the reliability of testimony as a process of rational inference. Psychological Review, 120, 779–797. https://doi.org/10.1037/a0034191\n\n\nWikipedia contributors. (2025, October 3). Semantic network. Retrieved from https://en.wikipedia.org/wiki/Semantic_network"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#from-perception-to-cognition",
+    "href": "slides/wk-13-concepts.html#from-perception-to-cognition",
+    "title": "Learning from others",
+    "section": "From perception to cognition",
+    "text": "From perception to cognition\n\n\n\n\n\nflowchart LR\n  W[World] ---&gt;|perception| C(Child)\n  C ---&gt;|action| W\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  W[World] ---&gt;|perception| C(Child)\n  C ---&gt;|action| W\n  C ---&gt;|cognition| C"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#from-perception-to-cognition-1",
+    "href": "slides/wk-13-concepts.html#from-perception-to-cognition-1",
+    "title": "Learning from others",
+    "section": "From perception to cognition 1",
+    "text": "From perception to cognition 1\n\n\n\n\n\nflowchart LR\n  W[World] ---&gt;|perception| C(Child)\n  C ---&gt;|action| W\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  W[World] ---&gt;|perception| C(Child)\n  C ---&gt;|action| W\n  C ---&gt;|cognition| C"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#stored-information",
+    "href": "slides/wk-13-concepts.html#stored-information",
+    "title": "Learning from others",
+    "section": "Stored information",
+    "text": "Stored information\n\n\n\n\n\nflowchart TD\n  Y{Memory_1} ---&gt;|Shape is| S((\"round\"))\n  Y ---&gt;|Color is| L((\"red\"))\n  Y ---&gt;|Distance is| D((\"within arms reach\"))\n  Y ---&gt;|Motion is| M((\"rolling along floor\"))\n  Y ---&gt;|Sound made| N((\"none\"))"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#next-episode",
+    "href": "slides/wk-13-concepts.html#next-episode",
+    "title": "Learning from others",
+    "section": "Next episode",
+    "text": "Next episode\n\n\n\n\n\nflowchart LR\n  E[Episode_2] ---&gt; O[Object]\n  O ---&gt; S((Shape))\n  O ---&gt; L((Color))\n  O ---&gt; D((Distance))\n  O ---&gt; M((Motion))\n  O ---&gt; N((Sound))\n  S ---&gt; C(Child)\n  D ---&gt; C\n  L ---&gt; C\n  M ---&gt; C\n  N ---&gt; C\n  C ---&gt;|perceives| P{Properties}\n  P ---&gt;|stores| Y{Memory_2}"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#memories",
+    "href": "slides/wk-13-concepts.html#memories",
+    "title": "Learning from others",
+    "section": "Memories ==?",
+    "text": "Memories ==?\n\n\n\n\n\nflowchart TD\n  Y{Memory_1} ---&gt;|Shape is| S((\"round\"))\n  Y ---&gt;|Color is| L((\"red\"))\n  Y ---&gt;|Distance is| D((\"within arms reach\"))\n  Y ---&gt;|Motion is| M((\"rolling along floor\"))\n  Y ---&gt;|Sound made| N((\"none\"))\n  Z{Memory_2} ---&gt;|Shape is| S\n  Z ---&gt;|Color is| L\n  Z ---&gt;|Distance is| E((\"out of arms reach\"))\n  Z ---&gt;|Motion is| M((\"rolling along floor\"))\n  Z ---&gt;|Sound made| N((\"none\"))"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#create-conceptual-placeholder",
+    "href": "slides/wk-13-concepts.html#create-conceptual-placeholder",
+    "title": "Learning from others",
+    "section": "Create “conceptual” placeholder",
+    "text": "Create “conceptual” placeholder\n\n\n\n\n\nflowchart LR\n  C{{\"Round-Red-Rollie-Thing\"}} ---|is| Y{Memory_1}\n  C ---|is| Z{Memory_2}\n  Y &lt;---&gt; Z"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#assign-concept-properties",
+    "href": "slides/wk-13-concepts.html#assign-concept-properties",
+    "title": "Learning from others",
+    "section": "Assign “concept” properties",
+    "text": "Assign “concept” properties\n\n\n\n\n\nflowchart TD\n  C{{\"Round-Red-Rollie-Thing\"}} ---&gt;|Shape is| S((\"round\"))\n  C ---&gt;|Color is| L((\"red\"))\n  C ---&gt;|Distance is| D((\"within or outside arms reach\"))\n  C ---&gt;|Motion is| M((\"rolling along floor\"))\n  C ---&gt;|Sound made| N((\"none\"))\n\n\n\n\n\n\n\nDistance can vary, but color, shape, sound do not\nMotion?"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#where-do-concepts-come-from-1",
+    "href": "slides/wk-13-concepts.html#where-do-concepts-come-from-1",
+    "title": "Learning from others",
+    "section": "Where do concepts come from?",
+    "text": "Where do concepts come from?\n\nChildren’s own actions & observations\nOthers’\n\nSpeech\nActions"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#from-perception-to-cognition-2",
+    "href": "slides/wk-13-concepts.html#from-perception-to-cognition-2",
+    "title": "Learning from others",
+    "section": "From perception to cognition 2",
+    "text": "From perception to cognition 2\n\n\n\n\n\nflowchart LR\n  E[Episode_1] ---&gt; O[Object]\n  O ---&gt; S((Shape))\n  O ---&gt; L((Color))\n  O ---&gt; D((Distance))\n  O ---&gt; M((Motion))\n  O ---&gt; N((Sound))\n  S ---&gt; C(Child)\n  D ---&gt; C\n  L ---&gt; C\n  M ---&gt; C\n  N ---&gt; C\n  C ---&gt;|perceives| P{Properties}\n  P ---&gt;|stores| Y{Memory_1}"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#store-perceptual-features",
+    "href": "slides/wk-13-concepts.html#store-perceptual-features",
+    "title": "Learning from others",
+    "section": "Store perceptual features",
+    "text": "Store perceptual features\n\n\n\n\n\nflowchart TD\n  Y{Memory_1} ---&gt;|Shape is| S((\"round\"))\n  Y ---&gt;|Color is| L((\"red\"))\n  Y ---&gt;|Distance is| D((\"within arms reach\"))\n  Y ---&gt;|Motion is| M((\"rolling along floor\"))\n  Y ---&gt;|Sound made| N((\"none\"))"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#from-associative-learning-to-semantic-networks",
+    "href": "slides/wk-13-concepts.html#from-associative-learning-to-semantic-networks",
+    "title": "Learning from others",
+    "section": "From associative learning to semantic networks",
+    "text": "From associative learning to semantic networks\n\nWikipedia contributors (2025)"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#where-do-concepts-come-from-2",
+    "href": "slides/wk-13-concepts.html#where-do-concepts-come-from-2",
+    "title": "Learning from others",
+    "section": "Where do concepts come from?",
+    "text": "Where do concepts come from?\n\nChildren’s own actions & observations\nOthers’\n\nSpeech\nActions\n\nMental states including intentions"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#episode-3",
+    "href": "slides/wk-13-concepts.html#episode-3",
+    "title": "Learning from others",
+    "section": "Episode 3",
+    "text": "Episode 3\n\n\n\n\n\nflowchart LR\n  E[Episode_#] ---&gt; O[Object]\n  E ---&gt; P[Person]\n  P ---&gt;|says 'ball' to| C(Child)\n  O ---&gt; C\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  P[Person] ---&gt;|says 'ball' to| C(Child)\n  O[Object] ---&gt; C\n  C ---&gt;|perceives| D{Object properties}\n  C ---&gt;|hears| B{'ball'}\n  D ---&gt;|activates| E{{\"Round-Red-Rollie-Thing\"}}"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#heard-word-linked-to-conceptual-placeholder",
+    "href": "slides/wk-13-concepts.html#heard-word-linked-to-conceptual-placeholder",
+    "title": "Learning from others",
+    "section": "Heard word linked to conceptual placeholder",
+    "text": "Heard word linked to conceptual placeholder\n\n\n\n\n\nflowchart TD\n  E{{\"Round-Red-Rollie-Thing\"}} ---&gt;|name for is| B{'ball'}\n  E ---&gt;|Color is| L((\"red\"))\n  E ---&gt;|Distance is| D((\"within or outside arms reach\"))\n  E ---&gt;|Motion is| M((\"rolling along floor\"))\n  E ---&gt;|Sound made| N((\"none\"))\n  E ---&gt;|Shape is| S((\"round\"))"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#heard-word-linked-to-placeholder",
+    "href": "slides/wk-13-concepts.html#heard-word-linked-to-placeholder",
+    "title": "Learning from others",
+    "section": "Heard word linked to placeholder",
+    "text": "Heard word linked to placeholder\n\n\n\n\n\nflowchart TD\n  E{{\"Round-Red-Rollie-Thing\"}} ---&gt;|Name for is| B{'ball'}\n  E ---&gt;|Color is| L((\"red\"))\n  E ---&gt;|Distance is| D((\"within or outside arms reach\"))\n  E ---&gt;|Motion is| M((\"rolling along floor\"))\n  E ---&gt;|Sound made| N((\"none\"))\n  E ---&gt;|Shape is| S((\"round\"))"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#are-memories",
+    "href": "slides/wk-13-concepts.html#are-memories",
+    "title": "Learning from others",
+    "section": "Are memories ==?",
+    "text": "Are memories ==?\n\n\n\n\n\nflowchart TD\n  Y{Memory_1} ---&gt;|Shape is| S((\"round\"))\n  Y ---&gt;|Color is| L((\"red\"))\n  Y ---&gt;|Distance is| D((\"within arms reach\"))\n  Y ---&gt;|Motion is| M((\"rolling along floor\"))\n  Y ---&gt;|Sound made| N((\"none\"))\n  Z{Memory_2} ---&gt;|Shape is| S\n  Z ---&gt;|Color is| L\n  Z ---&gt;|Distance is| E((\"out of arms reach\"))\n  Z ---&gt;|Motion is| M((\"rolling along floor\"))\n  Z ---&gt;|Sound made| N((\"none\"))\n\n\n\n\n\n\n\nDo features match (mostly)\nSome features vary more often than others"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#placeholder-assumes-perceptual-properties",
+    "href": "slides/wk-13-concepts.html#placeholder-assumes-perceptual-properties",
+    "title": "Learning from others",
+    "section": "Placeholder assumes perceptual properties",
+    "text": "Placeholder assumes perceptual properties\n\n\n\n\n\nflowchart TD\n  C{{\"Round-Red-Rollie-Thing\"}} ---&gt;|Shape is| S((\"round\"))\n  C ---&gt;|Color is| L((\"red\"))\n  C ---&gt;|Distance is| D((\"within or outside arms reach\"))\n  C ---&gt;|Motion is| M((\"rolling along floor\"))\n  C ---&gt;|Sound made| N((\"none\"))\n\n\n\n\n\n\n\nDistance can vary, but color, shape, sound do not\nMotion?"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#assign-perceptual-properties",
+    "href": "slides/wk-13-concepts.html#assign-perceptual-properties",
+    "title": "Learning from others",
+    "section": "Assign perceptual properties",
+    "text": "Assign perceptual properties\n\n\n\n\n\nflowchart TD\n  C{{\"Round-Red-Rollie-Thing\"}} ---&gt;|Shape is| S((\"round\"))\n  C ---&gt;|Color is| L((\"red\"))\n  C ---&gt;|Distance is| D((\"within or outside arms reach\"))\n  C ---&gt;|Motion is| M((\"rolling along floor\"))\n  C ---&gt;|Sound made| N((\"none\"))\n\n\n\n\n\n\n\nDistance can vary, but color, shape, sound do not\nMotion?"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#next-episode-1",
+    "href": "slides/wk-13-concepts.html#next-episode-1",
+    "title": "Learning from others",
+    "section": "Next episode",
+    "text": "Next episode\n\n\n\n\n\nflowchart LR\n  E[Episode_3] ---&gt; O[Object]\n  E ---&gt; P[Person]\n  P ---&gt;|says 'ball' to| C(Child)\n  O ---&gt; C\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  P[Person] ---&gt;|says 'ball' to| C(Child)\n  O[Object] ---&gt; C\n  C ---&gt;|perceives| D{Object properties}\n  C ---&gt;|hears| B{'ball'}\n  D ---&gt;|activates| E{{\"Round-Red-Rollie-Thing\"}}"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#word-acquisition",
+    "href": "slides/wk-13-concepts.html#word-acquisition",
+    "title": "Learning from others",
+    "section": "Word acquisition",
+    "text": "Word acquisition\n\nBraginsky (n.d.)"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#wordbank-vocabulary-norms",
+    "href": "slides/wk-13-concepts.html#wordbank-vocabulary-norms",
+    "title": "Learning from others",
+    "section": "Wordbank: Vocabulary norms",
+    "text": "Wordbank: Vocabulary norms\n\nhttps://wordbank.stanford.edu/data/?name=vocab_norms"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#wordbank-item-trajectories",
+    "href": "slides/wk-13-concepts.html#wordbank-item-trajectories",
+    "title": "Learning from others",
+    "section": "Wordbank: Item trajectories",
+    "text": "Wordbank: Item trajectories\n\nhttps://wordbank.stanford.edu/data/?name=item_trajectories"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#why-word-learning-matters",
+    "href": "slides/wk-13-concepts.html#why-word-learning-matters",
+    "title": "Learning from others",
+    "section": "Why word learning matters",
+    "text": "Why word learning matters\n\nLexicalization\n\nDifferent words imply different concepts\nImplies “more stable, enduring, unchanging construal…” (Gelman, 2009, p. 121)\n\nContexts in which words are used, features of words, pragmatics"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#essentialism-1",
+    "href": "slides/wk-13-concepts.html#essentialism-1",
+    "title": "Learning from others",
+    "section": "Essentialism",
+    "text": "Essentialism\n\nCues to essentialism in adult language\n\nAppearance vs. reality\nHighlighting categorical differences\nBroad descriptive statements about category\nGenerics (“Professors are absent-minded” vs. “My professor is scatter-brained.”)"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#where-do-concepts-come-from-3",
+    "href": "slides/wk-13-concepts.html#where-do-concepts-come-from-3",
+    "title": "Learning from others",
+    "section": "Where do concepts come from?",
+    "text": "Where do concepts come from?\n\nChildren’s own actions & observations\nOthers’\n\nSpeech\n\nWhat is said, by whom, to whom, where, when, & how, etc.\ni.e., Testimony"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#where-do-concepts-come-from-4",
+    "href": "slides/wk-13-concepts.html#where-do-concepts-come-from-4",
+    "title": "Learning from others",
+    "section": "Where do concepts come from?",
+    "text": "Where do concepts come from?\n\nChildren’s own actions & observations\n\nand concepts\nand *questions**\n\nOthers’\n\nSpeech\n\nWhat is said, by whom, to whom, where, when, & how, etc.\ni.e., Testimony"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#example",
+    "href": "slides/wk-13-concepts.html#example",
+    "title": "Learning from others",
+    "section": "Example…",
+    "text": "Example…\n\nThat’s a big house where big kids live. (Sonny)\n\n\nYes, that’s a building where big kids live. There are small houses inside. (Mimi)\n\n\nI want to see it. (Sonny)\n\n\nWe can’t go in there. (Mimi)\n\n\nWhy?"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#learning-from-testimony",
+    "href": "slides/wk-13-concepts.html#learning-from-testimony",
+    "title": "Learning from others",
+    "section": "Learning from testimony",
+    "text": "Learning from testimony\n\nSpeaker characteristics\n\nReliability\nKnowledge about domain\nAge\nHow say (pragmatics, grammatical features), not just what\nSocial characteristics (linguistic similarity)\n\nSobel & Kushnir (2013)"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#psychological-characteristics",
+    "href": "slides/wk-13-concepts.html#psychological-characteristics",
+    "title": "Learning from others",
+    "section": "Psychological characteristics",
+    "text": "Psychological characteristics\n\nInformant knowledge can differ\nWhen child knowledge uncertain, irrelevant speaker characteristics can influence\nBiases to trust familiar adults"
+  },
+  {
+    "objectID": "slides/wk-13-concepts.html#trust-but-verify",
+    "href": "slides/wk-13-concepts.html#trust-but-verify",
+    "title": "Learning from others",
+    "section": "Trust but verify",
+    "text": "Trust but verify"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#todays-topics",
+    "href": "slides/wk-13-learning-from-others.html#todays-topics",
+    "title": "Learning from others",
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nLearning from others\n\nGeneral Readings: Gelman (2009); Sobel & Kushnir (2013)\nStudent Presentation M: Learning from testimony (Presenter: TBD; Discussant: Luke Debec)\n\nRead: Harris, Koenig, Corriveau, & Jaswal (2018); Jaswal (2010)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#avenues",
+    "href": "slides/wk-13-learning-from-others.html#avenues",
+    "title": "Learning from others",
+    "section": "Avenues",
+    "text": "Avenues\n\nActions\nUtterances"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#what-are-concepts",
+    "href": "slides/wk-13-learning-from-others.html#what-are-concepts",
+    "title": "Learning from others",
+    "section": "What are concepts?",
+    "text": "What are concepts?\n\nmental representations that organize experience…\n\n\nmental representations that correspond to categories of things in the world, such as dogs or chairs (Margolis 1994), I would broaden the set to include properties (green, happy), events or states (jumping, wet), individuals (Daddy, Lassie), and abstract ideas (goodness, liberty)…\n\n– Gelman (2009)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#what-are-concepts-1",
+    "href": "slides/wk-13-learning-from-others.html#what-are-concepts-1",
+    "title": "Learning from others",
+    "section": "What are concepts?",
+    "text": "What are concepts?\n\nconcepts are also embedded in larger knowledge structures (Gelman, 1996). Concepts therefore cannot be understood wholly as isolated components.\n\n– Gelman (2009)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#where-do-concepts-come-from",
+    "href": "slides/wk-13-learning-from-others.html#where-do-concepts-come-from",
+    "title": "Learning from others",
+    "section": "Where do concepts come from?",
+    "text": "Where do concepts come from?\n\nChildren’s\n\nObservations\nActions\nIdeas"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#where-do-concepts-come-from-1",
+    "href": "slides/wk-13-learning-from-others.html#where-do-concepts-come-from-1",
+    "title": "Learning from others",
+    "section": "Where do concepts come from?",
+    "text": "Where do concepts come from?\n\nChildren’s\n\nObservations\nActions\nIdeas\n\nOthers’\n\nSpeech\nActions"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#from-perception-to-cognition-1",
+    "href": "slides/wk-13-learning-from-others.html#from-perception-to-cognition-1",
+    "title": "Learning from others",
+    "section": "From perception to cognition 1",
+    "text": "From perception to cognition 1\n\n\n\n\n\nflowchart LR\n  W[World] ---&gt;|perception| C(Child)\n  C ---&gt;|action| W\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  W[World] ---&gt;|perception| C(Child)\n  C ---&gt;|action| W\n  C ---&gt;|cognition| C"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#from-perception-to-cognition-2",
+    "href": "slides/wk-13-learning-from-others.html#from-perception-to-cognition-2",
+    "title": "Learning from others",
+    "section": "From perception to cognition 2",
+    "text": "From perception to cognition 2\n\n\n\n\n\nflowchart LR\n  E[Episode_1] ---&gt; O[Object]\n  O ---&gt; S((Shape))\n  O ---&gt; L((Color))\n  O ---&gt; D((Distance))\n  O ---&gt; M((Motion))\n  O ---&gt; N((Sound))\n  S ---&gt; C(Child)\n  D ---&gt; C\n  L ---&gt; C\n  M ---&gt; C\n  N ---&gt; C\n  C ---&gt;|perceives| P{Properties}\n  P ---&gt;|stores| Y{Memory_1}"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#store-perceptual-features",
+    "href": "slides/wk-13-learning-from-others.html#store-perceptual-features",
+    "title": "Learning from others",
+    "section": "Store perceptual features",
+    "text": "Store perceptual features\n\n\n\n\n\nflowchart TD\n  Y{Memory_1} ---&gt;|Shape is| S((\"round\"))\n  Y ---&gt;|Color is| L((\"red\"))\n  Y ---&gt;|Distance is| D((\"within arms reach\"))\n  Y ---&gt;|Motion is| M((\"rolling along floor\"))\n  Y ---&gt;|Sound made| N((\"none\"))"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#next-episode",
+    "href": "slides/wk-13-learning-from-others.html#next-episode",
+    "title": "Learning from others",
+    "section": "Next episode",
+    "text": "Next episode\n\n\n\n\n\nflowchart LR\n  E[Episode_2] ---&gt; O[Object]\n  O ---&gt; S((Shape))\n  O ---&gt; L((Color))\n  O ---&gt; D((Distance))\n  O ---&gt; M((Motion))\n  O ---&gt; N((Sound))\n  S ---&gt; C(Child)\n  D ---&gt; C\n  L ---&gt; C\n  M ---&gt; C\n  N ---&gt; C\n  C ---&gt;|perceives| P{Properties}\n  P ---&gt;|stores| Y{Memory_2}"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#are-memories",
+    "href": "slides/wk-13-learning-from-others.html#are-memories",
+    "title": "Learning from others",
+    "section": "Are memories ==?",
+    "text": "Are memories ==?\n\n\n\n\n\nflowchart TD\n  Y{Memory_1} ---&gt;|Shape is| S((\"round\"))\n  Y ---&gt;|Color is| L((\"red\"))\n  Y ---&gt;|Distance is| D((\"within arms reach\"))\n  Y ---&gt;|Motion is| M((\"rolling along floor\"))\n  Y ---&gt;|Sound made| N((\"none\"))\n  Z{Memory_2} ---&gt;|Shape is| S\n  Z ---&gt;|Color is| L\n  Z ---&gt;|Distance is| E((\"out of arms reach\"))\n  Z ---&gt;|Motion is| M((\"rolling along floor\"))\n  Z ---&gt;|Sound made| N((\"none\"))\n\n\n\n\n\n\n\nDo features match (mostly)\nSome features vary more often than others"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#create-conceptual-placeholder",
+    "href": "slides/wk-13-learning-from-others.html#create-conceptual-placeholder",
+    "title": "Learning from others",
+    "section": "Create “conceptual” placeholder",
+    "text": "Create “conceptual” placeholder\n\n\n\n\n\nflowchart LR\n  C{{\"Round-Red-Rollie-Thing\"}} ---|is| Y{Memory_1}\n  C ---|is| Z{Memory_2}\n  Y &lt;---&gt; Z"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#assign-perceptual-properties",
+    "href": "slides/wk-13-learning-from-others.html#assign-perceptual-properties",
+    "title": "Learning from others",
+    "section": "Assign perceptual properties",
+    "text": "Assign perceptual properties\n\n\n\n\n\nflowchart TD\n  C{{\"Round-Red-Rollie-Thing\"}} ---&gt;|Shape is| S((\"round\"))\n  C ---&gt;|Color is| L((\"red\"))\n  C ---&gt;|Distance is| D((\"within or outside arms reach\"))\n  C ---&gt;|Motion is| M((\"rolling along floor\"))\n  C ---&gt;|Sound made| N((\"none\"))\n\n\n\n\n\n\n\nDistance can vary, but color, shape, sound do not\nMotion?"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#from-associative-learning-to-semantic-networks",
+    "href": "slides/wk-13-learning-from-others.html#from-associative-learning-to-semantic-networks",
+    "title": "Learning from others",
+    "section": "From associative learning to semantic networks",
+    "text": "From associative learning to semantic networks\n\nWikipedia contributors (2025)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#where-do-concepts-come-from-2",
+    "href": "slides/wk-13-learning-from-others.html#where-do-concepts-come-from-2",
+    "title": "Learning from others",
+    "section": "Where do concepts come from?",
+    "text": "Where do concepts come from?\n\nChildren’s own actions & observations\nOthers’\n\nSpeech\nActions\nInferred mental states, including intentions"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#next-episode-1",
+    "href": "slides/wk-13-learning-from-others.html#next-episode-1",
+    "title": "Learning from others",
+    "section": "Next episode",
+    "text": "Next episode\n\n\n\n\n\nflowchart LR\n  E[Episode_3] ---&gt; O[Object]\n  E ---&gt; P[Person]\n  P ---&gt;|says 'ball' to| C(Child)\n  O ---&gt; C\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  P[Person] ---&gt;|says 'ball' to| C(Child)\n  O[Object] ---&gt; C\n  C ---&gt;|hears| B{'ball'}\n  C ---&gt;|perceives| D{Object properties}\n  D ---&gt;|activates placeholder for| E{{\"Round-Red-Rollie-Thing\"}}"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#heard-word-linked-to-placeholder",
+    "href": "slides/wk-13-learning-from-others.html#heard-word-linked-to-placeholder",
+    "title": "Learning from others",
+    "section": "Heard word linked to placeholder",
+    "text": "Heard word linked to placeholder\n\n\n\n\n\nflowchart TD\n  E{{\"Round-Red-Rollie-Thing\"}} ---&gt;|Name for is| B{'ball'}\n  E ---&gt;|Color is| L((\"red\"))\n  E ---&gt;|Distance is| D((\"within or outside arms reach\"))\n  E ---&gt;|Motion is| M((\"rolling along floor\"))\n  E ---&gt;|Sound made| N((\"none\"))\n  E ---&gt;|Shape is| S((\"round\"))"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#wordbank-vocabulary-norms",
+    "href": "slides/wk-13-learning-from-others.html#wordbank-vocabulary-norms",
+    "title": "Learning from others",
+    "section": "Wordbank: Vocabulary norms",
+    "text": "Wordbank: Vocabulary norms\n\nhttps://wordbank.stanford.edu/data/?name=vocab_norms"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#wordbank-item-trajectories",
+    "href": "slides/wk-13-learning-from-others.html#wordbank-item-trajectories",
+    "title": "Learning from others",
+    "section": "Wordbank: Item trajectories",
+    "text": "Wordbank: Item trajectories\n\nhttps://wordbank.stanford.edu/data/?name=item_trajectories"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#why-word-learning-matters",
+    "href": "slides/wk-13-learning-from-others.html#why-word-learning-matters",
+    "title": "Learning from others",
+    "section": "Why word learning matters",
+    "text": "Why word learning matters\n\nLexicalization\n\nDifferent \\(\\rightarrow\\) \\(\\neq\\) concepts\nImplies “more stable, enduring, unchanging construal…” (Gelman, 2009, p. 121)\n\nContexts in which words are used, features of words, pragmatics"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#essentialism",
+    "href": "slides/wk-13-learning-from-others.html#essentialism",
+    "title": "Learning from others",
+    "section": "Essentialism",
+    "text": "Essentialism\n\nSome categories have essential properties\nCultures vary in\n\nwhat categories have essential features\ndegree of views about essentialism"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#essentialism-1",
+    "href": "slides/wk-13-learning-from-others.html#essentialism-1",
+    "title": "Learning from others",
+    "section": "Essentialism",
+    "text": "Essentialism\n\nCues to essentialism in adult language\n\nAppearance vs. reality\nHighlighting categorical differences\nBroad descriptive statements about category\nGenerics (“Professors are absent-minded” vs. “My professor is scatter-brained.”)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#where-do-concepts-come-from-3",
+    "href": "slides/wk-13-learning-from-others.html#where-do-concepts-come-from-3",
+    "title": "Learning from others",
+    "section": "Where do concepts come from?",
+    "text": "Where do concepts come from?\n\nChildren’s own actions & observations\nOthers’\n\nSpeech\n\nWhat is said, by whom, to whom, where, when, & how, etc.\ni.e., Testimony"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#where-do-concepts-come-from-4",
+    "href": "slides/wk-13-learning-from-others.html#where-do-concepts-come-from-4",
+    "title": "Learning from others",
+    "section": "Where do concepts come from?",
+    "text": "Where do concepts come from?\n\nChildren’s own actions & observations\n\nand concepts\nand questions\n\nOthers’\n\nSpeech\n\nWhat is said, by whom, to whom, where, when, & how, etc.\ni.e., Testimony"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#example",
+    "href": "slides/wk-13-learning-from-others.html#example",
+    "title": "Learning from others",
+    "section": "Example…",
+    "text": "Example…\n\nThat’s a big house where big kids live. (Sonny)\n\n\nYes, that’s a building where big kids live. There are small houses inside. (Mimi)\n\n\nI want to see it. (Sonny)\n\n\nWe can’t go in there. (Mimi)\n\n\nWhy?"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#learning-from-testimony",
+    "href": "slides/wk-13-learning-from-others.html#learning-from-testimony",
+    "title": "Learning from others",
+    "section": "Learning from testimony",
+    "text": "Learning from testimony\n\nSpeaker characteristics\n\nReliability\nKnowledge about domain\nAge\nHow say (pragmatics, grammatical features), not just what\nSocial characteristics (linguistic similarity)\n\nSobel & Kushnir (2013)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#psychological-characteristics",
+    "href": "slides/wk-13-learning-from-others.html#psychological-characteristics",
+    "title": "Learning from others",
+    "section": "Psychological characteristics",
+    "text": "Psychological characteristics\n\nInformant knowledge can differ (by topic, characteristics of speaker, …)\nWhen child knowledge uncertain, irrelevant speaker characteristics can influence\nBiases to trust familiar adults"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#trust-but-verify",
+    "href": "slides/wk-13-learning-from-others.html#trust-but-verify",
+    "title": "Learning from others",
+    "section": "Trust but verify",
+    "text": "Trust but verify"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#next-time",
+    "href": "slides/wk-13-learning-from-others.html#next-time",
+    "title": "Learning from others",
+    "section": "Next time…",
+    "text": "Next time…\n\nConceptual development\n\nGeneral Readings: Siegler & Alibali (2021) Chapter 8; Mandler (1992)\nStudent Presentation N: Naive psychology (Presenter: Jiayi Fan : Discussant: Suzy Su)\n\nRead: Onishi & Baillargeon (2005); Wellman (2012); Ding, Wellman, Wang, Fu, & Lee (2015)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#about",
+    "href": "slides/wk-13-learning-from-others.html#about",
+    "title": "Learning from others",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2025.5.1.513.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#references",
+    "href": "slides/wk-13-learning-from-others.html#references",
+    "title": "Learning from others",
+    "section": "References",
+    "text": "References\n\n\n\n\nBraginsky, M. (n.d.). Wordbank. Retrieved November 19, 2025, from https://wordbank.stanford.edu/\n\n\nDing, X. P., Wellman, H. M., Wang, Y., Fu, G., & Lee, K. (2015). Theory-of-mind training causes honest young children to lie. Psychological Science, 26, 1812–1821. https://doi.org/10.1177/0956797615604628\n\n\nGelman, S. A. (2009). Learning from others: Children’s construction of concepts. Annual Review of Psychology, 60, 115–140. https://doi.org/10.1146/annurev.psych.59.103006.093659\n\n\nHarris, P. L., Koenig, M. A., Corriveau, K. H., & Jaswal, V. K. (2018). Cognitive foundations of learning from testimony. Annual Review of Psychology, 69, 251–273. https://doi.org/10.1146/annurev-psych-122216-011710\n\n\nJaswal, V. K. (2010). Believing what you’re told: Young children’s trust in unexpected testimony about the physical world. Cognitive Psychology, 61, 248–272. https://doi.org/10.1016/j.cogpsych.2010.06.002\n\n\nMandler, J. M. (1992). How to build a baby: II. Conceptual primitives. Psychological Review, 99, 587–604. https://doi.org/10.1037/0033-295x.99.4.587\n\n\nOnishi, K. H., & Baillargeon, R. (2005). Do 15-month-old infants understand false beliefs? Science (New York, N.Y.), 308, 255–258. https://doi.org/10.1126/science.1107621\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nSobel, D. M., & Kushnir, T. (2013). Knowledge matters: How children evaluate the reliability of testimony as a process of rational inference. Psychological Review, 120, 779–797. https://doi.org/10.1037/a0034191\n\n\nSpelke, E. S., & Kinzler, K. D. (2007). Core knowledge. Developmental Science, 10, 89–96. https://doi.org/10.1111/j.1467-7687.2007.00569.x\n\n\nWellman, H. M. (2012). Theory of mind: Better methods, clearer findings, more development. The European Journal of Developmental Psychology, 9, 313–330. https://doi.org/10.1080/17405629.2012.680297\n\n\nWikipedia contributors. (2025, October 3). Semantic network. Retrieved from https://en.wikipedia.org/wiki/Semantic_network"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#information-sources",
+    "href": "slides/wk-13-learning-from-others.html#information-sources",
+    "title": "Learning from others",
+    "section": "Information sources",
+    "text": "Information sources\n\nActions\nUtterances\nPrior knowledge (concepts)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#recall",
+    "href": "slides/wk-13-learning-from-others.html#recall",
+    "title": "Learning from others",
+    "section": "Recall",
+    "text": "Recall\n\n…we believe that humans are endowed with a small number of separable systems of core knowledge. New, flexible skills and belief systems build on these core foundations.\n\n– Spelke & Kinzler (2007)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#example-1",
+    "href": "slides/wk-13-learning-from-others.html#example-1",
+    "title": "Learning from others",
+    "section": "Example…",
+    "text": "Example…\n\nOnly the people who live there and their friends can go there. (Mimi)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#example-query",
+    "href": "slides/wk-13-learning-from-others.html#example-query",
+    "title": "Learning from others",
+    "section": "Example: Query",
+    "text": "Example: Query\n\nOn their weekly drive home, Sonny notices and comments on a big apartment building.\nMimi describes it as a place where big kids live that has many smaller houses inside.\n\n\n\nThat’s a big house where big kids live. (Sonny)\n\n\n\n\nYes, that’s a building where big kids live. There are small houses inside. (Mimi)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#example-query-1",
+    "href": "slides/wk-13-learning-from-others.html#example-query-1",
+    "title": "Learning from others",
+    "section": "Example: Query",
+    "text": "Example: Query\n\nI want to see it. (Sonny)\n\n\n\nWe can’t go in there. (Mimi)\n\n\n\n\nWhy?\n\n\n\n\nOnly the people who live there and their friends can go inside. (Mimi)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#example-learning-abstract-concepts",
+    "href": "slides/wk-13-learning-from-others.html#example-learning-abstract-concepts",
+    "title": "Learning from others",
+    "section": "Example: Learning abstract concepts",
+    "text": "Example: Learning abstract concepts\n\nAt dinner time, Mommy puts grapes in the section of Sonny’s plate where they usually put noodles.\n\n\n\nThat’s not kind, Mommy. (Sonny)\n\n\n\n\nMommy suppresses laughter. Later tells Grandpa the story."
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#example-learning-abstract-concepts-1",
+    "href": "slides/wk-13-learning-from-others.html#example-learning-abstract-concepts-1",
+    "title": "Learning from others",
+    "section": "Example: Learning abstract concepts",
+    "text": "Example: Learning abstract concepts\n\n\n\n\n\nflowchart LR\n  E(Ellie) ---&gt;|reads book about kindness to| S(Sonny)\n  S ---&gt;|infers properties of| K{kindness}\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  Z(Zander) ---&gt;|pushes| S(Sonny)\n  E(Ellie) ---&gt;|says Z wasn't kind| S\n  S ---&gt;|infers properties of| N{not-kindness}\n  N --- K{kindness}"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#example-learning-abstract-concepts-2",
+    "href": "slides/wk-13-learning-from-others.html#example-learning-abstract-concepts-2",
+    "title": "Learning from others",
+    "section": "Example: Learning abstract concepts",
+    "text": "Example: Learning abstract concepts\n\n\n\n\n\nflowchart TD\n  S(Sonny) ---&gt;|infers properties of| N{not-kindness}\n  N ---|involves| P[a person's behavior]\n  N ---|is| E[surprising]\n  N ---|evokes| H[negative feelings]"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#example-query-2",
+    "href": "slides/wk-13-learning-from-others.html#example-query-2",
+    "title": "Learning from others",
+    "section": "Example: Query",
+    "text": "Example: Query\n\nOnly the people who live there and their friends can go there. (Mimi)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#example-learning-abstract-concepts-3",
+    "href": "slides/wk-13-learning-from-others.html#example-learning-abstract-concepts-3",
+    "title": "Learning from others",
+    "section": "Example: Learning abstract concepts",
+    "text": "Example: Learning abstract concepts\n\n\n\n\n\nflowchart LR\n  E(Ellie) ---&gt;|puts grapes in noodle place| S(Sonny)\n  S ---&gt;|feels| H[negative feelings]\n  S ---&gt;|perceives| F[surprise]\n  H --- N{not-kindness}\n  F --- N"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#learning-abstract-concepts",
+    "href": "slides/wk-13-learning-from-others.html#learning-abstract-concepts",
+    "title": "Learning from others",
+    "section": "Learning abstract concepts",
+    "text": "Learning abstract concepts\n\n\n\n\n\nflowchart LR\n  N{not-kindness} ---&gt;|provides label for feelings for| S(Sonny)\n  S(Sonny) ---&gt;|says| K((\"that's not kind\"))\n  K ---&gt;|directed to| E(Ellie)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-1",
+    "href": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-1",
+    "title": "Learning from others",
+    "section": "Learning abstract concepts 1",
+    "text": "Learning abstract concepts 1\n\nAt dinner time, Mommy puts grapes in the section of Sonny’s plate where they usually put noodles.\n\n\n\nThat’s not kind, Mommy. (Sonny)\n\n\n\n\nMommy suppresses laughter. Later tells Grandpa the story."
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-2",
+    "href": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-2",
+    "title": "Learning from others",
+    "section": "Learning abstract concepts 2",
+    "text": "Learning abstract concepts 2\n\n\n\n\n\nflowchart LR\n  E(Ellie) ---&gt;|reads book about kindness to| S(Sonny)\n  S ---&gt;|infers properties of| K{kindness}\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  Z(Zander) ---&gt;|pushes| S(Sonny)\n  E(Ellie) ---&gt;|says Z wasn't kind| S\n  S ---&gt;|infers properties of| N{not-kindness}\n  N ---|is the opposite of| K{kindness}"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-3",
+    "href": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-3",
+    "title": "Learning from others",
+    "section": "Learning abstract concepts 3",
+    "text": "Learning abstract concepts 3\n\n\n\n\n\nflowchart TD\n  S(Sonny) ---&gt;|infers properties of| N{not-kindness}\n  N ---|involves| P[a person's behavior]\n  N ---|is| E[surprising]\n  N ---|evokes| H[negative feelings]"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-4",
+    "href": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-4",
+    "title": "Learning from others",
+    "section": "Learning abstract concepts 4",
+    "text": "Learning abstract concepts 4\n\n\n\n\n\nflowchart LR\n  E(Ellie) ---&gt;|puts grapes in noodle place| S(Sonny)\n  S ---&gt;|feels| H[negative feelings]\n  S ---&gt;|perceives| F[surprise]\n  H --- N{not-kindness}\n  F --- N"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-5",
+    "href": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-5",
+    "title": "Learning from others",
+    "section": "Learning abstract concepts 5",
+    "text": "Learning abstract concepts 5\n\n\n\n\n\nflowchart LR\n  N{not-kindness} ---&gt;|provides label for feelings for| S(Sonny)\n  S(Sonny) ---&gt;|says| K((\"that's not kind\"))\n  K ---&gt;|directed to| E(Ellie)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#core-knowledge-domains",
+    "href": "slides/wk-13-learning-from-others.html#core-knowledge-domains",
+    "title": "Learning from others",
+    "section": "Core knowledge domains",
+    "text": "Core knowledge domains\n\nObjects\nNumbers\nAgents\nSocial partners\nSpace\nShapes"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#aside",
+    "href": "slides/wk-13-learning-from-others.html#aside",
+    "title": "Learning from others",
+    "section": "Aside",
+    "text": "Aside"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#example-questions",
+    "href": "slides/wk-13-learning-from-others.html#example-questions",
+    "title": "Learning from others",
+    "section": "Example: Questions",
+    "text": "Example: Questions\n\nOn their weekly drive home, Sonny notices and comments on a big apartment building.\nMimi describes it as a place where big kids live that has many smaller houses inside.\n\n\n\nThat’s a big house where big kids live. (Sonny)\n\n\n\n\nYes, that’s a building where big kids live. There are small houses inside. (Mimi)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#questions-2",
+    "href": "slides/wk-13-learning-from-others.html#questions-2",
+    "title": "Learning from others",
+    "section": "Questions 2",
+    "text": "Questions 2\n\nI want to see it. (Sonny)\n\n\n\nWe can’t go in there. (Mimi)\n\n\n\n\nWhy?\n\n\n\n\nOnly the people who live there and their friends can go inside. (Mimi)"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#what-is-learned",
+    "href": "slides/wk-13-learning-from-others.html#what-is-learned",
+    "title": "Learning from others",
+    "section": "What is learned?",
+    "text": "What is learned?\n\nHow\n\nActions\n\nWhat & why\n\nConcepts"
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#core-knowledge-domains-1",
+    "href": "slides/wk-13-learning-from-others.html#core-knowledge-domains-1",
+    "title": "Learning from others",
+    "section": "Core knowledge domains",
+    "text": "Core knowledge domains\n\nObjects\nNumbers\nAgents\nSocial partners\nSpace\nShapes"
   }
 ]
