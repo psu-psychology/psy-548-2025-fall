@@ -274,6 +274,7 @@ flowchart TD
 ---
 
 ![https://www.merriam-webster.com/dictionary/testimony](../include/img/testimony-definition.png)
+
 ---
 
 ![https://www.merriam-webster.com/thesaurus/testimony](../include/img/testimony-synonyms.png)
@@ -346,7 +347,7 @@ flowchart TD
 :::
 
 ::: {.fragment}
->Why?
+>Why? (Sonny)
 :::
 
 ::: {.fragment}
@@ -413,13 +414,13 @@ flowchart LR
   K --->|directed to| E(Ellie)
 ```
 
-## Coexistence of conceptual systems
+## Coexistence of conceptual systems 1
 
-![](../include/img/fitzgerald-first-rate-intelligence-quotation.png)
+![](../include/img/fitzgerald-first-rate-intelligence-quotation.png){fig-align="center"}
 
-## Coexistence of conceptual systems
+## Coexistence of conceptual systems 2
 
-![](../include/img/doublethink-orwell.png)
+![](../include/img/doublethink-orwell.png){fig-align="center" width="125%"}
 
 ---
 
@@ -430,7 +431,7 @@ flowchart LR
 -- @Wikipedia-contributors2025-mf
 :::
 ::: {.column width=50%}
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/On_Bullshit_cover.jpeg/960px-On_Bullshit_cover.jpeg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/On_Bullshit_cover.jpeg/960px-On_Bullshit_cover.jpeg){width="60%" fig-align="right"}
 :::
 ::::
 

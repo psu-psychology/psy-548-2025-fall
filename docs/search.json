@@ -279,7 +279,7 @@
     "href": "slides/wk-13-learning-from-others.html#testimony",
     "title": "Learning from others",
     "section": "Testimony",
-    "text": "Testimony\nflowchart TD\n  T{{\"Testimony\"}} ---|is| S(\"Speech\")\n  B[\"Source\"] ---|from| S\n  B --- Y(\"Trustworthiness\")\n  S ---|in a| Z(\"Situation\")\n  Z ---|coincident with| P(\"Perceived physical properties\")\n  Z ---|coincident with| C(\"Cognitive state\")\n  P --- V(\"Visual\")\n  P --- D(\"Acoustic\")\n  C --- E(\"Attention\")\n  C --- F(\"Memories\")\n  C --- G(\"Concepts\")",
+    "text": "Testimony\n\n\n\n\n\nflowchart TD\n  T{{\"Testimony\"}} ---|is| S(\"Speech\")\n  B[\"Source\"] ---|from| S\n  B --- Y(\"Trustworthiness\")\n  S ---|in a| Z(\"Situation\")\n  Z ---|coincident with| P(\"Perceived physical properties\")\n  Z ---|coincident with| C(\"Cognitive state\")\n  P --- V(\"Visual\")\n  P --- D(\"Acoustic\")\n  C --- E(\"Attention\")\n  C --- F(\"Memories\")\n  C --- G(\"Concepts\")",
     "crumbs": [
       "Slides",
       "Wk 13 • Fri Nov 21"
@@ -345,7 +345,7 @@
     "href": "slides/wk-13-learning-from-others.html#questions-2",
     "title": "Learning from others",
     "section": "Questions 2",
-    "text": "Questions 2\n\nI want to see it. (Sonny)\n\n\n\nWe can’t go in there. (Mimi)\n\n\n\n\nWhy?\n\n\n\n\nOnly the people who live there and their friends can go inside. (Mimi)",
+    "text": "Questions 2\n\nI want to see it. (Sonny)\n\n\n\nWe can’t go in there. (Mimi)\n\n\n\n\nWhy? (Sonny)\n\n\n\n\nOnly the people who live there and their friends can go inside. (Mimi)",
     "crumbs": [
       "Slides",
       "Wk 13 • Fri Nov 21"
@@ -367,7 +367,7 @@
     "href": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-2",
     "title": "Learning from others",
     "section": "Learning abstract concepts 2",
-    "text": "Learning abstract concepts 2\nflowchart LR\n  E(Ellie) ---&gt;|reads book about kindness to| S(Sonny)\n  S ---&gt;|infers properties of| K{kindness}\n\nflowchart LR\n  Z(Zander) ---&gt;|pushes| S(Sonny)\n  E(Ellie) ---&gt;|says Z wasn't kind| S\n  S ---&gt;|infers properties of| N{not-kindness}\n  N ---|is the opposite of| K{kindness}",
+    "text": "Learning abstract concepts 2\n\n\n\n\n\nflowchart LR\n  E(Ellie) ---&gt;|reads book about kindness to| S(Sonny)\n  S ---&gt;|infers properties of| K{kindness}\n\n\n\n\n\n\n\n\n\n\n\n\nflowchart LR\n  Z(Zander) ---&gt;|pushes| S(Sonny)\n  E(Ellie) ---&gt;|says Z wasn't kind| S\n  S ---&gt;|infers properties of| N{not-kindness}\n  N ---|is the opposite of| K{kindness}",
     "crumbs": [
       "Slides",
       "Wk 13 • Fri Nov 21"
@@ -378,7 +378,7 @@
     "href": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-3",
     "title": "Learning from others",
     "section": "Learning abstract concepts 3",
-    "text": "Learning abstract concepts 3\nflowchart TD\n  S(Sonny) ---&gt;|infers properties of| N{not-kindness}\n  N ---|involves| P[a person's behavior]\n  N ---|is| E[surprising]\n  N ---|evokes| H[negative feelings]",
+    "text": "Learning abstract concepts 3\n\n\n\n\n\nflowchart TD\n  S(Sonny) ---&gt;|infers properties of| N{not-kindness}\n  N ---|involves| P[a person's behavior]\n  N ---|is| E[surprising]\n  N ---|evokes| H[negative feelings]",
     "crumbs": [
       "Slides",
       "Wk 13 • Fri Nov 21"
@@ -389,7 +389,7 @@
     "href": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-4",
     "title": "Learning from others",
     "section": "Learning abstract concepts 4",
-    "text": "Learning abstract concepts 4\nflowchart LR\n  E(Ellie) ---&gt;|puts grapes in noodle place| S(Sonny)\n  S ---&gt;|feels| H[negative feelings]\n  S ---&gt;|perceives| F[surprise]\n  H --- N{not-kindness}\n  F --- N",
+    "text": "Learning abstract concepts 4\n\n\n\n\n\nflowchart LR\n  E(Ellie) ---&gt;|puts grapes in noodle place| S(Sonny)\n  S ---&gt;|feels| H[negative feelings]\n  S ---&gt;|perceives| F[surprise]\n  H --- N{not-kindness}\n  F --- N",
     "crumbs": [
       "Slides",
       "Wk 13 • Fri Nov 21"
@@ -400,7 +400,7 @@
     "href": "slides/wk-13-learning-from-others.html#learning-abstract-concepts-5",
     "title": "Learning from others",
     "section": "Learning abstract concepts 5",
-    "text": "Learning abstract concepts 5\nflowchart LR\n  N{not-kindness} ---&gt;|provides label for feelings for| S(Sonny)\n  S(Sonny) ---&gt;|says| K((\"that's not kind\"))\n  K ---&gt;|directed to| E(Ellie)",
+    "text": "Learning abstract concepts 5\n\n\n\n\n\nflowchart LR\n  N{not-kindness} ---&gt;|provides label for feelings for| S(Sonny)\n  S(Sonny) ---&gt;|says| K((\"that's not kind\"))\n  K ---&gt;|directed to| E(Ellie)",
     "crumbs": [
       "Slides",
       "Wk 13 • Fri Nov 21"
@@ -421,8 +421,8 @@
     "objectID": "slides/wk-13-learning-from-others.html#coexistence-of-conceptual-systems-1",
     "href": "slides/wk-13-learning-from-others.html#coexistence-of-conceptual-systems-1",
     "title": "Learning from others",
-    "section": "Coexistence of conceptual systems",
-    "text": "Coexistence of conceptual systems",
+    "section": "Coexistence of conceptual systems 1",
+    "text": "Coexistence of conceptual systems 1",
     "crumbs": [
       "Slides",
       "Wk 13 • Fri Nov 21"
@@ -4566,6 +4566,17 @@
     "crumbs": [
       "Slides",
       "Wk 11 • Fri Nov 07"
+    ]
+  },
+  {
+    "objectID": "slides/wk-13-learning-from-others.html#coexistence-of-conceptual-systems-2",
+    "href": "slides/wk-13-learning-from-others.html#coexistence-of-conceptual-systems-2",
+    "title": "Learning from others",
+    "section": "Coexistence of conceptual systems 2",
+    "text": "Coexistence of conceptual systems 2",
+    "crumbs": [
+      "Slides",
+      "Wk 13 • Fri Nov 21"
     ]
   }
 ]
