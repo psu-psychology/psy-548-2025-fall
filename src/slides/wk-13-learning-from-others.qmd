@@ -193,6 +193,11 @@ flowchart TD
 
 ![@Wikipedia-contributors2025-nl](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Semantic_Net.svg/2560px-Semantic_Net.svg.png)
 
+---
+
+![https://wordnet.princeton.edu/](../include/img/wordnet-homepage.png)
+[@fellbaum2005]
+
 ## Where do concepts come from?
 
 ::: {.incremental}
@@ -252,24 +257,11 @@ flowchart TD
 ## Why word learning matters
 
 - Lexicalization
-  - Different $\rightarrow$ $\neq$ concepts
+  - Process of labelling concepts with words
+  - Map from non-linguistic $\rightarrow$ linguistic
+  - Word_1 $\neq$ Word_2 $\rightarrow$ Concept_1 $\neg$ Concept_2
   - Implies "more stable, enduring, unchanging construal..." [@Gelman2009-jg p. 121]
-- Contexts in which words are used, features of words, pragmatics
-  
-## Essentialism
-
-- Some categories have *essential* properties
-- Cultures vary in 
-  - what categories have essential features
-  - degree of views about essentialism 
-
-## Essentialism
-
-- Cues to essentialism in adult language
-  - Appearance vs. reality
-  - Highlighting categorical differences
-  - Broad descriptive statements about category
-  - Generics ("Professors are absent-minded" vs. "My professor is scatter-brained.")
+- Contexts in which words are used, features of words, pragmatics of speaker
 
 ## Where do concepts come from?
 
@@ -277,8 +269,51 @@ flowchart TD
 - Others'
   - Speech
     - **What is said, by whom, to whom, where, when, & how, etc.**
-    - i.e., Testimony
+    - i.e., **Testimony**
     
+---
+
+![https://www.merriam-webster.com/dictionary/testimony](../include/img/testimony-definition.png)
+---
+
+![https://www.merriam-webster.com/thesaurus/testimony](../include/img/testimony-synonyms.png)
+
+## Testimony
+
+```{mermaid}
+flowchart TD
+  T{{"Testimony"}} ---|is| S("Speech")
+  B["Source"] ---|from| S
+  B --- Y("Trustworthiness")
+  S ---|in a| Z("Situation")
+  Z ---|coincident with| P("Perceived physical properties")
+  Z ---|coincident with| C("Cognitive state")
+  P --- V("Visual")
+  P --- D("Acoustic")
+  C --- E("Attention")
+  C --- F("Memories")
+  C --- G("Concepts")
+```    
+
+## Covert and implicit categories
+
+- Non-linguistic examples?
+
+## Essentialism
+
+- Some categories have *essential* properties
+- Cultures vary in 
+  - what categories have essential features
+  - degree of views about essentialism
+
+## Language cues to essentialism
+
+- Appearance vs. reality
+- Highlighting categorical differences
+- Broad descriptive statements about category
+- Generics ("Professors are absent-minded" vs. "My professor is scatter-brained.")
+- Labeling in one context but not another
+
 ## Where do concepts come from?
 
 - Children's own actions & observations
@@ -378,6 +413,27 @@ flowchart LR
   K --->|directed to| E(Ellie)
 ```
 
+## Coexistence of conceptual systems
+
+![](../include/img/fitzgerald-first-rate-intelligence-quotation.png)
+
+## Coexistence of conceptual systems
+
+![](../include/img/doublethink-orwell.png)
+
+---
+
+:::: {.columns}
+::: {.column width=50%}
+>...bullshit is speech intended to persuade without regard for truth. The liar cares about the truth and attempts to hide it; the bullshitter doesn't care whether what they say is true or false.
+
+-- @Wikipedia-contributors2025-mf
+:::
+::: {.column width=50%}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/On_Bullshit_cover.jpeg/960px-On_Bullshit_cover.jpeg)
+:::
+::::
+
 ## Learning from testimony
 
 - Speaker characteristics
@@ -390,9 +446,21 @@ flowchart LR
 
 ## Psychological characteristics
 
-- Informant knowledge can differ (by topic, characteristics of speaker, ...)
 - When child knowledge uncertain, irrelevant speaker characteristics can influence
 - Biases to trust familiar adults
+
+---
+
+```{mermaid}
+flowchart TD
+  I[informant] ---|is-a| P(("person"))
+  I ---|is| F(("familiar|unfamiliar"))
+  I ---|has-a| A(("age"))
+  I ---|has| D(("domain knowledge"))
+  I ---|has been| R(("reliable"))
+  I ---|speaks-with| C("confidence")
+  I ---|speaks-with| E("familiar accent")
+```
 
 # Wrap-up
 

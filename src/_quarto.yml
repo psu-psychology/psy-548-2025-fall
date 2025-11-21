@@ -34,6 +34,10 @@ website:
             href: slides/wk-08-dynamic-systems.qmd
           - text: "Wk 10 • Fri Oct 31"
             href: slides/wk-10-embodied-cognition.qmd
+          - text: "Wk 11 • Fri Nov 07"
+            href: slides/wk-11-sociocultural.qmd
+          - text: "Wk 13 • Fri Nov 21"
+            href: slides/wk-13-learning-from-others.qmd
       - section: "Resources"
         contents:
           - resources/presentations.qmd

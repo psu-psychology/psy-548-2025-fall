@@ -144,7 +144,8 @@ Caesar Liu)
 
 - Sociocultural development
   - *Read*: @Siegler2021-py Chapter 4; @Tomasello2016-rx 
-
+  - *Slides*: | [html](slides/wk-11-sociocultural.qmd) | 
+  
 ## Week 12
 
 ### Fri, November 14, 2025
@@ -165,6 +166,7 @@ Caesar Liu)
 
 - Learning from others
   - *General Readings*: @Gelman2009-jg; @Sobel2013-lb
+      - *Slides*: | [html](slides/wk-13-learning-from-others.qmd) | 
   - *Student Presentation M*: Learning from testimony (*Presenter*: TBD; *Discussant*: Luke Debec)
     - *Read*: @Harris2018-eh; @Jaswal2010-dz
 

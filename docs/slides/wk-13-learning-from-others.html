@@ -28,6 +28,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /* CSS for citations */
     div.csl-bib-body { }
     div.csl-entry {
@@ -460,7 +526,11 @@ Rick Gilmore
 <section id="from-associative-learning-to-semantic-networks" class="slide level2">
 <h2>From associative learning to semantic networks</h2>
 
-<img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Semantic_Net.svg/2560px-Semantic_Net.svg.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Wikipedia-contributors2025-nl">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025</a>)</span></p></section>
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Semantic_Net.svg/2560px-Semantic_Net.svg.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Wikipedia-contributors2025-nl">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025b</a>)</span></p></section>
+<section class="slide level2">
+
+<p><img data-src="../include/img/wordnet-homepage.png" alt="https://wordnet.princeton.edu/"> <span class="citation" data-cites="fellbaum2005">(<a href="#/references" role="doc-biblioref" onclick="">Fellbaum, 2005</a>)</span></p>
+</section>
 <section id="where-do-concepts-come-from-2" class="slide level2">
 <h2>Where do concepts come from?</h2>
 <ul>
@@ -549,10 +619,56 @@ Rick Gilmore
 <ul>
 <li>Lexicalization
 <ul>
-<li>Different <span class="math inline">\(\rightarrow\)</span> <span class="math inline">\(\neq\)</span> concepts</li>
+<li>Process of labelling concepts with words</li>
+<li>Map from non-linguistic <span class="math inline">\(\rightarrow\)</span> linguistic</li>
+<li>Word_1 <span class="math inline">\(\neq\)</span> Word_2 <span class="math inline">\(\rightarrow\)</span> Concept_1 <span class="math inline">\(\neg\)</span> Concept_2</li>
 <li>Implies “more stable, enduring, unchanging construal…” <span class="citation" data-cites="Gelman2009-jg">(<a href="#/references" role="doc-biblioref" onclick="">Gelman, 2009, p. 121</a>)</span></li>
 </ul></li>
-<li>Contexts in which words are used, features of words, pragmatics</li>
+<li>Contexts in which words are used, features of words, pragmatics of speaker</li>
+</ul>
+</section>
+<section id="where-do-concepts-come-from-3" class="slide level2">
+<h2>Where do concepts come from?</h2>
+<ul>
+<li>Children’s own actions &amp; observations</li>
+<li>Others’
+<ul>
+<li>Speech
+<ul>
+<li><strong>What is said, by whom, to whom, where, when, &amp; how, etc.</strong></li>
+<li>i.e., <strong>Testimony</strong></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="httpswww.merriam-webster.comdictionarytestimony" class="slide level2">
+<h2><img data-src="../include/img/testimony-definition.png" alt="https://www.merriam-webster.com/dictionary/testimony"></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../include/img/testimony-synonyms.png"></p>
+<figcaption>https://www.merriam-webster.com/thesaurus/testimony</figcaption>
+</figure>
+</div>
+</section>
+<section id="testimony" class="slide level2">
+<h2>Testimony</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource {mermaid} number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>flowchart TD</span>
+<span id="cb1-2"><a></a>  T{{"Testimony"}} ---|is| S("Speech")</span>
+<span id="cb1-3"><a></a>  B["Source"] ---|from| S</span>
+<span id="cb1-4"><a></a>  B --- Y("Trustworthiness")</span>
+<span id="cb1-5"><a></a>  S ---|in a| Z("Situation")</span>
+<span id="cb1-6"><a></a>  Z ---|coincident with| P("Perceived physical properties")</span>
+<span id="cb1-7"><a></a>  Z ---|coincident with| C("Cognitive state")</span>
+<span id="cb1-8"><a></a>  P --- V("Visual")</span>
+<span id="cb1-9"><a></a>  P --- D("Acoustic")</span>
+<span id="cb1-10"><a></a>  C --- E("Attention")</span>
+<span id="cb1-11"><a></a>  C --- F("Memories")</span>
+<span id="cb1-12"><a></a>  C --- G("Concepts")</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="covert-and-implicit-categories" class="slide level2">
+<h2>Covert and implicit categories</h2>
+<ul>
+<li>Non-linguistic examples?</li>
 </ul>
 </section>
 <section id="essentialism" class="slide level2">
@@ -566,30 +682,14 @@ Rick Gilmore
 </ul></li>
 </ul>
 </section>
-<section id="essentialism-1" class="slide level2">
-<h2>Essentialism</h2>
-<ul>
-<li>Cues to essentialism in adult language
+<section id="language-cues-to-essentialism" class="slide level2">
+<h2>Language cues to essentialism</h2>
 <ul>
 <li>Appearance vs.&nbsp;reality</li>
 <li>Highlighting categorical differences</li>
 <li>Broad descriptive statements about category</li>
 <li>Generics (“Professors are absent-minded” vs.&nbsp;“My professor is scatter-brained.”)</li>
-</ul></li>
-</ul>
-</section>
-<section id="where-do-concepts-come-from-3" class="slide level2">
-<h2>Where do concepts come from?</h2>
-<ul>
-<li>Children’s own actions &amp; observations</li>
-<li>Others’
-<ul>
-<li>Speech
-<ul>
-<li><strong>What is said, by whom, to whom, where, when, &amp; how, etc.</strong></li>
-<li>i.e., Testimony</li>
-</ul></li>
-</ul></li>
+<li>Labeling in one context but not another</li>
 </ul>
 </section>
 <section id="where-do-concepts-come-from-4" class="slide level2">
@@ -666,95 +766,60 @@ Rick Gilmore
 </section>
 <section id="learning-abstract-concepts-2" class="slide level2">
 <h2>Learning abstract concepts 2</h2>
-<div class="cell" data-reveal="true" data-layout-align="center">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  E(Ellie) ---&gt;|reads book about kindness to| S(Sonny)
-  S ---&gt;|infers properties of| K{kindness}
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource {mermaid} number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>flowchart LR</span>
+<span id="cb2-2"><a></a>  E(Ellie) ---&gt;|reads book about kindness to| S(Sonny)</span>
+<span id="cb2-3"><a></a>  S ---&gt;|infers properties of| K{kindness}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="fragment">
-<div class="cell" data-reveal="true" data-layout-align="center">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  Z(Zander) ---&gt;|pushes| S(Sonny)
-  E(Ellie) ---&gt;|says Z wasn't kind| S
-  S ---&gt;|infers properties of| N{not-kindness}
-  N ---|is the opposite of| K{kindness}
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource {mermaid} number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a></a>flowchart LR</span>
+<span id="cb3-2"><a></a>  Z(Zander) ---&gt;|pushes| S(Sonny)</span>
+<span id="cb3-3"><a></a>  E(Ellie) ---&gt;|says Z wasn't kind| S</span>
+<span id="cb3-4"><a></a>  S ---&gt;|infers properties of| N{not-kindness}</span>
+<span id="cb3-5"><a></a>  N ---|is the opposite of| K{kindness}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="learning-abstract-concepts-3" class="slide level2">
 <h2>Learning abstract concepts 3</h2>
-<div class="cell" data-reveal="true" data-layout-align="center">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-  S(Sonny) ---&gt;|infers properties of| N{not-kindness}
-  N ---|involves| P[a person's behavior]
-  N ---|is| E[surprising]
-  N ---|evokes| H[negative feelings]
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource {mermaid} number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a></a>flowchart TD</span>
+<span id="cb4-2"><a></a>  S(Sonny) ---&gt;|infers properties of| N{not-kindness}</span>
+<span id="cb4-3"><a></a>  N ---|involves| P[a person's behavior]</span>
+<span id="cb4-4"><a></a>  N ---|is| E[surprising]</span>
+<span id="cb4-5"><a></a>  N ---|evokes| H[negative feelings]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="learning-abstract-concepts-4" class="slide level2">
 <h2>Learning abstract concepts 4</h2>
-<div class="cell" data-reveal="true" data-layout-align="center">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  E(Ellie) ---&gt;|puts grapes in noodle place| S(Sonny)
-  S ---&gt;|feels| H[negative feelings]
-  S ---&gt;|perceives| F[surprise]
-  H --- N{not-kindness}
-  F --- N
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource {mermaid} number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a></a>flowchart LR</span>
+<span id="cb5-2"><a></a>  E(Ellie) ---&gt;|puts grapes in noodle place| S(Sonny)</span>
+<span id="cb5-3"><a></a>  S ---&gt;|feels| H[negative feelings]</span>
+<span id="cb5-4"><a></a>  S ---&gt;|perceives| F[surprise]</span>
+<span id="cb5-5"><a></a>  H --- N{not-kindness}</span>
+<span id="cb5-6"><a></a>  F --- N</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="learning-abstract-concepts-5" class="slide level2">
 <h2>Learning abstract concepts 5</h2>
-<div class="cell" data-reveal="true" data-layout-align="center">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  N{not-kindness} ---&gt;|provides label for feelings for| S(Sonny)
-  S(Sonny) ---&gt;|says| K(("that's not kind"))
-  K ---&gt;|directed to| E(Ellie)
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource {mermaid} number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a></a>flowchart LR</span>
+<span id="cb6-2"><a></a>  N{not-kindness} ---&gt;|provides label for feelings for| S(Sonny)</span>
+<span id="cb6-3"><a></a>  S(Sonny) ---&gt;|says| K(("that's not kind"))</span>
+<span id="cb6-4"><a></a>  K ---&gt;|directed to| E(Ellie)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="coexistence-of-conceptual-systems" class="slide level2">
+<h2>Coexistence of conceptual systems</h2>
+
+<img data-src="../include/img/fitzgerald-first-rate-intelligence-quotation.png" class="r-stretch"></section>
+<section id="coexistence-of-conceptual-systems-1" class="slide level2">
+<h2>Coexistence of conceptual systems</h2>
+
+<img data-src="../include/img/doublethink-orwell.png" class="r-stretch"></section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<blockquote>
+<p>…bullshit is speech intended to persuade without regard for truth. The liar cares about the truth and attempts to hide it; the bullshitter doesn’t care whether what they say is true or false.</p>
+</blockquote>
+<p>– <span class="citation" data-cites="Wikipedia-contributors2025-mf">Wikipedia contributors (<a href="#/references" role="doc-biblioref" onclick="">2025a</a>)</span></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/On_Bullshit_cover.jpeg/960px-On_Bullshit_cover.jpeg"></p>
+</div></div>
 </section>
 <section id="learning-from-testimony" class="slide level2">
 <h2>Learning from testimony</h2>
@@ -773,10 +838,31 @@ Rick Gilmore
 <section id="psychological-characteristics" class="slide level2">
 <h2>Psychological characteristics</h2>
 <ul>
-<li>Informant knowledge can differ (by topic, characteristics of speaker, …)</li>
 <li>When child knowledge uncertain, irrelevant speaker characteristics can influence</li>
 <li>Biases to trust familiar adults</li>
 </ul>
+</section>
+<section class="slide level2">
+
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  I[informant] ---|is-a| P(("person"))
+  I ---|is| F(("familiar|unfamiliar"))
+  I ---|has-a| A(("age"))
+  I ---|has| D(("domain knowledge"))
+  I ---|has been| R(("reliable"))
+  I ---|speaks-with| C("confidence")
+  I ---|speaks-with| E("familiar accent")
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section></section>
 <section>
 <section id="wrap-up" class="title-slide slide level1 center">
@@ -817,6 +903,9 @@ Braginsky, M. (n.d.). Wordbank. Retrieved November 19, 2025, from <a href="https
 <div id="ref-Ding2015-bp" class="csl-entry" role="listitem">
 Ding, X. P., Wellman, H. M., Wang, Y., Fu, G., &amp; Lee, K. (2015). Theory-of-mind training causes honest young children to lie. <em>Psychological Science</em>, <em>26</em>, 1812–1821. <a href="https://doi.org/10.1177/0956797615604628">https://doi.org/10.1177/0956797615604628</a>
 </div>
+<div id="ref-fellbaum2005" class="csl-entry" role="listitem">
+Fellbaum, C. (2005). WordNet and wordnets. In K. Brown (Ed.), <em>Encyclopedia of language and linguistics</em> (Second Edition, pp. 665–670). Oxford: Elsevier. Retrieved from <a href="http://wordnet.princeton.edu/">http://wordnet.princeton.edu/</a>
+</div>
 <div id="ref-Gelman2009-jg" class="csl-entry" role="listitem">
 Gelman, S. A. (2009). Learning from others: Children’s construction of concepts. <em>Annual Review of Psychology</em>, <em>60</em>, 115–140. <a href="https://doi.org/10.1146/annurev.psych.59.103006.093659">https://doi.org/10.1146/annurev.psych.59.103006.093659</a>
 </div>
@@ -844,8 +933,11 @@ Spelke, E. S., &amp; Kinzler, K. D. (2007). Core knowledge. <em>Developmental Sc
 <div id="ref-Wellman2012-ny" class="csl-entry" role="listitem">
 Wellman, H. M. (2012). Theory of mind: Better methods, clearer findings, more development. <em>The European Journal of Developmental Psychology</em>, <em>9</em>, 313–330. <a href="https://doi.org/10.1080/17405629.2012.680297">https://doi.org/10.1080/17405629.2012.680297</a>
 </div>
+<div id="ref-Wikipedia-contributors2025-mf" class="csl-entry" role="listitem">
+Wikipedia contributors. (2025a, September 4). On bullshit. Retrieved from <a href="https://en.wikipedia.org/wiki/On_Bullshit">https://en.wikipedia.org/wiki/On_Bullshit</a>
+</div>
 <div id="ref-Wikipedia-contributors2025-nl" class="csl-entry" role="listitem">
-Wikipedia contributors. (2025, October 3). Semantic network. Retrieved from <a href="https://en.wikipedia.org/wiki/Semantic_network">https://en.wikipedia.org/wiki/Semantic_network</a>
+Wikipedia contributors. (2025b, October 3). Semantic network. Retrieved from <a href="https://en.wikipedia.org/wiki/Semantic_network">https://en.wikipedia.org/wiki/Semantic_network</a>
 </div>
 </div>
 </section></section>
