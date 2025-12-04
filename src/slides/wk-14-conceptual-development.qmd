@@ -70,7 +70,10 @@ Differences in language comprehension complicate task development and interpreta
 - Correlations among features
 - Prototypes
 
-- What statistics do children capture from individual experiences?
+::: {.fragment}
+- What are the statistics of children's experiences?
+- What statistics do children capture from them?
+:::
 
 ## Theory-based representations
 
@@ -118,16 +121,16 @@ Differences in language comprehension complicate task development and interpreta
 - @Mandler1988-sp; @Mandler1992-vb; @Mandler2005-za
 :::
 ::: {.column width=50%}
-![](https://pages.ucsd.edu/~jmandler/jean2007-small.jpg)
+![](https://pages.ucsd.edu/~jmandler/jean2007-small.jpg){fig-align="right"}
 :::
 ::::
 
 ## How to build a baby
 
 - Infants engage in perceptual and *conceptual* categorization
-- Perceptual analysis
+- *Perceptual analysis*
   - Recoding perceptual information into a non-perceptual form
-- Image schemas as conceptual primitives
+- *Image schemas* as conceptual primitives
   - Possible grounding for symbolic representation
   
 ## Illustrations
@@ -180,25 +183,57 @@ Differences in language comprehension complicate task development and interpreta
 ---
 
 ```{mermaid}
+%%| label: fig-inferring-animacy
+%%| fig-cap: "From perceptual to conceptual representation. Perceptual properties are in the trapezoids; concepts are in the trapezoidal shapes."
 flowchart TD
-  A[Entity_A] ---|is seen in| M[motion]
-  M ---|looks like| S[self-motion]
-  M ---|looks| U[unpredictable]
-  B ---|is seen as| N[not moving]
-  S & U ---|implies| C[animacy]
-  C ---|is property of| A
+  A([Entity_A]) ---|is seen in| M[/motion/]
+  M ---|looks like| S[/self-motion/]
+  M ---|looks| U[/unpredictable/]
+  B([Entity_B]) ---|is seen as| N[/not moving/]
+  S & U -->|implies| C{{animacy}}
+  C -->|is property of| A
 ```
 
 ---
 
 ```{mermaid}
+%%| label: fig-inferring-inanimacy
+%%| fig-cap: "How A moving B affects conceptual representations."
 flowchart TD
-  A ---|makes contact with| B[Entity_B]
-  B ---|is seen in| N[motion]
-  N ---|looks| T[not to be self-moving]
-  N ---|looks| P[predictable]
-  T & P ---|implies| D[inanimacy]
-  D ---|is property of| B
+  A([Entity_A]) ---|makes contact with| B([Entity_B])
+  B ---|is seen in| N[/motion/]
+  N ---|looks| T[/not to be self-moving/]
+  N ---|looks| P[/predictable/]
+  T & P -->|implies| D{{inanimacy}}
+  D -->|is property of| B
+```
+
+---
+
+```{mermaid}
+%%| label: fig-animate-vs-inanimate
+%%| fig-cap: "Illustrating relationships between related concepts."
+flowchart TD
+  A{{animacy}} ---|opposite of| I{{inanimacy}}
+  A --- P[/unpredictable motion/]
+  A --- Q[/self-motion/]
+  I --- R[/predictable motion/]
+  I --- S[/caused motion/]
+```
+
+---
+
+```{mermaid}
+%%| label: fig-conceptual-network
+%%| fig-cap: "Toward a network of concepts"
+flowchart TD
+  A{{animacy}} ---|opposite of| I{{inanimacy}}
+  A --- P[/unpredictable motion/]
+  A --- Q[/self-motion/]
+  A --- S[/symmetric shape/]
+  A --- T[/makes noise/]
+  A --- U{{is alive}}
+  A ---|implies| V{{agency}}
 ```
 
 # Naive psychology

@@ -258,10 +258,15 @@ Rick Gilmore
 <section id="sources-of-probabilitic-representations" class="slide level2">
 <h2>Sources of probabilitic representations</h2>
 <ul>
-<li><p>Correlations among features</p></li>
-<li><p>Prototypes</p></li>
-<li><p>What statistics do children capture from individual experiences?</p></li>
+<li>Correlations among features</li>
+<li>Prototypes</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>What are the statistics of children’s experiences?</li>
+<li>What statistics do children capture from them?</li>
+</ul>
+</div>
 </section>
 <section id="theory-based-representations" class="slide level2">
 <h2>Theory-based representations</h2>
@@ -328,18 +333,22 @@ Rick Gilmore
 <li><span class="citation" data-cites="Mandler1988-sp">J. Mandler (<a href="#/references" role="doc-biblioref" onclick="">1988</a>)</span>; <span class="citation" data-cites="Mandler1992-vb">J. M. Mandler (<a href="#/references" role="doc-biblioref" onclick="">1992</a>)</span>; <span class="citation" data-cites="Mandler2005-za">J. M. Mandler (<a href="#/references" role="doc-biblioref" onclick="">2005</a>)</span></li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><img data-src="https://pages.ucsd.edu/~jmandler/jean2007-small.jpg"></p>
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="https://pages.ucsd.edu/~jmandler/jean2007-small.jpg" class="quarto-figure quarto-figure-right"></p>
+</figure>
+</div>
 </div></div>
 </section>
 <section id="how-to-build-a-baby-1" class="slide level2">
 <h2>How to build a baby</h2>
 <ul>
 <li>Infants engage in perceptual and <em>conceptual</em> categorization</li>
-<li>Perceptual analysis
+<li><em>Perceptual analysis</em>
 <ul>
 <li>Recoding perceptual information into a non-perceptual form</li>
 </ul></li>
-<li>Image schemas as conceptual primitives
+<li><em>Image schemas</em> as conceptual primitives
 <ul>
 <li>Possible grounding for symbolic representation</li>
 </ul></li>
@@ -402,19 +411,24 @@ Rick Gilmore
 
 <div class="cell" data-reveal="true" data-layout-align="center">
 <div class="cell-output-display">
+<div id="fig-inferring-animacy" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-inferring-animacy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-  A[Entity_A] ---|is seen in| M[motion]
-  M ---|looks like| S[self-motion]
-  M ---|looks| U[unpredictable]
-  B ---|is seen as| N[not moving]
-  S &amp; U ---|implies| C[animacy]
-  C ---|is property of| A
+<pre class="mermaid mermaid-js" data-label="fig-inferring-animacy">flowchart TD
+  A([Entity_A]) ---|is seen in| M[/motion/]
+  M ---|looks like| S[/self-motion/]
+  M ---|looks| U[/unpredictable/]
+  B([Entity_B]) ---|is seen as| N[/not moving/]
+  S &amp; U --&gt;|implies| C{{animacy}}
+  C --&gt;|is property of| A
 </pre>
 </div>
-<p></p></figure><p></p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-inferring-animacy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: From perceptual to conceptual representation. Perceptual properties are in the trapezoids; concepts are in the trapezoidal shapes.
+</figcaption>
+</figure>
 </div>
 </div>
 </div>
@@ -423,19 +437,76 @@ Rick Gilmore
 
 <div class="cell" data-reveal="true" data-layout-align="center">
 <div class="cell-output-display">
+<div id="fig-inferring-inanimacy" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-inferring-inanimacy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TD
-  A ---|makes contact with| B[Entity_B]
-  B ---|is seen in| N[motion]
-  N ---|looks| T[not to be self-moving]
-  N ---|looks| P[predictable]
-  T &amp; P ---|implies| D[inanimacy]
-  D ---|is property of| B
+<pre class="mermaid mermaid-js" data-label="fig-inferring-inanimacy">flowchart TD
+  A([Entity_A]) ---|makes contact with| B([Entity_B])
+  B ---|is seen in| N[/motion/]
+  N ---|looks| T[/not to be self-moving/]
+  N ---|looks| P[/predictable/]
+  T &amp; P --&gt;|implies| D{{inanimacy}}
+  D --&gt;|is property of| B
 </pre>
 </div>
-<p></p></figure><p></p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-inferring-inanimacy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: How A moving B affects conceptual representations.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-animate-vs-inanimate" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-animate-vs-inanimate-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-animate-vs-inanimate">flowchart TD
+  A{{animacy}} ---|opposite of| I{{inanimacy}}
+  A --- P[/unpredictable motion/]
+  A --- Q[/self-motion/]
+  I --- R[/predictable motion/]
+  I --- S[/caused motion/]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-animate-vs-inanimate-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Illustrating relationships between related concepts.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-conceptual-network" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-conceptual-network-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-conceptual-network">flowchart TD
+  A{{animacy}} ---|opposite of| I{{inanimacy}}
+  A --- P[/unpredictable motion/]
+  A --- Q[/self-motion/]
+  A --- S[/symmetric shape/]
+  A --- T[/makes noise/]
+  A --- U{{is alive}}
+  A ---|implies| V{{agency}}
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-conceptual-network-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Toward a network of concepts
+</figcaption>
+</figure>
 </div>
 </div>
 </div>
