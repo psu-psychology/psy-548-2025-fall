@@ -4578,5 +4578,152 @@
       "Slides",
       "Wk 13 • Fri Nov 21"
     ]
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#todays-topics",
+    "href": "slides/wk-14-conceptual-development.html#todays-topics",
+    "title": "Conceptual development",
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nConceptual development\n\nGeneral Readings: Siegler & Alibali (2021) Chapter 8; J. M. Mandler (1992)\nStudent Presentation N: Naive psychology (Presenter: Jiayi Fan : Discussant: Suzy Su)\n\nRead: Onishi & Baillargeon (2005); Wellman (2012); Ding, Wellman, Wang, Fu, & Lee (2015)"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#before-beyond-concepts",
+    "href": "slides/wk-14-conceptual-development.html#before-beyond-concepts",
+    "title": "Conceptual development",
+    "section": "Before (beyond?) concepts",
+    "text": "Before (beyond?) concepts\n\n\n\nTo be able to recognize the same thing again as it evidences itself to one’s senses in a multiplicity of ways, thus affording multiple opportunities to accumulate and apply information about it is…the most central challeng there is for cognition.\n\n– Millikan (2017)"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#conceptual-representations",
+    "href": "slides/wk-14-conceptual-development.html#conceptual-representations",
+    "title": "Conceptual development",
+    "section": "Conceptual representations",
+    "text": "Conceptual representations\n\n\n\nDefining features\nProbabilistic\nTheory-based"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#younger-neq-older",
+    "href": "slides/wk-14-conceptual-development.html#younger-neq-older",
+    "title": "Conceptual development",
+    "section": "Younger \\(\\neq\\) older?",
+    "text": "Younger \\(\\neq\\) older?\n\nThematic vs. taxonomic grouping depends on task/context\n\n\n\n\n\n\n\n\nNote\n\n\nDifferences in language comprehension complicate task development and interpretation."
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#sources-of-probabilistic-representations",
+    "href": "slides/wk-14-conceptual-development.html#sources-of-probabilistic-representations",
+    "title": "Conceptual development",
+    "section": "Sources of probabilistic representations",
+    "text": "Sources of probabilistic representations\n\n\n\nCue validities\n\ne.g., P(birds fly) vs. P(non-birds fly)\n\nCategory level"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#sources-of-probabilitic-representations",
+    "href": "slides/wk-14-conceptual-development.html#sources-of-probabilitic-representations",
+    "title": "Conceptual development",
+    "section": "Sources of probabilitic representations",
+    "text": "Sources of probabilitic representations\n\nCorrelations among features\nPrototypes\nWhat statistics do children capture from individual experiences?"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#theory-based-representations",
+    "href": "slides/wk-14-conceptual-development.html#theory-based-representations",
+    "title": "Conceptual development",
+    "section": "Theory-based representations",
+    "text": "Theory-based representations\n\nConcepts as partial theories\n\nFrom what to why\n\nCausal relations\nHierarchical relationships"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#concepts-about-what-core-theories",
+    "href": "slides/wk-14-conceptual-development.html#concepts-about-what-core-theories",
+    "title": "Conceptual development",
+    "section": "Concepts about what: Core theories",
+    "text": "Concepts about what: Core theories\n\n(naive) Physics\nPeople\n\n(naive) Psychology\n(naive) Sociology"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#concepts-about-what",
+    "href": "slides/wk-14-conceptual-development.html#concepts-about-what",
+    "title": "Conceptual development",
+    "section": "Concepts about what",
+    "text": "Concepts about what\n\nSpace\n\nFrom ego to allocentrism\n\nTime\n\nSimultaneity\nSequential relations\nDurations"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#next-time",
+    "href": "slides/wk-14-conceptual-development.html#next-time",
+    "title": "Conceptual development",
+    "section": "Next time…",
+    "text": "Next time…\n\nSystems\n\nRead: Bronfenbrenner (1977), Oyama, Griffiths, & Gray (2001), Hartley (2022)"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#next-time-1",
+    "href": "slides/wk-14-conceptual-development.html#next-time-1",
+    "title": "Conceptual development",
+    "section": "Next time…",
+    "text": "Next time…\n\nStudent Presentation O: Poverty is bad for cognition. (Presenter: Yeonjin Kim; Discussant: TBD)\n\nRead: Taylor, Cooper, Jackson, & Barch (2020); Amso (2020)\n\nStudent Presentation P: Poverty can be adaptive for cognition. (Presenter: Caesar Liu; Discussant: Natalie Byrd)\n\nRead: Frankenhuis, Panchanathan, & Nettle (2016); Frankenhuis, Vries, Bianchi, & Ellis (2020)"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#about",
+    "href": "slides/wk-14-conceptual-development.html#about",
+    "title": "Conceptual development",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version Sys.getenv(“RSTUDIO_VER”).\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#references",
+    "href": "slides/wk-14-conceptual-development.html#references",
+    "title": "Conceptual development",
+    "section": "References",
+    "text": "References\n\n\n\n\nAmso, D. (2020). Neighborhood poverty and brain development: Adaptation or maturation, fixed or reversible?: Adaptation or maturation, fixed or reversible? JAMA Network Open, 3, e2024139. https://doi.org/10.1001/jamanetworkopen.2020.24139\n\n\nBronfenbrenner, U. (1977). Toward an experimental ecology of human development. The American Psychologist, 32, 513–531. https://doi.org/10.1037/0003-066x.32.7.513\n\n\nDing, X. P., Wellman, H. M., Wang, Y., Fu, G., & Lee, K. (2015). Theory-of-mind training causes honest young children to lie. Psychological Science, 26, 1812–1821. https://doi.org/10.1177/0956797615604628\n\n\nFrankenhuis, W. E., Panchanathan, K., & Nettle, D. (2016). Cognition in harsh and unpredictable environments. Current Opinion in Psychology, 7, 76–80. https://doi.org/10.1016/j.copsyc.2015.08.011\n\n\nFrankenhuis, W. E., Vries, S. A. de, Bianchi, J., & Ellis, B. J. (2020). Hidden talents in harsh conditions? A preregistered study of memory and reasoning about social dominance. Developmental Science, 23, e12835. https://doi.org/10.1111/desc.12835\n\n\nFrith, U., & Vignemont, F. de. (2005). Egocentrism, allocentrism, and asperger syndrome. Consciousness and Cognition, 14, 719–738. https://doi.org/10.1016/j.concog.2005.04.006\n\n\nHartley, C. A. (2022). How do natural environments shape adaptive cognition across the lifespan? Trends in Cognitive Sciences, 26, 1029–1030. https://doi.org/10.1016/j.tics.2022.10.002\n\n\nJob, X. E., Kirsch, L. P., & Auvray, M. (2022). Spatial perspective-taking: Insights from sensory impairments. Experimental Brain Research, 240, 27–37. https://doi.org/10.1007/s00221-021-06221-6\n\n\nMandler, J. (1988). How to build a baby: On the development of an accessible representational system☆. Cognitive Development, 3, 113–136. https://doi.org/10.1016/0885-2014(88)90015-9\n\n\nMandler, J. M. (1992). How to build a baby: II. Conceptual primitives. Psychological Review, 99, 587–604. https://doi.org/10.1037/0033-295x.99.4.587\n\n\nMandler, J. M. (2005). How to build a baby: III. Image schemas and the transition to verbal thought. From Perception to Meaning: Image Schemas in Cognitive Linguistics, 137–163. Retrieved from https://www.academia.edu/download/30476938/from_perception_to_meaning_image_schemas_in_cognitive_linguistics.pdf#page=150\n\n\nMillikan, R. G. (2017). Beyond concepts: Unicepts, language, and natural information. London, England: Oxford University Press. https://doi.org/10.1093/oso/9780198717195.001.0001\n\n\nOnishi, K. H., & Baillargeon, R. (2005). Do 15-month-old infants understand false beliefs? Science (New York, N.Y.), 308, 255–258. https://doi.org/10.1126/science.1107621\n\n\nOyama, S., Griffiths, P. E., & Gray, R. D. (2001). Cycles of contingency: Developmental systems and evolution. Xii, 377. Retrieved from https://psycnet.apa.org/record/2001-06709-000\n\n\nSiegler, R., & Alibali, M. (2021). Children’s Thinking (5th ed.). Pearson.\n\n\nTaylor, R. L., Cooper, S. R., Jackson, J. J., & Barch, D. M. (2020). Assessment of neighborhood poverty, cognitive function, and prefrontal and hippocampal volumes in children. JAMA Network Open, 3, e2023774. https://doi.org/10.1001/jamanetworkopen.2020.23774\n\n\nWellman, H. M. (2012). Theory of mind: Better methods, clearer findings, more development. The European Journal of Developmental Psychology, 9, 313–330. https://doi.org/10.1080/17405629.2012.680297"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#regarding-simultaneity-and-sequences",
+    "href": "slides/wk-14-conceptual-development.html#regarding-simultaneity-and-sequences",
+    "title": "Conceptual development",
+    "section": "Regarding simultaneity and sequences",
+    "text": "Regarding simultaneity and sequences\n\nStroboscopic effect: https://www.youtube.com/shorts/UFvTrL2cGMo\nWithin sensory streams vs. between\n\n20 ms from event to auditory cortex\nvs. 100 ms to visual cortex"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#student-presentation-n",
+    "href": "slides/wk-14-conceptual-development.html#student-presentation-n",
+    "title": "Conceptual development",
+    "section": "Student Presentation N",
+    "text": "Student Presentation N\n\nPresenter: Jiayi Fan; Discussant: Suzy Su\n\nRead: Onishi & Baillargeon (2005); Wellman (2012); Ding et al. (2015)"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#how-to-build-a-baby",
+    "href": "slides/wk-14-conceptual-development.html#how-to-build-a-baby",
+    "title": "Conceptual development",
+    "section": "How to build a baby?",
+    "text": "How to build a baby?\n\n\n\nJean Mandler\nJ. Mandler (1988); J. M. Mandler (1992); J. M. Mandler (2005)"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#how-to-build-a-baby-1",
+    "href": "slides/wk-14-conceptual-development.html#how-to-build-a-baby-1",
+    "title": "Conceptual development",
+    "section": "How to build a baby",
+    "text": "How to build a baby\n\nInfants engage in perceptual and conceptual categorization\nPerceptual analysis\n\nRecoding perceptual information into a non-perceptual form\n\nImage schemas as conceptual primitives\n\nPossible grounding for symbolic representation"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#illustrations",
+    "href": "slides/wk-14-conceptual-development.html#illustrations",
+    "title": "Conceptual development",
+    "section": "Illustrations",
+    "text": "Illustrations\n\n\n\nAnimacy\n\nself-instigated vs. caused\ncontingency of motion"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#contingency",
+    "href": "slides/wk-14-conceptual-development.html#contingency",
+    "title": "Conceptual development",
+    "section": "Contingency",
+    "text": "Contingency\n\n\n\nBetween events/agents\n\n\n\n\n\nJ. M. Mandler (1992)"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#caused-motion",
+    "href": "slides/wk-14-conceptual-development.html#caused-motion",
+    "title": "Conceptual development",
+    "section": "Caused motion",
+    "text": "Caused motion\n \n\n\n\nJ. M. Mandler (1992)"
+  },
+  {
+    "objectID": "slides/wk-14-conceptual-development.html#agency",
+    "href": "slides/wk-14-conceptual-development.html#agency",
+    "title": "Conceptual development",
+    "section": "Agency",
+    "text": "Agency\n\n\n\nAGENCY is represented as an animate object, A, that moves itself and also causes another object, B, to move\n\n– @J. M. Mandler (1992)"
   }
 ]
