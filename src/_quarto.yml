@@ -38,6 +38,8 @@ website:
             href: slides/wk-11-sociocultural.qmd
           - text: "Wk 13 • Fri Nov 21"
             href: slides/wk-13-learning-from-others.qmd
+          - text: "Wk 14 • Fri Dec 05"
+            href: slides/wk-14-conceptual-development.qmd
       - section: "Resources"
         contents:
           - resources/presentations.qmd

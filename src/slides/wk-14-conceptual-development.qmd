@@ -80,6 +80,7 @@ Differences in language comprehension complicate task development and interpreta
 - Concepts as partial theories
   - From what to *why*
 - Causal relations
+  - If $A\rightarrow B$, then $t_A < t_B$
 - Hierarchical relationships
 
 ## Concepts about what: Core theories
@@ -94,8 +95,8 @@ Differences in language comprehension complicate task development and interpreta
 - Space
   - From ego to allocentrism
 - Time
-  - Simultaneity
-  - Sequential relations
+  - Simultaneity, $t_1==t_2$, or more often $t_1=t_2\pm\delta, 0 < \delta < 1$
+  - Sequential relations, $t_2 > t_1$
   - Durations
   
 ---
@@ -106,12 +107,36 @@ Differences in language comprehension complicate task development and interpreta
 
 ![@Frith2005-mn Figure 1](https://figures.semanticscholar.org/b70773a766a63f9996b189ddfb0e07752c7b8059/5-Figure1-1.png)
 
-## Regarding simultaneity and sequences
+## Eye to body-centered saccades
+
+:::: {.columns}
+::: {.column width=50%}
+![@Gilmore1997-ho Figure 1](../include/img/gilmore-johnson-1997-fig-01.gif)
+:::
+::: {.column width=50%}
+::: {.fragment}
+![@Gilmore1997-ho Figure 2](../include/img/gilmore-johnson-1997-fig-02.gif)
+:::
+:::
+::::
+
+## Regarding simultaneity
 
 - Stroboscopic effect: <https://www.youtube.com/shorts/UFvTrL2cGMo>
 - Within sensory streams vs. between
   - 20 ms from event to auditory cortex 
   - vs. 100 ms to visual cortex
+
+## Perceiving simultaneity develops
+
+:::: {.columns}
+::: {.column width=50%}
+- Audio-visual simultaneity perception not adult-like before ~9y [@Chen2016-do]
+:::
+::: {.column width=50%}
+![@Chen2016-do Figure 1](https://ars.els-cdn.com/content/image/1-s2.0-S0022096516000205-gr1.jpg)
+:::
+::::
   
 ## How to build a baby?
 
