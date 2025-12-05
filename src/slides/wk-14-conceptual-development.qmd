@@ -19,7 +19,7 @@ fig-align: "center"
 
 :::: {.columns}
 ::: {.column width=60%}
->To be able to recognize the same thing again as it evidences itself to one's senses in a multiplicity of ways, thus affording multiple opportunities to accumulate and apply information about it is...the most central challeng there is for cognition.
+>To be able to recognize the same thing again as it evidences itself to one's senses in a multiplicity of ways, thus affording multiple opportunities to accumulate and apply information about it is...the most central challenge there is for cognition.
 
 -- @Millikan2017-dn
 :::
