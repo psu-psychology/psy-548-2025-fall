@@ -8,7 +8,7 @@ project:
 website:
   title: "PSY 548"
   announcement: 
-    content: "Please remember to send your presenter and discussant materials." 
+    content: "Schedule updated to clarify that the Oyama reading only involves pp. 1-6." 
     position: below-navbar
     icon: info-circle
     dismissable: true

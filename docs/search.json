@@ -1731,7 +1731,7 @@
     "href": "slides/wk-01-intro.html#what-do-statistics-model",
     "title": "Course Introduction",
     "section": "What do statistics model?",
-    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 20.471, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6253672 0.7209422\nsample estimates:\n      cor \n0.6759874",
+    "text": "What do statistics model?\n\nWhat does a correlation (r) mean?\n\n\n\nCode\nx &lt;- rnorm(n = 500, mean = 0, sd = 1)\ny &lt;- x + rnorm(n = 500, mean = 0, sd = 1)\ncor.test(x, y)\n\n\n\n    Pearson's product-moment correlation\n\ndata:  x and y\nt = 22.791, df = 498, p-value &lt; 2.2e-16\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.6687220 0.7549044\nsample estimates:\n      cor \n0.7145131",
     "crumbs": [
       "Slides",
       "Wk 01 • Fri Aug 29"
@@ -2715,7 +2715,7 @@
     "href": "schedule.html#week-15",
     "title": "Schedule",
     "section": "Week 15",
-    "text": "Week 15\n\nFri, December 12, 2025\n\nTopics & Readings\n\nSystems\n\nRead: Bronfenbrenner (1977), Oyama, Griffiths, & Gray (2001), Hartley (2022)\nStudent Presentation O: Poverty is bad for cognition. (Presenter: Yeonjin Kim; Discussant: TBD)\n\nRead: Taylor, Cooper, Jackson, & Barch (2020); Amso (2020)\n\nStudent Presentation P: Poverty can be adaptive for cognition. (Presenter: Caesar Liu; Discussant: Natalie Byrd)\n\nRead: Frankenhuis, Panchanathan, & Nettle (2016); Frankenhuis, Vries, Bianchi, & Ellis (2020)",
+    "text": "Week 15\n\nFri, December 12, 2025\n\nTopics & Readings\n\nSystems\n\nRead: Bronfenbrenner (1977), Oyama, Griffiths, & Gray (2001) pp. 1-6, Hartley (2022)\nStudent Presentation O: Poverty is bad for cognition. (Presenter: Yeonjin Kim; Discussant: TBD)\n\nRead: Taylor, Cooper, Jackson, & Barch (2020); Amso (2020)\n\nStudent Presentation P: Poverty can be adaptive for cognition. (Presenter: Caesar Liu; Discussant: Natalie Byrd)\n\nRead: Frankenhuis, Panchanathan, & Nettle (2016); Frankenhuis, Vries, Bianchi, & Ellis (2020)",
     "crumbs": [
       "Schedule"
     ]
