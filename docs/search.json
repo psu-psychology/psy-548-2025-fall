@@ -4809,5 +4809,115 @@
       "Slides",
       "Wk 13 • Fri Nov 21"
     ]
+  },
+  {
+    "objectID": "slides/wk-15-systems.html#todays-topics",
+    "href": "slides/wk-15-systems.html#todays-topics",
+    "title": "Systems",
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nSystems\n\nRead: Bronfenbrenner (1977), Oyama, Griffiths, & Gray (2001) pp. 1-6, Hartley (2022)",
+    "crumbs": [
+      "Slides",
+      "Wk 15 • Fri Dec 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-15-systems.html#toward-and-experimental-ecology-of-human-development",
+    "href": "slides/wk-15-systems.html#toward-and-experimental-ecology-of-human-development",
+    "title": "Systems",
+    "section": "Toward and experimental ecology of human development",
+    "text": "Toward and experimental ecology of human development\n\n…rejects as spurious the argument that, because naturalistic observation preceded experimentation in both the physical and biological sciences, this progression is necessarily the strategy of choice in the study of human behavior and development. Such an interpretation mistakes a historical sequence for a causal one…\n\n– Bronfenbrenner (1977)",
+    "crumbs": [
+      "Slides",
+      "Wk 15 • Fri Dec 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-15-systems.html#ecological-environment",
+    "href": "slides/wk-15-systems.html#ecological-environment",
+    "title": "Systems",
+    "section": "Ecological environment",
+    "text": "Ecological environment\n\nDEFINITION 2. The ecological environment is conceived topologically as a nested arrangement of structures, each contained within the next.",
+    "crumbs": [
+      "Slides",
+      "Wk 15 • Fri Dec 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-15-systems.html#nested-structures",
+    "href": "slides/wk-15-systems.html#nested-structures",
+    "title": "Systems",
+    "section": "Nested structures",
+    "text": "Nested structures\n\nMicrosystem\n\nPlace, time, physical features, activity, participant(s), role(s)\n\nMesosystem\n\nSystem of microsystems\n\nExosystem\nMacrosystem",
+    "crumbs": [
+      "Slides",
+      "Wk 15 • Fri Dec 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-15-systems.html#on-ecological-validity",
+    "href": "slides/wk-15-systems.html#on-ecological-validity",
+    "title": "Systems",
+    "section": "On ecological validity",
+    "text": "On ecological validity\n\nDEFINITION 3. Ecological validity refers to the extent to which the environment experienced by the subjects in a scientific investigation has the properties it is supposed or assumed to have by the investigator.\n\n– Bronfenbrenner (1977) p. 516",
+    "crumbs": [
+      "Slides",
+      "Wk 15 • Fri Dec 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-15-systems.html#on-ecological-experiments",
+    "href": "slides/wk-15-systems.html#on-ecological-experiments",
+    "title": "Systems",
+    "section": "On ecological experiments",
+    "text": "On ecological experiments\n\nDEFINITION 4. An ecological experiment is an effort to investigate the progressive accommodation between the growing human organism and its environment through a systematic contrast between two or more environmental systems or their structural components, with a careful attempt to control other sources of influence either by random assignment (contrived experiment) or by matching (natural experiment).",
+    "crumbs": [
+      "Slides",
+      "Wk 15 • Fri Dec 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-15-systems.html#developmental-systems-theory",
+    "href": "slides/wk-15-systems.html#developmental-systems-theory",
+    "title": "Systems",
+    "section": "Developmental Systems Theory",
+    "text": "Developmental Systems Theory\n\nOyama et al. (2001) Table 1.1",
+    "crumbs": [
+      "Slides",
+      "Wk 15 • Fri Dec 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-15-systems.html#beyond-the-laboratory",
+    "href": "slides/wk-15-systems.html#beyond-the-laboratory",
+    "title": "Systems",
+    "section": "Beyond the laboratory",
+    "text": "Beyond the laboratory\n\nLaboratory tasks and stimuli lack the complexity of natural environments and may fail to capture the important statistical regularities that influence cognition – observations that have motivated calls for greater naturalism within cognitive science.\n\n– Hartley (2022)",
+    "crumbs": [
+      "Slides",
+      "Wk 15 • Fri Dec 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-15-systems.html#about",
+    "href": "slides/wk-15-systems.html#about",
+    "title": "Systems",
+    "section": "About",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version Sys.getenv(“RSTUDIO_VER”).\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/",
+    "crumbs": [
+      "Slides",
+      "Wk 15 • Fri Dec 12"
+    ]
+  },
+  {
+    "objectID": "slides/wk-15-systems.html#references",
+    "href": "slides/wk-15-systems.html#references",
+    "title": "Systems",
+    "section": "References",
+    "text": "References\n\n\n\n\nAmso, D. (2020). Neighborhood poverty and brain development: Adaptation or maturation, fixed or reversible?: Adaptation or maturation, fixed or reversible? JAMA Network Open, 3, e2024139. https://doi.org/10.1001/jamanetworkopen.2020.24139\n\n\nBronfenbrenner, U. (1977). Toward an experimental ecology of human development. The American Psychologist, 32, 513–531. https://doi.org/10.1037/0003-066x.32.7.513\n\n\nFrankenhuis, W. E., Panchanathan, K., & Nettle, D. (2016). Cognition in harsh and unpredictable environments. Current Opinion in Psychology, 7, 76–80. https://doi.org/10.1016/j.copsyc.2015.08.011\n\n\nFrankenhuis, W. E., Vries, S. A. de, Bianchi, J., & Ellis, B. J. (2020). Hidden talents in harsh conditions? A preregistered study of memory and reasoning about social dominance. Developmental Science, 23, e12835. https://doi.org/10.1111/desc.12835\n\n\nGuy-Evans, O. (2020). Bronfenbrenner’s ecological systems theory. Simply Psychology. Retrieved from https://www.simplypsychology.org/bronfenbrenner.html\n\n\nHartley, C. A. (2022). How do natural environments shape adaptive cognition across the lifespan? Trends in Cognitive Sciences, 26, 1029–1030. https://doi.org/10.1016/j.tics.2022.10.002\n\n\nOyama, S., Griffiths, P. E., & Gray, R. D. (2001). Cycles of contingency: Developmental systems and evolution. Xii, 377. Retrieved from https://psycnet.apa.org/record/2001-06709-000\n\n\nTaylor, R. L., Cooper, S. R., Jackson, J. J., & Barch, D. M. (2020). Assessment of neighborhood poverty, cognitive function, and prefrontal and hippocampal volumes in children. JAMA Network Open, 3, e2023774. https://doi.org/10.1001/jamanetworkopen.2020.23774",
+    "crumbs": [
+      "Slides",
+      "Wk 15 • Fri Dec 12"
+    ]
   }
 ]
