@@ -15,7 +15,7 @@ fig-align: "center"
 
 - *Student Presentation O*: Poverty is bad for cognition. (*Presenter*: Yeonjin Kim; *Discussant*: TBD)
     - *Read*: @Taylor2020-dp; @Amso2020-jo
-  - *Student Presentation P*: Poverty can be adaptive for cognition. (*Presenter*: Caesar Liu; *Discussant*: Natalie Byrd)
+- *Student Presentation P*: Poverty can be adaptive for cognition. (*Presenter*: Caesar Liu; *Discussant*: Natalie Byrd)
     - *Read*: @Frankenhuis2016-wl; @Frankenhuis2020-ld
   
 # On systems
@@ -82,12 +82,12 @@ structures, each contained within the next.
 ## Genes and the brain
 
 :::: {.columns}
-::: {.column width=50%}
+::: {.column width=60%}
 >At least a third of the approximately 20,000 different genes that make up the human genome are active (expressed) primarily in the brain. This is the highest proportion of genes expressed in any part of the body.
 
 -- @UnknownUnknown-nt
 :::
-::: {.column width=50%}
+::: {.column width=40%}
 ![@UnknownUnknown-tz](../include/img/human-protein-atlas-table-01.png)
 :::
 ::::
