@@ -68,6 +68,47 @@ structures, each contained within the next.
 
 ![@Oyama2001-cf Table 1.1](../include/img/oyama-2001-table-1.1.png)
 
+## On genetics
+
+:::: {.columns}
+::: {.column width=50%}
+- Central dogma of molecular biology: Genetic information flows in one direction only (DNA -> RNA -> Protein)
+:::
+::: {.column width=50%}
+![@OstranderUnknown-nr](https://www.genome.gov/sites/default/files/media/images/2022-05/Central-dogma.jpg)
+:::
+::::
+
+## Genes and the brain
+
+:::: {.columns}
+::: {.column width=50%}
+>At least a third of the approximately 20,000 different genes that make up the human genome are active (expressed) primarily in the brain. This is the highest proportion of genes expressed in any part of the body.
+
+-- @UnknownUnknown-nt
+:::
+::: {.column width=50%}
+![@UnknownUnknown-tz](../include/img/human-protein-atlas-table-01.png)
+:::
+::::
+
+## Genes and the brain
+
+![@UnknownUnknown-tz](../include/img/human-protein-atlast-table-02.png)
+
+## Evolution in Four Dimensions
+
+:::: {.columns}
+::: {.column width=50%}
+- @Jablonka2014-nv
+- Genetic, epigenetic, behavioral, and symbolic inheritance systems
+:::
+::: {.column width=50%}
+![](https://m.media-amazon.com/images/I/71osFreqZxL._SY466_.jpg){fig-align="right"}
+:::
+::::
+
+
 ## Beyond the laboratory
 
 >Laboratory tasks and stimuli lack the complexity of natural environments and may fail to capture the important statistical regularities that influence cognition – observations that have motivated calls for greater naturalism within cognitive science.
@@ -81,7 +122,7 @@ inside your head, but what your head’s inside of’.
 
 -- @Hartley2022-dd
 
-# 
+# Supplemental
 
 ---
 
