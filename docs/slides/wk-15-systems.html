@@ -262,11 +262,11 @@ Rick Gilmore
 <section id="on-genetics" class="slide level2">
 <h2>On genetics</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
+<div class="column" style="width:40%;">
 <ul>
 <li>Central dogma of molecular biology: Genetic information flows in one direction only (DNA -&gt; RNA -&gt; Protein)</li>
 </ul>
-</div><div class="column" style="width:50%;">
+</div><div class="column" style="width:60%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="https://www.genome.gov/sites/default/files/media/images/2022-05/Central-dogma.jpg"></p>
@@ -497,7 +497,16 @@ Rick Gilmore
 </div>
 </div>
 </div>
-</section></section>
+</section>
+<section id="harshness-vs.-predictability" class="slide level2">
+<h2>Harshness vs.&nbsp;predictability</h2>
+<ul>
+<li>How to simulate the history of harshness and predictability?</li>
+</ul>
+
+<img data-src="../include/fig/fig-harshness-time-series-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960" id="fig-harshness-time-series"><p class="caption">
+Figure&nbsp;1: Visualization of events that occur at different points in time with different magnitudes.
+</p></section></section>
 <section>
 <section id="resources" class="title-slide slide level1 center">
 <h1>Resources</h1>
@@ -505,7 +514,7 @@ Rick Gilmore
 </section>
 <section id="about" class="slide level2">
 <h2>About</h2>
-<p>This talk was produced using <a href="https://quarto.org">Quarto</a>, using the <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> Integrated Development Environment (IDE), version Sys.getenv(“RSTUDIO_VER”).</p>
+<p>This talk was produced using <a href="https://quarto.org">Quarto</a>, using the <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> Integrated Development Environment (IDE), version 2025.9.2.418.</p>
 <p>The source files are in R and R Markdown, then rendered to HTML using the <a href="https://revealjs.com">revealJS</a> framework. The HTML slides are hosted in a <a href="https://github.com/psu-psychology/psy-548-fall">GitHub repo</a> and served by GitHub pages: <a href="https://psu-psychology.github.io/psy-548-fall/" class="uri">https://psu-psychology.github.io/psy-548-fall/</a></p>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
@@ -769,6 +778,44 @@ The human brain - human brain - <span>The Human Protein Atlas</span>. (n.d.). Re
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

@@ -136,7 +136,7 @@
     "href": "slides/wk-15-systems.html#about",
     "title": "Systems",
     "section": "About",
-    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version Sys.getenv(“RSTUDIO_VER”).\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/",
+    "text": "About\nThis talk was produced using Quarto, using the RStudio Integrated Development Environment (IDE), version 2025.9.2.418.\nThe source files are in R and R Markdown, then rendered to HTML using the revealJS framework. The HTML slides are hosted in a GitHub repo and served by GitHub pages: https://psu-psychology.github.io/psy-548-fall/",
     "crumbs": [
       "Slides",
       "Wk 15 • Fri Dec 12"
@@ -2408,7 +2408,7 @@
     "href": "schedule.html#week-15",
     "title": "Schedule",
     "section": "Week 15",
-    "text": "Week 15\n\nFri, December 12, 2025\n\nTopics & Readings\n\nSystems\n\nRead: Bronfenbrenner (1977), Oyama, Griffiths, & Gray (2001) pp. 1-6, Hartley (2022)\nStudent Presentation O: Poverty is bad for cognition. (Presenter: Yeonjin Kim; Discussant: TBD)\n\nRead: Taylor, Cooper, Jackson, & Barch (2020); Amso (2020)\n\nStudent Presentation P: Poverty can be adaptive for cognition. (Presenter: Caesar Liu; Discussant: Natalie Byrd)\n\nRead: Frankenhuis, Panchanathan, & Nettle (2016); Frankenhuis, Vries, Bianchi, & Ellis (2020)",
+    "text": "Week 15\n\nFri, December 12, 2025\n\nTopics & Readings\n\nSystems\n\nRead: Bronfenbrenner (1977), Oyama, Griffiths, & Gray (2001) pp. 1-6, Hartley (2022)\nStudent Presentation O: Poverty is bad for cognition. (Presenter: Yeonjin Kim; Discussant: TBD)\n\nRead: Taylor, Cooper, Jackson, & Barch (2020), supplemental materials; Amso (2020)\n\nStudent Presentation P: Poverty can be adaptive for cognition. (Presenter: Caesar Liu; Discussant: Natalie Byrd)\n\nRead: Frankenhuis, Panchanathan, & Nettle (2016); Frankenhuis, Vries, Bianchi, & Ellis (2020)",
     "crumbs": [
       "Schedule"
     ]
@@ -4962,6 +4962,17 @@
     "crumbs": [
       "Slides",
       "Wk 14 • Fri Dec 05"
+    ]
+  },
+  {
+    "objectID": "slides/wk-15-systems.html#harshness-vs.-predictability",
+    "href": "slides/wk-15-systems.html#harshness-vs.-predictability",
+    "title": "Systems",
+    "section": "Harshness vs. predictability",
+    "text": "Harshness vs. predictability\n\nHow to simulate the history of harshness and predictability?\n\n\n\nFigure 1: Visualization of events that occur at different points in time with different magnitudes.",
+    "crumbs": [
+      "Slides",
+      "Wk 15 • Fri Dec 12"
     ]
   }
 ]

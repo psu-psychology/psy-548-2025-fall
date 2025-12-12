@@ -194,7 +194,7 @@ Caesar Liu)
 - Systems
   - *Read*: @Bronfenbrenner1977-cm, @Oyama2001-cf pp. 1-6, @Hartley2022-dd
   - *Student Presentation O*: Poverty is bad for cognition. (*Presenter*: Yeonjin Kim; *Discussant*: TBD)
-    - *Read*: @Taylor2020-dp; @Amso2020-jo
+    - *Read*: @Taylor2020-dp, [supplemental materials](include/pdf/taylor-2020-suppl.pdf); @Amso2020-jo
   - *Student Presentation P*: Poverty can be adaptive for cognition. (*Presenter*: Caesar Liu; *Discussant*: Natalie Byrd)
     - *Read*: @Frankenhuis2016-wl; @Frankenhuis2020-ld
   

@@ -71,10 +71,10 @@ structures, each contained within the next.
 ## On genetics
 
 :::: {.columns}
-::: {.column width=50%}
+::: {.column width=40%}
 - Central dogma of molecular biology: Genetic information flows in one direction only (DNA -> RNA -> Protein)
 :::
-::: {.column width=50%}
+::: {.column width=60%}
 ![@OstranderUnknown-nr](https://www.genome.gov/sites/default/files/media/images/2022-05/Central-dogma.jpg)
 :::
 ::::
@@ -214,12 +214,30 @@ flowchart TD
   9[income disparity] ---> B
 ```
 
+## Harshness vs. predictability
+
+- How to simulate the history of harshness and predictability?
+
+```{r}
+#| label: fig-harshness-time-series
+#| fig-cap: "Visualization of events that occur at different points in time with different magnitudes."
+#| fig-align: center
+#| 
+t <- runif(10, min = 0, max = 25) |> 
+  round(digits = 0) |>
+  sort()
+mag <- runif(length(t), min = 0, max = 2)
+
+plot(t, mag)
+```
+
+
 # Resources
 
 ## About
 
 This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
-Integrated Development Environment (IDE), version Sys.getenv("RSTUDIO_VER").
+Integrated Development Environment (IDE), version `r Sys.getenv("RSTUDIO_VER")`.
 
 The source files are in R and R Markdown, then rendered to HTML using the
 [revealJS](https://revealjs.com) framework.
